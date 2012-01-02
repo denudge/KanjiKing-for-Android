@@ -5,17 +5,19 @@ import java.util.HashMap;
 import org.xmlpull.v1.XmlPullParserException;
 import android.content.res.XmlResourceParser;
 import java.io.IOException;
+import android.util.Log;
 
 public class CardStore {
 
     private static HashMap<String, Card> _map;
+    private static final String TAG = "CardStore";
 
     CardStore() {
         if (this._map == null)
             this._map = new HashMap<String, Card>();
     }
 
-	public static boolean readFromXMLFile(
+	public boolean loadFromXMLFile(
       					XmlResourceParser decks_xml) {
 
 		_map.clear();
@@ -94,6 +96,7 @@ public class CardStore {
 				next_tag = decks_xml.next();
 			}
 
+            Log.i(TAG, _map.size() + " cards loaded.");
             return true; 
 		} catch (IOException e) {
 		  throw new RuntimeException(e);
@@ -108,6 +111,10 @@ public class CardStore {
 
     public Card get(String str) {
         return _map.get(str);
+    }
+
+    public int size() {
+        return _map.size();
     }
 }
 
