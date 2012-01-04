@@ -1,0 +1,23 @@
+package com.mlieber.KanjiKing;
+
+import java.util.Comparator;
+
+public class CardComparator implements Comparator<String>{
+    private CardStore _cs;
+
+    public CardComparator() {
+        _cs = new CardStore();
+    }
+
+    public int compare(String str_a, String str_b) {
+        Card a = _cs.get(str_a);
+        Card b = _cs.get(str_b);
+
+        if (a.getFrequency() < b.getFrequency())
+            return -1;
+        if (a.getFrequency() > b.getFrequency())
+            return 1;
+        return 0;
+    }
+}
+

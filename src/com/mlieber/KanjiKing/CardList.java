@@ -1,8 +1,10 @@
 package com.mlieber.KanjiKing;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
-public class CardList {
+public class CardList implements java.io.Serializable {
     private final int _maxSize;
     private ArrayList<String> _list = null;
 
@@ -61,6 +63,12 @@ public class CardList {
 
     public void clear() {
         _list.clear();
+    }
+
+    public void sort() {
+        Comparator<String> _cc = new CardComparator();
+        java.util.Collections.sort(_list, _cc);
+        
     }
 }
 

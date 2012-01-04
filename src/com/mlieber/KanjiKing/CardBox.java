@@ -3,7 +3,7 @@ package com.mlieber.KanjiKing;
 import java.util.ArrayList;
 import android.util.Log;
 
-public class CardBox {
+public class CardBox implements java.io.Serializable {
     private static final String TAG = "CardStore";
 
     public static final int ORDER_NONE       = 0;
@@ -11,7 +11,7 @@ public class CardBox {
     public static final int ORDER_FREQUENCY  = 2;
     public static final int ORDER_HADAMITZKY = 3;
     
-	public static final int N_LISTS         = 10;
+	public static final int N_LISTS         = 8;
 	public static final int BASE_FACTOR     = 5;
 
     private int _order = ORDER_FREQUENCY;
@@ -40,7 +40,6 @@ public class CardBox {
         _lists = new CardList[_nLists];
         for (int c =0; c < _nLists; c++)
             _lists[c] = new CardList(calculateListSize(c));
-
     }
 
     private int calculateListSize(int index)
@@ -51,8 +50,8 @@ public class CardBox {
 		if (index >= _nLists)
 			return 0;
 
-		return BASE_FACTOR * (2 << (index-1));
-	}
+		return BASE_FACTOR * (1 << index) + 1;
+	 }
 
     private void fillPool()
     {
@@ -61,19 +60,21 @@ public class CardBox {
         Object[] _cards = _cs.getCards();
         for (Object _card : _cards)
             _pool.add((String) _card);
+
+        _pool.sort();
     }
 
     /*********************** MANAGEMENT FUNCTIONS ***************************/
 
 	private void refill()
 	{
-        String _card;
+        String _card; int _nCards = 0;
         while (! _lists[0].isFilled()) {
             _card = _pool.pop();
             if (_card == null)
                 return;
             _lists[0].add(_card);
-            Log.i(TAG, "card " + _card + " has been popped from the pool.");
+            _nCards++;
         }
 	}
 
@@ -85,7 +86,7 @@ public class CardBox {
 
     /********************** LEARNING FUNCTIONS *****************************/
 
-    private int findNextList()
+    public int findNextList()
     {
         refill();
         
@@ -144,6 +145,35 @@ public class CardBox {
 
         _lists[_currentList].add(_currentCard);
         return true;
+    }
+
+    public String getStatus()
+    {
+        StringBuilder sb = new StringBuilder();
+        
+        int _currentList = findNextList();
+        
+        sb.append("(")
+            .append(_pool.size())
+            .append(")");
+
+        for (int c = 0; c < _nLists; c++)
+        {
+            sb.append(" ");
+
+            if (c == _currentList)
+                sb.append("[")
+                    .append(_lists[c].size())
+                    .append("]");
+            else
+                sb.append(_lists[c].size());
+        }
+
+        sb.append(" (")
+            .append(_done.size())
+            .append(")");
+
+        return sb.toString();
     }
 
 }

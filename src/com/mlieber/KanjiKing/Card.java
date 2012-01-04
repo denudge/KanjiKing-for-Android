@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Card {
+public class Card implements java.io.Serializable {
 
 	private String _japanese	= null;
 	private String _reading_on	= null;

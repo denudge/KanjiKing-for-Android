@@ -11,6 +11,7 @@ public class CardStore {
 
     private static HashMap<String, Card> _map;
     private static final String TAG = "CardStore";
+    private String _style = null;
 
     CardStore() {
         if (this._map == null)
@@ -35,27 +36,30 @@ public class CardStore {
 						card = new Card("");
 
 					lang = null;
-          			if (decks_xml.getName().equals("meaning"))
+          			if (decks_xml.getName().equals("mean"))
 						lang = decks_xml.getAttributeValue(null, "lang");
 				}
 
             	if (next_tag == XmlResourceParser.END_TAG) {
 
-					if (decks_xml.getName().equals("japanese"))
+					if (decks_xml.getName().equals("jap"))
 						if (card != null)
 							card.setJapanese(text);
 
-					if (decks_xml.getName().equals("reading_on"))
+					if (decks_xml.getName().equals("on"))
 						if (card != null)
 							card.setOnReading(text);
 
-					if (decks_xml.getName().equals("reading_kun"))
+					if (decks_xml.getName().equals("kun"))
 						if (card != null)
 							card.setKunReading(text);
 
 					if (decks_xml.getName().equals("grade"))
 						if (card != null)
 							card.setGrade(text);
+
+					if (decks_xml.getName().equals("style"))
+							_style = text;
 
 					if (decks_xml.getName().equals("strokes"))
 						if (card != null)
@@ -65,20 +69,20 @@ public class CardStore {
 						if (card != null)
 							card.setFrequency(Integer.parseInt(text));
 
-					if (decks_xml.getName().equals("hadam"))
+					if (decks_xml.getName().equals("had"))
 						if (card != null)
 							card.setHadamitzky(Integer.parseInt(text));
 
-					if (decks_xml.getName().equals("halpern"))
+					if (decks_xml.getName().equals("hal"))
 						if (card != null)
 							card.setHalpern(Integer.parseInt(text));
 
-					if (decks_xml.getName().equals("radical"))
+					if (decks_xml.getName().equals("rad"))
 						if (card != null)
 							card.setRadical(Integer.parseInt(text));
 
-					if (decks_xml.getName().equals("meaning"))
-					if (decks_xml.getName().equals("meaning"))
+					if (decks_xml.getName().equals("mean"))
+					if (decks_xml.getName().equals("mean"))
 						if ((card != null)&&(lang != null))
 							card.setMeaning(lang, text);
 
@@ -116,5 +120,10 @@ public class CardStore {
     public int size() {
         return _map.size();
     }
+
+    public String getStyle() {
+        return _style;
+    }
+
 }
 
