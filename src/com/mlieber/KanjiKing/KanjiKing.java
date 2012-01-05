@@ -19,10 +19,16 @@ import android.widget.TextView;
 import android.view.View;
 import android.view.MotionEvent;
 
+import java.io.*;
+import android.content.Context;
+import android.util.Base64OutputStream;
+import android.util.Base64InputStream;
+
 public class KanjiKing extends Activity
 {
     private CardStore _cardstore;
     private static final String TAG = "KanjiKing";
+    private static final String FILENAME = "cardbox";
     private CardBox _box = null;
   
     // The card view
@@ -31,6 +37,14 @@ public class KanjiKing extends Activity
     private TextView _kanji_number;
     private WebView _card_webview;
 
+    // @Override
+    public void onPause(Bundle savedInstanceState)
+    {
+        Log.i(TAG,"Called onPause for KanjiKing");
+        saveToDisk();
+        // super.onPause(savedInstanceState);
+    }
+
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -38,11 +52,17 @@ public class KanjiKing extends Activity
         super.onCreate(savedInstanceState);
 
         _cardstore = new CardStore();
-        _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji));
-  
+        _cardstore.clear();
+        _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji1));
+        _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji2));
+        _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji3));
+
         // Construct a box if not already done
+        loadFromDisk();
         if (_box == null)
+        {
             _box = new CardBox(CardBox.ORDER_FREQUENCY);
+        }
 
         // we start with the card view
         setContentView(R.layout.card);
@@ -65,6 +85,7 @@ public class KanjiKing extends Activity
         _no_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 _box.answer(false);
+                saveToDisk();
                 showQuestion();
             }
         });
@@ -72,6 +93,7 @@ public class KanjiKing extends Activity
         _yes_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 _box.answer(true);
+                saveToDisk();
                 showQuestion();
             }
         });
@@ -135,13 +157,19 @@ public class KanjiKing extends Activity
 
     if (show_japanese)
     {
-        card_html.append("<div class=\"info\">R: ")
-            .append(card.getRadical())
-            .append(" / F: ")
+        card_html
+            .append("<div class=\"info\">")
+            .append("F: ")
             .append(card.getFrequency())
+            .append(" / G: ")
+            .append(card.getGrade())
+            .append(" / S: ")
+            .append(card.getStrokesCount())
+            .append(" / R: ")
+            .append(card.getRadical())
             .append(" / H: ")
             .append(card.getHadamitzkyNumber())
-            .append("</div>");
+            .append("</div><br>");
 
         if (card.getJapanese() != null)
             card_html.append("<div class=\"japanese\">")
@@ -169,7 +197,6 @@ public class KanjiKing extends Activity
                 .append(TextUtils.htmlEncode(card.getMeaning("de")))
                 .append("</div>");
 
-
         if (card.getMeaning("en") != null)
             card_html.append("<div class=\"meaning en\">")
                 .append(TextUtils.htmlEncode(card.getMeaning("en")))
@@ -191,6 +218,9 @@ public class KanjiKing extends Activity
     return true;
   }
 
+
+
+/*
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
@@ -212,10 +242,94 @@ public class KanjiKing extends Activity
     }
 
     public void onConfigurationChanged(Configuration newConfig) {
-        // super.onConfigurationChanged(newConfig);
+        super.onConfigurationChanged(newConfig);
  
         // Set a new layout - framework will automatically choose portrait or landscape as needed
         // Reconnect all listeners for controls in the layout
+    }
+*/
+
+
+
+
+    /********************** Storage functions ******************************/
+/*
+    public static byte[] objectToString(Serializable object) {
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        try {
+            new ObjectOutputStream(out).writeObject(object);
+            return out.toByteArray();
+            
+            // out.close();
+
+            // out = new ByteArrayOutputStream();
+            // Base64OutputStream b64 = new Base64OutputStream(out);
+            // b64.write(data);
+            // b64.close();
+            // out.close();
+
+            // return new String(out.toByteArray());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static Object stringToObject(String encodedObject) {
+        try {
+            return new ObjectInputStream(
+                new ByteArrayInputStream(encodedObject.getBytes())).readObject();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+*/
+    public void saveToDisk() {
+        ByteArrayOutputStream bos = new ByteArrayOutputStream(); 
+        try {
+            ObjectOutput out = new ObjectOutputStream(bos);
+            out.writeObject(_box);
+            byte[] buf = bos.toByteArray();
+
+            FileOutputStream fos = openFileOutput(FILENAME,
+                   Context.MODE_PRIVATE);
+            fos.write(buf);
+            fos.close(); 
+        } catch (IOException e) { 
+          Log.v(TAG, "Error Serialising the cardbox: " + e.getMessage(), e);
+        } 
+        // File f =this.getDir(FILENAME, 0);
+        // Log.i(TAG, "File " + f.getName());    
+    }
+        
+    public void loadFromDisk() {
+        InputStream instream = null;
+        try {
+            instream = openFileInput(FILENAME);
+        } catch (FileNotFoundException e) {
+            Log.v(TAG, "Error opening the cardbox file: " + e.getMessage()); 
+            return;
+        }
+       
+        try {
+            ObjectInputStream ois = new ObjectInputStream(instream);
+            try {
+                _box = (CardBox) ois.readObject();
+            } catch (ClassNotFoundException e) {
+                // TODO Auto-generated catch block
+                Log.e(TAG, "DESERIALIZATION FAILED (CLASS NOT FOUND):" + e.getMessage(), e);
+                return;
+            }
+        } catch (StreamCorruptedException e) {
+            Log.e(TAG, "DESERIALIZATION FAILED (CORRUPT):" + e.getMessage(), e);
+            // TODO Auto-generated catch block
+            return;
+        } catch (IOException e) {
+            Log.e(TAG, "DESERIALIZATION FAILED (IO EXCEPTION):"+e.getMessage(), e);
+            // TODO Auto-generated catch block
+            return;
+        }
     }
 
 }

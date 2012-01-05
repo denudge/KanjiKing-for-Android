@@ -42,9 +42,13 @@ public class CardList implements java.io.Serializable {
     }
 
     public String get() {
+        return get(0);
+    }
+
+    public String get(int index) {
         if (isEmpty())
             return null;
-        return (String) _list.get(0);
+        return (String) _list.get(index);
     }
 
     public String pop() {

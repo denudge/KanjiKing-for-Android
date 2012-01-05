@@ -17,8 +17,9 @@ public class CardBox implements java.io.Serializable {
     private int _order = ORDER_FREQUENCY;
 
     // The card lists that hold the cards
-    private CardList _pool;
+    private CardList _pool = null;
     private CardList _done;
+
     private int _nLists;
     private CardList[] _lists;
 
@@ -51,11 +52,16 @@ public class CardBox implements java.io.Serializable {
 			return 0;
 
 		return BASE_FACTOR * (1 << index) + 1;
-	 }
+	}
 
     private void fillPool()
     {
-        _pool.clear();
+        if (_pool == null)
+            _pool = new CardList(0);
+
+        if (_pool.size() > 0)
+            return;
+        
         CardStore _cs = new CardStore();
         Object[] _cards = _cs.getCards();
         for (Object _card : _cards)
@@ -68,13 +74,12 @@ public class CardBox implements java.io.Serializable {
 
 	private void refill()
 	{
-        String _card; int _nCards = 0;
+        String _card;
         while (! _lists[0].isFilled()) {
             _card = _pool.pop();
             if (_card == null)
                 return;
             _lists[0].add(_card);
-            _nCards++;
         }
 	}
 
@@ -83,6 +88,14 @@ public class CardBox implements java.io.Serializable {
         return false;
     }
 
+    public void clear()
+    {
+        _pool.clear();
+        fillPool();
+        _done.clear();
+        for (int c = 0; c < _nLists; c++)
+            _lists[c].clear();
+    } 
 
     /********************** LEARNING FUNCTIONS *****************************/
 

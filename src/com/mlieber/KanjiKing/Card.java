@@ -9,7 +9,7 @@ public class Card implements java.io.Serializable {
 	private String _japanese	= null;
 	private String _reading_on	= null;
 	private String _reading_kun	= null;
-	private String _grade   	= null;
+	private int     _grade   	= 0;
 	private int _frequency 		= 0;
 	private int _hadamitzky	    = 0;
 	private int _halpern		= 0;
@@ -31,7 +31,7 @@ public class Card implements java.io.Serializable {
 	public int getHalpernNumber() { return _halpern; }
 	public int getStrokesCount() { return _strokes; }
 	public int getRadical() { return _radical; }
-	public String getGrade() { return _grade; }
+	public int getGrade() { return _grade; }
 
 	public Card setJapanese(String japanese) {
 		_japanese = japanese;
@@ -78,7 +78,7 @@ public class Card implements java.io.Serializable {
 		return this;
 	}
 
-	public Card setGrade(String grade) {
+	public Card setGrade(int grade) {
 		_grade = grade;
 		return this;
 	}

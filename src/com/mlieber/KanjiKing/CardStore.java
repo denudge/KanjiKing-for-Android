@@ -18,10 +18,13 @@ public class CardStore {
             this._map = new HashMap<String, Card>();
     }
 
+    public void clear()
+    {
+		_map.clear();
+    }
+
 	public boolean loadFromXMLFile(
       					XmlResourceParser decks_xml) {
-
-		_map.clear();
 
     	try {
 	      	int next_tag = decks_xml.next();
@@ -54,14 +57,14 @@ public class CardStore {
 						if (card != null)
 							card.setKunReading(text);
 
-					if (decks_xml.getName().equals("grade"))
+					if (decks_xml.getName().equals("grd"))
 						if (card != null)
-							card.setGrade(text);
+							card.setGrade(Integer.parseInt(text));
 
 					if (decks_xml.getName().equals("style"))
 							_style = text;
 
-					if (decks_xml.getName().equals("strokes"))
+					if (decks_xml.getName().equals("str"))
 						if (card != null)
 							card.setStrokesCount(Integer.parseInt(text));
 
