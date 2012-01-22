@@ -1,0 +1,4945 @@
+<cardset>
+    <style>
+		body {text-align: center; color: white;}
+        div.info, div.status { color: #888888; font-size:90%; }
+        div.japanese {font-size: 500%; color:#ff9999; }
+		div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps;}
+		div.reading_kun {font-size: 200%; color: #9090ff;}
+		div.meaning {color: #e0e0e0;}
+    </style>
+	<card>
+		<jap>炒</jap>
+		<on>ソウ</on>
+		<str>8</str>
+		<mean lang="de">broil</mean>
+		<freq>2001</freq>
+		<rad>86</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>屏</jap>
+		<on>ヘイ</on>
+		<str>9</str>
+		<mean lang="de">wall</mean>
+		<freq>2002</freq>
+		<rad>44</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>卑</jap>
+		<on>HI</on>
+		<kun>iya(shii), iya(shimu)</kun>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">niedrig; verachten</mean>
+		<freq>2003</freq>
+		<rad>4</rad>
+		<had>1521</had>
+	</card>
+	<card>
+		<jap>侮</jap>
+		<on>BU</on>
+		<kun>anado(ru)</kun>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">verachten</mean>
+		<freq>2004</freq>
+		<rad>9</rad>
+		<had>1736</had>
+	</card>
+	<card>
+		<jap>鋳</jap>
+		<on>CHÛ</on>
+		<kun>i(ru)</kun>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">Metall gießen</mean>
+		<freq>2005</freq>
+		<rad>167</rad>
+		<had>1551</had>
+	</card>
+	<card>
+		<jap>抹</jap>
+		<on>MATSU</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">(aus)loeschen, streichen</mean>
+		<freq>2006</freq>
+		<rad>64</rad>
+		<had>1914</had>
+	</card>
+	<card>
+		<jap>尉</jap>
+		<on>I</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">Offizier</mean>
+		<freq>2007</freq>
+		<rad>4</rad>
+		<had>1617</had>
+	</card>
+	<card>
+		<jap>槻</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2008</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>隷</jap>
+		<on>REI</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">Untergebener</mean>
+		<freq>2009</freq>
+		<rad>171</rad>
+		<had>1934</had>
+	</card>
+	<card>
+		<jap>禍</jap>
+		<on>KA</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">Unglueck, Unheil</mean>
+		<freq>2010</freq>
+		<rad>113</rad>
+		<had>1809</had>
+	</card>
+	<card>
+		<jap>蝶</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">butterfly</mean>
+		<freq>2011</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>酪</jap>
+		<on>RAKU</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">(verarbeitete) Milch</mean>
+		<freq>2012</freq>
+		<rad>164</rad>
+		<had>1865</had>
+	</card>
+	<card>
+		<jap>茎</jap>
+		<on>KEI</on>
+		<kun>kuki</kun>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">Stiel, Halm</mean>
+		<freq>2013</freq>
+		<rad>140</rad>
+		<had>1474</had>
+	</card>
+	<card>
+		<jap>汎</jap>
+		<on>ハン</on>
+		<grd>8</grd>
+		<str>6</str>
+		<mean lang="de"></mean>
+		<freq>2014</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>頃</jap>
+		<on>ケイ</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">time</mean>
+		<freq>2015</freq>
+		<rad>21</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>帥</jap>
+		<on>SUI</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">kommandieren</mean>
+		<freq>2016</freq>
+		<rad>2</rad>
+		<had>1935</had>
+	</card>
+	<card>
+		<jap>梁</jap>
+		<on>リョウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">weir</mean>
+		<freq>2017</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>逝</jap>
+		<on>SEI</on>
+		<kun>yu(ku)</kun>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">sterben</mean>
+		<freq>2018</freq>
+		<rad>162</rad>
+		<had>1396</had>
+	</card>
+	<card>
+		<jap>滴</jap>
+		<on>TEKI</on>
+		<kun>shitata(ru), shizuku</kun>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">Tropfen</mean>
+		<freq>2019</freq>
+		<rad>85</rad>
+		<had>1446</had>
+	</card>
+	<card>
+		<jap>汽</jap>
+		<on>KI</on>
+		<grd>2</grd>
+		<str>7</str>
+		<mean lang="de">Dampf</mean>
+		<freq>2020</freq>
+		<rad>85</rad>
+		<had>135</had>
+	</card>
+	<card>
+		<jap>謎</jap>
+		<on>メイ</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">riddle</mean>
+		<freq>2021</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>琢</jap>
+		<on>タク</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">polish</mean>
+		<freq>2022</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>箕</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">winnowing</mean>
+		<freq>2023</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>匿</jap>
+		<on>TOKU</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">verstecken</mean>
+		<freq>2024</freq>
+		<rad>22</rad>
+		<had>1771</had>
+	</card>
+	<card>
+		<jap>爪</jap>
+		<on>ソウ</on>
+		<grd>8</grd>
+		<str>4</str>
+		<mean lang="de">claw</mean>
+		<freq>2025</freq>
+		<rad>87</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>芭</jap>
+		<on>バ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">banana</mean>
+		<freq>2026</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>逗</jap>
+		<on>トウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">stop</mean>
+		<freq>2027</freq>
+		<rad>162</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>苫</jap>
+		<on>セン</on>
+		<str>8</str>
+		<mean lang="de"></mean>
+		<freq>2028</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鍵</jap>
+		<on>ケン</on>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">key</mean>
+		<freq>2029</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>襟</jap>
+		<on>KIN</on>
+		<kun>eri</kun>
+		<grd>8</grd>
+		<str>18</str>
+		<mean lang="de">Kragen</mean>
+		<freq>2030</freq>
+		<rad>145</rad>
+		<had>1537</had>
+	</card>
+	<card>
+		<jap>蛍</jap>
+		<on>KEI</on>
+		<kun>hotaru</kun>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">Glühwürmchen</mean>
+		<freq>2031</freq>
+		<rad>142</rad>
+		<had>1878</had>
+	</card>
+	<card>
+		<jap>楢</jap>
+		<on>シュウ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">oak</mean>
+		<freq>2032</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蕉</jap>
+		<on>ショウ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">banana</mean>
+		<freq>2033</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>兜</jap>
+		<on>トウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">helmet</mean>
+		<freq>2034</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>寡</jap>
+		<on>KA</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">verwitwet;</mean>
+		<freq>2035</freq>
+		<rad>40</rad>
+		<had>1851</had>
+	</card>
+	<card>
+		<jap>琉</jap>
+		<on>リュウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">gem</mean>
+		<freq>2036</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>痢</jap>
+		<on>RI</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">Durchfall, Diarrhoee</mean>
+		<freq>2037</freq>
+		<rad>104</rad>
+		<had>1811</had>
+	</card>
+	<card>
+		<jap>庸</jap>
+		<on>YÔ</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">mittelmaessig, gewoehnlich</mean>
+		<freq>2038</freq>
+		<rad>53</rad>
+		<had>1696</had>
+	</card>
+	<card>
+		<jap>朋</jap>
+		<on>ホウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">companion</mean>
+		<freq>2039</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>坑</jap>
+		<on>KÔ</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">Grube, Loch</mean>
+		<freq>2040</freq>
+		<rad>32</rad>
+		<had>1613</had>
+	</card>
+	<card>
+		<jap>姑</jap>
+		<on>コ</on>
+		<str>8</str>
+		<mean lang="de"></mean>
+		<freq>2041</freq>
+		<rad>38</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>烏</jap>
+		<on>ウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">crow</mean>
+		<freq>2042</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>藍</jap>
+		<on>ラン</on>
+		<grd>8</grd>
+		<str>18</str>
+		<mean lang="de">indigo</mean>
+		<freq>2043</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>僑</jap>
+		<on>キョウ</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2044</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>賊</jap>
+		<on>ZOKU</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">Raeuber</mean>
+		<freq>2045</freq>
+		<rad>154</rad>
+		<had>1807</had>
+	</card>
+	<card>
+		<jap>搾</jap>
+		<on>SAKU</on>
+		<kun>shibo(ru)</kun>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">auspressen</mean>
+		<freq>2046</freq>
+		<rad>64</rad>
+		<had>1497</had>
+	</card>
+	<card>
+		<jap>奄</jap>
+		<on>エン</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">cover</mean>
+		<freq>2047</freq>
+		<rad>37</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>臼</jap>
+		<on>キュウ</on>
+		<grd>8</grd>
+		<str>6</str>
+		<mean lang="de">mortar</mean>
+		<freq>2048</freq>
+		<rad>134</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>畔</jap>
+		<on>HAN</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Damm, Ufer</mean>
+		<freq>2049</freq>
+		<rad>102</rad>
+		<had>1945</had>
+	</card>
+	<card>
+		<jap>遼</jap>
+		<on>リョウ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">distant</mean>
+		<freq>2050</freq>
+		<rad>162</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>唄</jap>
+		<on>バイ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2051</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>孔</jap>
+		<on>KÔ</on>
+		<grd>8</grd>
+		<str>4</str>
+		<mean lang="de">Loch</mean>
+		<freq>2052</freq>
+		<rad>39</rad>
+		<had>940</had>
+	</card>
+	<card>
+		<jap>橘</jap>
+		<on>キツ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2053</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>漱</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">gargle</mean>
+		<freq>2054</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>呂</jap>
+		<on>ロ</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">spine</mean>
+		<freq>2055</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>桧</jap>
+		<on>カイ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2056</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>拷</jap>
+		<on>GÔ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">Folter</mean>
+		<freq>2057</freq>
+		<rad>64</rad>
+		<had>1720</had>
+	</card>
+	<card>
+		<jap>宋</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">dwell</mean>
+		<freq>2058</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嬢</jap>
+		<on>JÔ</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">Tochter, junge Dame</mean>
+		<freq>2059</freq>
+		<rad>38</rad>
+		<had>1836</had>
+	</card>
+	<card>
+		<jap>苑</jap>
+		<on>エン</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">garden</mean>
+		<freq>2060</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>巽</jap>
+		<on>ソン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">southeast</mean>
+		<freq>2061</freq>
+		<rad>12</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>杜</jap>
+		<on>ト</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">woods</mean>
+		<freq>2062</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>渓</jap>
+		<on>KEI</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">Tal, Schlucht</mean>
+		<freq>2063</freq>
+		<rad>85</rad>
+		<had>1884</had>
+	</card>
+	<card>
+		<jap>翁</jap>
+		<on>Ô</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">alter Mann</mean>
+		<freq>2064</freq>
+		<rad>12</rad>
+		<had>1930</had>
+	</card>
+	<card>
+		<jap>藝</jap>
+		<on>ゲイ</on>
+		<grd>10</grd>
+		<str>18</str>
+		<mean lang="de">art</mean>
+		<freq>2065</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>廉</jap>
+		<on>REN</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">billig</mean>
+		<freq>2066</freq>
+		<rad>53</rad>
+		<had>1689</had>
+	</card>
+	<card>
+		<jap>牙</jap>
+		<on>ガ</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">tusk</mean>
+		<freq>2067</freq>
+		<rad>92</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>謹</jap>
+		<on>KIN</on>
+		<kun>tsutsushim(mu)</kun>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">hochachten</mean>
+		<freq>2068</freq>
+		<rad>149</rad>
+		<had>1247</had>
+	</card>
+	<card>
+		<jap>瞳</jap>
+		<on>ドウ</on>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">pupil</mean>
+		<freq>2069</freq>
+		<rad>109</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>湧</jap>
+		<on>ユウ</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">boil</mean>
+		<freq>2070</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>欣</jap>
+		<on>キン</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">rejoice</mean>
+		<freq>2071</freq>
+		<rad>69</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>窯</jap>
+		<on>YÔ</on>
+		<kun>kama</kun>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">(Brenn)Ofen</mean>
+		<freq>2072</freq>
+		<rad>116</rad>
+		<had>1789</had>
+	</card>
+	<card>
+		<jap>褒</jap>
+		<on>HÔ</on>
+		<kun>ho(meru)</kun>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">Lob</mean>
+		<freq>2073</freq>
+		<rad>8</rad>
+		<had>803</had>
+	</card>
+	<card>
+		<jap>醜</jap>
+		<on>SHÛ</on>
+		<kun>miniku(i)</kun>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">hässlich</mean>
+		<freq>2074</freq>
+		<rad>164</rad>
+		<had>1527</had>
+	</card>
+	<card>
+		<jap>魏</jap>
+		<on>ギ</on>
+		<str>18</str>
+		<mean lang="de">high</mean>
+		<freq>2075</freq>
+		<rad>194</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>篇</jap>
+		<on>ヘン</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">volume</mean>
+		<freq>2076</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>升</jap>
+		<on>SHÔ</on>
+		<kun>masu</kun>
+		<grd>8</grd>
+		<str>4</str>
+		<mean lang="de">1,8 Liter</mean>
+		<freq>2077</freq>
+		<rad>4</rad>
+		<had>1898</had>
+	</card>
+	<card>
+		<jap>此</jap>
+		<on>シ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">this</mean>
+		<freq>2078</freq>
+		<rad>77</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>峯</jap>
+		<on>ホウ</on>
+		<grd>10</grd>
+		<str>10</str>
+		<mean lang="de">peak</mean>
+		<freq>2079</freq>
+		<rad>46</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>殉</jap>
+		<on>JUN</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">sein Leben opfern</mean>
+		<freq>2080</freq>
+		<rad>78</rad>
+		<had>1799</had>
+	</card>
+	<card>
+		<jap>煩</jap>
+		<on>HAN</on>
+		<kun>wazura(u), wazura(wasu)</kun>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">sorgen für</mean>
+		<freq>2081</freq>
+		<rad>86</rad>
+		<had>1849</had>
+	</card>
+	<card>
+		<jap>巴</jap>
+		<on>ハ</on>
+		<grd>9</grd>
+		<str>4</str>
+		<mean lang="de"></mean>
+		<freq>2082</freq>
+		<rad>5</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>禎</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">happiness</mean>
+		<freq>2083</freq>
+		<rad>113</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>枕</jap>
+		<on>チン</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">pillow</mean>
+		<freq>2084</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>劾</jap>
+		<on>GAI</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">anklagen</mean>
+		<freq>2085</freq>
+		<rad>19</rad>
+		<had>1939</had>
+	</card>
+	<card>
+		<jap>菩</jap>
+		<on>ボ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2086</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>堕</jap>
+		<on>DA</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">fallen</mean>
+		<freq>2087</freq>
+		<rad>32</rad>
+		<had>1742</had>
+	</card>
+	<card>
+		<jap>丼</jap>
+		<on>トン</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">bowl</mean>
+		<freq>2088</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>租</jap>
+		<on>SO</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Abgabe, Tribut</mean>
+		<freq>2089</freq>
+		<rad>115</rad>
+		<had>1083</had>
+	</card>
+	<card>
+		<jap>檜</jap>
+		<on>カイ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de"></mean>
+		<freq>2090</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>稜</jap>
+		<on>リョウ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">angle</mean>
+		<freq>2091</freq>
+		<rad>115</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>牟</jap>
+		<on>ボウ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de"></mean>
+		<freq>2092</freq>
+		<rad>28</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>桟</jap>
+		<on>SAN</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Verstrebung, Rahmen</mean>
+		<freq>2093</freq>
+		<rad>75</rad>
+		<had>1906</had>
+	</card>
+	<card>
+		<jap>榊</jap>
+		<on>さかき</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de"></mean>
+		<freq>2094</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>錫</jap>
+		<on>セキ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de">copper</mean>
+		<freq>2095</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>荏</jap>
+		<on>ジン</on>
+		<str>9</str>
+		<mean lang="de">bean</mean>
+		<freq>2096</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>惧</jap>
+		<on>ク</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">fear</mean>
+		<freq>2097</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>倭</jap>
+		<on>ワ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">Yamato</mean>
+		<freq>2098</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>婿</jap>
+		<on>SEI</on>
+		<kun>muko</kun>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">Schwiegersohn</mean>
+		<freq>2099</freq>
+		<rad>38</rad>
+		<had>1745</had>
+	</card>
+	<card>
+		<jap>慕</jap>
+		<on>BO</on>
+		<kun>shita(u)</kun>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">sich sehnen</mean>
+		<freq>2100</freq>
+		<rad>140</rad>
+		<had>1431</had>
+	</card>
+	<card>
+		<jap>廟</jap>
+		<on>ビョウ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">mausoleum</mean>
+		<freq>2101</freq>
+		<rad>53</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>銚</jap>
+		<on>チョウ</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2102</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>斐</jap>
+		<on>ヒ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">beautiful</mean>
+		<freq>2103</freq>
+		<rad>175</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>罷</jap>
+		<on>HI</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">beenden</mean>
+		<freq>2104</freq>
+		<rad>122</rad>
+		<had>1861</had>
+	</card>
+	<card>
+		<jap>矯</jap>
+		<on>KYÔ</on>
+		<kun>ta(meru)</kun>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">geradebiegen</mean>
+		<freq>2105</freq>
+		<rad>111</rad>
+		<had>1925</had>
+	</card>
+	<card>
+		<jap>某</jap>
+		<on>BÔ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">ein gewisser</mean>
+		<freq>2106</freq>
+		<rad>99</rad>
+		<had>1494</had>
+	</card>
+	<card>
+		<jap>囚</jap>
+		<on>SHÛ</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">Gefangener</mean>
+		<freq>2107</freq>
+		<rad>31</rad>
+		<had>1195</had>
+	</card>
+	<card>
+		<jap>魁</jap>
+		<on>カイ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2108</freq>
+		<rad>194</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>薮</jap>
+		<on>ソウ</on>
+		<str>16</str>
+		<mean lang="de">thicket</mean>
+		<freq>2109</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>虹</jap>
+		<on>コウ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">rainbow</mean>
+		<freq>2110</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鴻</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">large</mean>
+		<freq>2111</freq>
+		<rad>196</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>泌</jap>
+		<on>HI</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">(aus)fliessen, absondern</mean>
+		<freq>2112</freq>
+		<rad>85</rad>
+		<had>1870</had>
+	</card>
+	<card>
+		<jap>於</jap>
+		<on>オ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">at</mean>
+		<freq>2113</freq>
+		<rad>70</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>赳</jap>
+		<on>キュウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2114</freq>
+		<rad>156</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>漸</jap>
+		<on>ZEN</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">nach und nach</mean>
+		<freq>2115</freq>
+		<rad>85</rad>
+		<had>1400</had>
+	</card>
+	<card>
+		<jap>逢</jap>
+		<on>ホウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">meeting</mean>
+		<freq>2116</freq>
+		<rad>162</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凧</jap>
+		<on>いかのぼり</on>
+		<grd>9</grd>
+		<str>5</str>
+		<mean lang="de">kite</mean>
+		<freq>2117</freq>
+		<rad>16</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鵜</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>18</str>
+		<mean lang="de">cormorant</mean>
+		<freq>2118</freq>
+		<rad>196</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>庵</jap>
+		<on>アン</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">hermitage</mean>
+		<freq>2119</freq>
+		<rad>53</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>膳</jap>
+		<on>ゼン</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">tray</mean>
+		<freq>2120</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蚊</jap>
+		<on>ka</on>
+		<kun>ka</kun>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Mücke</mean>
+		<freq>2121</freq>
+		<rad>142</rad>
+		<had>1876</had>
+	</card>
+	<card>
+		<jap>葵</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">hollyhock</mean>
+		<freq>2122</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>厄</jap>
+		<on>YAKU</on>
+		<grd>8</grd>
+		<str>4</str>
+		<mean lang="de">Unglueck, Unheil</mean>
+		<freq>2123</freq>
+		<rad>27</rad>
+		<had>1341</had>
+	</card>
+	<card>
+		<jap>藻</jap>
+		<on>SÔ</on>
+		<kun>mo</kun>
+		<grd>8</grd>
+		<str>19</str>
+		<mean lang="de">Alge, Seetang</mean>
+		<freq>2124</freq>
+		<rad>140</rad>
+		<had>1657</had>
+	</card>
+	<card>
+		<jap>萬</jap>
+		<on>マン</on>
+		<grd>10</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2125</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>禄</jap>
+		<on>ロク</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">fief</mean>
+		<freq>2126</freq>
+		<rad>113</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>孟</jap>
+		<on>モウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">chief</mean>
+		<freq>2127</freq>
+		<rad>39</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鴈</jap>
+		<on>ガン</on>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2128</freq>
+		<rad>27</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>狼</jap>
+		<on>ロウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">wolf</mean>
+		<freq>2129</freq>
+		<rad>94</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嫡</jap>
+		<on>CHAKU</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">legitim</mean>
+		<freq>2130</freq>
+		<rad>38</rad>
+		<had>1932</had>
+	</card>
+	<card>
+		<jap>呪</jap>
+		<on>ジュ</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">spell</mean>
+		<freq>2131</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>斬</jap>
+		<on>ザン</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">beheading</mean>
+		<freq>2132</freq>
+		<rad>159</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>尖</jap>
+		<on>セン</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">sharp</mean>
+		<freq>2133</freq>
+		<rad>42</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>翫</jap>
+		<on>ガン</on>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2134</freq>
+		<rad>124</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嶽</jap>
+		<on>ガク</on>
+		<str>17</str>
+		<mean lang="de">peak</mean>
+		<freq>2135</freq>
+		<rad>46</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>尭</jap>
+		<on>ギョウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">high</mean>
+		<freq>2136</freq>
+		<rad>24</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>怨</jap>
+		<on>エン</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">grudge</mean>
+		<freq>2137</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>卿</jap>
+		<on>ケイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">you</mean>
+		<freq>2138</freq>
+		<rad>26</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>串</jap>
+		<on>カン</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">spit</mean>
+		<freq>2139</freq>
+		<rad>2</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>已</jap>
+		<on>イ</on>
+		<grd>9</grd>
+		<str>3</str>
+		<mean lang="de">stop</mean>
+		<freq>2140</freq>
+		<rad>49</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嚇</jap>
+		<on>KAKU</on>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">Drohung</mean>
+		<freq>2141</freq>
+		<rad>30</rad>
+		<had>1918</had>
+	</card>
+	<card>
+		<jap>巳</jap>
+		<on>シ</on>
+		<grd>9</grd>
+		<str>3</str>
+		<mean lang="de"></mean>
+		<freq>2142</freq>
+		<rad>49</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凸</jap>
+		<on>TOTSU</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">vorstehend</mean>
+		<freq>2143</freq>
+		<rad>2</rad>
+		<had>1892</had>
+	</card>
+	<card>
+		<jap>暢</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">stretch</mean>
+		<freq>2144</freq>
+		<rad>2</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>腫</jap>
+		<on>シュ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">tumor</mean>
+		<freq>2145</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>粟</jap>
+		<on>ゾク</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">millet</mean>
+		<freq>2146</freq>
+		<rad>146</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>燕</jap>
+		<on>エン</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2147</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>韻</jap>
+		<on>IN</on>
+		<grd>8</grd>
+		<str>19</str>
+		<mean lang="de">Reim</mean>
+		<freq>2148</freq>
+		<rad>180</rad>
+		<had>349</had>
+	</card>
+	<card>
+		<jap>綴</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">compose</mean>
+		<freq>2149</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>埴</jap>
+		<on>ショク</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">clay</mean>
+		<freq>2150</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>霜</jap>
+		<on>SÔ</on>
+		<kun>shimo</kun>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">Frost, Raureif</mean>
+		<freq>2151</freq>
+		<rad>173</rad>
+		<had>948</had>
+	</card>
+	<card>
+		<jap>餅</jap>
+		<on>ヘイ</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2152</freq>
+		<rad>184</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>魯</jap>
+		<on>ロ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">foolish</mean>
+		<freq>2153</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>硝</jap>
+		<on>SHÔ</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">Salpeter</mean>
+		<freq>2154</freq>
+		<rad>112</rad>
+		<had>1855</had>
+	</card>
+	<card>
+		<jap>牡</jap>
+		<on>ボ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">male</mean>
+		<freq>2155</freq>
+		<rad>93</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>箸</jap>
+		<on>チョ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">chopsticks</mean>
+		<freq>2156</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>勅</jap>
+		<on>CHOKU</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">kaiserliches Dekret</mean>
+		<freq>2157</freq>
+		<rad>19</rad>
+		<had>1886</had>
+	</card>
+	<card>
+		<jap>芹</jap>
+		<on>キン</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">parsley</mean>
+		<freq>2158</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>杏</jap>
+		<on>キョウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">apricot</mean>
+		<freq>2159</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>迦</jap>
+		<on>カ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de"></mean>
+		<freq>2160</freq>
+		<rad>162</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>棺</jap>
+		<on>KAN</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">Sarg</mean>
+		<freq>2161</freq>
+		<rad>75</rad>
+		<had>1825</had>
+	</card>
+	<card>
+		<jap>儒</jap>
+		<on>JU</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">Konfuzianismus</mean>
+		<freq>2162</freq>
+		<rad>9</rad>
+		<had>1417</had>
+	</card>
+	<card>
+		<jap>鳳</jap>
+		<on>ホウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2163</freq>
+		<rad>16</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>馨</jap>
+		<on>ケイ</on>
+		<grd>9</grd>
+		<str>20</str>
+		<mean lang="de">fragrant</mean>
+		<freq>2164</freq>
+		<rad>186</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>斑</jap>
+		<on>ハン</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">spot</mean>
+		<freq>2165</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蔭</jap>
+		<on>イン</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">shade</mean>
+		<freq>2166</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>焉</jap>
+		<on>エン</on>
+		<str>11</str>
+		<mean lang="de">how</mean>
+		<freq>2167</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>慧</jap>
+		<on>ケイ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">wise</mean>
+		<freq>2168</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>祇</jap>
+		<on>ギ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">peaceful</mean>
+		<freq>2169</freq>
+		<rad>113</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>摯</jap>
+		<on>シ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">gift</mean>
+		<freq>2170</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>愁</jap>
+		<on>SHÛ</on>
+		<kun>ure(eru), ure(i)</kun>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">Kummer</mean>
+		<freq>2171</freq>
+		<rad>61</rad>
+		<had>1601</had>
+	</card>
+	<card>
+		<jap>鷺</jap>
+		<on>ロ</on>
+		<grd>9</grd>
+		<str>24</str>
+		<mean lang="de">heron</mean>
+		<freq>2172</freq>
+		<rad>196</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>楼</jap>
+		<on>RÔ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">hohes Gebaeude</mean>
+		<freq>2173</freq>
+		<rad>75</rad>
+		<had>1841</had>
+	</card>
+	<card>
+		<jap>彬</jap>
+		<on>ヒン</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">refined</mean>
+		<freq>2174</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>袴</jap>
+		<on>コ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2175</freq>
+		<rad>145</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>匡</jap>
+		<on>キョウ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">correct</mean>
+		<freq>2176</freq>
+		<rad>22</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>眉</jap>
+		<on>ビ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">eyebrow</mean>
+		<freq>2177</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>苅</jap>
+		<on>ガイ</on>
+		<str>7</str>
+		<mean lang="de"></mean>
+		<freq>2178</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>讃</jap>
+		<on>サン</on>
+		<grd>9</grd>
+		<str>22</str>
+		<mean lang="de">praise</mean>
+		<freq>2179</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>尹</jap>
+		<on>イン</on>
+		<str>4</str>
+		<mean lang="de"></mean>
+		<freq>2180</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>欽</jap>
+		<on>キン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">respect</mean>
+		<freq>2181</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>薪</jap>
+		<on>SHIN</on>
+		<kun>takigi</kun>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">(Brenn)Holz</mean>
+		<freq>2182</freq>
+		<rad>140</rad>
+		<had>1910</had>
+	</card>
+	<card>
+		<jap>湛</jap>
+		<on>タン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">fill</mean>
+		<freq>2183</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>堆</jap>
+		<on>タイ</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2184</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>狐</jap>
+		<on>コ</on>
+		<str>9</str>
+		<mean lang="de">fox</mean>
+		<freq>2185</freq>
+		<rad>94</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>褐</jap>
+		<on>KATSU</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">wollene/watierte Kleidung</mean>
+		<freq>2186</freq>
+		<rad>145</rad>
+		<had>1623</had>
+	</card>
+	<card>
+		<jap>鴎</jap>
+		<on>オウ</on>
+		<str>15</str>
+		<mean lang="de">seagull</mean>
+		<freq>2187</freq>
+		<rad>196</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瀋</jap>
+		<on>シン</on>
+		<str>18</str>
+		<mean lang="de">juice</mean>
+		<freq>2188</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>挺</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2189</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>賜</jap>
+		<on>SHI</on>
+		<kun>tamawa(ru)</kun>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">schenken</mean>
+		<freq>2190</freq>
+		<rad>154</rad>
+		<had>1831</had>
+	</card>
+	<card>
+		<jap>嵯</jap>
+		<on>サ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">steep</mean>
+		<freq>2191</freq>
+		<rad>46</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>雁</jap>
+		<on>ガン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2192</freq>
+		<rad>27</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>佃</jap>
+		<on>テン</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de"></mean>
+		<freq>2193</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>綜</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">rule</mean>
+		<freq>2194</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>繕</jap>
+		<on>ZEN</on>
+		<kun>tsukuro(u)</kun>
+		<grd>8</grd>
+		<str>18</str>
+		<mean lang="de">ausbessern</mean>
+		<freq>2195</freq>
+		<rad>120</rad>
+		<had>1140</had>
+	</card>
+	<card>
+		<jap>狛</jap>
+		<on>ハク</on>
+		<str>8</str>
+		<mean lang="de"></mean>
+		<freq>2196</freq>
+		<rad>94</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>壷</jap>
+		<on>コ</on>
+		<str>11</str>
+		<mean lang="de">jar</mean>
+		<freq>2197</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>橿</jap>
+		<on>キョウ</on>
+		<str>17</str>
+		<mean lang="de">oak</mean>
+		<freq>2198</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>栓</jap>
+		<on>SEN</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Stoepsel</mean>
+		<freq>2199</freq>
+		<rad>75</rad>
+		<had>1842</had>
+	</card>
+	<card>
+		<jap>翠</jap>
+		<on>スイ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">green</mean>
+		<freq>2200</freq>
+		<rad>124</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鮎</jap>
+		<on>デン</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de">smelt</mean>
+		<freq>2201</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>芯</jap>
+		<on>シン</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">wick</mean>
+		<freq>2202</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蜜</jap>
+		<on>ミツ</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">honey</mean>
+		<freq>2203</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>播</jap>
+		<on>ハ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">plant</mean>
+		<freq>2204</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>榛</jap>
+		<on>シン</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">hazelnut</mean>
+		<freq>2205</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凹</jap>
+		<on>Ô</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">Vertiefung</mean>
+		<freq>2206</freq>
+		<rad>17</rad>
+		<had>1893</had>
+	</card>
+	<card>
+		<jap>艶</jap>
+		<on>エン</on>
+		<grd>8</grd>
+		<str>19</str>
+		<mean lang="de">glossy</mean>
+		<freq>2207</freq>
+		<rad>139</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>帖</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">notebook</mean>
+		<freq>2208</freq>
+		<rad>50</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>伺</jap>
+		<on>SHI</on>
+		<kun>ukaga(u)</kun>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">fragen</mean>
+		<freq>2209</freq>
+		<rad>9</rad>
+		<had>1761</had>
+	</card>
+	<card>
+		<jap>桶</jap>
+		<on>ヨウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">tub</mean>
+		<freq>2210</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>惣</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">all</mean>
+		<freq>2211</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>股</jap>
+		<on>コ</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">thigh</mean>
+		<freq>2212</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>匂</jap>
+		<on>にお.う</on>
+		<grd>8</grd>
+		<str>4</str>
+		<mean lang="de">fragrant</mean>
+		<freq>2213</freq>
+		<rad>20</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鞍</jap>
+		<on>アン</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">saddle</mean>
+		<freq>2214</freq>
+		<rad>177</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蔦</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">vine</mean>
+		<freq>2215</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>玩</jap>
+		<on>ガン</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">play</mean>
+		<freq>2216</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>萱</jap>
+		<on>ケン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2217</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>梯</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">ladder</mean>
+		<freq>2218</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>雫</jap>
+		<on>ダ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">drop</mean>
+		<freq>2219</freq>
+		<rad>173</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>絆</jap>
+		<on>ハン</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">bonds</mean>
+		<freq>2220</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>錬</jap>
+		<on>REN</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">trainieren</mean>
+		<freq>2221</freq>
+		<rad>167</rad>
+		<had>1816</had>
+	</card>
+	<card>
+		<jap>湊</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">port</mean>
+		<freq>2222</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蜂</jap>
+		<on>ホウ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">bee</mean>
+		<freq>2223</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>隼</jap>
+		<on>シュン</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">falcon</mean>
+		<freq>2224</freq>
+		<rad>172</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>舵</jap>
+		<on>ダ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">rudder</mean>
+		<freq>2225</freq>
+		<rad>137</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>渚</jap>
+		<on>ショ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">strand</mean>
+		<freq>2226</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>珂</jap>
+		<on>カ</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">jewel</mean>
+		<freq>2227</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>煥</jap>
+		<on>カン</on>
+		<str>13</str>
+		<mean lang="de">shine</mean>
+		<freq>2228</freq>
+		<rad>86</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>衷</jap>
+		<on>CHÛ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">Herz, Innerstes</mean>
+		<freq>2229</freq>
+		<rad>2</rad>
+		<had>1677</had>
+	</card>
+	<card>
+		<jap>逐</jap>
+		<on>CHIKU</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">vertreiben</mean>
+		<freq>2230</freq>
+		<rad>162</rad>
+		<had>1134</had>
+	</card>
+	<card>
+		<jap>斥</jap>
+		<on>SEKI</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">ablehnen</mean>
+		<freq>2231</freq>
+		<rad>4</rad>
+		<had>1401</had>
+	</card>
+	<card>
+		<jap>稀</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">rare</mean>
+		<freq>2232</freq>
+		<rad>115</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>癌</jap>
+		<on>ガン</on>
+		<str>17</str>
+		<mean lang="de">cancer</mean>
+		<freq>2233</freq>
+		<rad>104</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>峨</jap>
+		<on>ガ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2234</freq>
+		<rad>46</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嘘</jap>
+		<on>キョ</on>
+		<str>14</str>
+		<mean lang="de">lie</mean>
+		<freq>2235</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>旛</jap>
+		<on>ヘン</on>
+		<str>18</str>
+		<mean lang="de">flag</mean>
+		<freq>2236</freq>
+		<rad>70</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>篭</jap>
+		<on>ロウ</on>
+		<str>16</str>
+		<mean lang="de">cage</mean>
+		<freq>2237</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>芙</jap>
+		<on>フ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">lotus</mean>
+		<freq>2238</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>詔</jap>
+		<on>SHÔ</on>
+		<kun>mikotonori</kun>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">kaiserlicher Erlass</mean>
+		<freq>2239</freq>
+		<rad>149</rad>
+		<had>1885</had>
+	</card>
+	<card>
+		<jap>皐</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">swamp</mean>
+		<freq>2240</freq>
+		<rad>106</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>雛</jap>
+		<on>スウ</on>
+		<grd>9</grd>
+		<str>18</str>
+		<mean lang="de">chick</mean>
+		<freq>2241</freq>
+		<rad>172</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>娼</jap>
+		<on>ショウ</on>
+		<str>11</str>
+		<mean lang="de">prostitute</mean>
+		<freq>2242</freq>
+		<rad>38</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>篆</jap>
+		<on>テン</on>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2243</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鮫</jap>
+		<on>コウ</on>
+		<str>17</str>
+		<mean lang="de">shark</mean>
+		<freq>2244</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>椅</jap>
+		<on>イ</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">chair</mean>
+		<freq>2245</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>惟</jap>
+		<on>イ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">consider</mean>
+		<freq>2246</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>牌</jap>
+		<on>ハイ</on>
+		<str>12</str>
+		<mean lang="de">label</mean>
+		<freq>2247</freq>
+		<rad>91</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>宕</jap>
+		<on>トウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">cave</mean>
+		<freq>2248</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>喧</jap>
+		<on>ケン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">noisy</mean>
+		<freq>2249</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>佑</jap>
+		<on>ユウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">help</mean>
+		<freq>2250</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蒋</jap>
+		<on>ショウ</on>
+		<str>13</str>
+		<mean lang="de">reed</mean>
+		<freq>2251</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>樟</jap>
+		<on>ショウ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">camphor</mean>
+		<freq>2252</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>耀</jap>
+		<on>ヨウ</on>
+		<grd>9</grd>
+		<str>20</str>
+		<mean lang="de">shine</mean>
+		<freq>2253</freq>
+		<rad>42</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>黛</jap>
+		<on>タイ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2254</freq>
+		<rad>203</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>叱</jap>
+		<on>シツ</on>
+		<grd>8</grd>
+		<str>5</str>
+		<mean lang="de">scold</mean>
+		<freq>2255</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>櫛</jap>
+		<on>シツ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">comb</mean>
+		<freq>2256</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>渥</jap>
+		<on>アク</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">kindness</mean>
+		<freq>2257</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>挨</jap>
+		<on>アイ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2258</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>憧</jap>
+		<on>ショウ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">admire</mean>
+		<freq>2259</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>濡</jap>
+		<on>ジュ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">damp</mean>
+		<freq>2260</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>槍</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">spear</mean>
+		<freq>2261</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>宵</jap>
+		<on>SHÔ</on>
+		<kun>yoi</kun>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">früher Abend</mean>
+		<freq>2262</freq>
+		<rad>40</rad>
+		<had>1854</had>
+	</card>
+	<card>
+		<jap>襄</jap>
+		<on>ジョウ</on>
+		<str>17</str>
+		<mean lang="de">rise</mean>
+		<freq>2263</freq>
+		<rad>145</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>妄</jap>
+		<on>MÔ, BÔ</on>
+		<grd>8</grd>
+		<str>6</str>
+		<mean lang="de">sinnlos, willkuerlich</mean>
+		<freq>2264</freq>
+		<rad>8</rad>
+		<had>1376</had>
+	</card>
+	<card>
+		<jap>惇</jap>
+		<on>シュン</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">sincere</mean>
+		<freq>2265</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蛋</jap>
+		<on>タン</on>
+		<str>11</str>
+		<mean lang="de">barbarian</mean>
+		<freq>2266</freq>
+		<rad>103</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>脩</jap>
+		<on>シュウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2267</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>笘</jap>
+		<on>セン</on>
+		<str>11</str>
+		<mean lang="de">whip</mean>
+		<freq>2268</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>宍</jap>
+		<on>ニク</on>
+		<str>7</str>
+		<mean lang="de">muscles</mean>
+		<freq>2269</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>甫</jap>
+		<on>ホ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de"></mean>
+		<freq>2270</freq>
+		<rad>3</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>酌</jap>
+		<on>SHAKU</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">(Wein) einschenken</mean>
+		<freq>2271</freq>
+		<rad>164</rad>
+		<had>1863</had>
+	</card>
+	<card>
+		<jap>蚕</jap>
+		<on>SAN</on>
+		<kun>kaiko</kun>
+		<grd>6</grd>
+		<str>10</str>
+		<mean lang="de">Seidenraupe</mean>
+		<freq>2272</freq>
+		<rad>1</rad>
+		<had>1877</had>
+	</card>
+	<card>
+		<jap>壕</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">trench</mean>
+		<freq>2273</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嬉</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">glad</mean>
+		<freq>2274</freq>
+		<rad>38</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>囃</jap>
+		<on>サツ</on>
+		<str>21</str>
+		<mean lang="de">accompany</mean>
+		<freq>2275</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蒼</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">blue</mean>
+		<freq>2276</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>餌</jap>
+		<on>ジ</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">food</mean>
+		<freq>2277</freq>
+		<rad>184</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>簗</jap>
+		<on>リョウ</on>
+		<str>17</str>
+		<mean lang="de">weir</mean>
+		<freq>2278</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>峙</jap>
+		<on>ジ</on>
+		<str>9</str>
+		<mean lang="de">tower</mean>
+		<freq>2279</freq>
+		<rad>46</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>粥</jap>
+		<on>イク</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2280</freq>
+		<rad>57</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>舘</jap>
+		<on>カン</on>
+		<str>16</str>
+		<mean lang="de">mansion</mean>
+		<freq>2281</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>銕</jap>
+		<on>テツ</on>
+		<str>14</str>
+		<mean lang="de">iron</mean>
+		<freq>2282</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鄒</jap>
+		<on>スウ</on>
+		<str>13</str>
+		<mean lang="de"></mean>
+		<freq>2283</freq>
+		<rad>163</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蜷</jap>
+		<on>ケン</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2284</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>暉</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">shine</mean>
+		<freq>2285</freq>
+		<rad>72</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>捧</jap>
+		<on>ホウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">give</mean>
+		<freq>2286</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>頒</jap>
+		<on>HAN</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">(ver)teilen</mean>
+		<freq>2287</freq>
+		<rad>181</rad>
+		<had>1850</had>
+	</card>
+	<card>
+		<jap>只</jap>
+		<on>シ</on>
+		<grd>9</grd>
+		<str>5</str>
+		<mean lang="de">only</mean>
+		<freq>2288</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>肢</jap>
+		<on>SHI</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">Gliedmassen</mean>
+		<freq>2289</freq>
+		<rad>130</rad>
+		<had>1146</had>
+	</card>
+	<card>
+		<jap>箏</jap>
+		<on>ソウ</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2290</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>檀</jap>
+		<on>ダン</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">cedar</mean>
+		<freq>2291</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鵠</jap>
+		<on>コク</on>
+		<str>18</str>
+		<mean lang="de">swan</mean>
+		<freq>2292</freq>
+		<rad>196</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凱</jap>
+		<on>ガイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2293</freq>
+		<rad>16</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>彗</jap>
+		<on>スイ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">comet</mean>
+		<freq>2294</freq>
+		<rad>58</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>謄</jap>
+		<on>TÔ</on>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">Kopie</mean>
+		<freq>2295</freq>
+		<rad>130</rad>
+		<had>1779</had>
+	</card>
+	<card>
+		<jap>諌</jap>
+		<on>カン</on>
+		<str>15</str>
+		<mean lang="de">admonish</mean>
+		<freq>2296</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>樫</jap>
+		<on>かし</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2297</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>噂</jap>
+		<on>ソン</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">rumor</mean>
+		<freq>2298</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>脊</jap>
+		<on>セキ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">stature</mean>
+		<freq>2299</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>牝</jap>
+		<on>ヒン</on>
+		<str>6</str>
+		<mean lang="de">female</mean>
+		<freq>2300</freq>
+		<rad>93</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>梓</jap>
+		<on>シ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2301</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>洛</jap>
+		<on>ラク</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">Kyoto</mean>
+		<freq>2302</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>醍</jap>
+		<on>ダイ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de">whey</mean>
+		<freq>2303</freq>
+		<rad>164</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>砦</jap>
+		<on>サイ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">fort</mean>
+		<freq>2304</freq>
+		<rad>112</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>丑</jap>
+		<on>チュウ</on>
+		<grd>9</grd>
+		<str>4</str>
+		<mean lang="de"></mean>
+		<freq>2305</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>笏</jap>
+		<on>コツ</on>
+		<str>10</str>
+		<mean lang="de">mace</mean>
+		<freq>2306</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蕨</jap>
+		<on>ケツ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">bracken</mean>
+		<freq>2307</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>噺</jap>
+		<on>はなし</on>
+		<str>16</str>
+		<mean lang="de">talk</mean>
+		<freq>2308</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>抒</jap>
+		<on>ジョ</on>
+		<str>7</str>
+		<mean lang="de">tell</mean>
+		<freq>2309</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嗣</jap>
+		<on>SHI</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">Erbe, Nachfolger</mean>
+		<freq>2310</freq>
+		<rad>30</rad>
+		<had>1917</had>
+	</card>
+	<card>
+		<jap>隈</jap>
+		<on>ワイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">corner</mean>
+		<freq>2311</freq>
+		<rad>170</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>叶</jap>
+		<on>キョウ</on>
+		<grd>9</grd>
+		<str>5</str>
+		<mean lang="de">grant</mean>
+		<freq>2312</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凄</jap>
+		<on>セイ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">uncanny</mean>
+		<freq>2313</freq>
+		<rad>15</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>汐</jap>
+		<on>セキ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">eventide</mean>
+		<freq>2314</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>絢</jap>
+		<on>ケン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de"></mean>
+		<freq>2315</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>叩</jap>
+		<on>コウ</on>
+		<str>5</str>
+		<mean lang="de">strike</mean>
+		<freq>2316</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嫉</jap>
+		<on>シツ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">jealous</mean>
+		<freq>2317</freq>
+		<rad>38</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>朔</jap>
+		<on>サク</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2318</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蔡</jap>
+		<on>サイ</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2319</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>膝</jap>
+		<on>シツ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">knee</mean>
+		<freq>2320</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鍾</jap>
+		<on>ショウ</on>
+		<str>17</str>
+		<mean lang="de">spindle</mean>
+		<freq>2321</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>仇</jap>
+		<on>キュウ</on>
+		<str>4</str>
+		<mean lang="de">foe</mean>
+		<freq>2322</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>伽</jap>
+		<on>カ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">nursing</mean>
+		<freq>2323</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>夷</jap>
+		<on>イ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">barbarian</mean>
+		<freq>2324</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>恣</jap>
+		<on>シ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">selfish</mean>
+		<freq>2325</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瞑</jap>
+		<on>メイ</on>
+		<str>15</str>
+		<mean lang="de">sleep</mean>
+		<freq>2326</freq>
+		<rad>109</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>畝</jap>
+		<on>se, une</on>
+		<kun>se, une</kun>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">Ackerfurche</mean>
+		<freq>2327</freq>
+		<rad>8</rad>
+		<had>1901</had>
+	</card>
+	<card>
+		<jap>抄</jap>
+		<on>SHÔ</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">Auszug</mean>
+		<freq>2328</freq>
+		<rad>64</rad>
+		<had>1153</had>
+	</card>
+	<card>
+		<jap>杭</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">stake</mean>
+		<freq>2329</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>寓</jap>
+		<on>グウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">imply</mean>
+		<freq>2330</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>麺</jap>
+		<on>メン</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">noodles</mean>
+		<freq>2331</freq>
+		<rad>199</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>戴</jap>
+		<on>タイ</on>
+		<grd>8</grd>
+		<str>17</str>
+		<mean lang="de">receive</mean>
+		<freq>2332</freq>
+		<rad>24</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>爽</jap>
+		<on>ソウ</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">refreshing</mean>
+		<freq>2333</freq>
+		<rad>4</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>裾</jap>
+		<on>キョ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">cuff</mean>
+		<freq>2334</freq>
+		<rad>145</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>黎</jap>
+		<on>レイ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">dark</mean>
+		<freq>2335</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>惰</jap>
+		<on>DA</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">faul, traege</mean>
+		<freq>2336</freq>
+		<rad>61</rad>
+		<had>1743</had>
+	</card>
+	<card>
+		<jap>坐</jap>
+		<on>ザ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">sit</mean>
+		<freq>2337</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鍼</jap>
+		<on>シン</on>
+		<str>17</str>
+		<mean lang="de">needle</mean>
+		<freq>2338</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蛮</jap>
+		<on>BAN</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">barbarisch</mean>
+		<freq>2339</freq>
+		<rad>8</rad>
+		<had>1879</had>
+	</card>
+	<card>
+		<jap>塙</jap>
+		<on>カク</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de"></mean>
+		<freq>2340</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>冴</jap>
+		<on>ゴ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">serene</mean>
+		<freq>2341</freq>
+		<rad>15</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>旺</jap>
+		<on>オウ</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">flourishing</mean>
+		<freq>2342</freq>
+		<rad>72</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>葦</jap>
+		<on>イ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">reed</mean>
+		<freq>2343</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>礒</jap>
+		<on>ギ</on>
+		<str>18</str>
+		<mean lang="de">rock</mean>
+		<freq>2344</freq>
+		<rad>112</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>咸</jap>
+		<on>カン</on>
+		<str>9</str>
+		<mean lang="de">all</mean>
+		<freq>2345</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>萌</jap>
+		<on>ホウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">sprout</mean>
+		<freq>2346</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>饗</jap>
+		<on>キョウ</on>
+		<grd>9</grd>
+		<str>22</str>
+		<mean lang="de">banquet</mean>
+		<freq>2347</freq>
+		<rad>184</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>歪</jap>
+		<on>ワイ</on>
+		<str>9</str>
+		<mean lang="de">warp</mean>
+		<freq>2348</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>冥</jap>
+		<on>メイ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">dark</mean>
+		<freq>2349</freq>
+		<rad>14</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>偲</jap>
+		<on>サイ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">recollect</mean>
+		<freq>2350</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>壱</jap>
+		<on>ICHI</on>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">eins (in Dokumenten)</mean>
+		<freq>2351</freq>
+		<rad>32</rad>
+		<had>1730</had>
+	</card>
+	<card>
+		<jap>瑠</jap>
+		<on>ル</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2352</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>韮</jap>
+		<on>キュウ</on>
+		<str>12</str>
+		<mean lang="de">leek</mean>
+		<freq>2353</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>漕</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">rowing</mean>
+		<freq>2354</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>杵</jap>
+		<on>ショ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de"></mean>
+		<freq>2355</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>薔</jap>
+		<on>バ</on>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2356</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>膠</jap>
+		<on>コウ</on>
+		<str>15</str>
+		<mean lang="de">glue</mean>
+		<freq>2357</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>允</jap>
+		<on>イン</on>
+		<grd>9</grd>
+		<str>4</str>
+		<mean lang="de">license</mean>
+		<freq>2358</freq>
+		<rad>28</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>眞</jap>
+		<on>シン</on>
+		<grd>10</grd>
+		<str>10</str>
+		<mean lang="de">truth</mean>
+		<freq>2359</freq>
+		<rad>21</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蒙</jap>
+		<on>モウ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">ignorance</mean>
+		<freq>2360</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蕃</jap>
+		<on>バン</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2361</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>呑</jap>
+		<on>トン</on>
+		<str>7</str>
+		<mean lang="de">drink</mean>
+		<freq>2362</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>侯</jap>
+		<on>KÔ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">Marquis, Fuerst</mean>
+		<freq>2363</freq>
+		<rad>9</rad>
+		<had>1924</had>
+	</card>
+	<card>
+		<jap>碓</jap>
+		<on>カク</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">pestle</mean>
+		<freq>2364</freq>
+		<rad>112</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>茗</jap>
+		<on>ミョウ</on>
+		<str>9</str>
+		<mean lang="de">tea</mean>
+		<freq>2365</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>麓</jap>
+		<on>ロク</on>
+		<grd>8</grd>
+		<str>19</str>
+		<mean lang="de"></mean>
+		<freq>2366</freq>
+		<rad>198</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瀕</jap>
+		<on>ヒン</on>
+		<grd>9</grd>
+		<str>20</str>
+		<mean lang="de">shore</mean>
+		<freq>2367</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蒔</jap>
+		<on>シ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de"></mean>
+		<freq>2368</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鯉</jap>
+		<on>リ</on>
+		<grd>9</grd>
+		<str>18</str>
+		<mean lang="de">carp</mean>
+		<freq>2369</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>竪</jap>
+		<on>ジュ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">length</mean>
+		<freq>2370</freq>
+		<rad>117</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>弧</jap>
+		<on>KO</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">(Kreis</mean>
+		<freq>2371</freq>
+		<rad>57</rad>
+		<had>1481</had>
+	</card>
+	<card>
+		<jap>稽</jap>
+		<on>ケイ</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">think</mean>
+		<freq>2372</freq>
+		<rad>115</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瘤</jap>
+		<on>リュウ</on>
+		<str>15</str>
+		<mean lang="de">lump</mean>
+		<freq>2373</freq>
+		<rad>104</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>澤</jap>
+		<on>タク</on>
+		<str>16</str>
+		<mean lang="de">swamp</mean>
+		<freq>2374</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>溥</jap>
+		<on>フ</on>
+		<str>13</str>
+		<mean lang="de"></mean>
+		<freq>2375</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>遥</jap>
+		<on>ヨウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">distant</mean>
+		<freq>2376</freq>
+		<rad>162</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蹴</jap>
+		<on>シュク</on>
+		<grd>8</grd>
+		<str>19</str>
+		<mean lang="de">kick</mean>
+		<freq>2377</freq>
+		<rad>157</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>或</jap>
+		<on>ワク</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">some</mean>
+		<freq>2378</freq>
+		<rad>62</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>訃</jap>
+		<on>フ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">obituary</mean>
+		<freq>2379</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>矩</jap>
+		<on>ク</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">ruler</mean>
+		<freq>2380</freq>
+		<rad>111</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>厦</jap>
+		<on>カ</on>
+		<str>12</str>
+		<mean lang="de">house</mean>
+		<freq>2381</freq>
+		<rad>27</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>冤</jap>
+		<on>エン</on>
+		<str>10</str>
+		<mean lang="de">hatred</mean>
+		<freq>2382</freq>
+		<rad>14</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>剥</jap>
+		<on>ハク</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">peel</mean>
+		<freq>2383</freq>
+		<rad>18</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>舜</jap>
+		<on>シュン</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">althea</mean>
+		<freq>2384</freq>
+		<rad>87</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>侠</jap>
+		<on>キョウ</on>
+		<str>8</str>
+		<mean lang="de">tomboy</mean>
+		<freq>2385</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>贅</jap>
+		<on>セイ</on>
+		<str>18</str>
+		<mean lang="de">luxury</mean>
+		<freq>2386</freq>
+		<rad>154</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>杖</jap>
+		<on>ジョウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">staff</mean>
+		<freq>2387</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蓋</jap>
+		<on>ガイ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">cover</mean>
+		<freq>2388</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>畏</jap>
+		<on>イ</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">fear</mean>
+		<freq>2389</freq>
+		<rad>102</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>喉</jap>
+		<on>コウ</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">throat</mean>
+		<freq>2390</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>汪</jap>
+		<on>オウ</on>
+		<str>7</str>
+		<mean lang="de">wide</mean>
+		<freq>2391</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>猷</jap>
+		<on>ユウ</on>
+		<str>13</str>
+		<mean lang="de">plan</mean>
+		<freq>2392</freq>
+		<rad>94</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瑛</jap>
+		<on>エイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">crystal</mean>
+		<freq>2393</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>搜</jap>
+		<on>ソウ</on>
+		<grd>10</grd>
+		<str>13</str>
+		<mean lang="de">search</mean>
+		<freq>2394</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>曼</jap>
+		<on>マン</on>
+		<str>11</str>
+		<mean lang="de">wide</mean>
+		<freq>2395</freq>
+		<rad>72</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>附</jap>
+		<on>FU</on>
+		<grd>8</grd>
+		<str>8</str>
+		<mean lang="de">begleiten</mean>
+		<freq>2396</freq>
+		<rad>170</rad>
+		<had>1843</had>
+	</card>
+	<card>
+		<jap>彪</jap>
+		<on>ヒョウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">spotted</mean>
+		<freq>2397</freq>
+		<rad>59</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>撚</jap>
+		<on>ネン</on>
+		<str>15</str>
+		<mean lang="de">twist</mean>
+		<freq>2398</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>噛</jap>
+		<on>コウ</on>
+		<str>15</str>
+		<mean lang="de">chew</mean>
+		<freq>2399</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>卯</jap>
+		<on>ボウ</on>
+		<grd>9</grd>
+		<str>5</str>
+		<mean lang="de">east</mean>
+		<freq>2400</freq>
+		<rad>26</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>桝</jap>
+		<on>ます</on>
+		<str>11</str>
+		<mean lang="de"></mean>
+		<freq>2401</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>撫</jap>
+		<on>ブ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">stroke</mean>
+		<freq>2402</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>喋</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">talk</mean>
+		<freq>2403</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>但</jap>
+		<on>tadashi</on>
+		<kun>tada(shi)</kun>
+		<grd>8</grd>
+		<str>7</str>
+		<mean lang="de">jedoch</mean>
+		<freq>2404</freq>
+		<rad>9</rad>
+		<had>1927</had>
+	</card>
+	<card>
+		<jap>溢</jap>
+		<on>イツ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">overflow</mean>
+		<freq>2405</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>闊</jap>
+		<on>カツ</on>
+		<str>17</str>
+		<mean lang="de">wide</mean>
+		<freq>2406</freq>
+		<rad>169</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>藏</jap>
+		<on>ゾウ</on>
+		<grd>10</grd>
+		<str>18</str>
+		<mean lang="de">hide</mean>
+		<freq>2407</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>浙</jap>
+		<on>セツ</on>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2408</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>彭</jap>
+		<on>ホウ</on>
+		<str>12</str>
+		<mean lang="de">swelling</mean>
+		<freq>2409</freq>
+		<rad>59</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>淘</jap>
+		<on>トウ</on>
+		<str>11</str>
+		<mean lang="de">select</mean>
+		<freq>2410</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>剃</jap>
+		<on>テイ</on>
+		<str>9</str>
+		<mean lang="de">shave</mean>
+		<freq>2411</freq>
+		<rad>18</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>揃</jap>
+		<on>セン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">uniform</mean>
+		<freq>2412</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>綺</jap>
+		<on>キ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">beautiful</mean>
+		<freq>2413</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>徘</jap>
+		<on>ハイ</on>
+		<str>11</str>
+		<mean lang="de">wander</mean>
+		<freq>2414</freq>
+		<rad>60</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>巷</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">scene</mean>
+		<freq>2415</freq>
+		<rad>49</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>竿</jap>
+		<on>カン</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">pole</mean>
+		<freq>2416</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蟹</jap>
+		<on>カイ</on>
+		<grd>9</grd>
+		<str>19</str>
+		<mean lang="de">crab</mean>
+		<freq>2417</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>芋</jap>
+		<on>imo</on>
+		<kun>imo</kun>
+		<grd>8</grd>
+		<str>6</str>
+		<mean lang="de">Kartoffel</mean>
+		<freq>2418</freq>
+		<rad>140</rad>
+		<had>1909</had>
+	</card>
+	<card>
+		<jap>袁</jap>
+		<on>エン</on>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2419</freq>
+		<rad>32</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>舩</jap>
+		<on>セン</on>
+		<str>10</str>
+		<mean lang="de">boat</mean>
+		<freq>2420</freq>
+		<rad>137</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>拭</jap>
+		<on>ショク</on>
+		<grd>8</grd>
+		<str>9</str>
+		<mean lang="de">wipe</mean>
+		<freq>2421</freq>
+		<rad>64</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>茜</jap>
+		<on>セン</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">madder</mean>
+		<freq>2422</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>凌</jap>
+		<on>リョウ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">endure</mean>
+		<freq>2423</freq>
+		<rad>15</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>頬</jap>
+		<on>キョウ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">cheek</mean>
+		<freq>2424</freq>
+		<rad>181</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>厨</jap>
+		<on>シュウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">kitchen</mean>
+		<freq>2425</freq>
+		<rad>27</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>犀</jap>
+		<on>サイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">rhinocerous</mean>
+		<freq>2426</freq>
+		<rad>44</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>簑</jap>
+		<on>サ</on>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2427</freq>
+		<rad>118</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>皓</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">white</mean>
+		<freq>2428</freq>
+		<rad>106</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>甦</jap>
+		<on>ソ</on>
+		<str>12</str>
+		<mean lang="de">revived</mean>
+		<freq>2429</freq>
+		<rad>1</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>洸</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de"></mean>
+		<freq>2430</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>毬</jap>
+		<on>キュウ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">burr</mean>
+		<freq>2431</freq>
+		<rad>82</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>檄</jap>
+		<on>ケキ</on>
+		<str>17</str>
+		<mean lang="de">manifesto</mean>
+		<freq>2432</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>姚</jap>
+		<on>ヨウ</on>
+		<str>9</str>
+		<mean lang="de">beautiful</mean>
+		<freq>2433</freq>
+		<rad>38</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蛭</jap>
+		<on>シツ</on>
+		<str>12</str>
+		<mean lang="de">leech</mean>
+		<freq>2434</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>婆</jap>
+		<on>BA</on>
+		<grd>8</grd>
+		<str>11</str>
+		<mean lang="de">alte Frau</mean>
+		<freq>2435</freq>
+		<rad>38</rad>
+		<had>1931</had>
+	</card>
+	<card>
+		<jap>叢</jap>
+		<on>ソウ</on>
+		<grd>9</grd>
+		<str>18</str>
+		<mean lang="de">plexus</mean>
+		<freq>2436</freq>
+		<rad>3</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>椙</jap>
+		<on>すぎ</on>
+		<str>12</str>
+		<mean lang="de">cryptomeria</mean>
+		<freq>2437</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>轟</jap>
+		<on>ゴウ</on>
+		<grd>9</grd>
+		<str>21</str>
+		<mean lang="de">roar</mean>
+		<freq>2438</freq>
+		<rad>159</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>贋</jap>
+		<on>ガン</on>
+		<str>19</str>
+		<mean lang="de">counterfeit</mean>
+		<freq>2439</freq>
+		<rad>27</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>洒</jap>
+		<on>シャ</on>
+		<str>9</str>
+		<mean lang="de">wash</mean>
+		<freq>2440</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>貰</jap>
+		<on>セイ</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">get</mean>
+		<freq>2441</freq>
+		<rad>154</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>儲</jap>
+		<on>チョ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de"></mean>
+		<freq>2442</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>緋</jap>
+		<on>ヒ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">scarlet</mean>
+		<freq>2443</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>貼</jap>
+		<on>テン</on>
+		<grd>8</grd>
+		<str>12</str>
+		<mean lang="de">stick</mean>
+		<freq>2444</freq>
+		<rad>154</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>諜</jap>
+		<on>チョウ</on>
+		<str>16</str>
+		<mean lang="de">reconnoiter</mean>
+		<freq>2445</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鯛</jap>
+		<on>チョウ</on>
+		<grd>9</grd>
+		<str>19</str>
+		<mean lang="de"></mean>
+		<freq>2446</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蓼</jap>
+		<on>シン</on>
+		<str>14</str>
+		<mean lang="de"></mean>
+		<freq>2447</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>甕</jap>
+		<on>オウ</on>
+		<str>18</str>
+		<mean lang="de">jar</mean>
+		<freq>2448</freq>
+		<rad>8</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>喘</jap>
+		<on>ゼン</on>
+		<str>12</str>
+		<mean lang="de">pant</mean>
+		<freq>2449</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>怜</jap>
+		<on>レイ</on>
+		<grd>9</grd>
+		<str>8</str>
+		<mean lang="de">wise</mean>
+		<freq>2450</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>溜</jap>
+		<on>リュウ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">collect</mean>
+		<freq>2451</freq>
+		<rad>85</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>邑</jap>
+		<on>ユウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">village</mean>
+		<freq>2452</freq>
+		<rad>163</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鉾</jap>
+		<on>ボウ</on>
+		<str>14</str>
+		<mean lang="de">halberd</mean>
+		<freq>2453</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>倣</jap>
+		<on>HÔ</on>
+		<kun>nara(u)</kun>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">einem Beispiel folgen</mean>
+		<freq>2454</freq>
+		<rad>9</rad>
+		<had>1776</had>
+	</card>
+	<card>
+		<jap>碧</jap>
+		<on>ヘキ</on>
+		<grd>9</grd>
+		<str>14</str>
+		<mean lang="de">blue</mean>
+		<freq>2455</freq>
+		<rad>112</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>燈</jap>
+		<on>トウ</on>
+		<grd>10</grd>
+		<str>16</str>
+		<mean lang="de"></mean>
+		<freq>2456</freq>
+		<rad>86</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>諦</jap>
+		<on>テイ</on>
+		<grd>8</grd>
+		<str>16</str>
+		<mean lang="de">abandon</mean>
+		<freq>2457</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>煎</jap>
+		<on>セン</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">broil</mean>
+		<freq>2458</freq>
+		<rad>12</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>瓜</jap>
+		<on>カ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">melon</mean>
+		<freq>2459</freq>
+		<rad>97</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>緻</jap>
+		<on>チ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de"></mean>
+		<freq>2460</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>哺</jap>
+		<on>ホ</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">nurse</mean>
+		<freq>2461</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>槌</jap>
+		<on>ツイ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">hammer</mean>
+		<freq>2462</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>啄</jap>
+		<on>タク</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">peck</mean>
+		<freq>2463</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>穣</jap>
+		<on>ジョウ</on>
+		<grd>9</grd>
+		<str>18</str>
+		<mean lang="de">prosperity</mean>
+		<freq>2464</freq>
+		<rad>115</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>嗜</jap>
+		<on>シ</on>
+		<str>13</str>
+		<mean lang="de">like</mean>
+		<freq>2465</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>偕</jap>
+		<on>カイ</on>
+		<str>11</str>
+		<mean lang="de">together</mean>
+		<freq>2466</freq>
+		<rad>9</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>罵</jap>
+		<on>バ</on>
+		<grd>8</grd>
+		<str>15</str>
+		<mean lang="de">abuse</mean>
+		<freq>2467</freq>
+		<rad>122</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>酉</jap>
+		<on>ユウ</on>
+		<grd>9</grd>
+		<str>7</str>
+		<mean lang="de">west</mean>
+		<freq>2468</freq>
+		<rad>164</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蹄</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de">hoof</mean>
+		<freq>2469</freq>
+		<rad>157</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>頚</jap>
+		<on>ケイ</on>
+		<str>14</str>
+		<mean lang="de">neck</mean>
+		<freq>2470</freq>
+		<rad>181</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>胚</jap>
+		<on>ハイ</on>
+		<str>9</str>
+		<mean lang="de">embryo</mean>
+		<freq>2471</freq>
+		<rad>130</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>牢</jap>
+		<on>ロウ</on>
+		<str>7</str>
+		<mean lang="de">prison</mean>
+		<freq>2472</freq>
+		<rad>40</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>糞</jap>
+		<on>フン</on>
+		<str>17</str>
+		<mean lang="de">shit</mean>
+		<freq>2473</freq>
+		<rad>119</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>悌</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de"></mean>
+		<freq>2474</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>吊</jap>
+		<on>チョウ</on>
+		<str>6</str>
+		<mean lang="de">suspend</mean>
+		<freq>2475</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>楕</jap>
+		<on>ダ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">ellipse</mean>
+		<freq>2476</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鮭</jap>
+		<on>カイ</on>
+		<str>17</str>
+		<mean lang="de">salmon</mean>
+		<freq>2477</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>乞</jap>
+		<on>コツ</on>
+		<grd>8</grd>
+		<str>3</str>
+		<mean lang="de">beg</mean>
+		<freq>2478</freq>
+		<rad>5</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>倹</jap>
+		<on>KEN</on>
+		<grd>8</grd>
+		<str>10</str>
+		<mean lang="de">sparsam</mean>
+		<freq>2479</freq>
+		<rad>9</rad>
+		<had>878</had>
+	</card>
+	<card>
+		<jap>嗅</jap>
+		<on>キュウ</on>
+		<grd>8</grd>
+		<str>13</str>
+		<mean lang="de">smell</mean>
+		<freq>2480</freq>
+		<rad>30</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>詫</jap>
+		<on>タ</on>
+		<grd>9</grd>
+		<str>13</str>
+		<mean lang="de">apologize</mean>
+		<freq>2481</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鱒</jap>
+		<on>ソン</on>
+		<grd>9</grd>
+		<str>23</str>
+		<mean lang="de"></mean>
+		<freq>2482</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蔑</jap>
+		<on>ベツ</on>
+		<grd>8</grd>
+		<str>14</str>
+		<mean lang="de">ignore</mean>
+		<freq>2483</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>轍</jap>
+		<on>テツ</on>
+		<str>19</str>
+		<mean lang="de">rut</mean>
+		<freq>2484</freq>
+		<rad>159</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>醤</jap>
+		<on>ショウ</on>
+		<str>17</str>
+		<mean lang="de"></mean>
+		<freq>2485</freq>
+		<rad>164</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>惚</jap>
+		<on>コツ</on>
+		<grd>9</grd>
+		<str>11</str>
+		<mean lang="de">admire</mean>
+		<freq>2486</freq>
+		<rad>61</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>廣</jap>
+		<on>コウ</on>
+		<grd>10</grd>
+		<str>15</str>
+		<mean lang="de">broad</mean>
+		<freq>2487</freq>
+		<rad>53</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>藁</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>17</str>
+		<mean lang="de">straw</mean>
+		<freq>2488</freq>
+		<rad>140</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>柚</jap>
+		<on>ユ</on>
+		<grd>9</grd>
+		<str>9</str>
+		<mean lang="de">citron</mean>
+		<freq>2489</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>舛</jap>
+		<on>ブ</on>
+		<str>7</str>
+		<mean lang="de"></mean>
+		<freq>2490</freq>
+		<rad>136</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>縞</jap>
+		<on>コウ</on>
+		<grd>9</grd>
+		<str>16</str>
+		<mean lang="de">stripe</mean>
+		<freq>2491</freq>
+		<rad>120</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>謳</jap>
+		<on>オウ</on>
+		<str>18</str>
+		<mean lang="de">extol</mean>
+		<freq>2492</freq>
+		<rad>149</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>杞</jap>
+		<on>コ</on>
+		<str>7</str>
+		<mean lang="de"></mean>
+		<freq>2493</freq>
+		<rad>75</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>鱗</jap>
+		<on>リン</on>
+		<grd>9</grd>
+		<str>24</str>
+		<mean lang="de"></mean>
+		<freq>2494</freq>
+		<rad>195</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>繭</jap>
+		<on>KEN</on>
+		<kun>mayu</kun>
+		<grd>8</grd>
+		<str>18</str>
+		<mean lang="de">Kokon</mean>
+		<freq>2495</freq>
+		<rad>140</rad>
+		<had>1911</had>
+	</card>
+	<card>
+		<jap>釘</jap>
+		<on>テイ</on>
+		<grd>9</grd>
+		<str>10</str>
+		<mean lang="de">nail</mean>
+		<freq>2496</freq>
+		<rad>167</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>弛</jap>
+		<on>チ</on>
+		<grd>9</grd>
+		<str>6</str>
+		<mean lang="de">slacken</mean>
+		<freq>2497</freq>
+		<rad>57</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>狸</jap>
+		<on>リ</on>
+		<str>10</str>
+		<mean lang="de">tanuki</mean>
+		<freq>2498</freq>
+		<rad>94</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>壬</jap>
+		<on>ニン</on>
+		<grd>9</grd>
+		<str>4</str>
+		<mean lang="de"></mean>
+		<freq>2499</freq>
+		<rad>96</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>硯</jap>
+		<on>ケン</on>
+		<grd>9</grd>
+		<str>12</str>
+		<mean lang="de">inkstone</mean>
+		<freq>2500</freq>
+		<rad>112</rad>
+		<had>0</had>
+	</card>
+	<card>
+		<jap>蝦</jap>
+		<on>カ</on>
+		<grd>9</grd>
+		<str>15</str>
+		<mean lang="de">shrimp</mean>
+		<freq>2501</freq>
+		<rad>142</rad>
+		<had>0</had>
+	</card>
+</cardset>
+
+
