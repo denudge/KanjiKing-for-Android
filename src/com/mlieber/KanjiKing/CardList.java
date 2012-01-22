@@ -3,8 +3,10 @@ package com.mlieber.KanjiKing;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import android.util.Log;
 
 public class CardList implements java.io.Serializable {
+    private static final String TAG = "CardList";
     private final int _maxSize;
     private ArrayList<String> _list = null;
 
@@ -73,6 +75,29 @@ public class CardList implements java.io.Serializable {
         Comparator<String> _cc = new CardComparator();
         java.util.Collections.sort(_list, _cc);
         
+    }
+
+    public String asXML()
+    {
+        StringBuilder sb = new StringBuilder();
+        int i = 0;
+        for (int c = 0; c < _list.size(); c++)
+        {
+            String a = get(c);
+            if ((a == null) || (a.length() == 0))
+            {
+                Log.i(TAG, "Card " + c + " was empty or null?");
+                continue;
+            }
+
+            sb.append("\t")
+                .append("<c>")
+                .append(a)
+                .append("</c>\n");
+            i++;
+        }
+        Log.i(TAG, i + " cards exported from this list.");
+        return sb.toString();
     }
 }
 

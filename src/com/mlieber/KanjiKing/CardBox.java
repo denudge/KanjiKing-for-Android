@@ -1,10 +1,13 @@
 package com.mlieber.KanjiKing;
 
 import java.util.ArrayList;
+import java.io.IOException;
 import android.util.Log;
+import org.xmlpull.v1.XmlPullParserException;
+import org.xmlpull.v1.XmlPullParser;
 
 public class CardBox implements java.io.Serializable {
-    private static final String TAG = "CardStore";
+    private static final String TAG = "CardBox";
 
     public static final int ORDER_NONE       = 0;
     public static final int ORDER_RANDOM     = 1;
@@ -23,13 +26,14 @@ public class CardBox implements java.io.Serializable {
     private int _nLists;
     private CardList[] _lists;
 
-    public CardBox(int order) {
+    public CardBox(int order, boolean fill) {
         _pool = new CardList(0);
         _done = new CardList(0);
         _nLists = N_LISTS;
         _order = order;
         initializeLists();
-        fillPool();
+        if (fill)
+            fillPool();
     }
 
 
@@ -72,11 +76,43 @@ public class CardBox implements java.io.Serializable {
 
     /*********************** MANAGEMENT FUNCTIONS ***************************/
 
+    private String findNewCard() {
+        // Look if the pool has a valid card
+        String _card = _pool.get();
+        if (_card != null) {
+            // Do we need frequency check?
+            if (KanjiKing.getMaxFreq() == 0)
+                return _pool.pop();
+
+            // Does the card fit?
+            CardStore _cs = new CardStore();
+            Card _c = _cs.get(_card);
+            if ((_c.getFrequency() > 0) && (_c.getFrequency() <= KanjiKing.getMaxFreq()))
+                return _pool.pop();
+        }
+
+        // Check if we have endless mode
+        if (false == KanjiKing.getEndless())
+            return null;
+
+        // Do we have a done card?
+        if (!_done.isEmpty())
+            return _done.pop();
+
+        // Search for the highest queue to take a card from
+        for (int c = (_nLists-1); c >= 0; c--)
+            if (!_lists[c].isEmpty())
+                return _lists[c].pop();
+
+        return null;
+    }
+
 	private void refill()
 	{
         String _card;
+
         while (! _lists[0].isFilled()) {
-            _card = _pool.pop();
+            _card = findNewCard();
             if (_card == null)
                 return;
             _lists[0].add(_card);
@@ -188,6 +224,86 @@ public class CardBox implements java.io.Serializable {
 
         return sb.toString();
     }
+
+    public String asXML()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
+
+        sb.append("<done>\n")
+            .append(_done.asXML())
+            .append("</done>\n");
+
+        for (int c = _nLists; c > 0; c--)
+            sb.append("<list number=\"" + c + "\">\n")
+                .append(_lists[c-1].asXML())
+                .append("</list>\n");
+
+        sb.append("<pool>\n")
+            .append(_pool.asXML())
+            .append("</pool>\n");
+
+        return sb.toString();
+    }
+
+    public void loadFromXML(XmlPullParser xml) {
+    	try {
+	      	int next_tag = xml.next();
+		    String text = null;
+            int listnumber = 0;
+            int i = 0;
+            CardList _current_list = null;
+
+			while (next_tag != XmlPullParser.END_DOCUMENT) {
+
+                if (next_tag == XmlPullParser.START_TAG) {
+                    text = null;
+
+                    if (xml.getName().equals("pool"))
+                        _current_list = _pool;
+                    else if (xml.getName().equals("done"))
+                        _current_list = _done;
+                    else if (xml.getName().equals("list"))
+                    {
+                        _current_list = null;
+                        listnumber = Integer.parseInt(xml.getAttributeValue(null, "number"));
+                        if ((listnumber > 0) && (listnumber <= _nLists))
+                        {
+                            _current_list = _lists[listnumber-1];
+                            Log.i(TAG, "Loading the following cards to list " + (listnumber-1));
+                        }
+                    }
+                }
+
+                if (next_tag == XmlPullParser.END_TAG) {
+                    if ((xml.getName().equals("card") || (xml.getName().equals("c")))
+                            && (text != null) 
+                            && (text.length() > 0) 
+                            && (_current_list != null)) {
+                        _current_list.add(text);
+                        i++;
+                    }
+                    else
+                        Log.i(TAG, "Text or _current_list null/empty while loading");
+                }
+
+                if (next_tag == XmlPullParser.TEXT)
+                    text = xml.getText();
+
+                next_tag = xml.next();
+			}
+        
+            Log.i(TAG, i + " cards loaded.");
+
+        } catch (IOException e) {
+            Log.e(TAG, e.getMessage());
+            return;
+		} catch (XmlPullParserException e) {
+            Log.e(TAG, e.getMessage());
+            return;
+	    }
+    }
+
 
 }
 
