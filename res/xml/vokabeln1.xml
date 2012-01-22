@@ -1,0 +1,8011 @@
+<cardset>
+    <style>
+		body {text-align: center; color: white;}
+        div.info, div.status { color: #888888; font-size:90%; }
+        div.japanese {font-size: 400%; color: #ccff66; }
+		div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps;}
+		div.reading_kun {font-size: 200%; color: #9090ff;}
+		div.meaning {color: #e0e0e0;}
+    </style>
+	<card type="word">
+		<jap>思う</jap>
+		<freq>1</freq>
+		<grd>132</grd>
+		<had>99</had>
+		<kun>おもう</kun>
+		<mean lang="de">denken/glauben</mean>
+	</card>
+	<card type="word">
+		<jap>言う</jap>
+		<freq>2</freq>
+		<grd>83</grd>
+		<had>66</had>
+		<kun>いう</kun>
+		<mean lang="de">-sagen</mean>
+	</card>
+	<card type="word">
+		<jap>見る</jap>
+		<freq>3</freq>
+		<grd>22</grd>
+		<had>63</had>
+		<kun>みる</kun>
+		<mean lang="de">sehen</mean>
+	</card>
+	<card type="word">
+		<jap>日本</jap>
+		<freq>4</freq>
+		<grd>10</grd>
+		<had>25</had>
+		<kun>にほん</kun>
+		<mean lang="de">Japan</mean>
+	</card>
+	<card type="word">
+		<jap>自分</jap>
+		<freq>5</freq>
+		<grd>24</grd>
+		<had>62</had>
+		<kun>じぶん</kun>
+		<mean lang="de">selbst</mean>
+	</card>
+	<card type="word">
+		<jap>問題</jap>
+		<freq>6</freq>
+		<grd>96</grd>
+		<had>354</had>
+		<kun>もんだい</kun>
+		<mean lang="de">Frage/Problem</mean>
+	</card>
+	<card type="word">
+		<jap>考える</jap>
+		<freq>7</freq>
+		<grd>196</grd>
+		<had>541</had>
+		<kun>かんがえる</kun>
+		<mean lang="de">[1]/denken/nachdenken/[2]</mean>
+	</card>
+	<card type="word">
+		<jap>行く</jap>
+		<freq>8</freq>
+		<grd>20</grd>
+		<had>68</had>
+		<kun>いく</kun>
+		<mean lang="de">-gehen/-fahren</mean>
+	</card>
+	<card type="word">
+		<jap>出る</jap>
+		<freq>9</freq>
+		<grd>13</grd>
+		<had>53</had>
+		<kun>でる</kun>
+		<mean lang="de">hinausgehen/herauskommen</mean>
+	</card>
+	<card type="word">
+		<jap>時間</jap>
+		<freq>10</freq>
+		<grd>33</grd>
+		<had>43</had>
+		<kun>じかん</kun>
+		<mean lang="de">Zeit/Stunde</mean>
+	</card>
+	<card type="word">
+		<jap>書く</jap>
+		<freq>11</freq>
+		<grd>169</grd>
+		<had>131</had>
+		<kun>かく</kun>
+		<mean lang="de">schreiben</mean>
+	</card>
+	<card type="word">
+		<jap>場合</jap>
+		<freq>12</freq>
+		<grd>52</grd>
+		<had>159</had>
+		<kun>ばあい</kun>
+		<mean lang="de">Fall</mean>
+	</card>
+	<card type="word">
+		<jap>持つ</jap>
+		<freq>13</freq>
+		<grd>119</grd>
+		<had>451</had>
+		<kun>もつ</kun>
+		<mean lang="de">haben/besitzen/halten</mean>
+	</card>
+	<card type="word">
+		<jap>必要</jap>
+		<freq>14</freq>
+		<grd>265</grd>
+		<had>520</had>
+		<kun>ひつよう</kun>
+		<mean lang="de">notwendig/erforderlich</mean>
+	</card>
+	<card type="word">
+		<jap>情報</jap>
+		<freq>15</freq>
+		<grd>235</grd>
+		<had>685</had>
+		<kun>じょうほう</kun>
+		<mean lang="de">Information/Nachricht/Mel</mean>
+	</card>
+	<card type="word">
+		<jap>使う</jap>
+		<freq>16</freq>
+		<grd>219</grd>
+		<had>331</had>
+		<kun>つかう</kun>
+		<mean lang="de">benutzen</mean>
+	</card>
+	<card type="word">
+		<jap>行う</jap>
+		<freq>17</freq>
+		<grd>20</grd>
+		<had>68</had>
+		<kun>おこなう</kun>
+		<mean lang="de">durchfuehren</mean>
+	</card>
+	<card type="word">
+		<jap>多い</jap>
+		<freq>18</freq>
+		<grd>139</grd>
+		<had>229</had>
+		<kun>おおい</kun>
+		<mean lang="de">viel/viele/gross</mean>
+	</card>
+	<card type="word">
+		<jap>知る</jap>
+		<freq>19</freq>
+		<grd>205</grd>
+		<had>214</had>
+		<kun>しる</kun>
+		<mean lang="de">wissen/kennen</mean>
+	</card>
+	<card type="word">
+		<jap>今日</jap>
+		<freq>20</freq>
+		<grd>49</grd>
+		<had>51</had>
+		<kun>きょう</kun>
+		<mean lang="de">-heute</mean>
+	</card>
+	<card type="word">
+		<jap>良い</jap>
+		<freq>21</freq>
+		<grd>501</grd>
+		<had>321</had>
+		<kun>よい</kun>
+		<mean lang="de">[1]/gut/schön/[2]/hervorr</mean>
+	</card>
+	<card type="word">
+		<jap>関係</jap>
+		<freq>22</freq>
+		<grd>232</grd>
+		<had>909</had>
+		<kun>かんけい</kun>
+		<mean lang="de">Beziehung/Verhaeltnis/Tei</mean>
+	</card>
+	<card type="word">
+		<jap>委員</jap>
+		<freq>23</freq>
+		<grd>187</grd>
+		<had>466</had>
+		<kun>いいん</kun>
+		<mean lang="de">Ausschussmitglied/Komitee</mean>
+	</card>
+	<card type="word">
+		<jap>聞く</jap>
+		<freq>24</freq>
+		<grd>319</grd>
+		<had>64</had>
+		<kun>きく</kun>
+		<mean lang="de">hoeren/zuhoeren/befolgen/</mean>
+	</card>
+	<card type="word">
+		<jap>世界</jap>
+		<freq>25</freq>
+		<grd>158</grd>
+		<had>454</had>
+		<kun>せかい</kun>
+		<mean lang="de">Welt/Erde</mean>
+	</card>
+	<card type="word">
+		<jap>社会</jap>
+		<freq>26</freq>
+		<grd>21</grd>
+		<had>308</had>
+		<kun>しゃかい</kun>
+		<mean lang="de">Gesellschaft/sozial</mean>
+	</card>
+	<card type="word">
+		<jap>読む</jap>
+		<freq>27</freq>
+		<grd>618</grd>
+		<had>244</had>
+		<kun>よむ</kun>
+		<mean lang="de">lesen</mean>
+	</card>
+	<card type="word">
+		<jap>入る</jap>
+		<freq>28</freq>
+		<grd>56</grd>
+		<had>52</had>
+		<kun>はいる</kun>
+		<mean lang="de">hineingehen/eintreten</mean>
+	</card>
+	<card type="word">
+		<jap>来る</jap>
+		<freq>29</freq>
+		<grd>102</grd>
+		<had>69</had>
+		<kun>きたる</kun>
+		<mean lang="de">-kommen</mean>
+	</card>
+	<card type="word">
+		<jap>仕事</jap>
+		<freq>30</freq>
+		<grd>439</grd>
+		<had>333</had>
+		<kun>しごと</kun>
+		<mean lang="de">Arbeit/Beruf</mean>
+	</card>
+	<card type="word">
+		<jap>同じ</jap>
+		<freq>31</freq>
+		<grd>15</grd>
+		<had>198</had>
+		<kun>おなじ</kun>
+		<mean lang="de">gleich</mean>
+	</card>
+	<card type="word">
+		<jap>記事</jap>
+		<freq>32</freq>
+		<grd>149</grd>
+		<had>371</had>
+		<kun>きじ</kun>
+		<mean lang="de">Artikel/Bericht</mean>
+	</card>
+	<card type="word">
+		<jap>意味</jap>
+		<freq>33</freq>
+		<grd>442</grd>
+		<had>307</had>
+		<kun>いみ</kun>
+		<mean lang="de">Bedeutung/-Sinn</mean>
+	</card>
+	<card type="word">
+		<jap>以上</jap>
+		<freq>34</freq>
+		<grd>126</grd>
+		<had>46</had>
+		<kun>いじょう</kun>
+		<mean lang="de">-ueber/mehr als/obenerwae</mean>
+	</card>
+	<card type="word">
+		<jap>会社</jap>
+		<freq>35</freq>
+		<grd>21</grd>
+		<had>308</had>
+		<kun>かいしゃ</kun>
+		<mean lang="de">Gesellschaft/Firma</mean>
+	</card>
+	<card type="word">
+		<jap>人間</jap>
+		<freq>36</freq>
+		<grd>33</grd>
+		<had>43</had>
+		<kun>にんげん</kun>
+		<mean lang="de">-Mensch</mean>
+	</card>
+	<card type="word">
+		<jap>現在</jap>
+		<freq>37</freq>
+		<grd>211</grd>
+		<had>298</had>
+		<kun>げんざい</kun>
+		<mean lang="de">Gegenwart/Praesenz/Praese</mean>
+	</card>
+	<card type="word">
+		<jap>作る</jap>
+		<freq>38</freq>
+		<grd>103</grd>
+		<had>360</had>
+		<kun>つくる</kun>
+		<mean lang="de">machen/anfertigen</mean>
+	</card>
+	<card type="word">
+		<jap>企業</jap>
+		<freq>39</freq>
+		<grd>278</grd>
+		<had>481</had>
+		<kun>きぎょう</kun>
+		<mean lang="de">Unternehmen/Unternehmung</mean>
+	</card>
+	<card type="word">
+		<jap>可能</jap>
+		<freq>40</freq>
+		<grd>314</grd>
+		<had>388</had>
+		<kun>かのう</kun>
+		<mean lang="de">Moeglichkeit</mean>
+	</card>
+	<card type="word">
+		<jap>感じる</jap>
+		<freq>41</freq>
+		<grd>233</grd>
+		<had>262</had>
+		<kun>かんじる</kun>
+		<mean lang="de">[1]/fühlen/empfinden/wahr</mean>
+	</card>
+	<card type="word">
+		<jap>出す</jap>
+		<freq>42</freq>
+		<grd>13</grd>
+		<had>53</had>
+		<kun>だす</kun>
+		<mean lang="de">herausnehmen/abschicken</mean>
+	</card>
+	<card type="word">
+		<jap>研究</jap>
+		<freq>43</freq>
+		<grd>368</grd>
+		<had>896</had>
+		<kun>けんきゅう</kun>
+		<mean lang="de">Forschung/Untersuchung/St</mean>
+	</card>
+	<card type="word">
+		<jap>投稿</jap>
+		<freq>44</freq>
+		<grd>1400</grd>
+		<had>1120</had>
+		<kun>とうこう</kun>
+		<mean lang="de">Beitrag (fuer eine Zeitun</mean>
+	</card>
+	<card type="word">
+		<jap>今回</jap>
+		<freq>45</freq>
+		<grd>50</grd>
+		<had>90</had>
+		<kun>こんかい</kun>
+		<mean lang="de">diesmal</mean>
+	</card>
+	<card type="word">
+		<jap>高い</jap>
+		<freq>46</freq>
+		<grd>65</grd>
+		<had>190</had>
+		<kun>たかい</kun>
+		<mean lang="de">hoch/teuer</mean>
+	</card>
+	<card type="word">
+		<jap>言葉</jap>
+		<freq>47</freq>
+		<grd>414</grd>
+		<had>253</had>
+		<kun>ことば</kun>
+		<mean lang="de">-Wort</mean>
+	</card>
+	<card type="word">
+		<jap>出来る</jap>
+		<freq>48</freq>
+		<grd>13</grd>
+		<had>53</had>
+		<kun>できる</kun>
+		<mean lang="de">(ugs.)/[1]/können/vermöge</mean>
+	</card>
+	<card type="word">
+		<jap>受ける</jap>
+		<freq>49</freq>
+		<grd>136</grd>
+		<had>260</had>
+		<kun>うける</kun>
+		<mean lang="de">bekommen/erhalten</mean>
+	</card>
+	<card type="word">
+		<jap>経済</jap>
+		<freq>50</freq>
+		<grd>168</grd>
+		<had>549</had>
+		<kun>けいざい</kun>
+		<mean lang="de">Wirtschaft/Oekonomie</mean>
+	</card>
+	<card type="word">
+		<jap>最近</jap>
+		<freq>51</freq>
+		<grd>194</grd>
+		<had>445</had>
+		<kun>さいきん</kun>
+		<mean lang="de">letzt/juengst/neuest</mean>
+	</card>
+	<card type="word">
+		<jap>結果</jap>
+		<freq>52</freq>
+		<grd>258</grd>
+		<had>487</had>
+		<kun>けっか</kun>
+		<mean lang="de">Ergebnis/Folge/Resultat</mean>
+	</card>
+	<card type="word">
+		<jap>買う</jap>
+		<freq>53</freq>
+		<grd>520</grd>
+		<had>241</had>
+		<kun>かう</kun>
+		<mean lang="de">kaufen</mean>
+	</card>
+	<card type="word">
+		<jap>違う</jap>
+		<freq>54</freq>
+		<grd>344</grd>
+		<had>814</had>
+		<kun>ちがう</kun>
+		<mean lang="de">verschieden sein/sich irr</mean>
+	</card>
+	<card type="word">
+		<jap>映画</jap>
+		<freq>55</freq>
+		<grd>404</grd>
+		<had>352</had>
+		<kun>えいが</kun>
+		<mean lang="de">Film</mean>
+	</card>
+	<card type="word">
+		<jap>先生</jap>
+		<freq>56</freq>
+		<grd>173</grd>
+		<had>50</had>
+		<kun>せんせい</kun>
+		<mean lang="de">Lehrer/Lehrerin</mean>
+	</card>
+	<card type="word">
+		<jap>生活</jap>
+		<freq>57</freq>
+		<grd>171</grd>
+		<had>237</had>
+		<kun>せいかつ</kun>
+		<mean lang="de">-Leben</mean>
+	</card>
+	<card type="word">
+		<jap>時代</jap>
+		<freq>58</freq>
+		<grd>66</grd>
+		<had>256</had>
+		<kun>じだい</kun>
+		<mean lang="de">Zeitalter/Periode/-Aera/-</mean>
+	</card>
+	<card type="word">
+		<jap>政府</jap>
+		<freq>59</freq>
+		<grd>170</grd>
+		<had>504</had>
+		<kun>せいふ</kun>
+		<mean lang="de">Regierung</mean>
+	</card>
+	<card type="word">
+		<jap>非常</jap>
+		<freq>60</freq>
+		<grd>472</grd>
+		<had>498</had>
+		<kun>ひじょう</kun>
+		<mean lang="de">Notfall/Ausnahmefall/Kata</mean>
+	</card>
+	<card type="word">
+		<jap>得る</jap>
+		<freq>61</freq>
+		<grd>175</grd>
+		<had>374</had>
+		<kun>うる</kun>
+		<mean lang="de">gewinnen/erwerben</mean>
+	</card>
+	<card type="word">
+		<jap>内容</jap>
+		<freq>62</freq>
+		<grd>264</grd>
+		<had>654</had>
+		<kun>ないよう</kun>
+		<mean lang="de">Inhalt</mean>
+	</card>
+	<card type="word">
+		<jap>一つ</jap>
+		<freq>63</freq>
+		<grd>2</grd>
+		<had>2</had>
+		<kun>ひとつ</kun>
+		<mean lang="de">[1]/ein/Stuck/.../[2]/der</mean>
+	</card>
+	<card type="word">
+		<jap>説明</jap>
+		<freq>64</freq>
+		<grd>326</grd>
+		<had>400</had>
+		<kun>せつめい</kun>
+		<mean lang="de">Erklaerung/Erlaeuterung</mean>
+	</card>
+	<card type="word">
+		<jap>写真</jap>
+		<freq>65</freq>
+		<grd>453</grd>
+		<had>540</had>
+		<kun>しゃしん</kun>
+		<mean lang="de">Fotografie/Foto/Aufnahme</mean>
+	</card>
+	<card type="word">
+		<jap>教育</jap>
+		<freq>66</freq>
+		<grd>369</grd>
+		<had>246</had>
+		<kun>きょういく</kun>
+		<mean lang="de">Erziehung/Bildung/Ausbild</mean>
+	</card>
+	<card type="word">
+		<jap>女性</jap>
+		<freq>67</freq>
+		<grd>151</grd>
+		<had>102</had>
+		<kun>じょせい</kun>
+		<mean lang="de">Frau/das weibliche Geschl</mean>
+	</card>
+	<card type="word">
+		<jap>子供</jap>
+		<freq>68</freq>
+		<grd>313</grd>
+		<had>197</had>
+		<kun>こども</kun>
+		<mean lang="de">Kind</mean>
+	</card>
+	<card type="word">
+		<jap>方法</jap>
+		<freq>69</freq>
+		<grd>100</grd>
+		<had>123</had>
+		<kun>ほうほう</kun>
+		<mean lang="de">Methode/Art und Weise</mean>
+	</card>
+	<card type="word">
+		<jap>大きい</jap>
+		<freq>70</freq>
+		<grd>7</grd>
+		<had>26</had>
+		<kun>おおきい</kun>
+		<mean lang="de">gross</mean>
+	</card>
+	<card type="word">
+		<jap>利用</jap>
+		<freq>71</freq>
+		<grd>203</grd>
+		<had>329</had>
+		<kun>りよう</kun>
+		<mean lang="de">benutzen</mean>
+	</card>
+	<card type="word">
+		<jap>少し</jap>
+		<freq>72</freq>
+		<grd>287</grd>
+		<had>144</had>
+		<kun>すこし</kun>
+		<mean lang="de">ein wenig/etwas</mean>
+	</card>
+	<card type="word">
+		<jap>紹介</jap>
+		<freq>73</freq>
+		<grd>963</grd>
+		<had>456</had>
+		<kun>しょうかい</kun>
+		<mean lang="de">Vorstellung/Empfehlung</mean>
+	</card>
+	<card type="word">
+		<jap>技術</jap>
+		<freq>74</freq>
+		<grd>434</grd>
+		<had>871</had>
+		<kun>ぎじゅつ</kun>
+		<mean lang="de">Technik</mean>
+	</card>
+	<card type="word">
+		<jap>名前</jap>
+		<freq>75</freq>
+		<grd>177</grd>
+		<had>82</had>
+		<kun>なまえ</kun>
+		<mean lang="de">Name</mean>
+	</card>
+	<card type="word">
+		<jap>参加</jap>
+		<freq>76</freq>
+		<grd>201</grd>
+		<had>710</had>
+		<kun>さんか</kun>
+		<mean lang="de">Teilnahme/Beteiligung</mean>
+	</card>
+	<card type="word">
+		<jap>分かる</jap>
+		<freq>77</freq>
+		<grd>24</grd>
+		<had>38</had>
+		<kun>わかる</kun>
+		<mean lang="de">verstehen</mean>
+	</card>
+	<card type="word">
+		<jap>大きな</jap>
+		<freq>78</freq>
+		<grd>7</grd>
+		<had>26</had>
+		<kun>おおきな</kun>
+		<mean lang="de">[1]/groß/gewaltig/mächtig</mean>
+	</card>
+	<card type="word">
+		<jap>食べる</jap>
+		<freq>79</freq>
+		<grd>328</grd>
+		<had>322</had>
+		<kun>たべる</kun>
+		<mean lang="de">essen/fressen</mean>
+	</card>
+	<card type="word">
+		<jap>感じ</jap>
+		<freq>80</freq>
+		<grd>233</grd>
+		<had>262</had>
+		<kun>かんじ</kun>
+		<mean lang="de">[1]/Gefühl/Empfindung/[2]</mean>
+	</card>
+	<card type="word">
+		<jap>入れる</jap>
+		<freq>81</freq>
+		<grd>56</grd>
+		<had>52</had>
+		<kun>いれる</kun>
+		<mean lang="de">hineinstecken/einlassen</mean>
+	</card>
+	<card type="word">
+		<jap>見える</jap>
+		<freq>82</freq>
+		<grd>22</grd>
+		<had>63</had>
+		<kun>みえる</kun>
+		<mean lang="de">sichtbar sein</mean>
+	</card>
+	<card type="word">
+		<jap>活動</jap>
+		<freq>83</freq>
+		<grd>171</grd>
+		<had>237</had>
+		<kun>かつどう</kun>
+		<mean lang="de">Taetigkeit/Aktivitaet</mean>
+	</card>
+	<card type="word">
+		<jap>東京</jap>
+		<freq>84</freq>
+		<grd>74</grd>
+		<had>189</had>
+		<kun>とうきょう</kun>
+		<mean lang="de">Tokyo</mean>
+	</card>
+	<card type="word">
+		<jap>好き</jap>
+		<freq>85</freq>
+		<grd>423</grd>
+		<had>104</had>
+		<kun>すき</kun>
+		<mean lang="de">Zuneigung/Neigung/Geschma</mean>
+	</card>
+	<card type="word">
+		<jap>状況</jap>
+		<freq>86</freq>
+		<grd>490</grd>
+		<had>850</had>
+		<kun>じょうきょう</kun>
+		<mean lang="de">Zustand/Sachlage</mean>
+	</card>
+	<card type="word">
+		<jap>新しい</jap>
+		<freq>87</freq>
+		<grd>51</grd>
+		<had>174</had>
+		<kun>あたらしい</kun>
+		<mean lang="de">-neu</mean>
+	</card>
+	<card type="word">
+		<jap>強い</jap>
+		<freq>88</freq>
+		<grd>112</grd>
+		<had>217</had>
+		<kun>つよい</kun>
+		<mean lang="de">stark</mean>
+	</card>
+	<card type="word">
+		<jap>管理</jap>
+		<freq>89</freq>
+		<grd>517</grd>
+		<had>328</had>
+		<kun>かんり</kun>
+		<mean lang="de">Verwaltung/Aufsicht</mean>
+	</card>
+	<card type="word">
+		<jap>特に</jap>
+		<freq>90</freq>
+		<grd>234</grd>
+		<had>282</had>
+		<kun>とくに</kun>
+		<mean lang="de">besonders/speziell</mean>
+	</card>
+	<card type="word">
+		<jap>環境</jap>
+		<freq>91</freq>
+		<grd>409</grd>
+		<had>865</had>
+		<kun>かんきょう</kun>
+		<mean lang="de">Umgebung/Milieu</mean>
+	</card>
+	<card type="word">
+		<jap>地域</jap>
+		<freq>92</freq>
+		<grd>396</grd>
+		<had>970</had>
+		<kun>ちいき</kun>
+		<mean lang="de">Zone/Gebiet/Bezirk</mean>
+	</card>
+	<card type="word">
+		<jap>始める</jap>
+		<freq>93</freq>
+		<grd>244</grd>
+		<had>494</had>
+		<kun>はじめる</kun>
+		<mean lang="de">anfangen/beginnen</mean>
+	</card>
+	<card type="word">
+		<jap>本当に</jap>
+		<freq>94</freq>
+		<grd>10</grd>
+		<had>25</had>
+		<kun>ほんとうに</kun>
+		<mean lang="de">wirklich/sehr/in der Tat/</mean>
+	</card>
+	<card type="word">
+		<jap>悪い</jap>
+		<freq>95</freq>
+		<grd>530</grd>
+		<had>304</had>
+		<kun>わるい</kun>
+		<mean lang="de">schlecht/schlimm/boese</mean>
+	</card>
+	<card type="word">
+		<jap>実際</jap>
+		<freq>96</freq>
+		<grd>183</grd>
+		<had>618</had>
+		<kun>じっさい</kun>
+		<mean lang="de">Wahrheit/Tatsache/Wirklic</mean>
+	</card>
+	<card type="word">
+		<jap>中国</jap>
+		<freq>97</freq>
+		<grd>11</grd>
+		<had>40</had>
+		<kun>ちゅうごく</kun>
+		<mean lang="de">China/(Name einer jap.Pro</mean>
+	</card>
+	<card type="word">
+		<jap>個人</jap>
+		<freq>98</freq>
+		<grd>451</grd>
+		<had>973</had>
+		<kun>こじん</kun>
+		<mean lang="de">Individuum/Privatperson</mean>
+	</card>
+	<card type="word">
+		<jap>意見</jap>
+		<freq>99</freq>
+		<grd>99</grd>
+		<had>132</had>
+		<kun>いけん</kun>
+		<mean lang="de">Meinung/Ansicht</mean>
+	</card>
+	<card type="word">
+		<jap>状態</jap>
+		<freq>100</freq>
+		<grd>353</grd>
+		<had>626</had>
+		<kun>じょうたい</kun>
+		<mean lang="de">Zustand/Verhaeltnisse</mean>
+	</card>
+	<card type="word">
+		<jap>大学</jap>
+		<freq>101</freq>
+		<grd>63</grd>
+		<had>109</had>
+		<kun>だいがく</kun>
+		<mean lang="de">Universitaet</mean>
+	</card>
+	<card type="word">
+		<jap>多く</jap>
+		<freq>102</freq>
+		<grd>139</grd>
+		<had>229</had>
+		<kun>おおく</kun>
+		<mean lang="de">[1]/eine Menge/sehr viele</mean>
+	</card>
+	<card type="word">
+		<jap>存在</jap>
+		<freq>103</freq>
+		<grd>577</grd>
+		<had>269</had>
+		<kun>そんざい</kun>
+		<mean lang="de">Dasein/Existenz</mean>
+	</card>
+	<card type="word">
+		<jap>最後</jap>
+		<freq>104</freq>
+		<grd>82</grd>
+		<had>263</had>
+		<kun>さいご</kun>
+		<mean lang="de">-Ende/letzte</mean>
+	</card>
+	<card type="word">
+		<jap>終わる</jap>
+		<freq>105</freq>
+		<grd>256</grd>
+		<had>458</had>
+		<kun>おわる</kun>
+		<mean lang="de">-enden</mean>
+	</card>
+	<card type="word">
+		<jap>彼女</jap>
+		<freq>106</freq>
+		<grd>648</grd>
+		<had>977</had>
+		<kun>かのじょ</kun>
+		<mean lang="de">-sie (Fem.Sing.)</mean>
+	</card>
+	<card type="word">
+		<jap>理解</jap>
+		<freq>107</freq>
+		<grd>176</grd>
+		<had>474</had>
+		<kun>りかい</kun>
+		<mean lang="de">Verstehen/Verstaendnis</mean>
+	</card>
+	<card type="word">
+		<jap>学校</jap>
+		<freq>108</freq>
+		<grd>294</grd>
+		<had>115</had>
+		<kun>がっこう</kun>
+		<mean lang="de">Schule</mean>
+	</card>
+	<card type="word">
+		<jap>部分</jap>
+		<freq>109</freq>
+		<grd>36</grd>
+		<had>86</had>
+		<kun>ぶぶん</kun>
+		<mean lang="de">Teil</mean>
+	</card>
+	<card type="word">
+		<jap>電話</jap>
+		<freq>110</freq>
+		<grd>268</grd>
+		<had>238</had>
+		<kun>でんわ</kun>
+		<mean lang="de">Telefon</mean>
+	</card>
+	<card type="word">
+		<jap>日記</jap>
+		<freq>111</freq>
+		<grd>149</grd>
+		<had>371</had>
+		<kun>にっき</kun>
+		<mean lang="de">Tagebuch</mean>
+	</card>
+	<card type="word">
+		<jap>制度</jap>
+		<freq>112</freq>
+		<grd>110</grd>
+		<had>427</had>
+		<kun>せいど</kun>
+		<mean lang="de">System/Organisation/Wesen</mean>
+	</card>
+	<card type="word">
+		<jap>続ける</jap>
+		<freq>113</freq>
+		<grd>141</grd>
+		<had>243</had>
+		<kun>つづける</kun>
+		<mean lang="de">fortsetzen</mean>
+	</card>
+	<card type="word">
+		<jap>使用</jap>
+		<freq>114</freq>
+		<grd>219</grd>
+		<had>331</had>
+		<kun>しよう</kun>
+		<mean lang="de">[1]/Gebrauch/Anwendung/Be</mean>
+	</card>
+	<card type="word">
+		<jap>事業</jap>
+		<freq>115</freq>
+		<grd>43</grd>
+		<had>279</had>
+		<kun>じぎょう</kun>
+		<mean lang="de">Unternehmen/Betrieb</mean>
+	</card>
+	<card type="word">
+		<jap>固定</jap>
+		<freq>116</freq>
+		<grd>750</grd>
+		<had>972</had>
+		<kun>こてい</kun>
+		<mean lang="de">Festlegung/Festsetzung/Fe</mean>
+	</card>
+	<card type="word">
+		<jap>調査</jap>
+		<freq>117</freq>
+		<grd>184</grd>
+		<had>624</had>
+		<kun>ちょうさ</kun>
+		<mean lang="de">Untersuchung/Nachforschun</mean>
+	</card>
+	<card type="word">
+		<jap>変わる</jap>
+		<freq>118</freq>
+		<grd>238</grd>
+		<had>258</had>
+		<kun>かわる</kun>
+		<mean lang="de">sich aendern/sich veraend</mean>
+	</card>
+	<card type="word">
+		<jap>続く</jap>
+		<freq>119</freq>
+		<grd>141</grd>
+		<had>243</had>
+		<kun>つづく</kun>
+		<mean lang="de">dauern/fortdauern</mean>
+	</card>
+	<card type="word">
+		<jap>基本</jap>
+		<freq>120</freq>
+		<grd>241</grd>
+		<had>450</had>
+		<kun>きほん</kun>
+		<mean lang="de">Grund/Grundlage/Fundament</mean>
+	</card>
+	<card type="word">
+		<jap>関連</jap>
+		<freq>121</freq>
+		<grd>70</grd>
+		<had>440</had>
+		<kun>かんれん</kun>
+		<mean lang="de">Zusammenhang/Beziehung/Ve</mean>
+	</card>
+	<card type="word">
+		<jap>一般</jap>
+		<freq>122</freq>
+		<grd>649</grd>
+		<had>1096</had>
+		<kun>いっぱん</kun>
+		<mean lang="de">allgemein/generell/gewöhn</mean>
+	</card>
+	<card type="word">
+		<jap>開発</jap>
+		<freq>123</freq>
+		<grd>59</grd>
+		<had>396</had>
+		<kun>かいはつ</kun>
+		<mean lang="de">Urbarmachung/Kultivierung</mean>
+	</card>
+	<card type="word">
+		<jap>音楽</jap>
+		<freq>124</freq>
+		<grd>491</grd>
+		<had>358</had>
+		<kun>おんがく</kun>
+		<mean lang="de">Musik</mean>
+	</card>
+	<card type="word">
+		<jap>一番</jap>
+		<freq>125</freq>
+		<grd>348</grd>
+		<had>185</had>
+		<kun>いちばん</kun>
+		<mean lang="de">der erste/am meisten</mean>
+	</card>
+	<card type="word">
+		<jap>作品</jap>
+		<freq>126</freq>
+		<grd>225</grd>
+		<had>360</had>
+		<kun>さくひん</kun>
+		<mean lang="de">Werk</mean>
+	</card>
+	<card type="word">
+		<jap>重要</jap>
+		<freq>127</freq>
+		<grd>193</grd>
+		<had>419</had>
+		<kun>じゅうよう</kun>
+		<mean lang="de">wichtig/bedeutsam/Haupt-</mean>
+	</card>
+	<card type="word">
+		<jap>最初</jap>
+		<freq>128</freq>
+		<grd>152</grd>
+		<had>679</had>
+		<kun>さいしょ</kun>
+		<mean lang="de">Anfang/Beginn</mean>
+	</card>
+	<card type="word">
+		<jap>国民</jap>
+		<freq>129</freq>
+		<grd>28</grd>
+		<had>177</had>
+		<kun>こくみん</kun>
+		<mean lang="de">Nation/Volk/Buerger</mean>
+	</card>
+	<card type="word">
+		<jap>事件</jap>
+		<freq>130</freq>
+		<grd>212</grd>
+		<had>732</had>
+		<kun>じけん</kun>
+		<mean lang="de">Ereignis/Vorfall/Affaere</mean>
+	</card>
+	<card type="word">
+		<jap>英語</jap>
+		<freq>131</freq>
+		<grd>430</grd>
+		<had>353</had>
+		<kun>えいご</kun>
+		<mean lang="de">Englisch/englische Sprach</mean>
+	</card>
+	<card type="word">
+		<jap>質問</jap>
+		<freq>132</freq>
+		<grd>389</grd>
+		<had>176</had>
+		<kun>しつもん</kun>
+		<mean lang="de">Frage</mean>
+	</card>
+	<card type="word">
+		<jap>主義</jap>
+		<freq>133</freq>
+		<grd>415</grd>
+		<had>291</had>
+		<kun>しゅぎ</kun>
+		<mean lang="de">[1]/Prinzip/Doktrin/Grund</mean>
+	</card>
+	<card type="word">
+		<jap>理由</jap>
+		<freq>134</freq>
+		<grd>325</grd>
+		<had>363</had>
+		<kun>りゆう</kun>
+		<mean lang="de">Grund/Ursache/Motiv</mean>
+	</card>
+	<card type="word">
+		<jap>場所</jap>
+		<freq>135</freq>
+		<grd>221</grd>
+		<had>154</had>
+		<kun>ばしょ</kun>
+		<mean lang="de">Platz/Stelle/Ort</mean>
+	</card>
+	<card type="word">
+		<jap>機能</jap>
+		<freq>136</freq>
+		<grd>273</grd>
+		<had>528</had>
+		<kun>きのう</kun>
+		<mean lang="de">Funktion</mean>
+	</card>
+	<card type="word">
+		<jap>労働</jap>
+		<freq>137</freq>
+		<grd>417</grd>
+		<had>233</had>
+		<kun>ろうどう</kun>
+		<mean lang="de">Arbeit</mean>
+	</card>
+	<card type="word">
+		<jap>相手</jap>
+		<freq>138</freq>
+		<grd>60</grd>
+		<had>146</had>
+		<kun>あいて</kun>
+		<mean lang="de">Partner/Gegner</mean>
+	</card>
+	<card type="word">
+		<jap>国際</jap>
+		<freq>139</freq>
+		<grd>183</grd>
+		<had>618</had>
+		<kun>こくさい</kun>
+		<mean lang="de">international/Welt-</mean>
+	</card>
+	<card type="word">
+		<jap>自身</jap>
+		<freq>140</freq>
+		<grd>320</grd>
+		<had>62</had>
+		<kun>じしん</kun>
+		<mean lang="de">selbst</mean>
+	</card>
+	<card type="word">
+		<jap>取る</jap>
+		<freq>141</freq>
+		<grd>122</grd>
+		<had>65</had>
+		<kun>とる</kun>
+		<mean lang="de">-nehmen</mean>
+	</card>
+	<card type="word">
+		<jap>計画</jap>
+		<freq>142</freq>
+		<grd>228</grd>
+		<had>343</had>
+		<kun>けいかく</kun>
+		<mean lang="de">Plan/Entwurf/Absicht</mean>
+	</card>
+	<card type="word">
+		<jap>政治</jap>
+		<freq>143</freq>
+		<grd>109</grd>
+		<had>493</had>
+		<kun>せいじ</kun>
+		<mean lang="de">Politik</mean>
+	</card>
+	<card type="word">
+		<jap>日本人</jap>
+		<freq>144</freq>
+		<grd>5</grd>
+		<had>5</had>
+		<kun>にほんじん</kun>
+		<mean lang="de">Japaner/Japanerin</mean>
+	</card>
+	<card type="word">
+		<jap>今後</jap>
+		<freq>145</freq>
+		<grd>49</grd>
+		<had>51</had>
+		<kun>こんご</kun>
+		<mean lang="de">von jetzt an/kuenftig</mean>
+	</card>
+	<card type="word">
+		<jap>呼ぶ</jap>
+		<freq>146</freq>
+		<grd>498</grd>
+		<had>1254</had>
+		<kun>よぶ</kun>
+		<mean lang="de">-rufen/zu sich rufen/einl</mean>
+	</card>
+	<card type="word">
+		<jap>下さる</jap>
+		<freq>147</freq>
+		<grd>97</grd>
+		<had>31</had>
+		<kun>くださる</kun>
+		<mean lang="de">geben</mean>
+	</card>
+	<card type="word">
+		<jap>文化</jap>
+		<freq>148</freq>
+		<grd>190</grd>
+		<had>254</had>
+		<kun>ぶんか</kun>
+		<mean lang="de">Kultur</mean>
+	</card>
+	<card type="word">
+		<jap>与える</jap>
+		<freq>149</freq>
+		<grd>308</grd>
+		<had>539</had>
+		<kun>あたえる</kun>
+		<mean lang="de">-geben</mean>
+	</card>
+	<card type="word">
+		<jap>大変</jap>
+		<freq>150</freq>
+		<grd>238</grd>
+		<had>258</had>
+		<kun>たいへん</kun>
+		<mean lang="de">[1]/ernste Sache/furchtba</mean>
+	</card>
+	<card type="word">
+		<jap>彼ら</jap>
+		<freq>151</freq>
+		<grd>648</grd>
+		<had>977</had>
+		<kun>かれら</kun>
+		<mean lang="de">-sie (Mask.Pl.)</mean>
+	</card>
+	<card type="word">
+		<jap>評価</jap>
+		<freq>152</freq>
+		<grd>454</grd>
+		<had>1028</had>
+		<kun>ひょうか</kun>
+		<mean lang="de">Veranschlagung/Schaetzung</mean>
+	</card>
+	<card type="word">
+		<jap>対応</jap>
+		<freq>153</freq>
+		<grd>266</grd>
+		<had>827</had>
+		<kun>たいおう</kun>
+		<mean lang="de">Entsprechung/Übereinstimm</mean>
+	</card>
+	<card type="word">
+		<jap>求める</jap>
+		<freq>154</freq>
+		<grd>220</grd>
+		<had>724</had>
+		<kun>もとめる</kun>
+		<mean lang="de">fordern/bitten/suchen</mean>
+	</card>
+	<card type="word">
+		<jap>自由</jap>
+		<freq>155</freq>
+		<grd>325</grd>
+		<had>363</had>
+		<kun>じゆう</kun>
+		<mean lang="de">Freiheit</mean>
+	</card>
+	<card type="word">
+		<jap>昨日</jap>
+		<freq>156</freq>
+		<grd>226</grd>
+		<had>361</had>
+		<kun>きのう</kun>
+		<mean lang="de">gestern</mean>
+	</card>
+	<card type="word">
+		<jap>戻る</jap>
+		<freq>157</freq>
+		<grd>890</grd>
+		<had>1238</had>
+		<kun>もどる</kun>
+		<mean lang="de">zurueckkehren</mean>
+	</card>
+	<card type="word">
+		<jap>歴史</jap>
+		<freq>158</freq>
+		<grd>632</grd>
+		<had>480</had>
+		<kun>れきし</kun>
+		<mean lang="de">Geschichte</mean>
+	</card>
+	<card type="word">
+		<jap>全体</jap>
+		<freq>159</freq>
+		<grd>88</grd>
+		<had>89</had>
+		<kun>ぜんたい</kun>
+		<mean lang="de">Gesamtheit/vollstaendig/a</mean>
+	</card>
+	<card type="word">
+		<jap>長い</jap>
+		<freq>160</freq>
+		<grd>12</grd>
+		<had>95</had>
+		<kun>ながい</kun>
+		<mean lang="de">lang</mean>
+	</card>
+	<card type="word">
+		<jap>少ない</jap>
+		<freq>161</freq>
+		<grd>287</grd>
+		<had>144</had>
+		<kun>すくない</kun>
+		<mean lang="de">wenig/gering</mean>
+	</card>
+	<card type="word">
+		<jap>気持ち</jap>
+		<freq>162</freq>
+		<grd>113</grd>
+		<had>134</had>
+		<kun>きもち</kun>
+		<mean lang="de">Stimmung/Gefuehl/Befinden</mean>
+	</card>
+	<card type="word">
+		<jap>報告</jap>
+		<freq>163</freq>
+		<grd>188</grd>
+		<had>690</had>
+		<kun>ほうこく</kun>
+		<mean lang="de">Bericht/Berichterstattung</mean>
+	</card>
+	<card type="word">
+		<jap>程度</jap>
+		<freq>164</freq>
+		<grd>514</grd>
+		<had>417</had>
+		<kun>ていど</kun>
+		<mean lang="de">Grad/Stufe/Umfang/Ausmass</mean>
+	</card>
+	<card type="word">
+		<jap>人々</jap>
+		<freq>165</freq>
+		<grd>5</grd>
+		<had>1</had>
+		<kun>ひとびと</kun>
+		<mean lang="de">Leute</mean>
+	</card>
+	<card type="word">
+		<jap>予定</jap>
+		<freq>166</freq>
+		<grd>180</grd>
+		<had>393</had>
+		<kun>よてい</kun>
+		<mean lang="de">Plan/Programm/Erwartung</mean>
+	</card>
+	<card type="word">
+		<jap>代表</jap>
+		<freq>167</freq>
+		<grd>77</grd>
+		<had>272</had>
+		<kun>だいひょう</kun>
+		<mean lang="de">[1]/Vertreter/Repräsentan</mean>
+	</card>
+	<card type="word">
+		<jap>その後</jap>
+		<freq>168</freq>
+		<grd>26</grd>
+		<had>48</had>
+		<kun>そのご</kun>
+		<mean lang="de">danach/spaeter</mean>
+	</card>
+	<card type="word">
+		<jap>経験</jap>
+		<freq>169</freq>
+		<grd>410</grd>
+		<had>548</had>
+		<kun>けいけん</kun>
+		<mean lang="de">Erfahrung</mean>
+	</card>
+	<card type="word">
+		<jap>以外</jap>
+		<freq>170</freq>
+		<grd>126</grd>
+		<had>83</had>
+		<kun>いがい</kun>
+		<mean lang="de">ausser/ausgenommen</mean>
+	</card>
+	<card type="word">
+		<jap>今年</jap>
+		<freq>171</freq>
+		<grd>49</grd>
+		<had>51</had>
+		<kun>ことし</kun>
+		<mean lang="de">dieses Jahr</mean>
+	</card>
+	<card type="word">
+		<jap>価格</jap>
+		<freq>172</freq>
+		<grd>281</grd>
+		<had>643</had>
+		<kun>かかく</kun>
+		<mean lang="de">-Wert/-Preis</mean>
+	</card>
+	<card type="word">
+		<jap>投資</jap>
+		<freq>173</freq>
+		<grd>236</grd>
+		<had>1021</had>
+		<kun>とうし</kun>
+		<mean lang="de">Geldanlage/Kapitalanlage/</mean>
+	</card>
+	<card type="word">
+		<jap>経営</jap>
+		<freq>174</freq>
+		<grd>303</grd>
+		<had>722</had>
+		<kun>けいえい</kun>
+		<mean lang="de">Betrieb/Verwaltung/Leitun</mean>
+	</card>
+	<card type="word">
+		<jap>早い</jap>
+		<freq>175</freq>
+		<grd>402</grd>
+		<had>248</had>
+		<kun>はやい</kun>
+		<mean lang="de">frueh/schnell</mean>
+	</card>
+	<card type="word">
+		<jap>帰る</jap>
+		<freq>176</freq>
+		<grd>504</grd>
+		<had>317</had>
+		<kun>かえる</kun>
+		<mean lang="de">[1]/zurückgehen/zurückkom</mean>
+	</card>
+	<card type="word">
+		<jap>自然</jap>
+		<freq>177</freq>
+		<grd>401</grd>
+		<had>651</had>
+		<kun>しぜん</kun>
+		<mean lang="de">Natur</mean>
+	</card>
+	<card type="word">
+		<jap>商品</jap>
+		<freq>178</freq>
+		<grd>413</grd>
+		<had>412</had>
+		<kun>しょうひん</kun>
+		<mean lang="de">-Ware</mean>
+	</card>
+	<card type="word">
+		<jap>発表</jap>
+		<freq>179</freq>
+		<grd>77</grd>
+		<had>272</had>
+		<kun>はっぴょう</kun>
+		<mean lang="de">oeff.Bekanntmachung/Veroe</mean>
+	</card>
+	<card type="word">
+		<jap>教える</jap>
+		<freq>180</freq>
+		<grd>166</grd>
+		<had>245</had>
+		<kun>おしえる</kun>
+		<mean lang="de">lehren/unterrichten</mean>
+	</card>
+	<card type="word">
+		<jap>目的</jap>
+		<freq>181</freq>
+		<grd>105</grd>
+		<had>210</had>
+		<kun>もくてき</kun>
+		<mean lang="de">Zweck/-Ziel/Absicht</mean>
+	</card>
+	<card type="word">
+		<jap>影響</jap>
+		<freq>182</freq>
+		<grd>502</grd>
+		<had>856</had>
+		<kun>えいきょう</kun>
+		<mean lang="de">Einfluss</mean>
+	</card>
+	<card type="word">
+		<jap>地方</jap>
+		<freq>183</freq>
+		<grd>46</grd>
+		<had>118</had>
+		<kun>ちほう</kun>
+		<mean lang="de">Gegend/Region/Provinz</mean>
+	</card>
+	<card type="word">
+		<jap>生きる</jap>
+		<freq>184</freq>
+		<grd>29</grd>
+		<had>44</had>
+		<kun>いきる</kun>
+		<mean lang="de">leben/lebendig sein</mean>
+	</card>
+	<card type="word">
+		<jap>一緒</jap>
+		<freq>185</freq>
+		<grd>952</grd>
+		<had>862</had>
+		<kun>いっしょ</kun>
+		<mean lang="de">[1]/Zusammensein/[2]/Glei</mean>
+	</card>
+	<card type="word">
+		<jap>選手</jap>
+		<freq>186</freq>
+		<grd>60</grd>
+		<had>800</had>
+		<kun>せんしゅ</kun>
+		<mean lang="de">Spieler/Aktiver</mean>
+	</card>
+	<card type="word">
+		<jap>楽しい</jap>
+		<freq>187</freq>
+		<grd>373</grd>
+		<had>358</had>
+		<kun>たのしい</kun>
+		<mean lang="de">froh/erfreulich</mean>
+	</card>
+	<card type="word">
+		<jap>子ども</jap>
+		<freq>188</freq>
+		<grd>72</grd>
+		<had>103</had>
+		<kun>こども</kun>
+		<mean lang="de">[1]/Kind/Säugling/Baby/Kl</mean>
+	</card>
+	<card type="word">
+		<jap>実は</jap>
+		<freq>189</freq>
+		<grd>68</grd>
+		<had>203</had>
+		<kun>じつは</kun>
+		<mean lang="de">wirklich/ehrlich/eigentli</mean>
+	</card>
+	<card type="word">
+		<jap>確か</jap>
+		<freq>190</freq>
+		<grd>252</grd>
+		<had>603</had>
+		<kun>たしか</kun>
+		<mean lang="de">sicher</mean>
+	</card>
+	<card type="word">
+		<jap>確認</jap>
+		<freq>191</freq>
+		<grd>252</grd>
+		<had>738</had>
+		<kun>かくにん</kun>
+		<mean lang="de">Bestaetigung/Beglaubigung</mean>
+	</card>
+	<card type="word">
+		<jap>例えば</jap>
+		<freq>192</freq>
+		<grd>399</grd>
+		<had>612</had>
+		<kun>たとえば</kun>
+		<mean lang="de">zum Beispiel/beispielswei</mean>
+	</card>
+	<card type="word">
+		<jap>中心</jap>
+		<freq>193</freq>
+		<grd>157</grd>
+		<had>97</had>
+		<kun>ちゅうしん</kun>
+		<mean lang="de">Zentrum/Mittelpunkt</mean>
+	</card>
+	<card type="word">
+		<jap>市場</jap>
+		<freq>194</freq>
+		<grd>52</grd>
+		<had>181</had>
+		<kun>いちば</kun>
+		<mean lang="de">Markt/Marktplatz</mean>
+	</card>
+	<card type="word">
+		<jap>提供</jap>
+		<freq>195</freq>
+		<grd>313</grd>
+		<had>628</had>
+		<kun>ていきょう</kun>
+		<mean lang="de">Angebot</mean>
+	</card>
+	<card type="word">
+		<jap>事実</jap>
+		<freq>196</freq>
+		<grd>68</grd>
+		<had>203</had>
+		<kun>じじつ</kun>
+		<mean lang="de">Tatsache/Tatbestand</mean>
+	</card>
+	<card type="word">
+		<jap>簡単</jap>
+		<freq>197</freq>
+		<grd>983</grd>
+		<had>1533</had>
+		<kun>かんたん</kun>
+		<mean lang="de">-einfach/-kurz</mean>
+	</card>
+	<card type="word">
+		<jap>面白い</jap>
+		<freq>198</freq>
+		<grd>186</grd>
+		<had>274</had>
+		<kun>おもしろい</kun>
+		<mean lang="de">[1]/schön/[2]/interessant</mean>
+	</card>
+	<card type="word">
+		<jap>当然</jap>
+		<freq>199</freq>
+		<grd>401</grd>
+		<had>651</had>
+		<kun>とうぜん</kun>
+		<mean lang="de">gerecht/recht/natuerlich/</mean>
+	</card>
+	<card type="word">
+		<jap>以下</jap>
+		<freq>200</freq>
+		<grd>126</grd>
+		<had>46</had>
+		<kun>いか</kun>
+		<mean lang="de">-unter/weniger als/wie fo</mean>
+	</card>
+	<card type="word">
+		<jap>責任</jap>
+		<freq>201</freq>
+		<grd>598</grd>
+		<had>655</had>
+		<kun>せきにん</kun>
+		<mean lang="de">Verantwortung</mean>
+	</card>
+	<card type="word">
+		<jap>議論</jap>
+		<freq>202</freq>
+		<grd>227</grd>
+		<had>293</had>
+		<kun>ぎろん</kun>
+		<mean lang="de">Diskussion/Debatte/Rede u</mean>
+	</card>
+	<card type="word">
+		<jap>以前</jap>
+		<freq>203</freq>
+		<grd>126</grd>
+		<had>47</had>
+		<kun>いぜん</kun>
+		<mean lang="de">-vor/frueher</mean>
+	</card>
+	<card type="word">
+		<jap>示す</jap>
+		<freq>204</freq>
+		<grd>237</grd>
+		<had>615</had>
+		<kun>しめす</kun>
+		<mean lang="de">zeigen</mean>
+	</card>
+	<card type="word">
+		<jap>判断</jap>
+		<freq>205</freq>
+		<grd>338</grd>
+		<had>1026</had>
+		<kun>はんだん</kun>
+		<mean lang="de">Urteil</mean>
+	</card>
+	<card type="word">
+		<jap>専門</jap>
+		<freq>206</freq>
+		<grd>506</grd>
+		<had>600</had>
+		<kun>せんもん</kun>
+		<mean lang="de">Fach/Fachgebiet/Hauptfach</mean>
+	</card>
+	<card type="word">
+		<jap>家族</jap>
+		<freq>207</freq>
+		<grd>393</grd>
+		<had>221</had>
+		<kun>かぞく</kun>
+		<mean lang="de">Familie</mean>
+	</card>
+	<card type="word">
+		<jap>初めて</jap>
+		<freq>208</freq>
+		<grd>152</grd>
+		<had>679</had>
+		<kun>はじめて</kun>
+		<mean lang="de">das erste Mal</mean>
+	</card>
+	<card type="word">
+		<jap>勉強</jap>
+		<freq>209</freq>
+		<grd>1066</grd>
+		<had>735</had>
+		<kun>べんきょう</kun>
+		<mean lang="de">Studium/das Lernen/Preisn</mean>
+	</card>
+	<card type="word">
+		<jap>申し上げる</jap>
+		<freq>210</freq>
+		<grd>492</grd>
+		<had>309</had>
+		<kun>もうしあげる</kun>
+		<mean lang="de">erzählen/sagen/bemerken/m</mean>
+	</card>
+	<card type="word">
+		<jap>話す</jap>
+		<freq>211</freq>
+		<grd>134</grd>
+		<had>238</had>
+		<kun>はなす</kun>
+		<mean lang="de">sprechen</mean>
+	</card>
+	<card type="word">
+		<jap>期待</jap>
+		<freq>212</freq>
+		<grd>391</grd>
+		<had>452</had>
+		<kun>きたい</kun>
+		<mean lang="de">Erwartung/Hoffnung</mean>
+	</card>
+	<card type="word">
+		<jap>難しい</jap>
+		<freq>213</freq>
+		<grd>330</grd>
+		<had>557</had>
+		<kun>むずかしい</kun>
+		<mean lang="de">schwierig</mean>
+	</card>
+	<card type="word">
+		<jap>全く</jap>
+		<freq>214</freq>
+		<grd>75</grd>
+		<had>89</had>
+		<kun>まったく</kun>
+		<mean lang="de">ganz/vollstaendig</mean>
+	</card>
+	<card type="word">
+		<jap>韓国</jap>
+		<freq>215</freq>
+		<grd>445</grd>
+		<had>40</had>
+		<kun>かんこく</kun>
+		<mean lang="de">{Ländern.}/Republik Korea</mean>
+	</card>
+	<card type="word">
+		<jap>効果</jap>
+		<freq>216</freq>
+		<grd>538</grd>
+		<had>816</had>
+		<kun>こうか</kun>
+		<mean lang="de">Erfolg/Wirkung/Effekt</mean>
+	</card>
+	<card type="word">
+		<jap>検討</jap>
+		<freq>217</freq>
+		<grd>528</grd>
+		<had>1018</had>
+		<kun>けんとう</kun>
+		<mean lang="de">Untersuchung/Nachforschun</mean>
+	</card>
+	<card type="word">
+		<jap>普通</jap>
+		<freq>218</freq>
+		<grd>757</grd>
+		<had>1166</had>
+		<kun>ふつう</kun>
+		<mean lang="de">-normal/gewoehnlich</mean>
+	</card>
+	<card type="word">
+		<jap>組織</jap>
+		<freq>219</freq>
+		<grd>608</grd>
+		<had>680</had>
+		<kun>そしき</kun>
+		<mean lang="de">Organisation/Struktur/Sys</mean>
+	</card>
+	<card type="word">
+		<jap>政策</jap>
+		<freq>220</freq>
+		<grd>209</grd>
+		<had>880</had>
+		<kun>せいさく</kun>
+		<mean lang="de">Politik</mean>
+	</card>
+	<card type="word">
+		<jap>行動</jap>
+		<freq>221</freq>
+		<grd>73</grd>
+		<had>231</had>
+		<kun>こうどう</kun>
+		<mean lang="de">Handeln/Verhalten/Massnah</mean>
+	</card>
+	<card type="word">
+		<jap>年間</jap>
+		<freq>222</freq>
+		<grd>33</grd>
+		<had>45</had>
+		<kun>ねんかん</kun>
+		<mean lang="de">... Jahre lang</mean>
+	</card>
+	<card type="word">
+		<jap>置く</jap>
+		<freq>223</freq>
+		<grd>277</grd>
+		<had>426</had>
+		<kun>おく</kun>
+		<mean lang="de">setzen/legen/dalassen/las</mean>
+	</card>
+	<card type="word">
+		<jap>当時</jap>
+		<freq>224</freq>
+		<grd>91</grd>
+		<had>77</had>
+		<kun>とうじ</kun>
+		<mean lang="de">zur Zeit/damals</mean>
+	</card>
+	<card type="word">
+		<jap>学生</jap>
+		<freq>225</freq>
+		<grd>63</grd>
+		<had>109</had>
+		<kun>がくせい</kun>
+		<mean lang="de">Student/Schueler</mean>
+	</card>
+	<card type="word">
+		<jap>飲む</jap>
+		<freq>226</freq>
+		<grd>969</grd>
+		<had>323</had>
+		<kun>のむ</kun>
+		<mean lang="de">trinken</mean>
+	</card>
+	<card type="word">
+		<jap>販売</jap>
+		<freq>227</freq>
+		<grd>627</grd>
+		<had>1048</had>
+		<kun>はんばい</kun>
+		<mean lang="de">Verkauf</mean>
+	</card>
+	<card type="word">
+		<jap>購入</jap>
+		<freq>228</freq>
+		<grd>945</grd>
+		<had>1011</had>
+		<kun>こうにゅう</kun>
+		<mean lang="de">Einkauf/Ankauf</mean>
+	</card>
+	<card type="word">
+		<jap>科学</jap>
+		<freq>229</freq>
+		<grd>531</grd>
+		<had>320</had>
+		<kun>かがく</kun>
+		<mean lang="de">Wissenschaft</mean>
+	</card>
+	<card type="word">
+		<jap>監督</jap>
+		<freq>230</freq>
+		<grd>534</grd>
+		<had>1670</had>
+		<kun>かんとく</kun>
+		<mean lang="de">Ueberwachung/Kontrolle/-L</mean>
+	</card>
+	<card type="word">
+		<jap>意識</jap>
+		<freq>231</freq>
+		<grd>496</grd>
+		<had>681</had>
+		<kun>いしき</kun>
+		<mean lang="de">Bewusstsein</mean>
+	</card>
+	<card type="word">
+		<jap>認める</jap>
+		<freq>232</freq>
+		<grd>198</grd>
+		<had>738</had>
+		<kun>みとめる</kun>
+		<mean lang="de">sehen/bemerken/anerkennen</mean>
+	</card>
+	<card type="word">
+		<jap>欲しい</jap>
+		<freq>233</freq>
+		<grd>902</grd>
+		<had>1127</had>
+		<kun>ほしい</kun>
+		<mean lang="de">-wuenschen/haben wollen/-</mean>
+	</card>
+	<card type="word">
+		<jap>通り</jap>
+		<freq>234</freq>
+		<grd>80</grd>
+		<had>150</had>
+		<kun>とおり</kun>
+		<mean lang="de">[1]/Straße/Weg/Gang/Straß</mean>
+	</card>
+	<card type="word">
+		<jap>立つ</jap>
+		<freq>235</freq>
+		<grd>58</grd>
+		<had>121</had>
+		<kun>たつ</kun>
+		<mean lang="de">aufstehen</mean>
+	</card>
+	<card type="word">
+		<jap>生産</jap>
+		<freq>236</freq>
+		<grd>161</grd>
+		<had>278</had>
+		<kun>せいさん</kun>
+		<mean lang="de">Produktion/Erzeugnis</mean>
+	</card>
+	<card type="word">
+		<jap>表現</jap>
+		<freq>237</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>ひょうげん</kun>
+		<mean lang="de">Ausdruck</mean>
+	</card>
+	<card type="word">
+		<jap>戦争</jap>
+		<freq>238</freq>
+		<grd>271</grd>
+		<had>302</had>
+		<kun>せんそう</kun>
+		<mean lang="de">Krieg</mean>
+	</card>
+	<card type="word">
+		<jap>参考</jap>
+		<freq>239</freq>
+		<grd>201</grd>
+		<had>710</had>
+		<kun>さんこう</kun>
+		<mean lang="de">Nachschlagen/Konsultieren</mean>
+	</card>
+	<card type="word">
+		<jap>始まる</jap>
+		<freq>240</freq>
+		<grd>244</grd>
+		<had>494</had>
+		<kun>はじまる</kun>
+		<mean lang="de">anfangen/beginnen</mean>
+	</card>
+	<card type="word">
+		<jap>その他</jap>
+		<freq>241</freq>
+		<grd>543</grd>
+		<had>120</had>
+		<kun>そのた</kun>
+		<mean lang="de">ausserdem</mean>
+	</card>
+	<card type="word">
+		<jap>決定</jap>
+		<freq>242</freq>
+		<grd>71</grd>
+		<had>356</had>
+		<kun>けってい</kun>
+		<mean lang="de">Entscheidung/Beschluss</mean>
+	</card>
+	<card type="word">
+		<jap>法律</jap>
+		<freq>243</freq>
+		<grd>992</grd>
+		<had>667</had>
+		<kun>ほうりつ</kun>
+		<mean lang="de">Gesetz/Recht</mean>
+	</card>
+	<card type="word">
+		<jap>機関</jap>
+		<freq>244</freq>
+		<grd>127</grd>
+		<had>528</had>
+		<kun>きかん</kun>
+		<mean lang="de">Maschine/Mechanismus/Orga</mean>
+	</card>
+	<card type="word">
+		<jap>開く</jap>
+		<freq>245</freq>
+		<grd>59</grd>
+		<had>396</had>
+		<kun>あく</kun>
+		<mean lang="de">sich oeffnen</mean>
+	</card>
+	<card type="word">
+		<jap>対象</jap>
+		<freq>246</freq>
+		<grd>394</grd>
+		<had>739</had>
+		<kun>たいしょう</kun>
+		<mean lang="de">Gegenstand/Objekt</mean>
+	</card>
+	<card type="word">
+		<jap>現実</jap>
+		<freq>247</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>げんじつ</kun>
+		<mean lang="de">Wirklichkeit/Gegebenheit/</mean>
+	</card>
+	<card type="word">
+		<jap>進む</jap>
+		<freq>248</freq>
+		<grd>142</grd>
+		<had>437</had>
+		<kun>すすむ</kun>
+		<mean lang="de">vorwaertsgehen/fortschrei</mean>
+	</card>
+	<card type="word">
+		<jap>対策</jap>
+		<freq>249</freq>
+		<grd>209</grd>
+		<had>880</had>
+		<kun>たいさく</kun>
+		<mean lang="de">Gegenmassnahme</mean>
+	</card>
+	<card type="word">
+		<jap>作業</jap>
+		<freq>250</freq>
+		<grd>103</grd>
+		<had>360</had>
+		<kun>さぎょう</kun>
+		<mean lang="de">Arbeit</mean>
+	</card>
+	<card type="word">
+		<jap>価値</jap>
+		<freq>251</freq>
+		<grd>518</grd>
+		<had>425</had>
+		<kun>かち</kun>
+		<mean lang="de">-Wert</mean>
+	</card>
+	<card type="word">
+		<jap>十分</jap>
+		<freq>252</freq>
+		<grd>24</grd>
+		<had>38</had>
+		<kun>じっぷん</kun>
+		<mean lang="de">10 Minuten</mean>
+	</card>
+	<card type="word">
+		<jap>含む</jap>
+		<freq>253</freq>
+		<grd>466</grd>
+		<had>1249</had>
+		<kun>ふくむ</kun>
+		<mean lang="de">in den Mund nehmen/(Gefue</mean>
+	</card>
+	<card type="word">
+		<jap>一部</jap>
+		<freq>254</freq>
+		<grd>36</grd>
+		<had>86</had>
+		<kun>いちぶ</kun>
+		<mean lang="de">ein Teil</mean>
+	</card>
+	<card type="word">
+		<jap>決める</jap>
+		<freq>255</freq>
+		<grd>71</grd>
+		<had>356</had>
+		<kun>きめる</kun>
+		<mean lang="de">entscheiden</mean>
+	</card>
+	<card type="word">
+		<jap>新聞</jap>
+		<freq>256</freq>
+		<grd>319</grd>
+		<had>174</had>
+		<kun>しんぶん</kun>
+		<mean lang="de">Zeitung</mean>
+	</card>
+	<card type="word">
+		<jap>一方</jap>
+		<freq>257</freq>
+		<grd>46</grd>
+		<had>70</had>
+		<kun>いっぽう</kun>
+		<mean lang="de">eine Seite/einerseits/and</mean>
+	</card>
+	<card type="word">
+		<jap>考え</jap>
+		<freq>258</freq>
+		<grd>196</grd>
+		<had>541</had>
+		<kun>かんがえ</kun>
+		<mean lang="de">[1]/Gedanke/Denken/Nachde</mean>
+	</card>
+	<card type="word">
+		<jap>残る</jap>
+		<freq>259</freq>
+		<grd>380</grd>
+		<had>650</had>
+		<kun>のこる</kun>
+		<mean lang="de">uebrigbleiben</mean>
+	</card>
+	<card type="word">
+		<jap>全て</jap>
+		<freq>260</freq>
+		<grd>75</grd>
+		<had>89</had>
+		<kun>すべて</kun>
+		<mean lang="de">[1]/alles/jeder/[2]/völli</mean>
+	</card>
+	<card type="word">
+		<jap>及び</jap>
+		<freq>261</freq>
+		<grd>544</grd>
+		<had>1257</had>
+		<kun>および</kun>
+		<mean lang="de">-und/sowohl...als auch</mean>
+	</card>
+	<card type="word">
+		<jap>大臣</jap>
+		<freq>262</freq>
+		<grd>1249</grd>
+		<had>835</had>
+		<kun>だいじん</kun>
+		<mean lang="de">Minister</mean>
+	</card>
+	<card type="word">
+		<jap>国家</jap>
+		<freq>263</freq>
+		<grd>133</grd>
+		<had>165</had>
+		<kun>こっか</kun>
+		<mean lang="de">Staat/Nation</mean>
+	</card>
+	<card type="word">
+		<jap>語る</jap>
+		<freq>264</freq>
+		<grd>301</grd>
+		<had>67</had>
+		<kun>かたる</kun>
+		<mean lang="de">sprechen/erzaehlen</mean>
+	</card>
+	<card type="word">
+		<jap>毎日</jap>
+		<freq>265</freq>
+		<grd>436</grd>
+		<had>116</had>
+		<kun>まいにち</kun>
+		<mean lang="de">jeden Tag/taeglich</mean>
+	</card>
+	<card type="word">
+		<jap>試合</jap>
+		<freq>266</freq>
+		<grd>392</grd>
+		<had>526</had>
+		<kun>しあい</kun>
+		<mean lang="de">Wettkampf/Spiel</mean>
+	</card>
+	<card type="word">
+		<jap>会議</jap>
+		<freq>267</freq>
+		<grd>25</grd>
+		<had>292</had>
+		<kun>かいぎ</kun>
+		<mean lang="de">Konferenz/Sitzung</mean>
+	</card>
+	<card type="word">
+		<jap>指摘</jap>
+		<freq>268</freq>
+		<grd>564</grd>
+		<had>1447</had>
+		<kun>してき</kun>
+		<mean lang="de">hinweisen</mean>
+	</card>
+	<card type="word">
+		<jap>言える</jap>
+		<freq>269</freq>
+		<grd>83</grd>
+		<had>66</had>
+		<kun>いえる</kun>
+		<mean lang="de">es wird gesagt/man sagt</mean>
+	</card>
+	<card type="word">
+		<jap>歩く</jap>
+		<freq>270</freq>
+		<grd>554</grd>
+		<had>431</had>
+		<kun>あるく</kun>
+		<mean lang="de">(zu Fuss) gehen</mean>
+	</card>
+	<card type="word">
+		<jap>製品</jap>
+		<freq>271</freq>
+		<grd>488</grd>
+		<had>428</had>
+		<kun>せいひん</kun>
+		<mean lang="de">Produkt/Erzeugnis/Fabrika</mean>
+	</card>
+	<card type="word">
+		<jap>変化</jap>
+		<freq>272</freq>
+		<grd>238</grd>
+		<had>258</had>
+		<kun>へんか</kun>
+		<mean lang="de">Veraenderung/Wandlung/Wec</mean>
+	</card>
+	<card type="word">
+		<jap>結局</jap>
+		<freq>273</freq>
+		<grd>286</grd>
+		<had>485</had>
+		<kun>けっきょく</kun>
+		<mean lang="de">schließlich/letzten Endes</mean>
+	</card>
+	<card type="word">
+		<jap>消費</jap>
+		<freq>274</freq>
+		<grd>345</grd>
+		<had>845</had>
+		<kun>しょうひ</kun>
+		<mean lang="de">Verbrauch/Konsum/Verzehr</mean>
+	</card>
+	<card type="word">
+		<jap>保険</jap>
+		<freq>275</freq>
+		<grd>707</grd>
+		<had>533</had>
+		<kun>ほけん</kun>
+		<mean lang="de">Versicherung</mean>
+	</card>
+	<card type="word">
+		<jap>具体</jap>
+		<freq>276</freq>
+		<grd>629</grd>
+		<had>420</had>
+		<kun>ぐたい</kun>
+		<mean lang="de">Konkretheit/Gegenständlic</mean>
+	</card>
+	<card type="word">
+		<jap>人生</jap>
+		<freq>277</freq>
+		<grd>29</grd>
+		<had>44</had>
+		<kun>じんせい</kun>
+		<mean lang="de">das menschliche Leben/das</mean>
+	</card>
+	<card type="word">
+		<jap>米国</jap>
+		<freq>278</freq>
+		<grd>61</grd>
+		<had>224</had>
+		<kun>べいこく</kun>
+		<mean lang="de">{Ländern.}/Vereinigte Sta</mean>
+	</card>
+	<card type="word">
+		<jap>表示</jap>
+		<freq>279</freq>
+		<grd>237</grd>
+		<had>615</had>
+		<kun>ひょうじ</kun>
+		<mean lang="de">[1]/(schriftspr.)/Angabe/</mean>
+	</card>
+	<card type="word">
+		<jap>変える</jap>
+		<freq>280</freq>
+		<grd>238</grd>
+		<had>258</had>
+		<kun>かえる</kun>
+		<mean lang="de">[1]/ändern/verändern/abwa</mean>
+	</card>
+	<card type="word">
+		<jap>精神</jap>
+		<freq>281</freq>
+		<grd>752</grd>
+		<had>659</had>
+		<kun>せいしん</kun>
+		<mean lang="de">Geist/Seele/Psyche</mean>
+	</card>
+	<card type="word">
+		<jap>過去</jap>
+		<freq>282</freq>
+		<grd>440</grd>
+		<had>414</had>
+		<kun>かこ</kun>
+		<mean lang="de">Vergangenheit</mean>
+	</card>
+	<card type="word">
+		<jap>我々</jap>
+		<freq>283</freq>
+		<grd>829</grd>
+		<had>1302</had>
+		<kun>われわれ</kun>
+		<mean lang="de">(schriftspr.)/wir/unserei</mean>
+	</card>
+	<card type="word">
+		<jap>能力</jap>
+		<freq>284</freq>
+		<grd>273</grd>
+		<had>386</had>
+		<kun>のうりょく</kun>
+		<mean lang="de">Faehigkeit/Talent</mean>
+	</card>
+	<card type="word">
+		<jap>選ぶ</jap>
+		<freq>285</freq>
+		<grd>57</grd>
+		<had>800</had>
+		<kun>えらぶ</kun>
+		<mean lang="de">waehlen</mean>
+	</card>
+	<card type="word">
+		<jap>指導</jap>
+		<freq>286</freq>
+		<grd>354</grd>
+		<had>1041</had>
+		<kun>しどう</kun>
+		<mean lang="de">Anleitung/Fuehrung/Traini</mean>
+	</card>
+	<card type="word">
+		<jap>更新</jap>
+		<freq>287</freq>
+		<grd>861</grd>
+		<had>1008</had>
+		<kun>こうしん</kun>
+		<mean lang="de">[1]/Erneuerung/Renovation</mean>
+	</card>
+	<card type="word">
+		<jap>公開</jap>
+		<freq>288</freq>
+		<grd>118</grd>
+		<had>396</had>
+		<kun>こうかい</kun>
+		<mean lang="de">oeffentlich/offen</mean>
+	</card>
+	<card type="word">
+		<jap>日本語</jap>
+		<freq>289</freq>
+		<grd>301</grd>
+		<had>67</had>
+		<kun>にほんご</kun>
+		<mean lang="de">Japanisch</mean>
+	</card>
+	<card type="word">
+		<jap>皆さん</jap>
+		<freq>290</freq>
+		<grd>1267</grd>
+		<had>587</had>
+		<kun>みなさん</kun>
+		<mean lang="de">alle/Verehrte Anwesende!</mean>
+	</card>
+	<card type="word">
+		<jap>働く</jap>
+		<freq>291</freq>
+		<grd>417</grd>
+		<had>232</had>
+		<kun>はたらく</kun>
+		<mean lang="de">arbeiten</mean>
+	</card>
+	<card type="word">
+		<jap>担当</jap>
+		<freq>292</freq>
+		<grd>422</grd>
+		<had>1274</had>
+		<kun>たんとう</kun>
+		<mean lang="de">Auftrag/Verantwortung/Auf</mean>
+	</card>
+	<card type="word">
+		<jap>送る</jap>
+		<freq>293</freq>
+		<grd>311</grd>
+		<had>441</had>
+		<kun>おくる</kun>
+		<mean lang="de">senden/schicken</mean>
+	</card>
+	<card type="word">
+		<jap>明日</jap>
+		<freq>294</freq>
+		<grd>67</grd>
+		<had>18</had>
+		<kun>あす</kun>
+		<mean lang="de">morgen</mean>
+	</card>
+	<card type="word">
+		<jap>旅行</jap>
+		<freq>295</freq>
+		<grd>783</grd>
+		<had>222</had>
+		<kun>りょこう</kun>
+		<mean lang="de">Reise</mean>
+	</card>
+	<card type="word">
+		<jap>明らか</jap>
+		<freq>296</freq>
+		<grd>67</grd>
+		<had>18</had>
+		<kun>あきらか</kun>
+		<mean lang="de">hell</mean>
+	</card>
+	<card type="word">
+		<jap>乗る</jap>
+		<freq>297</freq>
+		<grd>377</grd>
+		<had>523</had>
+		<kun>のる</kun>
+		<mean lang="de">steigen (auf)/reiten/fahr</mean>
+	</card>
+	<card type="word">
+		<jap>大切</jap>
+		<freq>298</freq>
+		<grd>324</grd>
+		<had>39</had>
+		<kun>たいせつ</kun>
+		<mean lang="de">wichtig</mean>
+	</card>
+	<card type="word">
+		<jap>忘れる</jap>
+		<freq>299</freq>
+		<grd>1129</grd>
+		<had>1374</had>
+		<kun>わすれる</kun>
+		<mean lang="de">vergessen</mean>
+	</card>
+	<card type="word">
+		<jap>行政</jap>
+		<freq>300</freq>
+		<grd>20</grd>
+		<had>483</had>
+		<kun>ぎょうせい</kun>
+		<mean lang="de">Verwaltung/Administration</mean>
+	</card>
+	<card type="word">
+		<jap>安全</jap>
+		<freq>301</freq>
+		<grd>144</grd>
+		<had>105</had>
+		<kun>あんぜん</kun>
+		<mean lang="de">Sicherheit</mean>
+	</card>
+	<card type="word">
+		<jap>外国</jap>
+		<freq>302</freq>
+		<grd>81</grd>
+		<had>83</had>
+		<kun>がいこく</kun>
+		<mean lang="de">Ausland</mean>
+	</card>
+	<card type="word">
+		<jap>増える</jap>
+		<freq>303</freq>
+		<grd>231</grd>
+		<had>712</had>
+		<kun>ふえる</kun>
+		<mean lang="de">zunehmen</mean>
+	</card>
+	<card type="word">
+		<jap>お金</jap>
+		<freq>304</freq>
+		<grd>53</grd>
+		<had>23</had>
+		<kun>おかね</kun>
+		<mean lang="de">Geld/Münze/Vermögen</mean>
+	</card>
+	<card type="word">
+		<jap>資料</jap>
+		<freq>305</freq>
+		<grd>295</grd>
+		<had>750</had>
+		<kun>しりょう</kun>
+		<mean lang="de">Material/Stoff/Unterlagen</mean>
+	</card>
+	<card type="word">
+		<jap>部屋</jap>
+		<freq>306</freq>
+		<grd>616</grd>
+		<had>167</had>
+		<kun>へや</kun>
+		<mean lang="de">Zimmer</mean>
+	</card>
+	<card type="word">
+		<jap>行為</jap>
+		<freq>307</freq>
+		<grd>831</grd>
+		<had>1484</had>
+		<kun>こうい</kun>
+		<mean lang="de">-Tat/Handlung/das Betrage</mean>
+	</card>
+	<card type="word">
+		<jap>平成</jap>
+		<freq>308</freq>
+		<grd>128</grd>
+		<had>261</had>
+		<kun>へいせい</kun>
+		<mean lang="de">{Nengô}/Heisei/(Ärabez.: </mean>
+	</card>
+	<card type="word">
+		<jap>楽しむ</jap>
+		<freq>309</freq>
+		<grd>373</grd>
+		<had>358</had>
+		<kun>たのしむ</kun>
+		<mean lang="de">sich freuen/geniessen</mean>
+	</card>
+	<card type="word">
+		<jap>待つ</jap>
+		<freq>310</freq>
+		<grd>391</grd>
+		<had>452</had>
+		<kun>まつ</kun>
+		<mean lang="de">warten/erwarten</mean>
+	</card>
+	<card type="word">
+		<jap>登録</jap>
+		<freq>311</freq>
+		<grd>566</grd>
+		<had>960</had>
+		<kun>とうろく</kun>
+		<mean lang="de">Eintragung/Registrierung</mean>
+	</card>
+	<card type="word">
+		<jap>設定</jap>
+		<freq>312</freq>
+		<grd>145</grd>
+		<had>577</had>
+		<kun>せってい</kun>
+		<mean lang="de">Einrichtung/Gruendung</mean>
+	</card>
+	<card type="word">
+		<jap>述べる</jap>
+		<freq>313</freq>
+		<grd>379</grd>
+		<had>968</had>
+		<kun>のべる</kun>
+		<mean lang="de">feststellen/sagen/erwaehn</mean>
+	</card>
+	<card type="word">
+		<jap>成功</jap>
+		<freq>314</freq>
+		<grd>857</grd>
+		<had>818</had>
+		<kun>せいこう</kun>
+		<mean lang="de">Erfolg/Gelingen</mean>
+	</card>
+	<card type="word">
+		<jap>努力</jap>
+		<freq>315</freq>
+		<grd>749</grd>
+		<had>1595</had>
+		<kun>どりょく</kun>
+		<mean lang="de">Bemuehung/Anstrengung</mean>
+	</card>
+	<card type="word">
+		<jap>団体</jap>
+		<freq>316</freq>
+		<grd>213</grd>
+		<had>491</had>
+		<kun>だんたい</kun>
+		<mean lang="de">Gruppe</mean>
+	</card>
+	<card type="word">
+		<jap>支援</jap>
+		<freq>317</freq>
+		<grd>312</grd>
+		<had>1088</had>
+		<kun>しえん</kun>
+		<mean lang="de">Unterstützung/Beistand</mean>
+	</card>
+	<card type="word">
+		<jap>最も</jap>
+		<freq>318</freq>
+		<grd>82</grd>
+		<had>263</had>
+		<kun>もっとも</kun>
+		<mean lang="de">hoechst/aeusserst/am meis</mean>
+	</card>
+	<card type="word">
+		<jap>自己</jap>
+		<freq>319</freq>
+		<grd>1098</grd>
+		<had>370</had>
+		<kun>じこ</kun>
+		<mean lang="de">Selbst-</mean>
+	</card>
+	<card type="word">
+		<jap>年度</jap>
+		<freq>320</freq>
+		<grd>110</grd>
+		<had>377</had>
+		<kun>ねんど</kun>
+		<mean lang="de">Jahr/Haushaltsjahr</mean>
+	</card>
+	<card type="word">
+		<jap>運動</jap>
+		<freq>321</freq>
+		<grd>255</grd>
+		<had>439</had>
+		<kun>うんどう</kun>
+		<mean lang="de">Bewegung</mean>
+	</card>
+	<card type="word">
+		<jap>構造</jap>
+		<freq>322</freq>
+		<grd>429</grd>
+		<had>1010</had>
+		<kun>こうぞう</kun>
+		<mean lang="de">[1]/Struktur/System/Konst</mean>
+	</card>
+	<card type="word">
+		<jap>特別</jap>
+		<freq>323</freq>
+		<grd>234</grd>
+		<had>282</had>
+		<kun>とくべつ</kun>
+		<mean lang="de">besonders/Sonder-/Extra-</mean>
+	</card>
+	<card type="word">
+		<jap>解決</jap>
+		<freq>324</freq>
+		<grd>176</grd>
+		<had>474</had>
+		<kun>かいけつ</kun>
+		<mean lang="de">Loesung/Ausgleich/Schlich</mean>
+	</card>
+	<card type="word">
+		<jap>完全</jap>
+		<freq>325</freq>
+		<grd>595</grd>
+		<had>613</had>
+		<kun>かんぜん</kun>
+		<mean lang="de">vollkommen/vollstaendig</mean>
+	</card>
+	<card type="word">
+		<jap>向かう</jap>
+		<freq>326</freq>
+		<grd>182</grd>
+		<had>198</had>
+		<kun>むかう</kun>
+		<mean lang="de">nach...gerichtet sein/sic</mean>
+	</card>
+	<card type="word">
+		<jap>男性</jap>
+		<freq>327</freq>
+		<grd>240</grd>
+		<had>101</had>
+		<kun>だんせい</kun>
+		<mean lang="de">Mann/das maennliche Gesch</mean>
+	</card>
+	<card type="word">
+		<jap>結構</jap>
+		<freq>328</freq>
+		<grd>316</grd>
+		<had>1010</had>
+		<kun>けっこう</kun>
+		<mean lang="de">[1]/ziemlich/ganz/[2]/gut</mean>
+	</card>
+	<card type="word">
+		<jap>産業</jap>
+		<freq>329</freq>
+		<grd>161</grd>
+		<had>279</had>
+		<kun>さんぎょう</kun>
+		<mean lang="de">Industrie</mean>
+	</card>
+	<card type="word">
+		<jap>人気</jap>
+		<freq>330</freq>
+		<grd>113</grd>
+		<had>134</had>
+		<kun>にんき</kun>
+		<mean lang="de">Beliebtheit/Popularitaet</mean>
+	</card>
+	<card type="word">
+		<jap>描く</jap>
+		<freq>331</freq>
+		<grd>876</grd>
+		<had>1469</had>
+		<kun>えがく</kun>
+		<mean lang="de">-malen/skizzieren/schilde</mean>
+	</card>
+	<card type="word">
+		<jap>近く</jap>
+		<freq>332</freq>
+		<grd>194</grd>
+		<had>445</had>
+		<kun>ちかく</kun>
+		<mean lang="de">[1]/Nähe/nahe bei/nicht w</mean>
+	</card>
+	<card type="word">
+		<jap>最終</jap>
+		<freq>333</freq>
+		<grd>256</grd>
+		<had>458</had>
+		<kun>さいしゅう</kun>
+		<mean lang="de">letzt/Schluss/End-</mean>
+	</card>
+	<card type="word">
+		<jap>過ぎる</jap>
+		<freq>334</freq>
+		<grd>285</grd>
+		<had>413</had>
+		<kun>すぎる</kun>
+		<mean lang="de">voruebergehen/vergehen/ue</mean>
+	</card>
+	<card type="word">
+		<jap>保護</jap>
+		<freq>335</freq>
+		<grd>351</grd>
+		<had>1312</had>
+		<kun>ほご</kun>
+		<mean lang="de">Schutz/Erhaltung</mean>
+	</card>
+	<card type="word">
+		<jap>上げる</jap>
+		<freq>336</freq>
+		<grd>35</grd>
+		<had>32</had>
+		<kun>あげる</kun>
+		<mean lang="de">erheben/emporheben/erhoeh</mean>
+	</card>
+	<card type="word">
+		<jap>開催</jap>
+		<freq>337</freq>
+		<grd>536</grd>
+		<had>1317</had>
+		<kun>かいさい</kun>
+		<mean lang="de">Veranstaltung</mean>
+	</card>
+	<card type="word">
+		<jap>方向</jap>
+		<freq>338</freq>
+		<grd>182</grd>
+		<had>198</had>
+		<kun>ほうこう</kun>
+		<mean lang="de">Richtung</mean>
+	</card>
+	<card type="word">
+		<jap>改革</jap>
+		<freq>339</freq>
+		<grd>249</grd>
+		<had>1075</had>
+		<kun>かいかく</kun>
+		<mean lang="de">Erneuerung/Reform</mean>
+	</card>
+	<card type="word">
+		<jap>検索</jap>
+		<freq>340</freq>
+		<grd>1127</grd>
+		<had>1059</had>
+		<kun>けんさく</kun>
+		<mean lang="de">[1]/Nachschlagen/[2]/{EDV</mean>
+	</card>
+	<card type="word">
+		<jap>走る</jap>
+		<freq>341</freq>
+		<grd>626</grd>
+		<had>429</had>
+		<kun>はしる</kun>
+		<mean lang="de">laufen</mean>
+	</card>
+	<card type="word">
+		<jap>生まれる</jap>
+		<freq>342</freq>
+		<grd>29</grd>
+		<had>44</had>
+		<kun>うまれる</kun>
+		<mean lang="de">geboren werden</mean>
+	</card>
+	<card type="word">
+		<jap>起こる</jap>
+		<freq>343</freq>
+		<grd>374</grd>
+		<had>373</had>
+		<kun>おこる</kun>
+		<mean lang="de">entstehen</mean>
+	</card>
+	<card type="word">
+		<jap>健康</jap>
+		<freq>344</freq>
+		<grd>760</grd>
+		<had>894</had>
+		<kun>けんこう</kun>
+		<mean lang="de">Gesundheit</mean>
+	</card>
+	<card type="word">
+		<jap>障害</jap>
+		<freq>345</freq>
+		<grd>742</grd>
+		<had>858</had>
+		<kun>しょうがい</kun>
+		<mean lang="de">Hindernis/Verhinderung/St</mean>
+	</card>
+	<card type="word">
+		<jap>起きる</jap>
+		<freq>346</freq>
+		<grd>374</grd>
+		<had>373</had>
+		<kun>おきる</kun>
+		<mean lang="de">aufstehen/auf sein</mean>
+	</card>
+	<card type="word">
+		<jap>協力</jap>
+		<freq>347</freq>
+		<grd>121</grd>
+		<had>234</had>
+		<kun>きょうりょく</kun>
+		<mean lang="de">Zusammenarbeit/Kooperatio</mean>
+	</card>
+	<card type="word">
+		<jap>時期</jap>
+		<freq>348</freq>
+		<grd>117</grd>
+		<had>449</had>
+		<kun>じき</kun>
+		<mean lang="de">Zeit/Periode/Jahreszeit/S</mean>
+	</card>
+	<card type="word">
+		<jap>料理</jap>
+		<freq>349</freq>
+		<grd>295</grd>
+		<had>319</had>
+		<kun>りょうり</kun>
+		<mean lang="de">Kochen/Speise/Gericht</mean>
+	</card>
+	<card type="word">
+		<jap>考え方</jap>
+		<freq>350</freq>
+		<grd>196</grd>
+		<had>541</had>
+		<kun>かんがえかた</kun>
+		<mean lang="de">Denkweise</mean>
+	</card>
+	<card type="word">
+		<jap>医療</jap>
+		<freq>351</freq>
+		<grd>600</grd>
+		<had>1322</had>
+		<kun>いりょう</kun>
+		<mean lang="de">aerztliche Behandlung</mean>
+	</card>
+	<card type="word">
+		<jap>頂く</jap>
+		<freq>352</freq>
+		<grd>1350</grd>
+		<had>1440</had>
+		<kun>いただく</kun>
+		<mean lang="de">aufsetzen/erhalten</mean>
+	</card>
+	<card type="word">
+		<jap>金融</jap>
+		<freq>353</freq>
+		<grd>481</grd>
+		<had>1588</had>
+		<kun>きんゆう</kun>
+		<mean lang="de">Finanz-,/Geld-,/Geldumlau</mean>
+	</card>
+	<card type="word">
+		<jap>売る</jap>
+		<freq>354</freq>
+		<grd>202</grd>
+		<had>239</had>
+		<kun>うる</kun>
+		<mean lang="de">verkaufen</mean>
+	</card>
+	<card type="word">
+		<jap>試験</jap>
+		<freq>355</freq>
+		<grd>410</grd>
+		<had>532</had>
+		<kun>しけん</kun>
+		<mean lang="de">Pruefung/Examen</mean>
+	</card>
+	<card type="word">
+		<jap>進める</jap>
+		<freq>356</freq>
+		<grd>142</grd>
+		<had>437</had>
+		<kun>すすめる</kun>
+		<mean lang="de">befoerdern/foerdern</mean>
+	</card>
+	<card type="word">
+		<jap>死ぬ</jap>
+		<freq>357</freq>
+		<grd>229</grd>
+		<had>85</had>
+		<kun>しぬ</kun>
+		<mean lang="de">sterben</mean>
+	</card>
+	<card type="word">
+		<jap>近い</jap>
+		<freq>358</freq>
+		<grd>194</grd>
+		<had>445</had>
+		<kun>ちかい</kun>
+		<mean lang="de">-nahe</mean>
+	</card>
+	<card type="word">
+		<jap>立場</jap>
+		<freq>359</freq>
+		<grd>58</grd>
+		<had>154</had>
+		<kun>たちば</kun>
+		<mean lang="de">Standpunkt</mean>
+	</card>
+	<card type="word">
+		<jap>契約</jap>
+		<freq>360</freq>
+		<grd>898</grd>
+		<had>565</had>
+		<kun>けいやく</kun>
+		<mean lang="de">Vertrag</mean>
+	</card>
+	<card type="word">
+		<jap>条件</jap>
+		<freq>361</freq>
+		<grd>363</grd>
+		<had>732</had>
+		<kun>じょうけん</kun>
+		<mean lang="de">Bedingung</mean>
+	</card>
+	<card type="word">
+		<jap>放送</jap>
+		<freq>362</freq>
+		<grd>311</grd>
+		<had>512</had>
+		<kun>ほうそう</kun>
+		<mean lang="de">Radiosendung/Fernsehsendu</mean>
+	</card>
+	<card type="word">
+		<jap>全国</jap>
+		<freq>363</freq>
+		<grd>75</grd>
+		<had>89</had>
+		<kun>ぜんこく</kun>
+		<mean lang="de">das ganze Land</mean>
+	</card>
+	<card type="word">
+		<jap>違い</jap>
+		<freq>364</freq>
+		<grd>344</grd>
+		<had>814</had>
+		<kun>ちがい</kun>
+		<mean lang="de">Unterschied/Verschiedenhe</mean>
+	</card>
+	<card type="word">
+		<jap>作成</jap>
+		<freq>365</freq>
+		<grd>116</grd>
+		<had>360</had>
+		<kun>さくせい</kun>
+		<mean lang="de">Anfertigung/Abfassung/Ent</mean>
+	</card>
+	<card type="word">
+		<jap>学ぶ</jap>
+		<freq>366</freq>
+		<grd>63</grd>
+		<had>109</had>
+		<kun>まなぶ</kun>
+		<mean lang="de">[1]/lernen/erlernen/[2]/s</mean>
+	</card>
+	<card type="word">
+		<jap>成長</jap>
+		<freq>367</freq>
+		<grd>116</grd>
+		<had>261</had>
+		<kun>せいちょう</kun>
+		<mean lang="de">Wachstum</mean>
+	</card>
+	<card type="word">
+		<jap>施設</jap>
+		<freq>368</freq>
+		<grd>323</grd>
+		<had>1004</had>
+		<kun>しせつ</kun>
+		<mean lang="de">Einrichtung/Institution</mean>
+	</card>
+	<card type="word">
+		<jap>登場</jap>
+		<freq>369</freq>
+		<grd>566</grd>
+		<had>960</had>
+		<kun>とうじょう</kun>
+		<mean lang="de">Buehnenauftritt/Auftritt</mean>
+	</card>
+	<card type="word">
+		<jap>知識</jap>
+		<freq>370</freq>
+		<grd>496</grd>
+		<had>681</had>
+		<kun>ちしき</kun>
+		<mean lang="de">Wissen/Kenntnis</mean>
+	</card>
+	<card type="word">
+		<jap>携帯</jap>
+		<freq>371</freq>
+		<grd>1017</grd>
+		<had>1686</had>
+		<kun>けいたい</kun>
+		<mean lang="de">bei sich haben/mitnehmen/</mean>
+	</card>
+	<card type="word">
+		<jap>実現</jap>
+		<freq>372</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>じつげん</kun>
+		<mean lang="de">verwirklichen/realisieren</mean>
+	</card>
+	<card type="word">
+		<jap>友人</jap>
+		<freq>373</freq>
+		<grd>622</grd>
+		<had>264</had>
+		<kun>ゆうじん</kun>
+		<mean lang="de">Freund/Bekannter</mean>
+	</card>
+	<card type="word">
+		<jap>海外</jap>
+		<freq>374</freq>
+		<grd>200</grd>
+		<had>117</had>
+		<kun>かいがい</kun>
+		<mean lang="de">Uebersee/Ausland</mean>
+	</card>
+	<card type="word">
+		<jap>原因</jap>
+		<freq>375</freq>
+		<grd>636</grd>
+		<had>554</had>
+		<kun>げんいん</kun>
+		<mean lang="de">Ursache</mean>
+	</card>
+	<card type="word">
+		<jap>実施</jap>
+		<freq>376</freq>
+		<grd>323</grd>
+		<had>1004</had>
+		<kun>じっし</kun>
+		<mean lang="de">ausfuehren/durchfuehren/i</mean>
+	</card>
+	<card type="word">
+		<jap>昨年</jap>
+		<freq>377</freq>
+		<grd>226</grd>
+		<had>361</had>
+		<kun>さくねん</kun>
+		<mean lang="de">letztes Jahr/voriges Jahr</mean>
+	</card>
+	<card type="word">
+		<jap>探す</jap>
+		<freq>378</freq>
+		<grd>930</grd>
+		<had>535</had>
+		<kun>さがす</kun>
+		<mean lang="de">suchen</mean>
+	</card>
+	<card type="word">
+		<jap>病院</jap>
+		<freq>379</freq>
+		<grd>384</grd>
+		<had>614</had>
+		<kun>びょういん</kun>
+		<mean lang="de">Krankenhaus</mean>
+	</card>
+	<card type="word">
+		<jap>認識</jap>
+		<freq>380</freq>
+		<grd>496</grd>
+		<had>738</had>
+		<kun>にんしき</kun>
+		<mean lang="de">Erkenntnis</mean>
+	</card>
+	<card type="word">
+		<jap>段階</jap>
+		<freq>381</freq>
+		<grd>513</grd>
+		<had>588</had>
+		<kun>だんかい</kun>
+		<mean lang="de">Stufe/Stadium</mean>
+	</card>
+	<card type="word">
+		<jap>発生</jap>
+		<freq>382</freq>
+		<grd>32</grd>
+		<had>96</had>
+		<kun>はっせい</kun>
+		<mean lang="de">[1]/Entstehung/Ausbruch/E</mean>
+	</card>
+	<card type="word">
+		<jap>反対</jap>
+		<freq>383</freq>
+		<grd>191</grd>
+		<had>365</had>
+		<kun>はんたい</kun>
+		<mean lang="de">Gegenteil/Gegensatz/Wider</mean>
+	</card>
+	<card type="word">
+		<jap>会う</jap>
+		<freq>384</freq>
+		<grd>4</grd>
+		<had>158</had>
+		<kun>あう</kun>
+		<mean lang="de">treffen</mean>
+	</card>
+	<card type="word">
+		<jap>期間</jap>
+		<freq>385</freq>
+		<grd>117</grd>
+		<had>449</had>
+		<kun>きかん</kun>
+		<mean lang="de">Frist/Zeitdauer/Termin</mean>
+	</card>
+	<card type="word">
+		<jap>若い</jap>
+		<freq>386</freq>
+		<grd>458</grd>
+		<had>544</had>
+		<kun>わかい</kun>
+		<mean lang="de">jung</mean>
+	</card>
+	<card type="word">
+		<jap>見せる</jap>
+		<freq>387</freq>
+		<grd>22</grd>
+		<had>63</had>
+		<kun>みせる</kun>
+		<mean lang="de">zeigen</mean>
+	</card>
+	<card type="word">
+		<jap>午後</jap>
+		<freq>388</freq>
+		<grd>154</grd>
+		<had>49</had>
+		<kun>ごご</kun>
+		<mean lang="de">Nachmittag</mean>
+	</card>
+	<card type="word">
+		<jap>主張</jap>
+		<freq>389</freq>
+		<grd>403</grd>
+		<had>1106</had>
+		<kun>しゅちょう</kun>
+		<mean lang="de">Behauptung</mean>
+	</card>
+	<card type="word">
+		<jap>変更</jap>
+		<freq>390</freq>
+		<grd>861</grd>
+		<had>1008</had>
+		<kun>へんこう</kun>
+		<mean lang="de">Veraenderung/Aenderung</mean>
+	</card>
+	<card type="word">
+		<jap>限り</jap>
+		<freq>391</freq>
+		<grd>405</grd>
+		<had>847</had>
+		<kun>かぎり</kun>
+		<mean lang="de">Grenze/Einschränkung/Besc</mean>
+	</card>
+	<card type="word">
+		<jap>番組</jap>
+		<freq>392</freq>
+		<grd>348</grd>
+		<had>418</had>
+		<kun>ばんぐみ</kun>
+		<mean lang="de">Programm</mean>
+	</card>
+	<card type="word">
+		<jap>今度</jap>
+		<freq>393</freq>
+		<grd>110</grd>
+		<had>377</had>
+		<kun>こんど</kun>
+		<mean lang="de">diesmal/kuerzlich/naechst</mean>
+	</card>
+	<card type="word">
+		<jap>準備</jap>
+		<freq>394</freq>
+		<grd>425</grd>
+		<had>778</had>
+		<kun>じゅんび</kun>
+		<mean lang="de">Vorbereitung</mean>
+	</card>
+	<card type="word">
+		<jap>処理</jap>
+		<freq>395</freq>
+		<grd>547</grd>
+		<had>1137</had>
+		<kun>しょり</kun>
+		<mean lang="de">besorgen/erledigen</mean>
+	</card>
+	<card type="word">
+		<jap>絶対</jap>
+		<freq>396</freq>
+		<grd>784</grd>
+		<had>742</had>
+		<kun>ぜったい</kun>
+		<mean lang="de">absolut/unbedingt</mean>
+	</card>
+	<card type="word">
+		<jap>伝える</jap>
+		<freq>397</freq>
+		<grd>416</grd>
+		<had>434</had>
+		<kun>つたえる</kun>
+		<mean lang="de">uebermitteln/ueberliefern</mean>
+	</card>
+	<card type="word">
+		<jap>結婚</jap>
+		<freq>398</freq>
+		<grd>767</grd>
+		<had>567</had>
+		<kun>けっこん</kun>
+		<mean lang="de">Eheschliessung/Hochzeit</mean>
+	</card>
+	<card type="word">
+		<jap>社長</jap>
+		<freq>399</freq>
+		<grd>21</grd>
+		<had>308</had>
+		<kun>しゃちょう</kun>
+		<mean lang="de">Direktor/Firmenchef</mean>
+	</card>
+	<card type="word">
+		<jap>守る</jap>
+		<freq>400</freq>
+		<grd>457</grd>
+		<had>490</had>
+		<kun>まもる</kun>
+		<mean lang="de">beschuetzen/verteidigen/b</mean>
+	</card>
+	<card type="word">
+		<jap>体験</jap>
+		<freq>401</freq>
+		<grd>410</grd>
+		<had>532</had>
+		<kun>たいけん</kun>
+		<mean lang="de">Erlebnis</mean>
+	</card>
+	<card type="word">
+		<jap>基準</jap>
+		<freq>402</freq>
+		<grd>425</grd>
+		<had>778</had>
+		<kun>きじゅん</kun>
+		<mean lang="de">Norm/Basis/Grund</mean>
+	</card>
+	<card type="word">
+		<jap>発言</jap>
+		<freq>403</freq>
+		<grd>83</grd>
+		<had>96</had>
+		<kun>はつげん</kun>
+		<mean lang="de">Äußerung/Wort</mean>
+	</card>
+	<card type="word">
+		<jap>深い</jap>
+		<freq>404</freq>
+		<grd>484</grd>
+		<had>536</had>
+		<kun>ふかい</kun>
+		<mean lang="de">tief</mean>
+	</card>
+	<card type="word">
+		<jap>住む</jap>
+		<freq>405</freq>
+		<grd>270</grd>
+		<had>156</had>
+		<kun>すむ</kun>
+		<mean lang="de">wohnen/leben</mean>
+	</card>
+	<card type="word">
+		<jap>都市</jap>
+		<freq>406</freq>
+		<grd>123</grd>
+		<had>188</had>
+		<kun>とし</kun>
+		<mean lang="de">Stadt</mean>
+	</card>
+	<card type="word">
+		<jap>機会</jap>
+		<freq>407</freq>
+		<grd>127</grd>
+		<had>528</had>
+		<kun>きかい</kun>
+		<mean lang="de">Gelegenheit/Chance</mean>
+	</card>
+	<card type="word">
+		<jap>展開</jap>
+		<freq>408</freq>
+		<grd>352</grd>
+		<had>1129</had>
+		<kun>てんかい</kun>
+		<mean lang="de">[1]/Entwicklung/Entfaltun</mean>
+	</card>
+	<card type="word">
+		<jap>授業</jap>
+		<freq>409</freq>
+		<grd>535</grd>
+		<had>602</had>
+		<kun>じゅぎょう</kun>
+		<mean lang="de">Unterricht</mean>
+	</card>
+	<card type="word">
+		<jap>自体</jap>
+		<freq>410</freq>
+		<grd>88</grd>
+		<had>62</had>
+		<kun>じたい</kun>
+		<mean lang="de">der eigene Koerper/selbst</mean>
+	</card>
+	<card type="word">
+		<jap>興味</jap>
+		<freq>411</freq>
+		<grd>734</grd>
+		<had>368</had>
+		<kun>きょうみ</kun>
+		<mean lang="de">Interesse</mean>
+	</card>
+	<card type="word">
+		<jap>掲載</jap>
+		<freq>412</freq>
+		<grd>899</grd>
+		<had>1624</had>
+		<kun>けいさい</kun>
+		<mean lang="de">veroeffentlichen</mean>
+	</card>
+	<card type="word">
+		<jap>含める</jap>
+		<freq>413</freq>
+		<grd>466</grd>
+		<had>1249</had>
+		<kun>ふくめる</kun>
+		<mean lang="de">einschliessen/Anweisungen</mean>
+	</card>
+	<card type="word">
+		<jap>編集</jap>
+		<freq>414</freq>
+		<grd>591</grd>
+		<had>682</had>
+		<kun>へんしゅう</kun>
+		<mean lang="de">Redaktion/Schriftleitung/</mean>
+	</card>
+	<card type="word">
+		<jap>選択</jap>
+		<freq>415</freq>
+		<grd>847</grd>
+		<had>993</had>
+		<kun>せんたく</kun>
+		<mean lang="de">Auswahl/Auslese</mean>
+	</card>
+	<card type="word">
+		<jap>信じる</jap>
+		<freq>416</freq>
+		<grd>208</grd>
+		<had>157</had>
+		<kun>しんじる</kun>
+		<mean lang="de">[1]/glauben/Glauben schen</mean>
+	</card>
+	<card type="word">
+		<jap>週間</jap>
+		<freq>417</freq>
+		<grd>540</grd>
+		<had>92</had>
+		<kun>しゅうかん</kun>
+		<mean lang="de">Woche</mean>
+	</card>
+	<card type="word">
+		<jap>負担</jap>
+		<freq>418</freq>
+		<grd>443</grd>
+		<had>1274</had>
+		<kun>ふたん</kun>
+		<mean lang="de">-Last/Buerde</mean>
+	</card>
+	<card type="word">
+		<jap>文字</jap>
+		<freq>419</freq>
+		<grd>485</grd>
+		<had>111</had>
+		<kun>もじ</kun>
+		<mean lang="de">Buchstabe</mean>
+	</card>
+	<card type="word">
+		<jap>最大</jap>
+		<freq>420</freq>
+		<grd>82</grd>
+		<had>263</had>
+		<kun>さいだい</kun>
+		<mean lang="de">Maximum/groesste/hoechste</mean>
+	</card>
+	<card type="word">
+		<jap>無料</jap>
+		<freq>421</freq>
+		<grd>295</grd>
+		<had>319</had>
+		<kun>むりょう</kun>
+		<mean lang="de">gebuehrenfrei</mean>
+	</card>
+	<card type="word">
+		<jap>相談</jap>
+		<freq>422</freq>
+		<grd>272</grd>
+		<had>593</had>
+		<kun>そうだん</kun>
+		<mean lang="de">Beratung/Besprechung/Unte</mean>
+	</card>
+	<card type="word">
+		<jap>注意</jap>
+		<freq>423</freq>
+		<grd>497</grd>
+		<had>357</had>
+		<kun>ちゅうい</kun>
+		<mean lang="de">Aufmerksamkeit/Vorsicht/W</mean>
+	</card>
+	<card type="word">
+		<jap>思える</jap>
+		<freq>424</freq>
+		<grd>132</grd>
+		<had>99</had>
+		<kun>おもえる</kun>
+		<mean lang="de">denken können/natürlich d</mean>
+	</card>
+	<card type="word">
+		<jap>全部</jap>
+		<freq>425</freq>
+		<grd>75</grd>
+		<had>89</had>
+		<kun>ぜんぶ</kun>
+		<mean lang="de">alle/alles</mean>
+	</card>
+	<card type="word">
+		<jap>開始</jap>
+		<freq>426</freq>
+		<grd>244</grd>
+		<had>494</had>
+		<kun>かいし</kun>
+		<mean lang="de">Anfang/Beginn/Eroeffnung</mean>
+	</card>
+	<card type="word">
+		<jap>上がる</jap>
+		<freq>427</freq>
+		<grd>35</grd>
+		<had>32</had>
+		<kun>あがる</kun>
+		<mean lang="de">[1]/aufgehen/steigen/aufs</mean>
+	</card>
+	<card type="word">
+		<jap>分析</jap>
+		<freq>428</freq>
+		<grd>980</grd>
+		<had>1393</had>
+		<kun>ぶんせき</kun>
+		<mean lang="de">Analyse</mean>
+	</card>
+	<card type="word">
+		<jap>同時に</jap>
+		<freq>429</freq>
+		<grd>15</grd>
+		<had>198</had>
+		<kun>どうじに</kun>
+		<mean lang="de">gleichzeitig/in der selbe</mean>
+	</card>
+	<card type="word">
+		<jap>詳細</jap>
+		<freq>430</freq>
+		<grd>1178</grd>
+		<had>1577</had>
+		<kun>しょうさい</kun>
+		<mean lang="de">Einzelheiten/Detail</mean>
+	</card>
+	<card type="word">
+		<jap>合う</jap>
+		<freq>431</freq>
+		<grd>41</grd>
+		<had>159</had>
+		<kun>あう</kun>
+		<mean lang="de">passen</mean>
+	</card>
+	<card type="word">
+		<jap>動く</jap>
+		<freq>432</freq>
+		<grd>73</grd>
+		<had>231</had>
+		<kun>うごく</kun>
+		<mean lang="de">sich bewegen</mean>
+	</card>
+	<card type="word">
+		<jap>先ほど</jap>
+		<freq>433</freq>
+		<grd>173</grd>
+		<had>50</had>
+		<kun>さきほど</kun>
+		<mean lang="de">vorhin/vor kurzem/gerade</mean>
+	</card>
+	<card type="word">
+		<jap>将来</jap>
+		<freq>434</freq>
+		<grd>634</grd>
+		<had>627</had>
+		<kun>しょうらい</kun>
+		<mean lang="de">Zukunft</mean>
+	</card>
+	<card type="word">
+		<jap>予算</jap>
+		<freq>435</freq>
+		<grd>361</grd>
+		<had>747</had>
+		<kun>よさん</kun>
+		<mean lang="de">Voranschlag/Etat/Budget</mean>
+	</card>
+	<card type="word">
+		<jap>目標</jap>
+		<freq>436</freq>
+		<grd>686</grd>
+		<had>923</had>
+		<kun>もくひょう</kun>
+		<mean lang="de">Ziel</mean>
+	</card>
+	<card type="word">
+		<jap>通信</jap>
+		<freq>437</freq>
+		<grd>208</grd>
+		<had>157</had>
+		<kun>つうしん</kun>
+		<mean lang="de">Korrespondenz/Nachricht/K</mean>
+	</card>
+	<card type="word">
+		<jap>比べる</jap>
+		<freq>438</freq>
+		<grd>329</grd>
+		<had>798</had>
+		<kun>くらべる</kun>
+		<mean lang="de">vergleichen</mean>
+	</card>
+	<card type="word">
+		<jap>分野</jap>
+		<freq>439</freq>
+		<grd>120</grd>
+		<had>236</had>
+		<kun>ぶにゃ</kun>
+		<mean lang="de">Bereich/Gebiet</mean>
+	</card>
+	<card type="word">
+		<jap>向ける</jap>
+		<freq>440</freq>
+		<grd>182</grd>
+		<had>198</had>
+		<kun>むける</kun>
+		<mean lang="de">wenden</mean>
+	</card>
+	<card type="word">
+		<jap>国内</jap>
+		<freq>441</freq>
+		<grd>44</grd>
+		<had>84</had>
+		<kun>こくない</kun>
+		<mean lang="de">Inland</mean>
+	</card>
+	<card type="word">
+		<jap>時刻</jap>
+		<freq>442</freq>
+		<grd>866</grd>
+		<had>1211</had>
+		<kun>じこく</kun>
+		<mean lang="de">Zeit/Stunde</mean>
+	</card>
+	<card type="word">
+		<jap>発見</jap>
+		<freq>443</freq>
+		<grd>32</grd>
+		<had>96</had>
+		<kun>はっけん</kun>
+		<mean lang="de">Entdeckung</mean>
+	</card>
+	<card type="word">
+		<jap>最高</jap>
+		<freq>444</freq>
+		<grd>82</grd>
+		<had>263</had>
+		<kun>さいこう</kun>
+		<mean lang="de">Maximum/hoechste/oberste/</mean>
+	</card>
+	<card type="word">
+		<jap>頑張る</jap>
+		<freq>445</freq>
+		<grd>1247</grd>
+		<had>1848</had>
+		<kun>がんばる</kun>
+		<mean lang="de">weitermachen/nicht aufgeb</mean>
+	</card>
+	<card type="word">
+		<jap>覚える</jap>
+		<freq>446</freq>
+		<grd>710</grd>
+		<had>605</had>
+		<kun>おぼえる</kun>
+		<mean lang="de">sich erinnern/sich merken</mean>
+	</card>
+	<card type="word">
+		<jap>利益</jap>
+		<freq>447</freq>
+		<grd>674</grd>
+		<had>716</had>
+		<kun>りえき</kun>
+		<mean lang="de">Vorteil/Nutzen/Gewinn</mean>
+	</card>
+	<card type="word">
+		<jap>銀行</jap>
+		<freq>448</freq>
+		<grd>395</grd>
+		<had>313</had>
+		<kun>ぎんこう</kun>
+		<mean lang="de">-Bank</mean>
+	</card>
+	<card type="word">
+		<jap>終了</jap>
+		<freq>449</freq>
+		<grd>792</grd>
+		<had>941</had>
+		<kun>しゅうりょう</kun>
+		<mean lang="de">Schluss/Abschluss</mean>
+	</card>
+	<card type="word">
+		<jap>事務</jap>
+		<freq>450</freq>
+		<grd>111</grd>
+		<had>235</had>
+		<kun>じむ</kun>
+		<mean lang="de">Geschäft/Verwaltung/Büroa</mean>
+	</card>
+	<card type="word">
+		<jap>出版</jap>
+		<freq>451</freq>
+		<grd>802</grd>
+		<had>1046</had>
+		<kun>しゅっぱん</kun>
+		<mean lang="de">Herausgabe/Veröffentlichu</mean>
+	</card>
+	<card type="word">
+		<jap>連絡</jap>
+		<freq>452</freq>
+		<grd>806</grd>
+		<had>840</had>
+		<kun>れんらく</kun>
+		<mean lang="de">Verbindung/Anschluss</mean>
+	</card>
+	<card type="word">
+		<jap>正しい</jap>
+		<freq>453</freq>
+		<grd>143</grd>
+		<had>275</had>
+		<kun>ただしい</kun>
+		<mean lang="de">richtig/gerecht</mean>
+	</card>
+	<card type="word">
+		<jap>大会</jap>
+		<freq>454</freq>
+		<grd>7</grd>
+		<had>158</had>
+		<kun>たいかい</kun>
+		<mean lang="de">grosse Versammlung/Sportf</mean>
+	</card>
+	<card type="word">
+		<jap>練習</jap>
+		<freq>455</freq>
+		<grd>788</grd>
+		<had>743</had>
+		<kun>れんしゅう</kun>
+		<mean lang="de">Uebung</mean>
+	</card>
+	<card type="word">
+		<jap>様々</jap>
+		<freq>456</freq>
+		<grd>493</grd>
+		<had>403</had>
+		<kun>さまざま</kun>
+		<mean lang="de">Verschiedenheit/Diversitä</mean>
+	</card>
+	<card type="word">
+		<jap>同様</jap>
+		<freq>457</freq>
+		<grd>493</grd>
+		<had>403</had>
+		<kun>どうよう</kun>
+		<mean lang="de">gleich/identisch</mean>
+	</card>
+	<card type="word">
+		<jap>小さな</jap>
+		<freq>458</freq>
+		<grd>114</grd>
+		<had>27</had>
+		<kun>ちいさな</kun>
+		<mean lang="de">[1]/klein/gering/winzig/w</mean>
+	</card>
+	<card type="word">
+		<jap>大阪</jap>
+		<freq>459</freq>
+		<grd>503</grd>
+		<had>26</had>
+		<kun>おおさか</kun>
+		<mean lang="de">{Stadtn.}/Ôsaka/(größte G</mean>
+	</card>
+	<card type="word">
+		<jap>共通</jap>
+		<freq>460</freq>
+		<grd>174</grd>
+		<had>196</had>
+		<kun>きょうつう</kun>
+		<mean lang="de">gemeinsam</mean>
+	</card>
+	<card type="word">
+		<jap>現代</jap>
+		<freq>461</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>げんだい</kun>
+		<mean lang="de">Gegenwart/modern</mean>
+	</card>
+	<card type="word">
+		<jap>被害</jap>
+		<freq>462</freq>
+		<grd>431</grd>
+		<had>976</had>
+		<kun>ひがい</kun>
+		<mean lang="de">Schaden/Beschädigung/Verl</mean>
+	</card>
+	<card type="word">
+		<jap>住宅</jap>
+		<freq>463</freq>
+		<grd>357</grd>
+		<had>178</had>
+		<kun>じゅうたく</kun>
+		<mean lang="de">Wohnung/Wohnhaus</mean>
+	</card>
+	<card type="word">
+		<jap>選挙</jap>
+		<freq>464</freq>
+		<grd>257</grd>
+		<had>801</had>
+		<kun>せんきょ</kun>
+		<mean lang="de">Wahl</mean>
+	</card>
+	<card type="word">
+		<jap>新た</jap>
+		<freq>465</freq>
+		<grd>51</grd>
+		<had>174</had>
+		<kun>あらた</kun>
+		<mean lang="de">-neu</mean>
+	</card>
+	<card type="word">
+		<jap>大事</jap>
+		<freq>466</freq>
+		<grd>18</grd>
+		<had>80</had>
+		<kun>だいじ</kun>
+		<mean lang="de">wichtige Sache/wichtige A</mean>
+	</card>
+	<card type="word">
+		<jap>安い</jap>
+		<freq>467</freq>
+		<grd>144</grd>
+		<had>105</had>
+		<kun>やすい</kun>
+		<mean lang="de">billig/preiswert</mean>
+	</card>
+	<card type="word">
+		<jap>批判</jap>
+		<freq>468</freq>
+		<grd>568</grd>
+		<had>1029</had>
+		<kun>ひはん</kun>
+		<mean lang="de">-Kritik</mean>
+	</card>
+	<card type="word">
+		<jap>報道</jap>
+		<freq>469</freq>
+		<grd>207</grd>
+		<had>685</had>
+		<kun>ほうどう</kun>
+		<mean lang="de">Pressebericht/Nachricht/B</mean>
+	</card>
+	<card type="word">
+		<jap>動き</jap>
+		<freq>470</freq>
+		<grd>73</grd>
+		<had>231</had>
+		<kun>うごき</kun>
+		<mean lang="de">[1]/Bewegung/Regung/[2]/T</mean>
+	</card>
+	<card type="word">
+		<jap>心配</jap>
+		<freq>471</freq>
+		<grd>359</grd>
+		<had>515</had>
+		<kun>しんぱい</kun>
+		<mean lang="de">Angst/Sorge</mean>
+	</card>
+	<card type="word">
+		<jap>見つける</jap>
+		<freq>472</freq>
+		<grd>22</grd>
+		<had>63</had>
+		<kun>みつける</kun>
+		<mean lang="de">[1]/finden/ausfindig mach</mean>
+	</card>
+	<card type="word">
+		<jap>本日</jap>
+		<freq>473</freq>
+		<grd>10</grd>
+		<had>25</had>
+		<kun>ほんじつ</kun>
+		<mean lang="de">-heute/heute</mean>
+	</card>
+	<card type="word">
+		<jap>残念</jap>
+		<freq>474</freq>
+		<grd>390</grd>
+		<had>650</had>
+		<kun>ざんねん</kun>
+		<mean lang="de">das Bedauern/Enttaeuschun</mean>
+	</card>
+	<card type="word">
+		<jap>小さい</jap>
+		<freq>475</freq>
+		<grd>114</grd>
+		<had>27</had>
+		<kun>ちいさい</kun>
+		<mean lang="de">klein</mean>
+	</card>
+	<card type="word">
+		<jap>業界</jap>
+		<freq>476</freq>
+		<grd>158</grd>
+		<had>454</had>
+		<kun>ぎょうかい</kun>
+		<mean lang="de">Geschäftswelt/Industriekr</mean>
+	</card>
+	<card type="word">
+		<jap>相当</jap>
+		<freq>477</freq>
+		<grd>91</grd>
+		<had>146</had>
+		<kun>そうとう</kun>
+		<mean lang="de">passend/angemessen</mean>
+	</card>
+	<card type="word">
+		<jap>議員</jap>
+		<freq>478</freq>
+		<grd>54</grd>
+		<had>292</had>
+		<kun>ぎいん</kun>
+		<mean lang="de">Abgeordneter</mean>
+	</card>
+	<card type="word">
+		<jap>業務</jap>
+		<freq>479</freq>
+		<grd>111</grd>
+		<had>279</had>
+		<kun>ぎょうむ</kun>
+		<mean lang="de">Geschäft/Dienst</mean>
+	</card>
+	<card type="word">
+		<jap>調べる</jap>
+		<freq>480</freq>
+		<grd>87</grd>
+		<had>342</had>
+		<kun>しらべる</kun>
+		<mean lang="de">untersuchen/pruefen</mean>
+	</card>
+	<card type="word">
+		<jap>攻撃</jap>
+		<freq>481</freq>
+		<grd>532</grd>
+		<had>1016</had>
+		<kun>こうげき</kun>
+		<mean lang="de">Angriff/Offensive</mean>
+	</card>
+	<card type="word">
+		<jap>思い</jap>
+		<freq>482</freq>
+		<grd>132</grd>
+		<had>99</had>
+		<kun>おもい</kun>
+		<mean lang="de">[1]/Gedanke/Idee/Meinung/</mean>
+	</card>
+	<card type="word">
+		<jap>世紀</jap>
+		<freq>483</freq>
+		<grd>780</grd>
+		<had>372</had>
+		<kun>せいき</kun>
+		<mean lang="de">Jahrhundert</mean>
+	</card>
+	<card type="word">
+		<jap>演奏</jap>
+		<freq>484</freq>
+		<grd>1067</grd>
+		<had>1544</had>
+		<kun>えんそう</kun>
+		<mean lang="de">Musikaufführung/Konzert/m</mean>
+	</card>
+	<card type="word">
+		<jap>家庭</jap>
+		<freq>485</freq>
+		<grd>816</grd>
+		<had>1112</had>
+		<kun>かてい</kun>
+		<mean lang="de">(das eigene) -Haus/Famili</mean>
+	</card>
+	<card type="word">
+		<jap>直接</jap>
+		<freq>486</freq>
+		<grd>523</grd>
+		<had>486</had>
+		<kun>ちょくせつ</kun>
+		<mean lang="de">direkt</mean>
+	</card>
+	<card type="word">
+		<jap>聴く</jap>
+		<freq>487</freq>
+		<grd>781</grd>
+		<had>1039</had>
+		<kun>きく</kun>
+		<mean lang="de">zuhoeren/hoeren</mean>
+	</card>
+	<card type="word">
+		<jap>構成</jap>
+		<freq>488</freq>
+		<grd>316</grd>
+		<had>1010</had>
+		<kun>こうせい</kun>
+		<mean lang="de">Zusammensetzung/Aufbau/St</mean>
+	</card>
+	<card type="word">
+		<jap>文章</jap>
+		<freq>489</freq>
+		<grd>990</grd>
+		<had>857</had>
+		<kun>ぶんしょう</kun>
+		<mean lang="de">Satz/Aufsatz</mean>
+	</card>
+	<card type="word">
+		<jap>異なる</jap>
+		<freq>490</freq>
+		<grd>631</grd>
+		<had>1061</had>
+		<kun>ことなる</kun>
+		<mean lang="de">abweichen/sich unterschei</mean>
+	</card>
+	<card type="word">
+		<jap>驚く</jap>
+		<freq>491</freq>
+		<grd>1141</grd>
+		<had>1778</had>
+		<kun>おどろく</kun>
+		<mean lang="de">erstaunt sein/sich wunder</mean>
+	</card>
+	<card type="word">
+		<jap>希望</jap>
+		<freq>492</freq>
+		<grd>896</grd>
+		<had>676</had>
+		<kun>きぼう</kun>
+		<mean lang="de">Wunsch/Hoffnung</mean>
+	</card>
+	<card type="word">
+		<jap>記憶</jap>
+		<freq>493</freq>
+		<grd>1324</grd>
+		<had>381</had>
+		<kun>きおく</kun>
+		<mean lang="de">Gedaechtnis/Erinnerung</mean>
+	</card>
+	<card type="word">
+		<jap>方々</jap>
+		<freq>494</freq>
+		<grd>46</grd>
+		<had>70</had>
+		<kun>かたがた</kun>
+		<mean lang="de">Herrschaften</mean>
+	</card>
+	<card type="word">
+		<jap>取引</jap>
+		<freq>495</freq>
+		<grd>218</grd>
+		<had>216</had>
+		<kun>とりひき</kun>
+		<mean lang="de">[1]/Geschäftsverkehr/Gesc</mean>
+	</card>
+	<card type="word">
+		<jap>美しい</jap>
+		<freq>496</freq>
+		<grd>462</grd>
+		<had>400</had>
+		<kun>うつくしい</kun>
+		<mean lang="de">schoen</mean>
+	</card>
+	<card type="word">
+		<jap>加える</jap>
+		<freq>497</freq>
+		<grd>130</grd>
+		<had>709</had>
+		<kun>くわえる</kun>
+		<mean lang="de">addieren/hinzufuegen</mean>
+	</card>
+	<card type="word">
+		<jap>市民</jap>
+		<freq>498</freq>
+		<grd>42</grd>
+		<had>181</had>
+		<kun>しみん</kun>
+		<mean lang="de">Buerger</mean>
+	</card>
+	<card type="word">
+		<jap>資金</jap>
+		<freq>499</freq>
+		<grd>179</grd>
+		<had>750</had>
+		<kun>しきん</kun>
+		<mean lang="de">Fonds</mean>
+	</card>
+	<card type="word">
+		<jap>友達</jap>
+		<freq>500</freq>
+		<grd>622</grd>
+		<had>448</had>
+		<kun>ともだち</kun>
+		<mean lang="de">Freund</mean>
+	</card>
+	<card type="word">
+		<jap>危険</jap>
+		<freq>501</freq>
+		<grd>707</grd>
+		<had>534</had>
+		<kun>きけん</kun>
+		<mean lang="de">Gefahr</mean>
+	</card>
+	<card type="word">
+		<jap>運営</jap>
+		<freq>502</freq>
+		<grd>303</grd>
+		<had>722</had>
+		<kun>うんえい</kun>
+		<mean lang="de">Leitung/Direktion/Führung</mean>
+	</card>
+	<card type="word">
+		<jap>導入</jap>
+		<freq>503</freq>
+		<grd>354</grd>
+		<had>703</had>
+		<kun>どうにゅう</kun>
+		<mean lang="de">Einfuehrung</mean>
+	</card>
+	<card type="word">
+		<jap>予想</jap>
+		<freq>504</freq>
+		<grd>381</grd>
+		<had>393</had>
+		<kun>よそう</kun>
+		<mean lang="de">Erwartung/Vermutung/Vorau</mean>
+	</card>
+	<card type="word">
+		<jap>必ず</jap>
+		<freq>505</freq>
+		<grd>265</grd>
+		<had>520</had>
+		<kun>かならず</kun>
+		<mean lang="de">gewiss/sicher/ohne Zweife</mean>
+	</card>
+	<card type="word">
+		<jap>答える</jap>
+		<freq>506</freq>
+		<grd>486</grd>
+		<had>160</had>
+		<kun>こたえる</kun>
+		<mean lang="de">antworten</mean>
+	</card>
+	<card type="word">
+		<jap>発売</jap>
+		<freq>507</freq>
+		<grd>202</grd>
+		<had>239</had>
+		<kun>はつばい</kun>
+		<mean lang="de">Verkauf</mean>
+	</card>
+	<card type="word">
+		<jap>寝る</jap>
+		<freq>508</freq>
+		<grd>1034</grd>
+		<had>1079</had>
+		<kun>ねる</kun>
+		<mean lang="de">sich hinlegen/schlafen</mean>
+	</card>
+	<card type="word">
+		<jap>目指す</jap>
+		<freq>509</freq>
+		<grd>76</grd>
+		<had>55</had>
+		<kun>めざす</kun>
+		<mean lang="de">[1]/auf etw. zugehen/nach</mean>
+	</card>
+	<card type="word">
+		<jap>話題</jap>
+		<freq>510</freq>
+		<grd>134</grd>
+		<had>354</had>
+		<kun>わだい</kun>
+		<mean lang="de">Gespraechsstoff/Thema der</mean>
+	</card>
+	<card type="word">
+		<jap>建築</jap>
+		<freq>511</freq>
+		<grd>821</grd>
+		<had>1603</had>
+		<kun>けんちく</kun>
+		<mean lang="de">-Bau/Bauwerk/Gebaeude</mean>
+	</card>
+	<card type="word">
+		<jap>印象</jap>
+		<freq>512</freq>
+		<grd>682</grd>
+		<had>1043</had>
+		<kun>いんしょう</kun>
+		<mean lang="de">Eindruck</mean>
+	</card>
+	<card type="word">
+		<jap>詳しい</jap>
+		<freq>513</freq>
+		<grd>1178</grd>
+		<had>1577</had>
+		<kun>くわしい</kun>
+		<mean lang="de">ausfuehrlich/eingehend/-g</mean>
+	</card>
+	<card type="word">
+		<jap>課題</jap>
+		<freq>514</freq>
+		<grd>455</grd>
+		<had>488</had>
+		<kun>かだい</kun>
+		<mean lang="de">[1]/Aufgabe/Auftrag/Pflic</mean>
+	</card>
+	<card type="word">
+		<jap>事故</jap>
+		<freq>515</freq>
+		<grd>612</grd>
+		<had>173</had>
+		<kun>じこ</kun>
+		<mean lang="de">Unfall/Vorfall</mean>
+	</card>
+	<card type="word">
+		<jap>低い</jap>
+		<freq>516</freq>
+		<grd>435</grd>
+		<had>561</had>
+		<kun>ひくい</kun>
+		<mean lang="de">niedrig</mean>
+	</card>
+	<card type="word">
+		<jap>困る</jap>
+		<freq>517</freq>
+		<grd>843</grd>
+		<had>558</had>
+		<kun>こまる</kun>
+		<mean lang="de">verlegen sein/ratlos sein</mean>
+	</card>
+	<card type="word">
+		<jap>学習</jap>
+		<freq>518</freq>
+		<grd>706</grd>
+		<had>591</had>
+		<kun>がくしゅう</kun>
+		<mean lang="de">das Lernen/das Studium</mean>
+	</card>
+	<card type="word">
+		<jap>権利</jap>
+		<freq>519</freq>
+		<grd>203</grd>
+		<had>335</had>
+		<kun>けんり</kun>
+		<mean lang="de">Recht/Berechtigung</mean>
+	</card>
+	<card type="word">
+		<jap>発展</jap>
+		<freq>520</freq>
+		<grd>352</grd>
+		<had>1129</had>
+		<kun>はってん</kun>
+		<mean lang="de">Entwicklung/Expansion/Ent</mean>
+	</card>
+	<card type="word">
+		<jap>記録</jap>
+		<freq>521</freq>
+		<grd>546</grd>
+		<had>538</had>
+		<kun>きろく</kun>
+		<mean lang="de">Aufzeichnung/Chronik/Reko</mean>
+	</card>
+	<card type="word">
+		<jap>計算</jap>
+		<freq>522</freq>
+		<grd>361</grd>
+		<had>747</had>
+		<kun>けいさん</kun>
+		<mean lang="de">Rechnung/Berechnung</mean>
+	</card>
+	<card type="word">
+		<jap>設計</jap>
+		<freq>523</freq>
+		<grd>228</grd>
+		<had>577</had>
+		<kun>せっけい</kun>
+		<mean lang="de">Plan/Entwurf</mean>
+	</card>
+	<card type="word">
+		<jap>種類</jap>
+		<freq>524</freq>
+		<grd>678</grd>
+		<had>228</had>
+		<kun>しゅるい</kun>
+		<mean lang="de">-Art/Sorte/Gattung</mean>
+	</card>
+	<card type="word">
+		<jap>現場</jap>
+		<freq>525</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>げんじょう</kun>
+		<mean lang="de">derselbe Ort/dieselbe Ste</mean>
+	</card>
+	<card type="word">
+		<jap>途中</jap>
+		<freq>526</freq>
+		<grd>717</grd>
+		<had>1072</had>
+		<kun>とちゅう</kun>
+		<mean lang="de">unterwegs/auf halbem Wege</mean>
+	</card>
+	<card type="word">
+		<jap>気分</jap>
+		<freq>527</freq>
+		<grd>113</grd>
+		<had>134</had>
+		<kun>きぶん</kun>
+		<mean lang="de">Stimmung/Laune</mean>
+	</card>
+	<card type="word">
+		<jap>昭和</jap>
+		<freq>528</freq>
+		<grd>697</grd>
+		<had>997</had>
+		<kun>しょうわ</kun>
+		<mean lang="de">(jap.Zeitrechnung 1926 - </mean>
+	</card>
+	<card type="word">
+		<jap>地球</jap>
+		<freq>529</freq>
+		<grd>302</grd>
+		<had>726</had>
+		<kun>ちきゅう</kun>
+		<mean lang="de">Erde/Globus</mean>
+	</card>
+	<card type="word">
+		<jap>嬉しい</jap>
+		<freq>530</freq>
+		<grd>2274</grd>
+		<had>0</had>
+		<kun>うれしい</kun>
+		<mean lang="de">[1]/froh/fröhlich/sich fr</mean>
+	</card>
+	<card type="word">
+		<jap>移動</jap>
+		<freq>531</freq>
+		<grd>448</grd>
+		<had>1121</had>
+		<kun>いどう</kun>
+		<mean lang="de">Ortswechsel/Wanderung</mean>
+	</card>
+	<card type="word">
+		<jap>限る</jap>
+		<freq>532</freq>
+		<grd>405</grd>
+		<had>847</had>
+		<kun>かぎる</kun>
+		<mean lang="de">begrenzen</mean>
+	</card>
+	<card type="word">
+		<jap>発行</jap>
+		<freq>533</freq>
+		<grd>32</grd>
+		<had>96</had>
+		<kun>はっこう</kun>
+		<mean lang="de">herausgeben/publizieren</mean>
+	</card>
+	<card type="word">
+		<jap>宗教</jap>
+		<freq>534</freq>
+		<grd>997</grd>
+		<had>616</had>
+		<kun>しゅうきょう</kun>
+		<mean lang="de">Religion/Glaube</mean>
+	</card>
+	<card type="word">
+		<jap>企画</jap>
+		<freq>535</freq>
+		<grd>278</grd>
+		<had>481</had>
+		<kun>きかく</kun>
+		<mean lang="de">-Plan/Entwurf</mean>
+	</card>
+	<card type="word">
+		<jap>改正</jap>
+		<freq>536</freq>
+		<grd>147</grd>
+		<had>514</had>
+		<kun>かいせい</kun>
+		<mean lang="de">Verbesserung/Revision/Aen</mean>
+	</card>
+	<card type="word">
+		<jap>数字</jap>
+		<freq>537</freq>
+		<grd>485</grd>
+		<had>225</had>
+		<kun>すうじ</kun>
+		<mean lang="de">Zahl/Ziffer</mean>
+	</card>
+	<card type="word">
+		<jap>不安</jap>
+		<freq>538</freq>
+		<grd>144</grd>
+		<had>105</had>
+		<kun>ふあん</kun>
+		<mean lang="de">Unruhe/Sorge/Angst</mean>
+	</card>
+	<card type="word">
+		<jap>自ら</jap>
+		<freq>539</freq>
+		<grd>19</grd>
+		<had>62</had>
+		<kun>みずから</kun>
+		<mean lang="de">selbst</mean>
+	</card>
+	<card type="word">
+		<jap>決まる</jap>
+		<freq>540</freq>
+		<grd>71</grd>
+		<had>356</had>
+		<kun>きまる</kun>
+		<mean lang="de">entschieden werden</mean>
+	</card>
+	<card type="word">
+		<jap>広い</jap>
+		<freq>541</freq>
+		<grd>263</grd>
+		<had>694</had>
+		<kun>ひろい</kun>
+		<mean lang="de">breit/-weit</mean>
+	</card>
+	<card type="word">
+		<jap>広告</jap>
+		<freq>542</freq>
+		<grd>263</grd>
+		<had>694</had>
+		<kun>こうこく</kun>
+		<mean lang="de">Anzeige/Inserat/Annonce</mean>
+	</card>
+	<card type="word">
+		<jap>土地</jap>
+		<freq>543</freq>
+		<grd>307</grd>
+		<had>118</had>
+		<kun>とち</kun>
+		<mean lang="de">Land/Boden</mean>
+	</card>
+	<card type="word">
+		<jap>有名</jap>
+		<freq>544</freq>
+		<grd>282</grd>
+		<had>265</had>
+		<kun>ゆうめい</kun>
+		<mean lang="de">beruehmt</mean>
+	</card>
+	<card type="word">
+		<jap>基づく</jap>
+		<freq>545</freq>
+		<grd>241</grd>
+		<had>450</had>
+		<kun>もとづく</kun>
+		<mean lang="de">[1]/kommen von/zurückführ</mean>
+	</card>
+	<card type="word">
+		<jap>言語</jap>
+		<freq>546</freq>
+		<grd>301</grd>
+		<had>67</had>
+		<kun>げんご</kun>
+		<mean lang="de">Sprache</mean>
+	</card>
+	<card type="word">
+		<jap>共同</jap>
+		<freq>547</freq>
+		<grd>174</grd>
+		<had>198</had>
+		<kun>きょうどう</kun>
+		<mean lang="de">Gemeinsamkeit/Zusammenarb</mean>
+	</card>
+	<card type="word">
+		<jap>年代</jap>
+		<freq>548</freq>
+		<grd>66</grd>
+		<had>256</had>
+		<kun>ねんだい</kun>
+		<mean lang="de">Regierungsperiode/Epoche/</mean>
+	</card>
+	<card type="word">
+		<jap>観る</jap>
+		<freq>549</freq>
+		<grd>476</grd>
+		<had>604</had>
+		<kun>みる</kun>
+		<mean lang="de">betrachten/anschauen</mean>
+	</card>
+	<card type="word">
+		<jap>要求</jap>
+		<freq>550</freq>
+		<grd>220</grd>
+		<had>724</had>
+		<kun>ようきゅう</kun>
+		<mean lang="de">Erfordernis/Anforderung/F</mean>
+	</card>
+	<card type="word">
+		<jap>残す</jap>
+		<freq>551</freq>
+		<grd>380</grd>
+		<had>650</had>
+		<kun>のこす</kun>
+		<mean lang="de">uebriglassen</mean>
+	</card>
+	<card type="word">
+		<jap>教授</jap>
+		<freq>552</freq>
+		<grd>535</grd>
+		<had>602</had>
+		<kun>きょうじゅ</kun>
+		<mean lang="de">Unterricht/Professor</mean>
+	</card>
+	<card type="word">
+		<jap>戦略</jap>
+		<freq>553</freq>
+		<grd>774</grd>
+		<had>841</had>
+		<kun>せんりゃく</kun>
+		<mean lang="de">Strategie/Kriegskunst</mean>
+	</card>
+	<card type="word">
+		<jap>営業</jap>
+		<freq>554</freq>
+		<grd>303</grd>
+		<had>722</had>
+		<kun>えいぎょう</kun>
+		<mean lang="de">Betrieb/Geschaeft/Gewerbe</mean>
+	</card>
+	<card type="word">
+		<jap>無理</jap>
+		<freq>555</freq>
+		<grd>274</grd>
+		<had>143</had>
+		<kun>むり</kun>
+		<mean lang="de">Unvernunft/Gewalt/Unmoegl</mean>
+	</card>
+	<card type="word">
+		<jap>役割</jap>
+		<freq>556</freq>
+		<grd>318</grd>
+		<had>519</had>
+		<kun>やくわり</kun>
+		<mean lang="de">Rolle</mean>
+	</card>
+	<card type="word">
+		<jap>改善</jap>
+		<freq>557</freq>
+		<grd>765</grd>
+		<had>1139</had>
+		<kun>かいぜん</kun>
+		<mean lang="de">Verbesserung/Reform</mean>
+	</card>
+	<card type="word">
+		<jap>北朝鮮</jap>
+		<freq>558</freq>
+		<grd>355</grd>
+		<had>701</had>
+		<kun>きたちょうせん</kun>
+		<mean lang="de">{Ländern.}/Nordkorea/Demo</mean>
+	</card>
+	<card type="word">
+		<jap>撮影</jap>
+		<freq>559</freq>
+		<grd>1023</grd>
+		<had>1520</had>
+		<kun>さつえい</kun>
+		<mean lang="de">Aufnahme/fotografische Au</mean>
+	</card>
+	<card type="word">
+		<jap>知れる</jap>
+		<freq>560</freq>
+		<grd>205</grd>
+		<had>214</had>
+		<kun>しれる</kun>
+		<mean lang="de">bekannt werden/entdeckt w</mean>
+	</card>
+	<card type="word">
+		<jap>拡大</jap>
+		<freq>561</freq>
+		<grd>611</grd>
+		<had>1113</had>
+		<kun>かくだい</kun>
+		<mean lang="de">Vergroesserung/Erweiterun</mean>
+	</card>
+	<card type="word">
+		<jap>色々</jap>
+		<freq>562</freq>
+		<grd>621</grd>
+		<had>204</had>
+		<kun>いろいろ</kun>
+		<mean lang="de">Verschiedenartigkeit/Mann</mean>
+	</card>
+	<card type="word">
+		<jap>道路</jap>
+		<freq>563</freq>
+		<grd>529</grd>
+		<had>151</had>
+		<kun>どうろ</kun>
+		<mean lang="de">Strasse/Weg</mean>
+	</card>
+	<card type="word">
+		<jap>切る</jap>
+		<freq>564</freq>
+		<grd>324</grd>
+		<had>39</had>
+		<kun>きる</kun>
+		<mean lang="de">schneiden</mean>
+	</card>
+	<card type="word">
+		<jap>憲法</jap>
+		<freq>565</freq>
+		<grd>551</grd>
+		<had>521</had>
+		<kun>けんぽう</kun>
+		<mean lang="de">Verfassung</mean>
+	</card>
+	<card type="word">
+		<jap>感謝</jap>
+		<freq>566</freq>
+		<grd>1028</grd>
+		<had>901</had>
+		<kun>かんしゃ</kun>
+		<mean lang="de">Dank</mean>
+	</card>
+	<card type="word">
+		<jap>感覚</jap>
+		<freq>567</freq>
+		<grd>710</grd>
+		<had>605</had>
+		<kun>かんかく</kun>
+		<mean lang="de">Empfindung/Sinn/Gefuehl</mean>
+	</card>
+	<card type="word">
+		<jap>高校</jap>
+		<freq>568</freq>
+		<grd>294</grd>
+		<had>190</had>
+		<kun>こうこう</kun>
+		<mean lang="de">Oberschule (Abk.f.koutoug</mean>
+	</card>
+	<card type="word">
+		<jap>付ける</jap>
+		<freq>569</freq>
+		<grd>322</grd>
+		<had>192</had>
+		<kun>つける</kun>
+		<mean lang="de">befestigen</mean>
+	</card>
+	<card type="word">
+		<jap>厳しい</jap>
+		<freq>570</freq>
+		<grd>638</grd>
+		<had>822</had>
+		<kun>きびしい</kun>
+		<mean lang="de">streng/hart/ernst</mean>
+	</card>
+	<card type="word">
+		<jap>仕方</jap>
+		<freq>571</freq>
+		<grd>439</grd>
+		<had>333</had>
+		<kun>しかた</kun>
+		<mean lang="de">-Art/Weise/Methode/-Weg</mean>
+	</card>
+	<card type="word">
+		<jap>合わせる</jap>
+		<freq>572</freq>
+		<grd>41</grd>
+		<had>159</had>
+		<kun>あわせる</kun>
+		<mean lang="de">anpassen/verbinden</mean>
+	</card>
+	<card type="word">
+		<jap>実行</jap>
+		<freq>573</freq>
+		<grd>68</grd>
+		<had>203</had>
+		<kun>じっこう</kun>
+		<mean lang="de">verwirklichen/in die Tat </mean>
+	</card>
+	<card type="word">
+		<jap>記者</jap>
+		<freq>574</freq>
+		<grd>149</grd>
+		<had>371</had>
+		<kun>きしゃ</kun>
+		<mean lang="de">Journalist</mean>
+	</card>
+	<card type="word">
+		<jap>通常</jap>
+		<freq>575</freq>
+		<grd>293</grd>
+		<had>497</had>
+		<kun>つうじょう</kun>
+		<mean lang="de">gewoehnlich/regelmaessig</mean>
+	</card>
+	<card type="word">
+		<jap>既に</jap>
+		<freq>576</freq>
+		<grd>1081</grd>
+		<had>1458</had>
+		<kun>すでに</kun>
+		<mean lang="de">-schon/bereits/-fast/bein</mean>
+	</card>
+	<card type="word">
+		<jap>現状</jap>
+		<freq>577</freq>
+		<grd>298</grd>
+		<had>626</had>
+		<kun>げんじょう</kun>
+		<mean lang="de">gegenwaertiger Zustand</mean>
+	</card>
+	<card type="word">
+		<jap>建設</jap>
+		<freq>578</freq>
+		<grd>300</grd>
+		<had>892</had>
+		<kun>けんせつ</kun>
+		<mean lang="de">Aufbau/-Bau/Errichtung</mean>
+	</card>
+	<card type="word">
+		<jap>先日</jap>
+		<freq>579</freq>
+		<grd>173</grd>
+		<had>50</had>
+		<kun>せんじつ</kun>
+		<mean lang="de">neulich/vor kurzem</mean>
+	</card>
+	<card type="word">
+		<jap>最新</jap>
+		<freq>580</freq>
+		<grd>82</grd>
+		<had>263</had>
+		<kun>さいしん</kun>
+		<mean lang="de">neueste</mean>
+	</card>
+	<card type="word">
+		<jap>中央</jap>
+		<freq>581</freq>
+		<grd>582</grd>
+		<had>351</had>
+		<kun>ちゅうおう</kun>
+		<mean lang="de">Zentrum</mean>
+	</card>
+	<card type="word">
+		<jap>幸せ</jap>
+		<freq>582</freq>
+		<grd>786</grd>
+		<had>684</had>
+		<kun>しあわせ</kun>
+		<mean lang="de">Glueck</mean>
+	</card>
+	<card type="word">
+		<jap>似る</jap>
+		<freq>583</freq>
+		<grd>923</grd>
+		<had>1486</had>
+		<kun>にる</kun>
+		<mean lang="de">aehnlich sein/aehneln</mean>
+	</card>
+	<card type="word">
+		<jap>平均</jap>
+		<freq>584</freq>
+		<grd>715</grd>
+		<had>805</had>
+		<kun>へいきん</kun>
+		<mean lang="de">Durchschnitt</mean>
+	</card>
+	<card type="word">
+		<jap>物語</jap>
+		<freq>585</freq>
+		<grd>301</grd>
+		<had>79</had>
+		<kun>ものがたり</kun>
+		<mean lang="de">Geschichte/Erzaehlung</mean>
+	</card>
+	<card type="word">
+		<jap>財政</jap>
+		<freq>586</freq>
+		<grd>494</grd>
+		<had>553</had>
+		<kun>ざいせい</kun>
+		<mean lang="de">Finanzen/Finanzwesen</mean>
+	</card>
+	<card type="word">
+		<jap>追加</jap>
+		<freq>587</freq>
+		<grd>411</grd>
+		<had>1174</had>
+		<kun>ついか</kun>
+		<mean lang="de">Zusatz/Nachtrag/Ergaenzun</mean>
+	</card>
+	<card type="word">
+		<jap>不思議</jap>
+		<freq>588</freq>
+		<grd>101</grd>
+		<had>292</had>
+		<kun>ふしぎ</kun>
+		<mean lang="de">Wunder/Mysterium/Geheimni</mean>
+	</card>
+	<card type="word">
+		<jap>警察</jap>
+		<freq>589</freq>
+		<grd>477</grd>
+		<had>706</had>
+		<kun>けいさつ</kun>
+		<mean lang="de">Polizei</mean>
+	</card>
+	<card type="word">
+		<jap>雑誌</jap>
+		<freq>590</freq>
+		<grd>851</grd>
+		<had>575</had>
+		<kun>ざっし</kun>
+		<mean lang="de">Zeitschrift</mean>
+	</card>
+	<card type="word">
+		<jap>提案</jap>
+		<freq>591</freq>
+		<grd>254</grd>
+		<had>628</had>
+		<kun>ていあん</kun>
+		<mean lang="de">Vorschlag/Antrag/Vorlage</mean>
+	</card>
+	<card type="word">
+		<jap>思い出す</jap>
+		<freq>592</freq>
+		<grd>132</grd>
+		<had>99</had>
+		<kun>おもいだす</kun>
+		<mean lang="de">sich erinnern</mean>
+	</card>
+	<card type="word">
+		<jap>大人</jap>
+		<freq>593</freq>
+		<grd>7</grd>
+		<had>26</had>
+		<kun>おとな</kun>
+		<mean lang="de">Erwachsener</mean>
+	</card>
+	<card type="word">
+		<jap>日々</jap>
+		<freq>594</freq>
+		<grd>1</grd>
+		<had>5</had>
+		<kun>にちにち</kun>
+		<mean lang="de">alle Tage/jeden Tag/Tag f</mean>
+	</card>
+	<card type="word">
+		<jap>様子</jap>
+		<freq>595</freq>
+		<grd>493</grd>
+		<had>403</had>
+		<kun>ようす</kun>
+		<mean lang="de">Zustand/Lage/Aussehen</mean>
+	</card>
+	<card type="word">
+		<jap>生徒</jap>
+		<freq>596</freq>
+		<grd>817</grd>
+		<had>430</had>
+		<kun>せいと</kun>
+		<mean lang="de">Schueler</mean>
+	</card>
+	<card type="word">
+		<jap>総合</jap>
+		<freq>597</freq>
+		<grd>129</grd>
+		<had>697</had>
+		<kun>そうごう</kun>
+		<mean lang="de">Synthese/Verbindung</mean>
+	</card>
+	<card type="word">
+		<jap>使える</jap>
+		<freq>598</freq>
+		<grd>219</grd>
+		<had>331</had>
+		<kun>つかえる</kun>
+		<mean lang="de">[1]/zu gebrauchen sein/zu</mean>
+	</card>
+	<card type="word">
+		<jap>活用</jap>
+		<freq>599</freq>
+		<grd>171</grd>
+		<had>237</had>
+		<kun>かつよう</kun>
+		<mean lang="de">(Nutz)Anwendung</mean>
+	</card>
+	<card type="word">
+		<jap>決して</jap>
+		<freq>600</freq>
+		<grd>71</grd>
+		<had>356</had>
+		<kun>けっして</kun>
+		<mean lang="de">auf keinen Fall/nie/niema</mean>
+	</card>
+	<card type="word">
+		<jap>交換</jap>
+		<freq>601</freq>
+		<grd>687</grd>
+		<had>1586</had>
+		<kun>こうかん</kun>
+		<mean lang="de">Austausch/Umtausch/Ersatz</mean>
+	</card>
+	<card type="word">
+		<jap>身体</jap>
+		<freq>602</freq>
+		<grd>320</grd>
+		<had>61</had>
+		<kun>しんたい</kun>
+		<mean lang="de">Koerper</mean>
+	</card>
+	<card type="word">
+		<jap>整備</jap>
+		<freq>603</freq>
+		<grd>478</grd>
+		<had>768</had>
+		<kun>せいび</kun>
+		<mean lang="de">Vorbereitung/Erhaltung/Ve</mean>
+	</card>
+	<card type="word">
+		<jap>規定</jap>
+		<freq>604</freq>
+		<grd>349</grd>
+		<had>607</had>
+		<kun>きてい</kun>
+		<mean lang="de">Bestimmung/Vorschrift/Ver</mean>
+	</card>
+	<card type="word">
+		<jap>想像</jap>
+		<freq>605</freq>
+		<grd>856</grd>
+		<had>740</had>
+		<kun>そうぞう</kun>
+		<mean lang="de">Einbildung/Phantasie/Vors</mean>
+	</card>
+	<card type="word">
+		<jap>満足</jap>
+		<freq>606</freq>
+		<grd>515</grd>
+		<had>201</had>
+		<kun>まんぞく</kun>
+		<mean lang="de">Zufriedenheit</mean>
+	</card>
+	<card type="word">
+		<jap>規模</jap>
+		<freq>607</freq>
+		<grd>668</grd>
+		<had>1425</had>
+		<kun>きぼ</kun>
+		<mean lang="de">Massstab/Umfang</mean>
+	</card>
+	<card type="word">
+		<jap>本当</jap>
+		<freq>608</freq>
+		<grd>91</grd>
+		<had>77</had>
+		<kun>ほんとう</kun>
+		<mean lang="de">Wahrheit/wirklich</mean>
+	</card>
+	<card type="word">
+		<jap>以降</jap>
+		<freq>609</freq>
+		<grd>596</grd>
+		<had>947</had>
+		<kun>いこう</kun>
+		<mean lang="de">-seit/von...an</mean>
+	</card>
+	<card type="word">
+		<jap>比較</jap>
+		<freq>610</freq>
+		<grd>1172</grd>
+		<had>1453</had>
+		<kun>ひかく</kun>
+		<mean lang="de">Vergleich</mean>
+	</card>
+	<card type="word">
+		<jap>素晴らしい</jap>
+		<freq>611</freq>
+		<grd>660</grd>
+		<had>271</had>
+		<kun>すばらしい</kun>
+		<mean lang="de">[1]/wunderbar/ausgezeichn</mean>
+	</card>
+	<card type="word">
+		<jap>法人</jap>
+		<freq>612</freq>
+		<grd>100</grd>
+		<had>123</had>
+		<kun>ほうじん</kun>
+		<mean lang="de">juristische Person/Körper</mean>
+	</card>
+	<card type="word">
+		<jap>犯罪</jap>
+		<freq>613</freq>
+		<grd>874</grd>
+		<had>885</had>
+		<kun>はんざい</kun>
+		<mean lang="de">Verbrechen</mean>
+	</card>
+	<card type="word">
+		<jap>午前</jap>
+		<freq>614</freq>
+		<grd>154</grd>
+		<had>49</had>
+		<kun>ごぜん</kun>
+		<mean lang="de">Vormittag</mean>
+	</card>
+	<card type="word">
+		<jap>会長</jap>
+		<freq>615</freq>
+		<grd>12</grd>
+		<had>158</had>
+		<kun>かいちょう</kun>
+		<mean lang="de">Vorsitzender/(einer Versa</mean>
+	</card>
+	<card type="word">
+		<jap>通る</jap>
+		<freq>616</freq>
+		<grd>80</grd>
+		<had>150</had>
+		<kun>とうる</kun>
+		<mean lang="de">hindurchgehen/passieren</mean>
+	</card>
+	<card type="word">
+		<jap>超える</jap>
+		<freq>617</freq>
+		<grd>597</grd>
+		<had>1000</had>
+		<kun>こえる</kun>
+		<mean lang="de">ueberschreiten/uebersteig</mean>
+    </card>
+	<card type="word">
+		<jap>平和</jap>
+		<freq>618</freq>
+		<grd>128</grd>
+		<had>202</had>
+		<kun>へいわ</kun>
+		<mean lang="de">Friede</mean>
+	</card>
+	<card type="word">
+		<jap>基礎</jap>
+		<freq>619</freq>
+		<grd>1224</grd>
+		<had>1515</had>
+		<kun>きそ</kun>
+		<mean lang="de">Grundlage/Fundament</mean>
+	</card>
+	<card type="word">
+		<jap>特定</jap>
+		<freq>620</freq>
+		<grd>234</grd>
+		<had>355</had>
+		<kun>とくてい</kun>
+		<mean lang="de">Identifizierung/Bestimmun</mean>
+	</card>
+	<card type="word">
+		<jap>流れ</jap>
+		<freq>621</freq>
+		<grd>280</grd>
+		<had>247</had>
+		<kun>ながれ</kun>
+		<mean lang="de">[1]/Strom/Fluss/Strömung/</mean>
+	</card>
+	<card type="word">
+		<jap>画像</jap>
+		<freq>622</freq>
+		<grd>856</grd>
+		<had>740</had>
+		<kun>えぞう</kun>
+		<mean lang="de">Porträt/Bildnis</mean>
+	</card>
+	<card type="word">
+		<jap>少年</jap>
+		<freq>623</freq>
+		<grd>287</grd>
+		<had>144</had>
+		<kun>しょうねん</kun>
+		<mean lang="de">Junge/Kind</mean>
+	</card>
+	<card type="word">
+		<jap>安定</jap>
+		<freq>624</freq>
+		<grd>144</grd>
+		<had>355</had>
+		<kun>あんてい</kun>
+		<mean lang="de">Stabilisierung/Gleichgewi</mean>
+	</card>
+	<card type="word">
+		<jap>実験</jap>
+		<freq>625</freq>
+		<grd>410</grd>
+		<had>532</had>
+		<kun>じっけん</kun>
+		<mean lang="de">wissenschaftlicher Versuc</mean>
+	</card>
+	<card type="word">
+		<jap>間違い</jap>
+		<freq>626</freq>
+		<grd>33</grd>
+		<had>43</had>
+		<kun>まちがい</kun>
+		<mean lang="de">Irrtum/Fehler/Unfall</mean>
+	</card>
+	<card type="word">
+		<jap>本人</jap>
+		<freq>627</freq>
+		<grd>10</grd>
+		<had>25</had>
+		<kun>ほんにん</kun>
+		<mean lang="de">Betreffende/in Frage komm</mean>
+	</card>
+	<card type="word">
+		<jap>雰囲気</jap>
+		<freq>628</freq>
+		<grd>1341</grd>
+		<had>1824</had>
+		<kun>ふんいき</kun>
+		<mean lang="de">Atmosphaere</mean>
+	</card>
+	<card type="word">
+		<jap>国会</jap>
+		<freq>629</freq>
+		<grd>4</grd>
+		<had>158</had>
+		<kun>こっかい</kun>
+		<mean lang="de">Parlament</mean>
+	</card>
+	<card type="word">
+		<jap>気づく</jap>
+		<freq>630</freq>
+		<grd>113</grd>
+		<had>134</had>
+		<kun>きづく</kun>
+		<mean lang="de">bemerken/merken/wahrnehme</mean>
+	</card>
+	<card type="word">
+		<jap>患者</jap>
+		<freq>631</freq>
+		<grd>796</grd>
+		<had>1315</had>
+		<kun>かんじゃ</kun>
+		<mean lang="de">Patient</mean>
+	</card>
+	<card type="word">
+		<jap>会場</jap>
+		<freq>632</freq>
+		<grd>52</grd>
+		<had>158</had>
+		<kun>かいじょう</kun>
+		<mean lang="de">Versammlungssaal/Versamml</mean>
+	</card>
+	<card type="word">
+		<jap>治療</jap>
+		<freq>633</freq>
+		<grd>600</grd>
+		<had>1322</had>
+		<kun>ちりょう</kun>
+		<mean lang="de">aerztliche Behandlung/The</mean>
+	</card>
+	<card type="word">
+		<jap>電子</jap>
+		<freq>634</freq>
+		<grd>268</grd>
+		<had>108</had>
+		<kun>でんし</kun>
+		<mean lang="de">Elektron</mean>
+	</card>
+	<card type="word">
+		<jap>小説</jap>
+		<freq>635</freq>
+		<grd>326</grd>
+		<had>400</had>
+		<kun>しょうせつ</kun>
+		<mean lang="de">Roman/Erzaehlung</mean>
+	</card>
+	<card type="word">
+		<jap>注目</jap>
+		<freq>636</freq>
+		<grd>497</grd>
+		<had>357</had>
+		<kun>ちゅうもく</kun>
+		<mean lang="de">Aufmerksamkeit/Beachtung</mean>
+	</card>
+	<card type="word">
+		<jap>食事</jap>
+		<freq>637</freq>
+		<grd>328</grd>
+		<had>322</had>
+		<kun>しょくじ</kun>
+		<mean lang="de">Mahlzeit/Essen</mean>
+	</card>
+	<card type="word">
+		<jap>維持</jap>
+		<freq>638</freq>
+		<grd>643</grd>
+		<had>1231</had>
+		<kun>いじ</kun>
+		<mean lang="de">Aufrechterhaltung/Erhaltu</mean>
+	</card>
+	<card type="word">
+		<jap>範囲</jap>
+		<freq>639</freq>
+		<grd>1088</grd>
+		<had>1194</had>
+		<kun>はんい</kun>
+		<mean lang="de">Bereich/Gebiet/Wirkungskr</mean>
+	</card>
+	<card type="word">
+		<jap>常に</jap>
+		<freq>640</freq>
+		<grd>293</grd>
+		<had>497</had>
+		<kun>つねに</kun>
+		<mean lang="de">(schriftspr.)/immer/stets</mean>
+	</card>
+	<card type="word">
+		<jap>著作</jap>
+		<freq>641</freq>
+		<grd>849</grd>
+		<had>859</had>
+		<kun>ちょさく</kun>
+		<mean lang="de">Buch/Werk/Schreiben/Artik</mean>
+	</card>
+	<card type="word">
+		<jap>失う</jap>
+		<freq>642</freq>
+		<grd>447</grd>
+		<had>311</had>
+		<kun>うしなう</kun>
+		<mean lang="de">verlieren</mean>
+	</card>
+	<card type="word">
+		<jap>理論</jap>
+		<freq>643</freq>
+		<grd>227</grd>
+		<had>293</had>
+		<kun>りろん</kun>
+		<mean lang="de">Theorie</mean>
+	</card>
+	<card type="word">
+		<jap>日常</jap>
+		<freq>644</freq>
+		<grd>293</grd>
+		<had>497</had>
+		<kun>にちじょう</kun>
+		<mean lang="de">Alltag/tägliches Leben</mean>
+	</card>
+	<card type="word">
+		<jap>業者</jap>
+		<freq>645</freq>
+		<grd>43</grd>
+		<had>279</had>
+		<kun>ぎょうしゃ</kun>
+		<mean lang="de">Unternehmer/Geschäftsmann</mean>
+	</card>
+	<card type="word">
+		<jap>回答</jap>
+		<freq>646</freq>
+		<grd>486</grd>
+		<had>160</had>
+		<kun>かいとう</kun>
+		<mean lang="de">Antwort/Erwiderung</mean>
+	</card>
+	<card type="word">
+		<jap>体制</jap>
+		<freq>647</freq>
+		<grd>108</grd>
+		<had>427</had>
+		<kun>たいせい</kun>
+		<mean lang="de">System/Verfassung/Organis</mean>
+	</card>
+	<card type="word">
+		<jap>調整</jap>
+		<freq>648</freq>
+		<grd>478</grd>
+		<had>503</had>
+		<kun>ちょうせい</kun>
+		<mean lang="de">Regulierung/Ausgleich</mean>
+	</card>
+	<card type="word">
+		<jap>訴訟</jap>
+		<freq>649</freq>
+		<grd>1061</grd>
+		<had>1403</had>
+		<kun>そしょう</kun>
+		<mean lang="de">Prozess/-Klage</mean>
+	</card>
+	<card type="word">
+		<jap>住民</jap>
+		<freq>650</freq>
+		<grd>270</grd>
+		<had>177</had>
+		<kun>じゅうみん</kun>
+		<mean lang="de">Bewohner/Einwohner/Bevoel</mean>
+	</card>
+	<card type="word">
+		<jap>疑問</jap>
+		<freq>651</freq>
+		<grd>283</grd>
+		<had>1516</had>
+		<kun>ぎもん</kun>
+		<mean lang="de">-Frage/Zweifel/Problem</mean>
+	</card>
+	<card type="word">
+		<jap>当たる</jap>
+		<freq>652</freq>
+		<grd>91</grd>
+		<had>77</had>
+		<kun>あたる</kun>
+		<mean lang="de">[1]/treffen/schlagen/stoß</mean>
+	</card>
+	<card type="word">
+		<jap>失敗</jap>
+		<freq>653</freq>
+		<grd>516</grd>
+		<had>511</had>
+		<kun>しっぱい</kun>
+		<mean lang="de">Misserfolg/Misslingen</mean>
+	</card>
+	<card type="word">
+		<jap>落ちる</jap>
+		<freq>654</freq>
+		<grd>420</grd>
+		<had>839</had>
+		<kun>おちる</kun>
+		<mean lang="de">fallen</mean>
+	</card>
+	<card type="word">
+		<jap>繰り返す</jap>
+		<freq>655</freq>
+		<grd>872</grd>
+		<had>1654</had>
+		<kun>くりかえす</kun>
+		<mean lang="de">wiederholen</mean>
+	</card>
+	<card type="word">
+		<jap>息子</jap>
+		<freq>656</freq>
+		<grd>882</grd>
+		<had>1242</had>
+		<kun>むすこ</kun>
+		<mean lang="de">-Sohn</mean>
+	</card>
+	<card type="word">
+		<jap>資本</jap>
+		<freq>657</freq>
+		<grd>179</grd>
+		<had>750</had>
+		<kun>しほん</kun>
+		<mean lang="de">Kapital</mean>
+	</card>
+	<card type="word">
+		<jap>事情</jap>
+		<freq>658</freq>
+		<grd>235</grd>
+		<had>209</had>
+		<kun>じじょう</kun>
+		<mean lang="de">Umstaende/Sachlage/Verhae</mean>
+	</card>
+	<card type="word">
+		<jap>応援</jap>
+		<freq>659</freq>
+		<grd>312</grd>
+		<had>1088</had>
+		<kun>おうえん</kun>
+		<mean lang="de">Unterstuetzung/-Hilfe/Erm</mean>
+	</card>
+	<card type="word">
+		<jap>感想</jap>
+		<freq>660</freq>
+		<grd>381</grd>
+		<had>262</had>
+		<kun>かんそう</kun>
+		<mean lang="de">Gedanken/Eindruecke</mean>
+	</card>
+	<card type="word">
+		<jap>届く</jap>
+		<freq>661</freq>
+		<grd>939</grd>
+		<had>992</had>
+		<kun>とどく</kun>
+		<mean lang="de">erreichen/ankommen</mean>
+	</card>
+	<card type="word">
+		<jap>解説</jap>
+		<freq>662</freq>
+		<grd>326</grd>
+		<had>474</had>
+		<kun>かいせつ</kun>
+		<mean lang="de">Erklaerung/Kommentar</mean>
+	</card>
+	<card type="word">
+		<jap>行なう</jap>
+		<freq>663</freq>
+		<grd>20</grd>
+		<had>68</had>
+		<kun>おこなう</kun>
+		<mean lang="de">durchführen/handeln/sich </mean>
+	</card>
+	<card type="word">
+		<jap>公共</jap>
+		<freq>664</freq>
+		<grd>174</grd>
+		<had>196</had>
+		<kun>こうきょう</kun>
+		<mean lang="de">Allgemeinheit/oeffentlich</mean>
+	</card>
+	<card type="word">
+		<jap>民間</jap>
+		<freq>665</freq>
+		<grd>33</grd>
+		<had>177</had>
+		<kun>みんかん</kun>
+		<mean lang="de">privat/zivil</mean>
+	</card>
+	<card type="word">
+		<jap>弁護士</jap>
+		<freq>666</freq>
+		<grd>619</grd>
+		<had>711</had>
+		<kun>べんごし</kun>
+		<mean lang="de">Rechtsanwalt</mean>
+	</card>
+	<card type="word">
+		<jap>裁判</jap>
+		<freq>667</freq>
+		<grd>297</grd>
+		<had>1123</had>
+		<kun>さいばん</kun>
+		<mean lang="de">Gericht</mean>
+	</card>
+	<card type="word">
+		<jap>古い</jap>
+		<freq>668</freq>
+		<grd>509</grd>
+		<had>172</had>
+		<kun>ふるい</kun>
+		<mean lang="de">-alt</mean>
+	</card>
+	<card type="word">
+		<jap>建物</jap>
+		<freq>669</freq>
+		<grd>300</grd>
+		<had>892</had>
+		<kun>たてもの</kun>
+		<mean lang="de">Gebaeude</mean>
+	</card>
+	<card type="word">
+		<jap>集まる</jap>
+		<freq>670</freq>
+		<grd>210</grd>
+		<had>436</had>
+		<kun>あつまる</kun>
+		<mean lang="de">sich versammeln</mean>
+	</card>
+	<card type="word">
+		<jap>措置</jap>
+		<freq>671</freq>
+		<grd>818</grd>
+		<had>1200</had>
+		<kun>そち</kun>
+		<mean lang="de">Massnahme/Schritt</mean>
+	</card>
+	<card type="word">
+		<jap>組合</jap>
+		<freq>672</freq>
+		<grd>204</grd>
+		<had>418</had>
+		<kun>くみあい</kun>
+		<mean lang="de">Gewerkschaft/Genossenscha</mean>
+	</card>
+	<card type="word">
+		<jap>払う</jap>
+		<freq>673</freq>
+		<grd>813</grd>
+		<had>582</had>
+		<kun>はらう</kun>
+		<mean lang="de">bezahlen/wegfegen</mean>
+	</card>
+	<card type="word">
+		<jap>本来</jap>
+		<freq>674</freq>
+		<grd>102</grd>
+		<had>69</had>
+		<kun>ほんらい</kun>
+		<mean lang="de">urspruenglich/eigentlich</mean>
+	</card>
+	<card type="word">
+		<jap>元気</jap>
+		<freq>675</freq>
+		<grd>192</grd>
+		<had>137</had>
+		<kun>げんき</kun>
+		<mean lang="de">gesund/munter</mean>
+	</card>
+	<card type="word">
+		<jap>一体</jap>
+		<freq>676</freq>
+		<grd>88</grd>
+		<had>61</had>
+		<kun>いったい</kun>
+		<mean lang="de">[1]/ein Körper/[2]/im All</mean>
+	</card>
+	<card type="word">
+		<jap>宇宙</jap>
+		<freq>677</freq>
+		<grd>1005</grd>
+		<had>991</had>
+		<kun>うちゅう</kun>
+		<mean lang="de">Universum/Weltall/Weltrau</mean>
+	</card>
+	<card type="word">
+		<jap>申す</jap>
+		<freq>678</freq>
+		<grd>492</grd>
+		<had>309</had>
+		<kun>もうす</kun>
+		<mean lang="de">sagen/heissen</mean>
+	</card>
+	<card type="word">
+		<jap>引く</jap>
+		<freq>679</freq>
+		<grd>218</grd>
+		<had>216</had>
+		<kun>ひく</kun>
+		<mean lang="de">[1]/ziehen/führen/[2]/abz</mean>
+	</card>
+	<card type="word">
+		<jap>用いる</jap>
+		<freq>680</freq>
+		<grd>107</grd>
+		<had>107</had>
+		<kun>もちいる</kun>
+		<mean lang="de">gebrauchen/brauchen/benut</mean>
+	</card>
+	<card type="word">
+		<jap>お客様</jap>
+		<freq>681</freq>
+		<grd>493</grd>
+		<had>403</had>
+		<kun>おきゃくさま</kun>
+		<mean lang="de">Gast/Kunde/Herrschaften/m</mean>
+	</card>
+	<card type="word">
+		<jap>採用</jap>
+		<freq>682</freq>
+		<grd>607</grd>
+		<had>933</had>
+		<kun>さいよう</kun>
+		<mean lang="de">Annahme/Anstellung</mean>
+	</card>
+	<card type="word">
+		<jap>二つ</jap>
+		<freq>683</freq>
+		<grd>9</grd>
+		<had>3</had>
+		<kun>ふたつ</kun>
+		<mean lang="de">[1]/zwei/[2]/zwei Jahre a</mean>
+	</card>
+	<card type="word">
+		<jap>観光</jap>
+		<freq>684</freq>
+		<grd>527</grd>
+		<had>604</had>
+		<kun>かんこう</kun>
+		<mean lang="de">Besichtigung von Sehenswu</mean>
+	</card>
+	<card type="word">
+		<jap>提出</jap>
+		<freq>685</freq>
+		<grd>254</grd>
+		<had>628</had>
+		<kun>ていしゅつ</kun>
+		<mean lang="de">Antrag/Vorlage</mean>
+	</card>
+	<card type="word">
+		<jap>以来</jap>
+		<freq>686</freq>
+		<grd>126</grd>
+		<had>69</had>
+		<kun>いらい</kun>
+		<mean lang="de">-seit/seitdem</mean>
+	</card>
+	<card type="word">
+		<jap>推進</jap>
+		<freq>687</freq>
+		<grd>507</grd>
+		<had>1233</had>
+		<kun>すいしん</kun>
+		<mean lang="de">das Vorwaertstreiben/Antr</mean>
+	</card>
+	<card type="word">
+		<jap>首相</jap>
+		<freq>688</freq>
+		<grd>98</grd>
+		<had>148</had>
+		<kun>しゅしょう</kun>
+		<mean lang="de">Premierminister/Ministerp</mean>
+	</card>
+	<card type="word">
+		<jap>確保</jap>
+		<freq>689</freq>
+		<grd>252</grd>
+		<had>603</had>
+		<kun>かくほ</kun>
+		<mean lang="de">Sicherstellung/Sicherung</mean>
+	</card>
+	<card type="word">
+		<jap>動物</jap>
+		<freq>690</freq>
+		<grd>215</grd>
+		<had>231</had>
+		<kun>どうぶつ</kun>
+		<mean lang="de">-Tier</mean>
+	</card>
+	<card type="word">
+		<jap>集める</jap>
+		<freq>691</freq>
+		<grd>210</grd>
+		<had>436</had>
+		<kun>あつめる</kun>
+		<mean lang="de">sammeln</mean>
+	</card>
+	<card type="word">
+		<jap>離れる</jap>
+		<freq>692</freq>
+		<grd>555</grd>
+		<had>1281</had>
+		<kun>はなれる</kun>
+		<mean lang="de">sich trennen</mean>
+	</card>
+	<card type="word">
+		<jap>検査</jap>
+		<freq>693</freq>
+		<grd>290</grd>
+		<had>624</had>
+		<kun>けんさ</kun>
+		<mean lang="de">Untersuchung/Besichtigung</mean>
+	</card>
+	<card type="word">
+		<jap>映像</jap>
+		<freq>694</freq>
+		<grd>856</grd>
+		<had>740</had>
+		<kun>えいぞう</kun>
+		<mean lang="de">[1]/Bild/[2]/Spiegelbild/</mean>
+	</card>
+	<card type="word">
+		<jap>信頼</jap>
+		<freq>695</freq>
+		<grd>708</grd>
+		<had>1512</had>
+		<kun>しんらい</kun>
+		<mean lang="de">das Vertrauen/das Zutraue</mean>
+	</card>
+	<card type="word">
+		<jap>要素</jap>
+		<freq>696</freq>
+		<grd>660</grd>
+		<had>419</had>
+		<kun>ようそ</kun>
+		<mean lang="de">Element/Faktor/Hauptbesta</mean>
+	</card>
+	<card type="word">
+		<jap>触れる</jap>
+		<freq>697</freq>
+		<grd>904</grd>
+		<had>874</had>
+		<kun>ふれる</kun>
+		<mean lang="de">beruehren</mean>
+	</card>
+	<card type="word">
+		<jap>笑う</jap>
+		<freq>698</freq>
+		<grd>913</grd>
+		<had>1235</had>
+		<kun>わらう</kun>
+		<mean lang="de">-lachen/-laecheln</mean>
+	</card>
+	<card type="word">
+		<jap>人物</jap>
+		<freq>699</freq>
+		<grd>215</grd>
+		<had>79</had>
+		<kun>じんぶつ</kun>
+		<mean lang="de">Person/Mensch/Persoenlich</mean>
+	</card>
+	<card type="word">
+		<jap>規制</jap>
+		<freq>700</freq>
+		<grd>349</grd>
+		<had>607</had>
+		<kun>きせい</kun>
+		<mean lang="de">Einschränkung/Kontrolle/R</mean>
+	</card>
+	<card type="word">
+		<jap>空間</jap>
+		<freq>701</freq>
+		<grd>304</grd>
+		<had>140</had>
+		<kun>くうかん</kun>
+		<mean lang="de">Raum</mean>
+	</card>
+	<card type="word">
+		<jap>記念</jap>
+		<freq>702</freq>
+		<grd>390</grd>
+		<had>579</had>
+		<kun>きねん</kun>
+		<mean lang="de">Erinnerung/Andenken/Anged</mean>
+	</card>
+	<card type="word">
+		<jap>方針</jap>
+		<freq>703</freq>
+		<grd>505</grd>
+		<had>341</had>
+		<kun>ほうしん</kun>
+		<mean lang="de">Kurs/Richtung/Politik</mean>
+	</card>
+	<card type="word">
+		<jap>楽しみ</jap>
+		<freq>704</freq>
+		<grd>373</grd>
+		<had>358</had>
+		<kun>たのしみ</kun>
+		<mean lang="de">[1]/Freude/Lust/Glück/Ver</mean>
+	</card>
+	<card type="word">
+		<jap>審議</jap>
+		<freq>705</freq>
+		<grd>412</grd>
+		<had>1383</had>
+		<kun>しんぎ</kun>
+		<mean lang="de">Beratung</mean>
+	</card>
+	<card type="word">
+		<jap>競争</jap>
+		<freq>706</freq>
+		<grd>610</grd>
+		<had>852</had>
+		<kun>きょうそう</kun>
+		<mean lang="de">Konkurrenz/Wettkampf</mean>
+	</card>
+	<card type="word">
+		<jap>設置</jap>
+		<freq>707</freq>
+		<grd>277</grd>
+		<had>577</had>
+		<kun>せっち</kun>
+		<mean lang="de">Anlegung/Errichtung/Gruen</mean>
+	</card>
+	<card type="word">
+		<jap>位置</jap>
+		<freq>708</freq>
+		<grd>277</grd>
+		<had>426</had>
+		<kun>いち</kun>
+		<mean lang="de">-Lage/Stelle/Stellung</mean>
+	</card>
+	<card type="word">
+		<jap>全然</jap>
+		<freq>709</freq>
+		<grd>401</grd>
+		<had>651</had>
+		<kun>ぜんぜん</kun>
+		<mean lang="de">ueberhaupt nicht/vollkomm</mean>
+	</card>
+	<card type="word">
+		<jap>費用</jap>
+		<freq>710</freq>
+		<grd>321</grd>
+		<had>749</had>
+		<kun>ひよう</kun>
+		<mean lang="de">Unkosten/Kosten/Ausgaben/</mean>
+	</card>
+	<card type="word">
+		<jap>株式会社</jap>
+		<freq>711</freq>
+		<grd>432</grd>
+		<had>741</had>
+		<kun>かぶしきがいしゃ</kun>
+		<mean lang="de">Aktiengesellschaft</mean>
+	</card>
+	<card type="word">
+		<jap>大統領</jap>
+		<freq>712</freq>
+		<grd>138</grd>
+		<had>834</had>
+		<kun>だいとうりょう</kun>
+		<mean lang="de">Praesident</mean>
+	</card>
+	<card type="word">
+		<jap>指定</jap>
+		<freq>713</freq>
+		<grd>155</grd>
+		<had>1041</had>
+		<kun>してい</kun>
+		<mean lang="de">Bestimmung/Designation</mean>
+	</card>
+	<card type="word">
+		<jap>事務所</jap>
+		<freq>714</freq>
+		<grd>221</grd>
+		<had>153</had>
+		<kun>じむしょ</kun>
+		<mean lang="de">Buero</mean>
+	</card>
+	<card type="word">
+		<jap>感情</jap>
+		<freq>715</freq>
+		<grd>235</grd>
+		<had>262</had>
+		<kun>かんじょう</kun>
+		<mean lang="de">Gefuehl/Empfindung/Sentim</mean>
+	</card>
+	<card type="word">
+		<jap>付く</jap>
+		<freq>716</freq>
+		<grd>322</grd>
+		<had>192</had>
+		<kun>つく</kun>
+		<mean lang="de">haften/dazugehoeren</mean>
+	</card>
+	<card type="word">
+		<jap>京都</jap>
+		<freq>717</freq>
+		<grd>123</grd>
+		<had>189</had>
+		<kun>きょうと</kun>
+		<mean lang="de">Kyoto</mean>
+	</card>
+	<card type="word">
+		<jap>許す</jap>
+		<freq>718</freq>
+		<grd>720</grd>
+		<had>737</had>
+		<kun>ゆるす</kun>
+		<mean lang="de">erlauben/zulassen</mean>
+	</card>
+	<card type="word">
+		<jap>起こす</jap>
+		<freq>719</freq>
+		<grd>374</grd>
+		<had>373</had>
+		<kun>おこす</kun>
+		<mean lang="de">verursachen/wecken</mean>
+	</card>
+	<card type="word">
+		<jap>仲間</jap>
+		<freq>720</freq>
+		<grd>919</grd>
+		<had>1347</had>
+		<kun>なかま</kun>
+		<mean lang="de">[1]/Freund/Kollege/Gefähr</mean>
+	</card>
+	<card type="word">
+		<jap>迎える</jap>
+		<freq>721</freq>
+		<grd>625</grd>
+		<had>1055</had>
+		<kun>むかえる</kun>
+		<mean lang="de">entgegengehen/empfangen/e</mean>
+	</card>
+	<card type="word">
+		<jap>整理</jap>
+		<freq>722</freq>
+		<grd>478</grd>
+		<had>503</had>
+		<kun>せいり</kun>
+		<mean lang="de">Ordnung/Regelung/Abbau</mean>
+	</card>
+	<card type="word">
+		<jap>協会</jap>
+		<freq>723</freq>
+		<grd>121</grd>
+		<had>234</had>
+		<kun>きょうかい</kun>
+		<mean lang="de">Verein/Gesellschaft</mean>
+	</card>
+	<card type="word">
+		<jap>至る</jap>
+		<freq>724</freq>
+		<grd>996</grd>
+		<had>902</had>
+		<kun>いたる</kun>
+		<mean lang="de">ankommen/fuehren (zu)</mean>
+	</card>
+	<card type="word">
+		<jap>多数</jap>
+		<freq>725</freq>
+		<grd>148</grd>
+		<had>229</had>
+		<kun>たすう</kun>
+		<mean lang="de">grosse Menge/Mehrheit</mean>
+	</card>
+	<card type="word">
+		<jap>積極</jap>
+		<freq>726</freq>
+		<grd>541</grd>
+		<had>656</had>
+		<kun>せっきょく</kun>
+		<mean lang="de">Positivität/(&lt;Herk.: Lehn</mean>
+	</card>
+	<card type="word">
+		<jap>願う</jap>
+		<freq>727</freq>
+		<grd>894</grd>
+		<had>581</had>
+		<kun>ねがう</kun>
+		<mean lang="de">bitten/beten/wuenschen</mean>
+	</card>
+	<card type="word">
+		<jap>安心</jap>
+		<freq>728</freq>
+		<grd>157</grd>
+		<had>105</had>
+		<kun>あんしん</kun>
+		<mean lang="de">sich beruhigen/erleichter</mean>
+	</card>
+	<card type="word">
+		<jap>独立</jap>
+		<freq>729</freq>
+		<grd>365</grd>
+		<had>219</had>
+		<kun>どくりつ</kun>
+		<mean lang="de">Unabhaengigkeit/Selbstaen</mean>
+	</card>
+	<card type="word">
+		<jap>読者</jap>
+		<freq>730</freq>
+		<grd>618</grd>
+		<had>244</had>
+		<kun>どくしゃ</kun>
+		<mean lang="de">Leser</mean>
+	</card>
+	<card type="word">
+		<jap>勝つ</jap>
+		<freq>731</freq>
+		<grd>185</grd>
+		<had>509</had>
+		<kun>かつ</kun>
+		<mean lang="de">gewinnen/siegen</mean>
+	</card>
+	<card type="word">
+		<jap>雇用</jap>
+		<freq>732</freq>
+		<grd>975</grd>
+		<had>1553</had>
+		<kun>こよう</kun>
+		<mean lang="de">Anstellung/Beschäftigung/</mean>
+	</card>
+	<card type="word">
+		<jap>傾向</jap>
+		<freq>733</freq>
+		<grd>938</grd>
+		<had>1441</had>
+		<kun>けいこう</kun>
+		<mean lang="de">Tendenz/Neigung/-Hang</mean>
+	</card>
+	<card type="word">
+		<jap>打つ</jap>
+		<freq>734</freq>
+		<grd>239</grd>
+		<had>1020</had>
+		<kun>うつ</kun>
+		<mean lang="de">schlagen/hauen</mean>
+	</card>
+	<card type="word">
+		<jap>誕生</jap>
+		<freq>735</freq>
+		<grd>1024</grd>
+		<had>1116</had>
+		<kun>たんじょう</kun>
+		<mean lang="de">Geburt</mean>
+	</card>
+	<card type="word">
+		<jap>遅い</jap>
+		<freq>736</freq>
+		<grd>833</grd>
+		<had>702</had>
+		<kun>おそい</kun>
+		<mean lang="de">spaet/verspaetet/langsam</mean>
+	</card>
+	<card type="word">
+		<jap>流れる</jap>
+		<freq>737</freq>
+		<grd>280</grd>
+		<had>247</had>
+		<kun>ながれる</kun>
+		<mean lang="de">fliessen/stroemen</mean>
+	</card>
+	<card type="word">
+		<jap>撮る</jap>
+		<freq>738</freq>
+		<grd>1023</grd>
+		<had>1520</had>
+		<kun>とる</kun>
+		<mean lang="de">Aufnahme machen</mean>
+	</card>
+	<card type="word">
+		<jap>全員</jap>
+		<freq>739</freq>
+		<grd>75</grd>
+		<had>163</had>
+		<kun>ぜんいん</kun>
+		<mean lang="de">alle/alle Beteiligten/gan</mean>
+	</card>
+	<card type="word">
+		<jap>参照</jap>
+		<freq>740</freq>
+		<grd>1004</grd>
+		<had>998</had>
+		<kun>さんしょう</kun>
+		<mean lang="de">das Nachschlagen/Verweis/</mean>
+	</card>
+	<card type="word">
+		<jap>少なくとも</jap>
+		<freq>741</freq>
+		<grd>287</grd>
+		<had>144</had>
+		<kun>すくなくとも</kun>
+		<mean lang="de">wenigstens/mindestens/zum</mean>
+	</card>
+	<card type="word">
+		<jap>地元</jap>
+		<freq>742</freq>
+		<grd>192</grd>
+		<had>137</had>
+		<kun>じもと</kun>
+		<mean lang="de">lokal/Orts-</mean>
+	</card>
+	<card type="word">
+		<jap>是非</jap>
+		<freq>743</freq>
+		<grd>1045</grd>
+		<had>1591</had>
+		<kun>ぜひ</kun>
+		<mean lang="de">Recht und Unrecht/unbedin</mean>
+	</card>
+	<card type="word">
+		<jap>明確</jap>
+		<freq>744</freq>
+		<grd>252</grd>
+		<had>603</had>
+		<kun>めいかく</kun>
+		<mean lang="de">Bestimmtheit/Ausdrücklich</mean>
+	</card>
+	<card type="word">
+		<jap>特徴</jap>
+		<freq>745</freq>
+		<grd>850</grd>
+		<had>1420</had>
+		<kun>とくちょう</kun>
+		<mean lang="de">charakteristisches Merkma</mean>
+	</card>
+	<card type="word">
+		<jap>皆様</jap>
+		<freq>746</freq>
+		<grd>1267</grd>
+		<had>587</had>
+		<kun>みなさま</kun>
+		<mean lang="de">alle/&quot;Verehrte Anwesende!</mean>
+	</card>
+	<card type="word">
+		<jap>別に</jap>
+		<freq>747</freq>
+		<grd>214</grd>
+		<had>267</had>
+		<kun>べつに</kun>
+		<mean lang="de">[1]/anders/unterschiedlic</mean>
+	</card>
+	<card type="word">
+		<jap>魅力</jap>
+		<freq>748</freq>
+		<grd>1206</grd>
+		<had>1526</had>
+		<kun>みりょく</kun>
+		<mean lang="de">Charme/-Reiz/-Zauber</mean>
+	</card>
+	<card type="word">
+		<jap>人口</jap>
+		<freq>749</freq>
+		<grd>284</grd>
+		<had>54</had>
+		<kun>じんこう</kun>
+		<mean lang="de">Bevoelkerung/Einwohnerzah</mean>
+	</card>
+	<card type="word">
+		<jap>反応</jap>
+		<freq>750</freq>
+		<grd>266</grd>
+		<had>827</had>
+		<kun>はんのう</kun>
+		<mean lang="de">Reaktion</mean>
+	</card>
+	<card type="word">
+		<jap>手段</jap>
+		<freq>751</freq>
+		<grd>479</grd>
+		<had>362</had>
+		<kun>しゅだん</kun>
+		<mean lang="de">Mittel/-Weg/Massnahme</mean>
+	</card>
+	<card type="word">
+		<jap>有効</jap>
+		<freq>752</freq>
+		<grd>538</grd>
+		<had>816</had>
+		<kun>ゆうこう</kun>
+		<mean lang="de">Gueltigkeit/Geltung/Wirku</mean>
+	</card>
+	<card type="word">
+		<jap>工場</jap>
+		<freq>753</freq>
+		<grd>299</grd>
+		<had>154</had>
+		<kun>こうじょう</kun>
+		<mean lang="de">Fabrik</mean>
+	</card>
+	<card type="word">
+		<jap>入力</jap>
+		<freq>754</freq>
+		<grd>62</grd>
+		<had>100</had>
+		<kun>にゅうりょく</kun>
+		<mean lang="de">[1]/Energiezufuhr/Investi</mean>
+	</card>
+	<card type="word">
+		<jap>注文</jap>
+		<freq>755</freq>
+		<grd>497</grd>
+		<had>357</had>
+		<kun>ちゅうもん</kun>
+		<mean lang="de">Bestellung/Auftrag</mean>
+	</card>
+	<card type="word">
+		<jap>集中</jap>
+		<freq>756</freq>
+		<grd>210</grd>
+		<had>436</had>
+		<kun>しゅうちゅう</kun>
+		<mean lang="de">Konzentration/Zentralisie</mean>
+	</card>
+	<card type="word">
+		<jap>一度</jap>
+		<freq>757</freq>
+		<grd>110</grd>
+		<had>377</had>
+		<kun>いちど</kun>
+		<mean lang="de">einmal/ein Grad</mean>
+	</card>
+	<card type="word">
+		<jap>現象</jap>
+		<freq>758</freq>
+		<grd>394</grd>
+		<had>739</had>
+		<kun>げんしょう</kun>
+		<mean lang="de">Erscheinung/Phaenomen</mean>
+	</card>
+	<card type="word">
+		<jap>感動</jap>
+		<freq>759</freq>
+		<grd>233</grd>
+		<had>262</had>
+		<kun>かんどう</kun>
+		<mean lang="de">Rührung/Ergriffenheit/Ers</mean>
+	</card>
+	<card type="word">
+		<jap>禁止</jap>
+		<freq>760</freq>
+		<grd>681</grd>
+		<had>482</had>
+		<kun>きんし</kun>
+		<mean lang="de">Verbot</mean>
+	</card>
+	<card type="word">
+		<jap>実践</jap>
+		<freq>761</freq>
+		<grd>1570</grd>
+		<had>1568</had>
+		<kun>じっせん</kun>
+		<mean lang="de">Praxis</mean>
+	</card>
+	<card type="word">
+		<jap>小泉</jap>
+		<freq>762</freq>
+		<grd>1086</grd>
+		<had>1192</had>
+		<kun>こいずみ</kun>
+		<mean lang="de">[1]/{Familienn.}/Koizumi/</mean>
+	</card>
+	<card type="word">
+		<jap>職員</jap>
+		<freq>763</freq>
+		<grd>305</grd>
+		<had>385</had>
+		<kun>しょくいん</kun>
+		<mean lang="de">Personal/Lehrkoerper</mean>
+	</card>
+	<card type="word">
+		<jap>理事</jap>
+		<freq>764</freq>
+		<grd>86</grd>
+		<had>143</had>
+		<kun>りじ</kun>
+		<mean lang="de">Vorstand/Vorstandsmitglie</mean>
+	</card>
+	<card type="word">
+		<jap>会員</jap>
+		<freq>765</freq>
+		<grd>54</grd>
+		<had>163</had>
+		<kun>かいいん</kun>
+		<mean lang="de">Mitglied (eines Vereins)</mean>
+	</card>
+	<card type="word">
+		<jap>案内</jap>
+		<freq>766</freq>
+		<grd>206</grd>
+		<had>106</had>
+		<kun>あんない</kun>
+		<mean lang="de">Auskunft/Fuehrung</mean>
+	</card>
+	<card type="word">
+		<jap>過ごす</jap>
+		<freq>767</freq>
+		<grd>285</grd>
+		<had>413</had>
+		<kun>すごす</kun>
+		<mean lang="de">verbringen</mean>
+	</card>
+	<card type="word">
+		<jap>従来</jap>
+		<freq>768</freq>
+		<grd>601</grd>
+		<had>1482</had>
+		<kun>じゅうらい</kun>
+		<mean lang="de">alt hergebracht/ueblich/g</mean>
+	</card>
+	<card type="word">
+		<jap>農業</jap>
+		<freq>769</freq>
+		<grd>385</grd>
+		<had>369</had>
+		<kun>のうぎょう</kun>
+		<mean lang="de">Landwirtschaft</mean>
+	</card>
+	<card type="word">
+		<jap>用意</jap>
+		<freq>770</freq>
+		<grd>107</grd>
+		<had>132</had>
+		<kun>ようい</kun>
+		<mean lang="de">Vorbereitung/Bereitschaft</mean>
+	</card>
+	<card type="word">
+		<jap>運用</jap>
+		<freq>771</freq>
+		<grd>255</grd>
+		<had>439</had>
+		<kun>うんよう</kun>
+		<mean lang="de">Anwendung/Durchführung</mean>
+	</card>
+	<card type="word">
+		<jap>世代</jap>
+		<freq>772</freq>
+		<grd>135</grd>
+		<had>256</had>
+		<kun>せだい</kun>
+		<mean lang="de">Generation</mean>
+	</card>
+	<card type="word">
+		<jap>歌う</jap>
+		<freq>773</freq>
+		<grd>519</grd>
+		<had>392</had>
+		<kun>うたう</kun>
+		<mean lang="de">singen</mean>
+	</card>
+	<card type="word">
+		<jap>強化</jap>
+		<freq>774</freq>
+		<grd>112</grd>
+		<had>254</had>
+		<kun>きょうか</kun>
+		<mean lang="de">Staerkung/Verstaerkung</mean>
+	</card>
+	<card type="word">
+		<jap>納得</jap>
+		<freq>775</freq>
+		<grd>987</grd>
+		<had>758</had>
+		<kun>なっとく</kun>
+		<mean lang="de">Verstaendnis/Zustimmung</mean>
+	</card>
+	<card type="word">
+		<jap>周り</jap>
+		<freq>776</freq>
+		<grd>562</grd>
+		<had>91</had>
+		<kun>まわり</kun>
+		<mean lang="de">Rotation/Umfang/Umgebung</mean>
+	</card>
+	<card type="word">
+		<jap>収入</jap>
+		<freq>777</freq>
+		<grd>337</grd>
+		<had>757</had>
+		<kun>しゅうにゅう</kun>
+		<mean lang="de">Einkommen/Einkuenfte/Einn</mean>
+	</card>
+	<card type="word">
+		<jap>増加</jap>
+		<freq>778</freq>
+		<grd>231</grd>
+		<had>712</had>
+		<kun>ぞうか</kun>
+		<mean lang="de">Zunahme/Vermehrung</mean>
+	</card>
+	<card type="word">
+		<jap>年齢</jap>
+		<freq>779</freq>
+		<grd>770</grd>
+		<had>833</had>
+		<kun>ねんれい</kun>
+		<mean lang="de">Alter</mean>
+	</card>
+	<card type="word">
+		<jap>未来</jap>
+		<freq>780</freq>
+		<grd>650</grd>
+		<had>306</had>
+		<kun>みらい</kun>
+		<mean lang="de">Zukunft</mean>
+	</card>
+	<card type="word">
+		<jap>社員</jap>
+		<freq>781</freq>
+		<grd>54</grd>
+		<had>308</had>
+		<kun>しゃいん</kun>
+		<mean lang="de">Angestellter/Teilhaber</mean>
+	</card>
+	<card type="word">
+		<jap>教会</jap>
+		<freq>782</freq>
+		<grd>166</grd>
+		<had>245</had>
+		<kun>きょうかい</kun>
+		<mean lang="de">Kirche</mean>
+	</card>
+	<card type="word">
+		<jap>舞台</jap>
+		<freq>783</freq>
+		<grd>655</grd>
+		<had>810</had>
+		<kun>ぶたい</kun>
+		<mean lang="de">Buehne</mean>
+	</card>
+	<card type="word">
+		<jap>前回</jap>
+		<freq>784</freq>
+		<grd>50</grd>
+		<had>90</had>
+		<kun>ぜんかい</kun>
+		<mean lang="de">das vorige Mal/das letzte</mean>
+	</card>
+	<card type="word">
+		<jap>年金</jap>
+		<freq>785</freq>
+		<grd>53</grd>
+		<had>45</had>
+		<kun>ねんきん</kun>
+		<mean lang="de">Rente/Pension</mean>
+	</card>
+	<card type="word">
+		<jap>交通</jap>
+		<freq>786</freq>
+		<grd>178</grd>
+		<had>150</had>
+		<kun>こうつう</kun>
+		<mean lang="de">Verkehr</mean>
+	</card>
+	<card type="word">
+		<jap>料金</jap>
+		<freq>787</freq>
+		<grd>295</grd>
+		<had>319</had>
+		<kun>りょうきん</kun>
+		<mean lang="de">Gebuehr</mean>
+	</card>
+	<card type="word">
+		<jap>教師</jap>
+		<freq>788</freq>
+		<grd>563</grd>
+		<had>409</had>
+		<kun>きょうし</kun>
+		<mean lang="de">Lehrer</mean>
+	</card>
+	<card type="word">
+		<jap>重い</jap>
+		<freq>789</freq>
+		<grd>193</grd>
+		<had>227</had>
+		<kun>おもい</kun>
+		<mean lang="de">schwer</mean>
+	</card>
+	<card type="word">
+		<jap>他人</jap>
+		<freq>790</freq>
+		<grd>543</grd>
+		<had>120</had>
+		<kun>たにん</kun>
+		<mean lang="de">andere Leute/fremde Leute</mean>
+	</card>
+	<card type="word">
+		<jap>株式</jap>
+		<freq>791</freq>
+		<grd>432</grd>
+		<had>741</had>
+		<kun>かぶしき</kun>
+		<mean lang="de">Aktien/Börse</mean>
+	</card>
+	<card type="word">
+		<jap>上昇</jap>
+		<freq>792</freq>
+		<grd>826</grd>
+		<had>1777</had>
+		<kun>じょうしょう</kun>
+		<mean lang="de">Anstieg/aufsteigende Tend</mean>
+	</card>
+	<card type="word">
+		<jap>否定</jap>
+		<freq>793</freq>
+		<grd>561</grd>
+		<had>1248</had>
+		<kun>ひてい</kun>
+		<mean lang="de">Verneinung/Verleugnung/Ab</mean>
+	</card>
+	<card type="word">
+		<jap>機械</jap>
+		<freq>794</freq>
+		<grd>1321</grd>
+		<had>529</had>
+		<kun>きかい</kun>
+		<mean lang="de">Maschine/Mechanismus</mean>
+	</card>
+	<card type="word">
+		<jap>完成</jap>
+		<freq>795</freq>
+		<grd>595</grd>
+		<had>613</had>
+		<kun>かんせい</kun>
+		<mean lang="de">Fertigstellung/Vollendung</mean>
+	</card>
+	<card type="word">
+		<jap>大好き</jap>
+		<freq>796</freq>
+		<grd>7</grd>
+		<had>26</had>
+		<kun>だいすき</kun>
+		<mean lang="de">sehr gern haben</mean>
+	</card>
+	<card type="word">
+		<jap>扱う</jap>
+		<freq>797</freq>
+		<grd>1057</grd>
+		<had>1258</had>
+		<kun>あつかう</kun>
+		<mean lang="de">behandeln</mean>
+	</card>
+	<card type="word">
+		<jap>修正</jap>
+		<freq>798</freq>
+		<grd>603</grd>
+		<had>945</had>
+		<kun>しゅうせい</kun>
+		<mean lang="de">Verbesserung/Abaenderung/</mean>
+	</card>
+	<card type="word">
+		<jap>電車</jap>
+		<freq>799</freq>
+		<grd>333</grd>
+		<had>133</had>
+		<kun>でんしゃ</kun>
+		<mean lang="de">(elektrischer) Zug</mean>
+	</card>
+	<card type="word">
+		<jap>一応</jap>
+		<freq>800</freq>
+		<grd>266</grd>
+		<had>827</had>
+		<kun>いちおう</kun>
+		<mean lang="de">[1]/im Großen und Ganzen/</mean>
+	</card>
+	<card type="word">
+		<jap>向上</jap>
+		<freq>801</freq>
+		<grd>182</grd>
+		<had>198</had>
+		<kun>こうじょう</kun>
+		<mean lang="de">Aufstieg/Entwicklung</mean>
+	</card>
+	<card type="word">
+		<jap>負ける</jap>
+		<freq>802</freq>
+		<grd>443</grd>
+		<had>510</had>
+		<kun>まける</kun>
+		<mean lang="de">unterliegen/verlieren/Rab</mean>
+	</card>
+	<card type="word">
+		<jap>生じる</jap>
+		<freq>803</freq>
+		<grd>29</grd>
+		<had>44</had>
+		<kun>しょうじる</kun>
+		<mean lang="de">(schriftspr.)/[1]/erzeuge</mean>
+	</card>
+	<card type="word">
+		<jap>野球</jap>
+		<freq>804</freq>
+		<grd>302</grd>
+		<had>726</had>
+		<kun>やきゅう</kun>
+		<mean lang="de">Baseball</mean>
+	</card>
+	<card type="word">
+		<jap>姿勢</jap>
+		<freq>805</freq>
+		<grd>441</grd>
+		<had>929</had>
+		<kun>しせい</kun>
+		<mean lang="de">Koerperhaltung/Einstellun</mean>
+	</card>
+	<card type="word">
+		<jap>遊ぶ</jap>
+		<freq>806</freq>
+		<grd>941</grd>
+		<had>1003</had>
+		<kun>あそぶ</kun>
+		<mean lang="de">spielen/sich unterhalten/</mean>
+	</card>
+	<card type="word">
+		<jap>訪問</jap>
+		<freq>807</freq>
+		<grd>372</grd>
+		<had>1181</had>
+		<kun>ほうもん</kun>
+		<mean lang="de">Besuch</mean>
+	</card>
+	<card type="word">
+		<jap>引用</jap>
+		<freq>808</freq>
+		<grd>218</grd>
+		<had>216</had>
+		<kun>いんよう</kun>
+		<mean lang="de">Anfuehrung/Zitat</mean>
+	</card>
+	<card type="word">
+		<jap>並ぶ</jap>
+		<freq>809</freq>
+		<grd>599</grd>
+		<had>1165</had>
+		<kun>ならぶ</kun>
+		<mean lang="de">in einer Reihe stehen</mean>
+	</card>
+	<card type="word">
+		<jap>視点</jap>
+		<freq>810</freq>
+		<grd>362</grd>
+		<had>606</had>
+		<kun>してん</kun>
+		<mean lang="de">Aspekt/Gesichtspunkt/Blic</mean>
+	</card>
+	<card type="word">
+		<jap>小学校</jap>
+		<freq>811</freq>
+		<grd>294</grd>
+		<had>115</had>
+		<kun>しょうがっこう</kun>
+		<mean lang="de">Grundschule</mean>
+	</card>
+	<card type="word">
+		<jap>電気</jap>
+		<freq>812</freq>
+		<grd>268</grd>
+		<had>134</had>
+		<kun>でんき</kun>
+		<mean lang="de">Elektrizitaet</mean>
+	</card>
+	<card type="word">
+		<jap>効率</jap>
+		<freq>813</freq>
+		<grd>538</grd>
+		<had>816</had>
+		<kun>こうりつ</kun>
+		<mean lang="de">Wirkungsgrad/Leistungsfäh</mean>
+	</card>
+	<card type="word">
+		<jap>間違う</jap>
+		<freq>814</freq>
+		<grd>33</grd>
+		<had>43</had>
+		<kun>まちがう</kun>
+		<mean lang="de">[1]/sich irren/einen Fehl</mean>
+	</card>
+	<card type="word">
+		<jap>芸術</jap>
+		<freq>815</freq>
+		<grd>719</grd>
+		<had>435</had>
+		<kun>げいじゅつ</kun>
+		<mean lang="de">Kunst</mean>
+	</card>
+	<card type="word">
+		<jap>挙げる</jap>
+		<freq>816</freq>
+		<grd>257</grd>
+		<had>801</had>
+		<kun>あげる</kun>
+		<mean lang="de">nennen/geben/zaehlen/fest</mean>
+	</card>
+	<card type="word">
+		<jap>会話</jap>
+		<freq>817</freq>
+		<grd>134</grd>
+		<had>238</had>
+		<kun>かいわ</kun>
+		<mean lang="de">Unterhaltung/Gespraech</mean>
+	</card>
+	<card type="word">
+		<jap>再び</jap>
+		<freq>818</freq>
+		<grd>275</grd>
+		<had>782</had>
+		<kun>ふたたび</kun>
+		<mean lang="de">noch einmal/wieder/zweima</mean>
+	</card>
+	<card type="word">
+		<jap>解釈</jap>
+		<freq>819</freq>
+		<grd>1097</grd>
+		<had>595</had>
+		<kun>かいしゃく</kun>
+		<mean lang="de">Interpretation</mean>
+	</card>
+	<card type="word">
+		<jap>資産</jap>
+		<freq>820</freq>
+		<grd>179</grd>
+		<had>750</had>
+		<kun>しさん</kun>
+		<mean lang="de">Kapital/Vermögen/Eigentum</mean>
+	</card>
+	<card type="word">
+		<jap>結論</jap>
+		<freq>821</freq>
+		<grd>227</grd>
+		<had>485</had>
+		<kun>けつろん</kun>
+		<mean lang="de">Schluss/Folgerung</mean>
+	</card>
+	<card type="word">
+		<jap>大丈夫</jap>
+		<freq>822</freq>
+		<grd>335</grd>
+		<had>315</had>
+		<kun>だいじょうふ</kun>
+		<mean lang="de">stattlicher Mann</mean>
+	</card>
+	<card type="word">
+		<jap>止める</jap>
+		<freq>823</freq>
+		<grd>310</grd>
+		<had>477</had>
+		<kun>とめる</kun>
+		<mean lang="de">anhalten/unterbrechen</mean>
+	</card>
+	<card type="word">
+		<jap>取り組む</jap>
+		<freq>824</freq>
+		<grd>122</grd>
+		<had>65</had>
+		<kun>とりくむ</kun>
+		<mean lang="de">[1]/ringen/kämpfen/[2]/si</mean>
+	</card>
+	<card type="word">
+		<jap>怖い</jap>
+		<freq>825</freq>
+		<grd>1325</grd>
+		<had>1814</had>
+		<kun>こわい</kun>
+		<mean lang="de">fuerchterlich/entsetzlich</mean>
+	</card>
+	<card type="word">
+		<jap>製造</jap>
+		<freq>826</freq>
+		<grd>488</grd>
+		<had>691</had>
+		<kun>せいぞう</kun>
+		<mean lang="de">Herstellung/Erzeugung/Pro</mean>
+	</card>
+	<card type="word">
+		<jap>困難</jap>
+		<freq>827</freq>
+		<grd>843</grd>
+		<had>558</had>
+		<kun>こんなん</kun>
+		<mean lang="de">Schwierigkeit/Muehsal</mean>
+	</card>
+	<card type="word">
+		<jap>回復</jap>
+		<freq>828</freq>
+		<grd>438</grd>
+		<had>917</had>
+		<kun>かいふく</kun>
+		<mean lang="de">Wiederherstellung/Genesun</mean>
+	</card>
+	<card type="word">
+		<jap>美味しい</jap>
+		<freq>829</freq>
+		<grd>462</grd>
+		<had>400</had>
+		<kun>おいしい</kun>
+		<mean lang="de">[1]/schmackhaft/wohlschme</mean>
+	</card>
+	<card type="word">
+		<jap>適用</jap>
+		<freq>830</freq>
+		<grd>670</grd>
+		<had>415</had>
+		<kun>てきよう</kun>
+		<mean lang="de">Anwendung/Verwendung</mean>
+	</card>
+	<card type="word">
+		<jap>母親</jap>
+		<freq>831</freq>
+		<grd>570</grd>
+		<had>175</had>
+		<kun>ははおや</kun>
+		<mean lang="de">Mutter</mean>
+	</card>
+	<card type="word">
+		<jap>取材</jap>
+		<freq>832</freq>
+		<grd>565</grd>
+		<had>552</had>
+		<kun>しゅざい</kun>
+		<mean lang="de">Sammeln von Material/Samm</mean>
+	</card>
+	<card type="word">
+		<jap>保障</jap>
+		<freq>833</freq>
+		<grd>742</grd>
+		<had>858</had>
+		<kun>ほしょう</kun>
+		<mean lang="de">Buergschaft/Garantie/Sich</mean>
+	</card>
+	<card type="word">
+		<jap>集団</jap>
+		<freq>834</freq>
+		<grd>213</grd>
+		<had>491</had>
+		<kun>しゅうだん</kun>
+		<mean lang="de">Gruppen/Massen</mean>
+	</card>
+	<card type="word">
+		<jap>卒業</jap>
+		<freq>835</freq>
+		<grd>772</grd>
+		<had>787</had>
+		<kun>そつぎょう</kun>
+		<mean lang="de">Schulabschluss/Universita</mean>
+	</card>
+	<card type="word">
+		<jap>事態</jap>
+		<freq>836</freq>
+		<grd>353</grd>
+		<had>387</had>
+		<kun>じたい</kun>
+		<mean lang="de">Sachlage/Situation/Tatbes</mean>
+	</card>
+	<card type="word">
+		<jap>立てる</jap>
+		<freq>837</freq>
+		<grd>58</grd>
+		<had>121</had>
+		<kun>たてる</kun>
+		<mean lang="de">aufstellen/errichten</mean>
+	</card>
+	<card type="word">
+		<jap>画面</jap>
+		<freq>838</freq>
+		<grd>199</grd>
+		<had>343</had>
+		<kun>がめん</kun>
+		<mean lang="de">Bildflaeche</mean>
+	</card>
+	<card type="word">
+		<jap>資格</jap>
+		<freq>839</freq>
+		<grd>281</grd>
+		<had>750</had>
+		<kun>しかく</kun>
+		<mean lang="de">Qualifikation/Eignung/Ber</mean>
+	</card>
+	<card type="word">
+		<jap>時点</jap>
+		<freq>840</freq>
+		<grd>165</grd>
+		<had>169</had>
+		<kun>じてん</kun>
+		<mean lang="de">Zeitpunkt</mean>
+	</card>
+	<card type="word">
+		<jap>病気</jap>
+		<freq>841</freq>
+		<grd>384</grd>
+		<had>380</had>
+		<kun>びょうき</kun>
+		<mean lang="de">Krankheit</mean>
+	</card>
+	<card type="word">
+		<jap>更に</jap>
+		<freq>842</freq>
+		<grd>861</grd>
+		<had>1008</had>
+		<kun>さらに</kun>
+		<mean lang="de">[1]/ferner/weiterhin/des </mean>
+	</card>
+	<card type="word">
+		<jap>活躍</jap>
+		<freq>843</freq>
+		<grd>900</grd>
+		<had>1560</had>
+		<kun>かつやく</kun>
+		<mean lang="de">Taetigkeit/Aktivitaet</mean>
+	</card>
+	<card type="word">
+		<jap>問う</jap>
+		<freq>844</freq>
+		<grd>64</grd>
+		<had>162</had>
+		<kun>とう</kun>
+		<mean lang="de">[1]/fragen/Frage stellen/</mean>
+	</card>
+	<card type="word">
+		<jap>殺す</jap>
+		<freq>845</freq>
+		<grd>581</grd>
+		<had>576</had>
+		<kun>ころす</kun>
+		<mean lang="de">toeten/morden/ermorden</mean>
+	</card>
+	<card type="word">
+		<jap>限定</jap>
+		<freq>846</freq>
+		<grd>405</grd>
+		<had>847</had>
+		<kun>げんてい</kun>
+		<mean lang="de">Beschränkung/Begrenzung/g</mean>
+	</card>
+	<card type="word">
+		<jap>医師</jap>
+		<freq>847</freq>
+		<grd>563</grd>
+		<had>409</had>
+		<kun>いし</kun>
+		<mean lang="de">Arzt</mean>
+	</card>
+	<card type="word">
+		<jap>工事</jap>
+		<freq>848</freq>
+		<grd>299</grd>
+		<had>139</had>
+		<kun>こうじ</kun>
+		<mean lang="de">-Bau/Bauarbeit</mean>
+	</card>
+	<card type="word">
+		<jap>現れる</jap>
+		<freq>849</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>あらわれる</kun>
+		<mean lang="de">erscheinen</mean>
+	</card>
+	<card type="word">
+		<jap>正直</jap>
+		<freq>850</freq>
+		<grd>246</grd>
+		<had>423</had>
+		<kun>しょうじき</kun>
+		<mean lang="de">ehrlich/aufrichtig/rechts</mean>
+	</card>
+	<card type="word">
+		<jap>原則</jap>
+		<freq>851</freq>
+		<grd>753</grd>
+		<had>608</had>
+		<kun>げんそく</kun>
+		<mean lang="de">Grundsatz/Prinzip/Grundre</mean>
+	</card>
+	<card type="word">
+		<jap>自動車</jap>
+		<freq>852</freq>
+		<grd>333</grd>
+		<had>133</had>
+		<kun>じどうしゃ</kun>
+		<mean lang="de">Auto/Wagen</mean>
+	</card>
+	<card type="word">
+		<jap>部門</jap>
+		<freq>853</freq>
+		<grd>452</grd>
+		<had>161</had>
+		<kun>ぶもん</kun>
+		<mean lang="de">Abteilung/Gruppe/Zweig/Fa</mean>
+	</card>
+	<card type="word">
+		<jap>女の子</jap>
+		<freq>854</freq>
+		<grd>151</grd>
+		<had>103</had>
+		<kun>おんなのこ</kun>
+		<mean lang="de">Maedchen</mean>
+	</card>
+	<card type="word">
+		<jap>出演</jap>
+		<freq>855</freq>
+		<grd>267</grd>
+		<had>344</had>
+		<kun>しゅつえん</kun>
+		<mean lang="de">&quot;Die Personen und ihre Da</mean>
+	</card>
+	<card type="word">
+		<jap>民族</jap>
+		<freq>856</freq>
+		<grd>393</grd>
+		<had>221</had>
+		<kun>みんぞく</kun>
+		<mean lang="de">Rasse</mean>
+	</card>
+	<card type="word">
+		<jap>充実</jap>
+		<freq>857</freq>
+		<grd>949</grd>
+		<had>828</had>
+		<kun>じゅうじつ</kun>
+		<mean lang="de">Fuelle/Gehalt/Vollstaendi</mean>
+	</card>
+	<card type="word">
+		<jap>伴う</jap>
+		<freq>858</freq>
+		<grd>886</grd>
+		<had>1027</had>
+		<kun>ともなう</kun>
+		<mean lang="de">begleiten/mit jemanden ge</mean>
+	</card>
+	<card type="word">
+		<jap>講演</jap>
+		<freq>859</freq>
+		<grd>653</grd>
+		<had>783</had>
+		<kun>こうえん</kun>
+		<mean lang="de">Vortrag/Rede</mean>
+	</card>
+	<card type="word">
+		<jap>瞬間</jap>
+		<freq>860</freq>
+		<grd>1265</grd>
+		<had>1732</had>
+		<kun>しゅんかん</kun>
+		<mean lang="de">(kurzer) Augenblick/Momen</mean>
+	</card>
+	<card type="word">
+		<jap>交流</jap>
+		<freq>861</freq>
+		<grd>280</grd>
+		<had>247</had>
+		<kun>こうりゅう</kun>
+		<mean lang="de">[1]/{Elektrot.}/Wechselst</mean>
+	</card>
+	<card type="word">
+		<jap>大量</jap>
+		<freq>862</freq>
+		<grd>469</grd>
+		<had>411</had>
+		<kun>たいりょう</kun>
+		<mean lang="de">grosse Menge</mean>
+	</card>
+	<card type="word">
+		<jap>回る</jap>
+		<freq>863</freq>
+		<grd>50</grd>
+		<had>90</had>
+		<kun>まわる</kun>
+		<mean lang="de">kreisen/drehen</mean>
+	</card>
+	<card type="word">
+		<jap>久しぶり</jap>
+		<freq>864</freq>
+		<grd>688</grd>
+		<had>1210</had>
+		<kun>ひさしぶり</kun>
+		<mean lang="de">lange Zeit/seit langer Ze</mean>
+	</card>
+	<card type="word">
+		<jap>革命</jap>
+		<freq>865</freq>
+		<grd>465</grd>
+		<had>1075</had>
+		<kun>かくめい</kun>
+		<mean lang="de">Revolution</mean>
+	</card>
+	<card type="word">
+		<jap>成果</jap>
+		<freq>866</freq>
+		<grd>258</grd>
+		<had>487</had>
+		<kun>せいか</kun>
+		<mean lang="de">Ergebnis</mean>
+	</card>
+	<card type="word">
+		<jap>標準</jap>
+		<freq>867</freq>
+		<grd>686</grd>
+		<had>923</had>
+		<kun>ひょうじゅん</kun>
+		<mean lang="de">[1]/Standard/Norm/Maßstab</mean>
+	</card>
+	<card type="word">
+		<jap>輸入</jap>
+		<freq>868</freq>
+		<grd>371</grd>
+		<had>546</had>
+		<kun>ゆにゅう</kun>
+		<mean lang="de">Einfuhr/Import</mean>
+	</card>
+	<card type="word">
+		<jap>背景</jap>
+		<freq>869</freq>
+		<grd>696</grd>
+		<had>1265</had>
+		<kun>はいけい</kun>
+		<mean lang="de">Hintergrund</mean>
+	</card>
+	<card type="word">
+		<jap>政権</jap>
+		<freq>870</freq>
+		<grd>156</grd>
+		<had>483</had>
+		<kun>せいけん</kun>
+		<mean lang="de">[1]/Regierungsgewalt/poli</mean>
+	</card>
+	<card type="word">
+		<jap>喜ぶ</jap>
+		<freq>871</freq>
+		<grd>769</grd>
+		<had>1143</had>
+		<kun>よろこぶ</kun>
+		<mean lang="de">sich freuen</mean>
+	</card>
+	<card type="word">
+		<jap>協議</jap>
+		<freq>872</freq>
+		<grd>121</grd>
+		<had>292</had>
+		<kun>きょうぎ</kun>
+		<mean lang="de">Beratung/Konferenz</mean>
+	</card>
+	<card type="word">
+		<jap>関心</jap>
+		<freq>873</freq>
+		<grd>157</grd>
+		<had>398</had>
+		<kun>かんしん</kun>
+		<mean lang="de">Interesse</mean>
+	</card>
+	<card type="word">
+		<jap>勝手</jap>
+		<freq>874</freq>
+		<grd>185</grd>
+		<had>509</had>
+		<kun>かって</kun>
+		<mean lang="de">[1]/Küche/[2]/Eigenwille/</mean>
+	</card>
+	<card type="word">
+		<jap>一覧</jap>
+		<freq>875</freq>
+		<grd>1510</grd>
+		<had>1291</had>
+		<kun>いちらん</kun>
+		<mean lang="de">[1]/kurzer Blick/Durchsic</mean>
+	</card>
+	<card type="word">
+		<jap>取り上げる</jap>
+		<freq>876</freq>
+		<grd>122</grd>
+		<had>65</had>
+		<kun>とりあげる</kun>
+		<mean lang="de">aufnehmen/annehmen/wegneh</mean>
+	</card>
+	<card type="word">
+		<jap>伝統</jap>
+		<freq>877</freq>
+		<grd>416</grd>
+		<had>830</had>
+		<kun>でんとう</kun>
+		<mean lang="de">Tradition</mean>
+	</card>
+	<card type="word">
+		<jap>聞こえる</jap>
+		<freq>878</freq>
+		<grd>319</grd>
+		<had>64</had>
+		<kun>きこえる</kun>
+		<mean lang="de">hoerbar/vernehmbar sein/s</mean>
+	</card>
+	<card type="word">
+		<jap>民主</jap>
+		<freq>879</freq>
+		<grd>95</grd>
+		<had>177</had>
+		<kun>みんしゅ</kun>
+		<mean lang="de">(schriftspr.)/Volkssouver</mean>
+	</card>
+	<card type="word">
+		<jap>制限</jap>
+		<freq>880</freq>
+		<grd>405</grd>
+		<had>847</had>
+		<kun>せいげん</kun>
+		<mean lang="de">Begrenzung/Beschraenkung</mean>
+	</card>
+	<card type="word">
+		<jap>投票</jap>
+		<freq>881</freq>
+		<grd>489</grd>
+		<had>1021</had>
+		<kun>とうひょう</kun>
+		<mean lang="de">Abstimmung</mean>
+	</card>
+	<card type="word">
+		<jap>値段</jap>
+		<freq>882</freq>
+		<grd>518</grd>
+		<had>425</had>
+		<kun>ねだん</kun>
+		<mean lang="de">Preis</mean>
+	</card>
+	<card type="word">
+		<jap>沖縄</jap>
+		<freq>883</freq>
+		<grd>1075</grd>
+		<had>1760</had>
+		<kun>おきなわ</kun>
+		<mean lang="de">{Inseln.}/Okinawa/(die gr</mean>
+	</card>
+	<card type="word">
+		<jap>図る</jap>
+		<freq>884</freq>
+		<grd>539</grd>
+		<had>339</had>
+		<kun>はかる</kun>
+		<mean lang="de">planen</mean>
+	</card>
+	<card type="word">
+		<jap>軽い</jap>
+		<freq>885</freq>
+		<grd>790</grd>
+		<had>547</had>
+		<kun>かるい</kun>
+		<mean lang="de">leicht</mean>
+	</card>
+	<card type="word">
+		<jap>若者</jap>
+		<freq>886</freq>
+		<grd>458</grd>
+		<had>544</had>
+		<kun>わかもの</kun>
+		<mean lang="de">junger Mann/Jugendlicher/</mean>
+	</card>
+	<card type="word">
+		<jap>心理</jap>
+		<freq>887</freq>
+		<grd>157</grd>
+		<had>143</had>
+		<kun>しんり</kun>
+		<mean lang="de">{Psych.}/Seelenzustand/Ge</mean>
+	</card>
+	<card type="word">
+		<jap>大体</jap>
+		<freq>888</freq>
+		<grd>88</grd>
+		<had>61</had>
+		<kun>だいたい</kun>
+		<mean lang="de">Hauptpunkt/das Wesentlich</mean>
+	</card>
+	<card type="word">
+		<jap>掲示板</jap>
+		<freq>889</freq>
+		<grd>926</grd>
+		<had>1624</had>
+		<kun>けいじばん</kun>
+		<mean lang="de">Anschlagtafel/schwarzes B</mean>
+	</card>
+	<card type="word">
+		<jap>番号</jap>
+		<freq>890</freq>
+		<grd>585</grd>
+		<had>266</had>
+		<kun>ばんごう</kun>
+		<mean lang="de">Nummer</mean>
+	</card>
+	<card type="word">
+		<jap>前提</jap>
+		<freq>891</freq>
+		<grd>254</grd>
+		<had>628</had>
+		<kun>ぜんてい</kun>
+		<mean lang="de">Voraussetzung/Praemisse</mean>
+	</card>
+	<card type="word">
+		<jap>ある程度</jap>
+		<freq>892</freq>
+		<grd>110</grd>
+		<had>377</had>
+		<kun>あるていど</kun>
+		<mean lang="de">gewisser Grad</mean>
+	</card>
+	<card type="word">
+		<jap>突然</jap>
+		<freq>893</freq>
+		<grd>521</grd>
+		<had>898</had>
+		<kun>とつぜん</kun>
+		<mean lang="de">ploetzlich/unerwartet</mean>
+	</card>
+	<card type="word">
+		<jap>半分</jap>
+		<freq>894</freq>
+		<grd>224</grd>
+		<had>88</had>
+		<kun>はんぶん</kun>
+		<mean lang="de">Haelfte/halb</mean>
+	</card>
+	<card type="word">
+		<jap>思想</jap>
+		<freq>895</freq>
+		<grd>381</grd>
+		<had>147</had>
+		<kun>しそう</kun>
+		<mean lang="de">Idee/Gedanke</mean>
+	</card>
+	<card type="word">
+		<jap>請求</jap>
+		<freq>896</freq>
+		<grd>524</grd>
+		<had>724</had>
+		<kun>せいきゅう</kun>
+		<mean lang="de">Forderung/Anspruch</mean>
+	</card>
+	<card type="word">
+		<jap>正確</jap>
+		<freq>897</freq>
+		<grd>252</grd>
+		<had>603</had>
+		<kun>せいかく</kun>
+		<mean lang="de">Genauigkeit/Praezision/Ri</mean>
+	</card>
+	<card type="word">
+		<jap>教室</jap>
+		<freq>898</freq>
+		<grd>550</grd>
+		<had>245</had>
+		<kun>きょうしつ</kun>
+		<mean lang="de">Klassenzimmer/Unterrichts</mean>
+	</card>
+	<card type="word">
+		<jap>周辺</jap>
+		<freq>899</freq>
+		<grd>562</grd>
+		<had>775</had>
+		<kun>しゅうへん</kun>
+		<mean lang="de">Umkreis/Peripherie</mean>
+	</card>
+	<card type="word">
+		<jap>応じる</jap>
+		<freq>900</freq>
+		<grd>266</grd>
+		<had>827</had>
+		<kun>おうじる</kun>
+		<mean lang="de">[1]/antworten/erwidern/[2</mean>
+	</card>
+	<card type="word">
+		<jap>不足</jap>
+		<freq>901</freq>
+		<grd>343</grd>
+		<had>94</had>
+		<kun>ふそく</kun>
+		<mean lang="de">Mangel</mean>
+	</card>
+	<card type="word">
+		<jap>寒い</jap>
+		<freq>902</freq>
+		<grd>1456</grd>
+		<had>457</had>
+		<kun>さむい</kun>
+		<mean lang="de">kalt</mean>
+	</card>
+	<card type="word">
+		<jap>法案</jap>
+		<freq>903</freq>
+		<grd>206</grd>
+		<had>123</had>
+		<kun>ほうあん</kun>
+		<mean lang="de">Gesetzentwurf</mean>
+	</card>
+	<card type="word">
+		<jap>捨てる</jap>
+		<freq>904</freq>
+		<grd>1266</grd>
+		<had>1444</had>
+		<kun>すてる</kun>
+		<mean lang="de">wegwerfen/im Stich lassen</mean>
+	</card>
+	<card type="word">
+		<jap>世の中</jap>
+		<freq>905</freq>
+		<grd>135</grd>
+		<had>252</had>
+		<kun>よのなか</kun>
+		<mean lang="de">[1]/die Welt/Leben/[2]/di</mean>
+	</card>
+	<card type="word">
+		<jap>取得</jap>
+		<freq>906</freq>
+		<grd>175</grd>
+		<had>374</had>
+		<kun>しゅとく</kun>
+		<mean lang="de">Erwerbung/Erwerb</mean>
+	</card>
+	<card type="word">
+		<jap>項目</jap>
+		<freq>907</freq>
+		<grd>884</grd>
+		<had>1439</had>
+		<kun>こうもく</kun>
+		<mean lang="de">Abschnitt/Absatz</mean>
+	</card>
+	<card type="word">
+		<jap>性格</jap>
+		<freq>908</freq>
+		<grd>281</grd>
+		<had>643</had>
+		<kun>せいかく</kun>
+		<mean lang="de">Charakter/Persoenlichkeit</mean>
+	</card>
+	<card type="word">
+		<jap>次第</jap>
+		<freq>909</freq>
+		<grd>222</grd>
+		<had>404</had>
+		<kun>しだい</kun>
+		<mean lang="de">Reihenfolge/sobald</mean>
+	</card>
+	<card type="word">
+		<jap>顧客</jap>
+		<freq>910</freq>
+		<grd>1058</grd>
+		<had>1554</had>
+		<kun>こかく</kun>
+		<mean lang="de">-Kunde/Kundschaft</mean>
+	</card>
+	<card type="word">
+		<jap>着る</jap>
+		<freq>911</freq>
+		<grd>376</grd>
+		<had>657</had>
+		<kun>きる</kun>
+		<mean lang="de">anziehen/tragen</mean>
+	</card>
+	<card type="word">
+		<jap>減る</jap>
+		<freq>912</freq>
+		<grd>261</grd>
+		<had>715</had>
+		<kun>へる</kun>
+		<mean lang="de">abnehmen</mean>
+	</card>
+	<card type="word">
+		<jap>避ける</jap>
+		<freq>913</freq>
+		<grd>756</grd>
+		<had>1491</had>
+		<kun>さける</kun>
+		<mean lang="de">meiden/vermeiden/ausweich</mean>
+	</card>
+	<card type="word">
+		<jap>多分</jap>
+		<freq>914</freq>
+		<grd>139</grd>
+		<had>229</had>
+		<kun>たぶん</kun>
+		<mean lang="de">[1]/wahrscheinlich/vermut</mean>
+	</card>
+	<card type="word">
+		<jap>地区</jap>
+		<freq>915</freq>
+		<grd>137</grd>
+		<had>183</had>
+		<kun>ちく</kun>
+		<mean lang="de">Distrikt/Gebiet</mean>
+	</card>
+	<card type="word">
+		<jap>長期</jap>
+		<freq>916</freq>
+		<grd>117</grd>
+		<had>449</had>
+		<kun>ちょうき</kun>
+		<mean lang="de">lange Frist/langer Termin</mean>
+	</card>
+	<card type="word">
+		<jap>遠い</jap>
+		<freq>917</freq>
+		<grd>887</grd>
+		<had>446</had>
+		<kun>とおい</kun>
+		<mean lang="de">-weit/-fern/entfernt</mean>
+	</card>
+	<card type="word">
+		<jap>達成</jap>
+		<freq>918</freq>
+		<grd>500</grd>
+		<had>448</had>
+		<kun>たっせい</kun>
+		<mean lang="de">erreichen</mean>
+	</card>
+	<card type="word">
+		<jap>著者</jap>
+		<freq>919</freq>
+		<grd>849</grd>
+		<had>859</had>
+		<kun>ちょしゃ</kun>
+		<mean lang="de">Verfasser/Autor</mean>
+	</card>
+	<card type="word">
+		<jap>弱い</jap>
+		<freq>920</freq>
+		<grd>958</grd>
+		<had>218</had>
+		<kun>よわい</kun>
+		<mean lang="de">schwach</mean>
+	</card>
+	<card type="word">
+		<jap>展示</jap>
+		<freq>921</freq>
+		<grd>352</grd>
+		<had>1129</had>
+		<kun>てんじ</kun>
+		<mean lang="de">Ausstellung</mean>
+	</card>
+	<card type="word">
+		<jap>答え</jap>
+		<freq>922</freq>
+		<grd>486</grd>
+		<had>160</had>
+		<kun>こたえ</kun>
+		<mean lang="de">Antwort</mean>
+	</card>
+	<card type="word">
+		<jap>訪れる</jap>
+		<freq>923</freq>
+		<grd>372</grd>
+		<had>1181</had>
+		<kun>おとずれる</kun>
+		<mean lang="de">besuchen</mean>
+	</card>
+	<card type="word">
+		<jap>忙しい</jap>
+		<freq>924</freq>
+		<grd>1475</grd>
+		<had>1373</had>
+		<kun>いそがしい</kun>
+		<mean lang="de">beschaeftigt</mean>
+	</card>
+	<card type="word">
+		<jap>後半</jap>
+		<freq>925</freq>
+		<grd>224</grd>
+		<had>88</had>
+		<kun>こうはん</kun>
+		<mean lang="de">zweite Hälfte/letzte Hälf</mean>
+	</card>
+	<card type="word">
+		<jap>福祉</jap>
+		<freq>926</freq>
+		<grd>1063</grd>
+		<had>1390</had>
+		<kun>ふくし</kun>
+		<mean lang="de">Wohlfahrt/Wohlergehen</mean>
+	</card>
+	<card type="word">
+		<jap>到着</jap>
+		<freq>927</freq>
+		<grd>1032</grd>
+		<had>904</had>
+		<kun>とうちゃく</kun>
+		<mean lang="de">Ankunft</mean>
+	</card>
+	<card type="word">
+		<jap>操作</jap>
+		<freq>928</freq>
+		<grd>1016</grd>
+		<had>1655</had>
+		<kun>そうさ</kun>
+		<mean lang="de">Verfahren/Handhabung/Beha</mean>
+	</card>
+	<card type="word">
+		<jap>便利</jap>
+		<freq>929</freq>
+		<grd>729</grd>
+		<had>330</had>
+		<kun>べんり</kun>
+		<mean lang="de">bequem/praktisch</mean>
+	</card>
+	<card type="word">
+		<jap>支配</jap>
+		<freq>930</freq>
+		<grd>359</grd>
+		<had>515</had>
+		<kun>しはい</kun>
+		<mean lang="de">Herrschaft/Fuehrung/Verwa</mean>
+	</card>
+	<card type="word">
+		<jap>何とか</jap>
+		<freq>931</freq>
+		<grd>340</grd>
+		<had>390</had>
+		<kun>なんとか</kun>
+		<mean lang="de">[1]/irgendwie/irgendwas/a</mean>
+	</card>
+	<card type="word">
+		<jap>講座</jap>
+		<freq>932</freq>
+		<grd>653</grd>
+		<had>786</had>
+		<kun>こうざ</kun>
+		<mean lang="de">Kurs</mean>
+	</card>
+	<card type="word">
+		<jap>現地</jap>
+		<freq>933</freq>
+		<grd>85</grd>
+		<had>298</had>
+		<kun>げんち</kun>
+		<mean lang="de">Ort und Stelle</mean>
+	</card>
+	<card type="word">
+		<jap>態度</jap>
+		<freq>934</freq>
+		<grd>353</grd>
+		<had>387</had>
+		<kun>たいど</kun>
+		<mean lang="de">Einstellung/Haltung/Verha</mean>
+	</card>
+	<card type="word">
+		<jap>審査</jap>
+		<freq>935</freq>
+		<grd>412</grd>
+		<had>1383</had>
+		<kun>しんさ</kun>
+		<mean lang="de">Pruefung/Untersuchung</mean>
+	</card>
+	<card type="word">
+		<jap>公園</jap>
+		<freq>936</freq>
+		<grd>628</grd>
+		<had>447</had>
+		<kun>こうえん</kun>
+		<mean lang="de">(oeffentlicher) Park</mean>
+	</card>
+	<card type="word">
+		<jap>過程</jap>
+		<freq>937</freq>
+		<grd>514</grd>
+		<had>417</had>
+		<kun>かてい</kun>
+		<mean lang="de">Verlauf/Prozess</mean>
+	</card>
+	<card type="word">
+		<jap>研修</jap>
+		<freq>938</freq>
+		<grd>603</grd>
+		<had>945</had>
+		<kun>けんしゅう</kun>
+		<mean lang="de">Studium/Schulung/Training</mean>
+	</card>
+	<card type="word">
+		<jap>長官</jap>
+		<freq>939</freq>
+		<grd>230</grd>
+		<had>326</had>
+		<kun>ちょうかん</kun>
+		<mean lang="de">Minister/Staatssekretär/L</mean>
+	</card>
+	<card type="word">
+		<jap>連続</jap>
+		<freq>940</freq>
+		<grd>141</grd>
+		<had>440</had>
+		<kun>れんぞく</kun>
+		<mean lang="de">Aufeinanderfolge/Kontinui</mean>
+	</card>
+	<card type="word">
+		<jap>望む</jap>
+		<freq>941</freq>
+		<grd>470</grd>
+		<had>673</had>
+		<kun>のぞむ</kun>
+		<mean lang="de">hoffen/wuenschen/ueberbli</mean>
+	</card>
+	<card type="word">
+		<jap>空気</jap>
+		<freq>942</freq>
+		<grd>304</grd>
+		<had>140</had>
+		<kun>くうき</kun>
+		<mean lang="de">Luft</mean>
+	</card>
+	<card type="word">
+		<jap>翻訳</jap>
+		<freq>943</freq>
+		<grd>1465</grd>
+		<had>596</had>
+		<kun>ほんやく</kun>
+		<mean lang="de">Uebersetzung/uebersetzen</mean>
+	</card>
+	<card type="word">
+		<jap>広がる</jap>
+		<freq>944</freq>
+		<grd>263</grd>
+		<had>694</had>
+		<kun>ひろがる</kun>
+		<mean lang="de">sich ausdehnen</mean>
+	</card>
+	<card type="word">
+		<jap>単純</jap>
+		<freq>945</freq>
+		<grd>1044</grd>
+		<had>965</had>
+		<kun>たんじゅん</kun>
+		<mean lang="de">einfach/schlicht/einfaelt</mean>
+	</card>
+	<card type="word">
+		<jap>短い</jap>
+		<freq>946</freq>
+		<grd>689</grd>
+		<had>215</had>
+		<kun>みじかい</kun>
+		<mean lang="de">-kurz</mean>
+	</card>
+	<card type="word">
+		<jap>飛ぶ</jap>
+		<freq>947</freq>
+		<grd>580</grd>
+		<had>530</had>
+		<kun>とぶ</kun>
+		<mean lang="de">fliegen</mean>
+	</card>
+	<card type="word">
+		<jap>予約</jap>
+		<freq>948</freq>
+		<grd>180</grd>
+		<had>393</had>
+		<kun>よやく</kun>
+		<mean lang="de">Subskription/Abonnement</mean>
+	</card>
+	<card type="word">
+		<jap>構築</jap>
+		<freq>949</freq>
+		<grd>821</grd>
+		<had>1603</had>
+		<kun>こうちく</kun>
+		<mean lang="de">Bau/Errichtung/Konstrukti</mean>
+	</card>
+	<card type="word">
+		<jap>座る</jap>
+		<freq>950</freq>
+		<grd>588</grd>
+		<had>786</had>
+		<kun>すわる</kun>
+		<mean lang="de">sich setzen</mean>
+	</card>
+	<card type="word">
+		<jap>論文</jap>
+		<freq>951</freq>
+		<grd>227</grd>
+		<had>293</had>
+		<kun>ろんぶん</kun>
+		<mean lang="de">Abhandlung/Aufsatz</mean>
+	</card>
+	<card type="word">
+		<jap>地震</jap>
+		<freq>952</freq>
+		<grd>893</grd>
+		<had>953</had>
+		<kun>じしん</kun>
+		<mean lang="de">Erdbeben</mean>
+	</card>
+	<card type="word">
+		<jap>継続</jap>
+		<freq>953</freq>
+		<grd>743</grd>
+		<had>1025</had>
+		<kun>けいぞく</kun>
+		<mean lang="de">Fortsetzung/Fortdauer/Dau</mean>
+	</card>
+	<card type="word">
+		<jap>一言</jap>
+		<freq>954</freq>
+		<grd>83</grd>
+		<had>66</had>
+		<kun>いちごん</kun>
+		<mean lang="de">ein Wort</mean>
+	</card>
+	<card type="word">
+		<jap>出会う</jap>
+		<freq>955</freq>
+		<grd>13</grd>
+		<had>53</had>
+		<kun>であう</kun>
+		<mean lang="de">(zufaellig) treffen</mean>
+	</card>
+	<card type="word">
+		<jap>内部</jap>
+		<freq>956</freq>
+		<grd>44</grd>
+		<had>86</had>
+		<kun>ないぶ</kun>
+		<mean lang="de">[1]/Inneres/Innenseite/in</mean>
+	</card>
+	<card type="word">
+		<jap>豊か</jap>
+		<freq>957</freq>
+		<grd>762</grd>
+		<had>959</had>
+		<kun>ゆたか</kun>
+		<mean lang="de">-viel/reichlich</mean>
+	</card>
+	<card type="word">
+		<jap>生命</jap>
+		<freq>958</freq>
+		<grd>465</grd>
+		<had>578</had>
+		<kun>せいめい</kun>
+		<mean lang="de">Leben</mean>
+	</card>
+	<card type="word">
+		<jap>所得</jap>
+		<freq>959</freq>
+		<grd>221</grd>
+		<had>374</had>
+		<kun>しょとく</kun>
+		<mean lang="de">Einkommen</mean>
+	</card>
+	<card type="word">
+		<jap>制作</jap>
+		<freq>960</freq>
+		<grd>108</grd>
+		<had>427</had>
+		<kun>せいさく</kun>
+		<mean lang="de">Werk/Anfertigung/(eines K</mean>
+	</card>
+	<card type="word">
+		<jap>単位</jap>
+		<freq>961</freq>
+		<grd>586</grd>
+		<had>300</had>
+		<kun>たんい</kun>
+		<mean lang="de">[1]/Einheit/Maßeinheit/Me</mean>
+	</card>
+	<card type="word">
+		<jap>自信</jap>
+		<freq>962</freq>
+		<grd>208</grd>
+		<had>157</had>
+		<kun>じしん</kun>
+		<mean lang="de">Selbstvertrauen</mean>
+	</card>
+	<card type="word">
+		<jap>毎年</jap>
+		<freq>963</freq>
+		<grd>436</grd>
+		<had>116</had>
+		<kun>まいとし</kun>
+		<mean lang="de">jedes Jahr/jaehrlich</mean>
+	</card>
+	<card type="word">
+		<jap>距離</jap>
+		<freq>964</freq>
+		<grd>1191</grd>
+		<had>1294</had>
+		<kun>きょり</kun>
+		<mean lang="de">Entfernung/Distanz/Abstan</mean>
+	</card>
+	<card type="word">
+		<jap>複数</jap>
+		<freq>965</freq>
+		<grd>915</grd>
+		<had>916</had>
+		<kun>ふくすう</kun>
+		<mean lang="de">Plural/Mehrzahl</mean>
+	</card>
+	<card type="word">
+		<jap>恋愛</jap>
+		<freq>966</freq>
+		<grd>1296</grd>
+		<had>259</had>
+		<kun>れんあい</kun>
+		<mean lang="de">Liebe</mean>
+	</card>
+	<card type="word">
+		<jap>運転</jap>
+		<freq>967</freq>
+		<grd>327</grd>
+		<had>439</had>
+		<kun>うんてん</kun>
+		<mean lang="de">[1]/Fahren/Steuern/Lenkun</mean>
+	</card>
+	<card type="word">
+		<jap>消える</jap>
+		<freq>968</freq>
+		<grd>345</grd>
+		<had>845</had>
+		<kun>きえる</kun>
+		<mean lang="de">erloeschen/vergehen</mean>
+	</card>
+	<card type="word">
+		<jap>確実</jap>
+		<freq>969</freq>
+		<grd>252</grd>
+		<had>603</had>
+		<kun>かくじつ</kun>
+		<mean lang="de">Gewissheit/Sicherheit</mean>
+	</card>
+	<card type="word">
+		<jap>支持</jap>
+		<freq>970</freq>
+		<grd>159</grd>
+		<had>451</had>
+		<kun>しじ</kun>
+		<mean lang="de">Unterstuetzung</mean>
+	</card>
+	<card type="word">
+		<jap>日間</jap>
+		<freq>971</freq>
+		<grd>33</grd>
+		<had>43</had>
+		<kun>にっかん</kun>
+		<mean lang="de">tagsüber/am Tage</mean>
+	</card>
+	<card type="word">
+		<jap>一定</jap>
+		<freq>972</freq>
+		<grd>48</grd>
+		<had>355</had>
+		<kun>いってい</kun>
+		<mean lang="de">Bestimmtheit/Regelmäßigke</mean>
+	</card>
+	<card type="word">
+		<jap>交渉</jap>
+		<freq>973</freq>
+		<grd>499</grd>
+		<had>432</had>
+		<kun>こうしょう</kun>
+		<mean lang="de">Verhandlung</mean>
+	</card>
+	<card type="word">
+		<jap>司法</jap>
+		<freq>974</freq>
+		<grd>759</grd>
+		<had>842</had>
+		<kun>しほう</kun>
+		<mean lang="de">Rechtspflege/Justiz</mean>
+	</card>
+	<card type="word">
+		<jap>借りる</jap>
+		<freq>975</freq>
+		<grd>932</grd>
+		<had>766</had>
+		<kun>かりる</kun>
+		<mean lang="de">entleihen/leihen/mieten</mean>
+	</card>
+	<card type="word">
+		<jap>押す</jap>
+		<freq>976</freq>
+		<grd>789</grd>
+		<had>986</had>
+		<kun>おす</kun>
+		<mean lang="de">stossen/schieben/druecken</mean>
+	</card>
+	<card type="word">
+		<jap>方式</jap>
+		<freq>977</freq>
+		<grd>251</grd>
+		<had>525</had>
+		<kun>ほうしき</kun>
+		<mean lang="de">Formel/-Form/Methode/Syst</mean>
+	</card>
+	<card type="word">
+		<jap>普段</jap>
+		<freq>978</freq>
+		<grd>757</grd>
+		<had>1166</had>
+		<kun>ふだん</kun>
+		<mean lang="de">gewöhnlich/normal/alltägl</mean>
+	</card>
+	<card type="word">
+		<jap>出席</jap>
+		<freq>979</freq>
+		<grd>370</grd>
+		<had>379</had>
+		<kun>しゅっせき</kun>
+		<mean lang="de">Anwesenheit</mean>
+	</card>
+	<card type="word">
+		<jap>金利</jap>
+		<freq>980</freq>
+		<grd>203</grd>
+		<had>329</had>
+		<kun>きんり</kun>
+		<mean lang="de">Zins/Zinsen/Zinsfuß/Zinss</mean>
+	</card>
+	<card type="word">
+		<jap>危機</jap>
+		<freq>981</freq>
+		<grd>606</grd>
+		<had>534</had>
+		<kun>きき</kun>
+		<mean lang="de">Krise/entscheidender Mome</mean>
+	</card>
+	<card type="word">
+		<jap>痛い</jap>
+		<freq>982</freq>
+		<grd>903</grd>
+		<had>1320</had>
+		<kun>いたい</kun>
+		<mean lang="de">schmerzhaft</mean>
+	</card>
+	<card type="word">
+		<jap>次に</jap>
+		<freq>983</freq>
+		<grd>222</grd>
+		<had>384</had>
+		<kun>つぎに</kun>
+		<mean lang="de">als nächstes/als zweiter</mean>
+	</card>
+	<card type="word">
+		<jap>募集</jap>
+		<freq>984</freq>
+		<grd>809</grd>
+		<had>1430</had>
+		<kun>ぼしゅう</kun>
+		<mean lang="de">Personaleinstellung/Anwer</mean>
+	</card>
+	<card type="word">
+		<jap>定める</jap>
+		<freq>985</freq>
+		<grd>48</grd>
+		<had>355</had>
+		<kun>さだめる</kun>
+		<mean lang="de">festsetzen/entscheiden</mean>
+	</card>
+	<card type="word">
+		<jap>自宅</jap>
+		<freq>986</freq>
+		<grd>357</grd>
+		<had>178</had>
+		<kun>じたく</kun>
+		<mean lang="de">eigenes Haus/Eigenheim</mean>
+	</card>
+	<card type="word">
+		<jap>上記</jap>
+		<freq>987</freq>
+		<grd>149</grd>
+		<had>371</had>
+		<kun>じょうき</kun>
+		<mean lang="de">oben Erwähntes</mean>
+	</card>
+	<card type="word">
+		<jap>人権</jap>
+		<freq>988</freq>
+		<grd>156</grd>
+		<had>335</had>
+		<kun>じんけん</kun>
+		<mean lang="de">Menschenrechte</mean>
+	</card>
+	<card type="word">
+		<jap>複雑</jap>
+		<freq>989</freq>
+		<grd>915</grd>
+		<had>916</had>
+		<kun>ふくざつ</kun>
+		<mean lang="de">kompliziert</mean>
+	</card>
+	<card type="word">
+		<jap>逮捕</jap>
+		<freq>990</freq>
+		<grd>766</grd>
+		<had>891</had>
+		<kun>たいほ</kun>
+		<mean lang="de">festnehmen/verhaften</mean>
+	</card>
+	<card type="word">
+		<jap>証明</jap>
+		<freq>991</freq>
+		<grd>306</grd>
+		<had>484</had>
+		<kun>しょうめい</kun>
+		<mean lang="de">Beweis/Zeugnis/Bescheinig</mean>
+	</card>
+	<card type="word">
+		<jap>概念</jap>
+		<freq>992</freq>
+		<grd>1335</grd>
+		<had>1459</had>
+		<kun>がいねん</kun>
+		<mean lang="de">Begriff</mean>
+	</card>
+	<card type="word">
+		<jap>果たす</jap>
+		<freq>993</freq>
+		<grd>258</grd>
+		<had>487</had>
+		<kun>はたす</kun>
+		<mean lang="de">vollenden</mean>
+	</card>
+	<card type="word">
+		<jap>泣く</jap>
+		<freq>994</freq>
+		<grd>1380</grd>
+		<had>1236</had>
+		<kun>なく</kun>
+		<mean lang="de">-weinen</mean>
+	</card>
+	<card type="word">
+		<jap>単に</jap>
+		<freq>995</freq>
+		<grd>586</grd>
+		<had>300</had>
+		<kun>たんに</kun>
+		<mean lang="de">nur/bloß/einfach</mean>
+	</card>
+	<card type="word">
+		<jap>今週</jap>
+		<freq>996</freq>
+		<grd>540</grd>
+		<had>92</had>
+		<kun>こんしゅう</kun>
+		<mean lang="de">diese Woche</mean>
+	</card>
+	<card type="word">
+		<jap>空港</jap>
+		<freq>997</freq>
+		<grd>495</grd>
+		<had>669</had>
+		<kun>くうこう</kun>
+		<mean lang="de">Flughafen</mean>
+	</card>
+	<card type="word">
+		<jap>適切</jap>
+		<freq>998</freq>
+		<grd>670</grd>
+		<had>415</had>
+		<kun>てきせつ</kun>
+		<mean lang="de">angemessen/passend/treffe</mean>
+	</card>
+	<card type="word">
+		<jap>財産</jap>
+		<freq>999</freq>
+		<grd>494</grd>
+		<had>553</had>
+		<kun>ざいさん</kun>
+		<mean lang="de">Vermoegen/Hab und Gut/Bes</mean>
+	</card>
+	<card type="word">
+		<jap>判決</jap>
+		<freq>1000</freq>
+		<grd>197</grd>
+		<had>1026</had>
+		<kun>はんけつ</kun>
+		<mean lang="de">Urteil/Urteilsspruch/Ents</mean>
+	</card>
+</cardset>
+
