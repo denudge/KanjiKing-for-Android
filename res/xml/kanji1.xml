@@ -271,7 +271,8 @@
 		<mean lang="de">Teil, Minute</mean>
 		<freq>24</freq>
 		<rad>12</rad>
-		<had>38</had>
+        <had>38</had>
+        <hint>8 - Schwert</hint>
 	</card>
 	<card>
 		<jap>議</jap>
@@ -281,7 +282,8 @@
 		<mean lang="de">Beratung</mean>
 		<freq>25</freq>
 		<rad>149</rad>
-		<had>292</had>
+        <had>292</had>
+        <hint>sprechen - Gerechtigkeit</hint>
 	</card>
 	<card>
 		<jap>後</jap>
@@ -337,7 +339,8 @@
 		<mean lang="de">Verbindung; mitnehmen</mean>
 		<freq>30</freq>
 		<rad>162</rad>
-		<had>440</had>
+        <had>440</had>
+        <hint>Wagen - Weg</hint>
 	</card>
 	<card>
 		<jap>五</jap>
@@ -2551,7 +2554,7 @@
 		<freq>227</freq>
 		<rad>149</rad>
         <had>293</had>
-        <hint>sprechen - Dach - </hint>
+        <hint>sprechen - Dach - Buch</hint>
 	</card>
 	<card>
 		<jap>計</jap>
