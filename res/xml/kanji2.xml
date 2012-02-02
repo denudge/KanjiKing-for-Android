@@ -34,9 +34,10 @@
 	<card>
 		<jap>阪</jap>
 		<on>HAN</on>
+		<kun>saka</kun>
 		<grd>8</grd>
 		<str>7</str>
-		<mean lang="de">Anhöhe</mean>
+		<mean lang="de">Hang, Steigung</mean>
 		<freq>503</freq>
 		<rad>170</rad>
         <had>0</had>
@@ -76,7 +77,7 @@
 		<freq>506</freq>
 		<rad>41</rad>
         <had>600</had>
-        <hint>Glück - Puls</hint>
+        <hint>Glück - Zoll</hint>
 	</card>
 	<card>
 		<jap>推</jap>
@@ -250,7 +251,7 @@
 		<freq>521</freq>
 		<rad>116</rad>
         <had>898</had>
-        <hint>Dach - acht - groß</hint>
+        <hint>Loch - groß</hint>
 	</card>
 	<card>
 		<jap>兵</jap>
@@ -329,7 +330,7 @@
 		<freq>528</freq>
 		<rad>149</rad>
         <had>1018</had>
-        <hint>sprechen - Puls</hint>
+        <hint>sprechen - Zoll</hint>
 	</card>
 	<card>
 		<jap>路</jap>
@@ -459,7 +460,6 @@
 		<freq>539</freq>
 		<rad>31</rad>
         <had>339</had>
-        <hint></hint>
 	</card>
 	<card>
 		<jap>週</jap>
@@ -527,7 +527,7 @@
 		<freq>545</freq>
 		<rad>85</rad>
         <had>670</had>
-        <hint>Wasser - rot - selbst</hint>
+        <hint>Wasser - rot - Bogen</hint>
 	</card>
 	<card>
 		<jap>録</jap>
@@ -549,7 +549,7 @@
 		<freq>547</freq>
 		<rad>34</rad>
         <had>1137</had>
-        <hint> - schlagen</hint>
+        <hint>Tisch - langsam gehen</hint>
 	</card>
 	<card>
 		<jap>省</jap>
@@ -584,7 +584,7 @@
 		<freq>550</freq>
 		<rad>40</rad>
         <had>166</had>
-        <hint>Deckel - führen zu</hint>
+        <hint>Dach - führen zu</hint>
 	</card>
 	<card>
 		<jap>憲</jap>
@@ -595,7 +595,7 @@
 		<freq>551</freq>
 		<rad>40</rad>
         <had>521</had>
-        <hint>Deckel - - Netz - Herz</hint>
+        <hint>Dach - - Netz - Herz</hint>
 	</card>
 	<card>
 		<jap>太</jap>
@@ -665,7 +665,7 @@
 		<freq>557</freq>
 		<rad>40</rad>
         <had>641</had>
-        <hint>Deckel - alle</hint>
+        <hint>Dach - alle</hint>
 	</card>
 	<card>
 		<jap>風</jap>
@@ -1002,7 +1002,7 @@
 		<on>MEI</on>
 		<grd>6</grd>
 		<str>13</str>
-		<mean lang="de">Schwur, Buendnis</mean>
+		<mean lang="de">Schwur, Bündnis</mean>
 		<freq>587</freq>
 		<rad>108</rad>
         <had>717</had>
@@ -1050,7 +1050,7 @@
 		<kun>a(mu)</kun>
 		<grd>5</grd>
 		<str>15</str>
-		<mean lang="de">zusammenstellen</mean>
+		<mean lang="de">zusammenstellen; nähen</mean>
 		<freq>591</freq>
 		<rad>120</rad>
         <had>682</had>
@@ -1100,7 +1100,7 @@
 		<freq>595</freq>
 		<rad>40</rad>
         <had>613</had>
-        <hint>Deckel - Ursache</hint>
+        <hint>Dach - Ursache</hint>
 	</card>
 	<card>
 		<jap>降</jap>
@@ -1154,7 +1154,7 @@
 		<on>RYÔ</on>
 		<grd>8</grd>
 		<str>17</str>
-		<mean lang="de">heilen, aerztlich behandeln</mean>
+		<mean lang="de">heilen, ärztlich behandeln</mean>
 		<freq>600</freq>
 		<rad>104</rad>
         <had>1322</had>
@@ -1194,7 +1194,7 @@
 		<freq>603</freq>
 		<rad>9</rad>
         <had>945</had>
-        <hint>Mensch - - Pfeil - drei</hint>
+        <hint>Mensch - - Pfeil - Licht</hint>
 	</card>
 	<card>
 		<jap>捕</jap>
@@ -1229,7 +1229,7 @@
 		<freq>606</freq>
 		<rad>4</rad>
         <had>534</had>
-        <hint>wieder - Schrägdach - selbst</hint>
+        <hint>wieder - Abhang - selbst</hint>
 	</card>
 	<card>
 		<jap>採</jap>
@@ -1241,7 +1241,7 @@
 		<freq>607</freq>
 		<rad>64</rad>
         <had>933</had>
-        <hint>Hand - Reis</hint>
+        <hint>Hand - trennen</hint>
 	</card>
 	<card>
 		<jap>織</jap>
@@ -1265,7 +1265,7 @@
 		<freq>609</freq>
 		<rad>75</rad>
         <had>128</had>
-        <hint>Baum - Baum - Baum</hint>
+        <hint>Baum - Wäldchen</hint>
 	</card>
 	<card>
 		<jap>競</jap>
@@ -1324,7 +1324,7 @@
 		<freq>614</freq>
 		<rad>64</rad>
         <had>954</had>
-        <hint>Hand - - Hand</hint>
+        <hint>Hand - vormittag</hint>
 	</card>
 	<card>
 		<jap>給</jap>
@@ -1348,7 +1348,7 @@
 		<freq>616</freq>
 		<rad>44</rad>
         <had>167</had>
-        <hint>Tür - führen zu - Erde</hint>
+        <hint>Tür - ankommen</hint>
 	</card>
 	<card>
 		<jap>介</jap>
@@ -1377,7 +1377,7 @@
 		<on>BEN</on>
 		<grd>5</grd>
 		<str>5</str>
-		<mean lang="de">Blatt</mean>
+		<mean lang="de">Sprache, Dialekt; Blatt; Snack</mean>
 		<freq>619</freq>
 		<rad>28</rad>
         <had>711</had>
@@ -1541,7 +1541,7 @@
 		<kun>ya(meru)</kun>
 		<grd>4</grd>
 		<str>13</str>
-		<mean lang="de">Ruecktritt</mean>
+		<mean lang="de">Rücktritt</mean>
 		<freq>633</freq>
 		<rad>135</rad>
         <had>688</had>
@@ -1556,7 +1556,7 @@
 		<freq>634</freq>
 		<rad>90</rad>
         <had>627</had>
-        <hint>links - Kralle - Puls</hint>
+        <hint>links - Kralle - Zoll</hint>
 	</card>
 	<card>
 		<jap>秋</jap>
@@ -1623,7 +1623,7 @@
 		<freq>640</freq>
 		<rad>87</rad>
         <had>259</had>
-        <hint>Kralle - Deckel - Herz - schlagen</hint>
+        <hint>Kralle - bedecken - Herz - schlagen</hint>
 	</card>
 	<card>
 		<jap>幅</jap>
@@ -1670,7 +1670,7 @@
 		<freq>644</freq>
 		<rad>40</rad>
         <had>713</had>
-        <hint>Deckel - fuku</hint>
+        <hint>Dach - fuku</hint>
 	</card>
 	<card>
 		<jap>浜</jap>
@@ -1771,14 +1771,14 @@
 		<freq>653</freq>
 		<rad>149</rad>
         <had>783</had>
-        <hint>sprechen - </hint>
+        <hint>sprechen - - wieder</hint>
 	</card>
 	<card>
 		<jap>邦</jap>
 		<on>HÔ</on>
 		<grd>8</grd>
 		<str>7</str>
-		<mean lang="de">Land</mean>
+		<mean lang="de">Land, Japan</mean>
 		<freq>654</freq>
 		<rad>163</rad>
         <had>808</had>
@@ -1794,7 +1794,7 @@
 		<freq>655</freq>
 		<rad>136</rad>
         <had>810</had>
-        <hint>nicht - Hände</hint>
+        <hint>nicht - Abend</hint>
 	</card>
 	<card>
 		<jap>林</jap>
@@ -1805,7 +1805,8 @@
 		<mean lang="de">Wald</mean>
 		<freq>656</freq>
 		<rad>75</rad>
-		<had>127</had>
+        <had>127</had>
+        <hint>Baum - Baum</hint>
 	</card>
 	<card>
 		<jap>装</jap>
@@ -1813,10 +1814,11 @@
 		<kun>yosoo(u)</kun>
 		<grd>6</grd>
 		<str>12</str>
-		<mean lang="de">heucheln</mean>
+		<mean lang="de">sich kleiden; heucheln</mean>
 		<freq>657</freq>
 		<rad>145</rad>
-		<had>1328</had>
+        <had>1328</had>
+        <hint>links - Diener - Kleidung</hint>
 	</card>
 	<card>
 		<jap>諸</jap>
@@ -1827,7 +1829,8 @@
 		<mean lang="de">alle, verschiedene</mean>
 		<freq>658</freq>
 		<rad>149</rad>
-		<had>861</had>
+        <had>861</had>
+        <hint>sprechen - Person</hint>
 	</card>
 	<card>
 		<jap>夏</jap>
@@ -1838,7 +1841,8 @@
 		<mean lang="de">Sommer</mean>
 		<freq>659</freq>
 		<rad>1</rad>
-		<had>461</had>
+        <had>461</had>
+        <hint>1 - selbst - schlagen</hint>
 	</card>
 	<card>
 		<jap>素</jap>
@@ -1870,7 +1874,8 @@
 		<mean lang="de">Schauspiel, Drama</mean>
 		<freq>662</freq>
 		<rad>4</rad>
-		<had>797</had>
+        <had>797</had>
+        <hint>Tiger - Schwein - Schwert</hint>
 	</card>
 	<card>
 		<jap>河</jap>
@@ -1881,7 +1886,8 @@
 		<mean lang="de">Fluss</mean>
 		<freq>663</freq>
 		<rad>85</rad>
-		<had>389</had>
+        <had>389</had>
+        <hint>Wasser - möglich</hint>
 	</card>
 	<card>
 		<jap>遣</jap>
@@ -1892,7 +1898,8 @@
 		<mean lang="de">benutzen</mean>
 		<freq>664</freq>
 		<rad>162</rad>
-		<had>1173</had>
+        <had>1173</had>
+        <hint> - Weg</hint>
 	</card>
 	<card>
 		<jap>航</jap>
@@ -1902,7 +1909,8 @@
 		<mean lang="de">Seefahrt, Navigation</mean>
 		<freq>665</freq>
 		<rad>137</rad>
-		<had>823</had>
+        <had>823</had>
+        <hint></hint>
 	</card>
 	<card>
 		<jap>抗</jap>
@@ -1933,7 +1941,8 @@
 		<mean lang="de">nachahmen, Modell</mean>
 		<freq>668</freq>
 		<rad>75</rad>
-		<had>1425</had>
+        <had>1425</had>
+        <hint>Baum - Gras - Tag - groß</hint>
 	</card>
 	<card>
 		<jap>雄</jap>
@@ -1941,10 +1950,11 @@
 		<kun>osu</kun>
 		<grd>8</grd>
 		<str>12</str>
-		<mean lang="de">grossartig</mean>
+		<mean lang="de">grossartig; Männchen</mean>
 		<freq>669</freq>
 		<rad>172</rad>
-		<had>1387</had>
+        <had>1387</had>
+        <hint> - Spatz</hint>
 	</card>
 	<card>
 		<jap>適</jap>
@@ -1954,7 +1964,8 @@
 		<mean lang="de">passend</mean>
 		<freq>670</freq>
 		<rad>162</rad>
-		<had>415</had>
+        <had>415</had>
+        <hint>wie pflücken - Weg</hint>
 	</card>
 	<card>
 		<jap>婦</jap>
@@ -1964,7 +1975,8 @@
 		<mean lang="de">Frau</mean>
 		<freq>671</freq>
 		<rad>38</rad>
-		<had>316</had>
+        <had>316</had>
+        <hint>Frau - Schweinskopf - Tuch</hint>
 	</card>
 	<card>
 		<jap>鉄</jap>
@@ -1974,7 +1986,8 @@
 		<mean lang="de">Eisen</mean>
 		<freq>672</freq>
 		<rad>167</rad>
-		<had>312</had>
+        <had>312</had>
+        <hint>Metall - verlieren</hint>
 	</card>
 	<card>
 		<jap>寄</jap>
@@ -1985,7 +1998,8 @@
 		<mean lang="de">nähern</mean>
 		<freq>673</freq>
 		<rad>40</rad>
-		<had>1361</had>
+        <had>1361</had>
+        <hint>Dach - groß - möglich</hint>
 	</card>
 	<card>
 		<jap>益</jap>
@@ -1999,14 +2013,15 @@
 	</card>
 	<card>
 		<jap>込</jap>
-		<on>komu</on>
+		<on>-</on>
 		<kun>ko(meru), ko(mu)</kun>
 		<grd>8</grd>
 		<str>5</str>
 		<mean lang="de">hinein-</mean>
 		<freq>675</freq>
 		<rad>162</rad>
-		<had>776</had>
+        <had>776</had>
+        <hint>eintreten - Weg</hint>
 	</card>
 	<card>
 		<jap>顔</jap>
@@ -2044,7 +2059,7 @@
 		<on>JI</on>
 		<grd>4</grd>
 		<str>7</str>
-		<mean lang="de">Saeugling</mean>
+		<mean lang="de">Säugling</mean>
 		<freq>679</freq>
 		<rad>10</rad>
 		<had>1217</had>
@@ -2068,7 +2083,8 @@
 		<mean lang="de">Verbot</mean>
 		<freq>681</freq>
 		<rad>113</rad>
-		<had>482</had>
+        <had>482</had>
+        <hint>Wäldchen - zeigen</hint>
 	</card>
 	<card>
 		<jap>印</jap>
@@ -2087,10 +2103,11 @@
 		<kun>saka, saka(rau)</kun>
 		<grd>5</grd>
 		<str>9</str>
-		<mean lang="de">umgekehrt, verkehrt, entgegengesetzt; Verrat;</mean>
+		<mean lang="de">umgekehrt, entgegengesetzt; sich widersetzen;</mean>
 		<freq>683</freq>
 		<rad>162</rad>
-		<had>444</had>
+        <had>444</had>
+        <hint> - Weg</hint>
 	</card>
 	<card>
 		<jap>王</jap>
@@ -2111,7 +2128,8 @@
 		<mean lang="de">Antwort</mean>
 		<freq>685</freq>
 		<rad>162</rad>
-		<had>442</had>
+        <had>442</had>
+        <hint>anti - Weg</hint>
 	</card>
 	<card>
 		<jap>標</jap>
@@ -2121,7 +2139,8 @@
 		<mean lang="de">Zeichen, Markierung</mean>
 		<freq>686</freq>
 		<rad>75</rad>
-		<had>923</had>
+        <had>923</had>
+        <hint>Baum - Zettel</hint>
 	</card>
 	<card>
 		<jap>換</jap>
@@ -2206,10 +2225,10 @@
 		<kun>shi(meru), urana(u)</kun>
 		<grd>8</grd>
 		<str>5</str>
-		<mean lang="de">wahrsagen</mean>
+		<mean lang="de">besetzen; wahrsagen</mean>
 		<freq>694</freq>
 		<rad>25</rad>
-		<had>1706</had>
+        <had>1706</had>
 	</card>
 	<card>
 		<jap>宣</jap>
@@ -2217,7 +2236,7 @@
 		<kun>notama-u</kun>
 		<grd>6</grd>
 		<str>9</str>
-		<mean lang="de">ankuendigen</mean>
+		<mean lang="de">ankündigen</mean>
 		<freq>695</freq>
 		<rad>40</rad>
 		<had>625</had>
@@ -2389,7 +2408,7 @@
 		<on>KICHI, KITSU</on>
 		<grd>8</grd>
 		<str>6</str>
-		<mean lang="de">Glueck</mean>
+		<mean lang="de">Glück</mean>
 		<freq>711</freq>
 		<rad>32</rad>
 		<had>1141</had>
@@ -2535,7 +2554,7 @@
 		<on>SHO</on>
 		<grd>6</grd>
 		<str>13</str>
-		<mean lang="de">Amt, Behoerde</mean>
+		<mean lang="de">Amt, Behörde</mean>
 		<freq>725</freq>
 		<rad>122</rad>
 		<had>860</had>
@@ -2706,7 +2725,7 @@
 		<kun>tsuku-ru</kun>
 		<grd>6</grd>
 		<str>12</str>
-		<mean lang="de">Schoepfung</mean>
+		<mean lang="de">Schöpfung</mean>
 		<freq>741</freq>
 		<rad>18</rad>
 		<had>1308</had>
@@ -2760,7 +2779,7 @@
 		<kun>obi, obi(ru)</kun>
 		<grd>4</grd>
 		<str>10</str>
-		<mean lang="de">Guertel, Zone</mean>
+		<mean lang="de">Gürtel, Zone</mean>
 		<freq>746</freq>
 		<rad>50</rad>
 		<had>963</had>
@@ -3058,7 +3077,7 @@
 		<on>RYAKU</on>
 		<grd>5</grd>
 		<str>11</str>
-		<mean lang="de">Abkuerzung</mean>
+		<mean lang="de">Abkürzung</mean>
 		<freq>774</freq>
 		<rad>102</rad>
 		<had>841</had>
@@ -3169,7 +3188,8 @@
 		<mean lang="de">enden</mean>
 		<freq>784</freq>
 		<rad>120</rad>
-		<had>742</had>
+        <had>742</had>
+        <hint>Faden - Farbe</hint>
 	</card>
 	<card>
 		<jap>級</jap>
@@ -3262,7 +3282,7 @@
 		<on>CHÔ</on>
 		<grd>6</grd>
 		<str>5</str>
-		<mean lang="de">Behoerde, Amt</mean>
+		<mean lang="de">Behörde, Amt</mean>
 		<freq>793</freq>
 		<rad>53</rad>
 		<had>763</had>
@@ -3338,7 +3358,7 @@
 		<kun>to(ru)</kun>
 		<grd>8</grd>
 		<str>11</str>
-		<mean lang="de">durchfuehren</mean>
+		<mean lang="de">durchführen</mean>
 		<freq>800</freq>
 		<rad>32</rad>
 		<had>686</had>
@@ -3455,7 +3475,7 @@
 		<on>TETSU</on>
 		<grd>8</grd>
 		<str>15</str>
-		<mean lang="de">zurueckziehen, zuruecknehmen</mean>
+		<mean lang="de">zurückziehen, zurücknehmen</mean>
 		<freq>811</freq>
 		<rad>64</rad>
 		<had>1423</had>
@@ -3571,7 +3591,7 @@
 		<on>KA</on>
 		<grd>4</grd>
 		<str>11</str>
-		<mean lang="de">Gueter, Geld</mean>
+		<mean lang="de">Güter, Geld</mean>
 		<freq>822</freq>
 		<rad>154</rad>
 		<had>752</had>
@@ -3862,7 +3882,7 @@
 		<kun>arawa(su), ichijiru(shii)</kun>
 		<grd>6</grd>
 		<str>11</str>
-		<mean lang="de">veroeffentlichen</mean>
+		<mean lang="de">veröffentlichen</mean>
 		<freq>849</freq>
 		<rad>140</rad>
 		<had>859</had>
@@ -3914,7 +3934,7 @@
 		<kun>tsuguna(u)</kun>
 		<grd>8</grd>
 		<str>17</str>
-		<mean lang="de">buessen</mean>
+		<mean lang="de">büßen</mean>
 		<freq>854</freq>
 		<rad>9</rad>
 		<had>971</had>
@@ -4217,7 +4237,8 @@
 		<mean lang="de">Sohn, Atem</mean>
 		<freq>882</freq>
 		<rad>132</rad>
-		<had>1242</had>
+        <had>1242</had>
+        <hint>selbst - Herz</hint>
 	</card>
 	<card>
 		<jap>宇</jap>
@@ -4227,7 +4248,8 @@
 		<mean lang="de">Himmel</mean>
 		<freq>883</freq>
 		<rad>40</rad>
-		<had>990</had>
+        <had>990</had>
+        <hint>Dach - </hint>
 	</card>
 	<card>
 		<jap>項</jap>
@@ -4237,7 +4259,8 @@
 		<mean lang="de">Punkt, Artikel, Abschnitt</mean>
 		<freq>884</freq>
 		<rad>48</rad>
-		<had>1439</had>
+        <had>1439</had>
+        <hint>bauen - Kopf</hint>
 	</card>
 	<card>
 		<jap>喪</jap>
@@ -4259,7 +4282,8 @@
 		<mean lang="de">begleiten</mean>
 		<freq>886</freq>
 		<rad>9</rad>
-		<had>1027</had>
+        <had>1027</had>
+        <hint>Mensch - halb</hint>
 	</card>
 	<card>
 		<jap>遠</jap>
@@ -4270,7 +4294,8 @@
 		<mean lang="de">weit, fern</mean>
 		<freq>887</freq>
 		<rad>162</rad>
-		<had>446</had>
+        <had>446</had>
+        <hint>Erde - - Weg</hint>
 	</card>
 	<card>
 		<jap>養</jap>
@@ -4281,7 +4306,7 @@
 		<mean lang="de">Erziehung</mean>
 		<freq>888</freq>
 		<rad>123</rad>
-		<had>402</had>
+        <had>402</had>
 	</card>
 	<card>
 		<jap>懸</jap>
@@ -4303,7 +4328,8 @@
 		<mean lang="de">zurückgeben</mean>
 		<freq>890</freq>
 		<rad>63</rad>
-		<had>1238</had>
+        <had>1238</had>
+        <hint>Tür - groß</hint>
 	</card>
 	<card>
 		<jap>街</jap>
@@ -4398,7 +4424,7 @@
 		<kun>kaka(geru)</kun>
 		<grd>8</grd>
 		<str>11</str>
-		<mean lang="de">veroeffentlichen</mean>
+		<mean lang="de">veröffentlichen</mean>
 		<freq>899</freq>
 		<rad>64</rad>
 		<had>1624</had>
@@ -4472,7 +4498,7 @@
 		<on>I</on>
 		<grd>8</grd>
 		<str>8</str>
-		<mean lang="de">abgaengig sein</mean>
+		<mean lang="de">abhängig sein; bitten</mean>
 		<freq>906</freq>
 		<rad>9</rad>
 		<had>678</had>
@@ -4514,7 +4540,7 @@
 		<on>KAN</on>
 		<grd>8</grd>
 		<str>16</str>
-		<mean lang="de">Rueckkehr</mean>
+		<mean lang="de">Rückkehr</mean>
 		<freq>910</freq>
 		<rad>162</rad>
 		<had>866</had>
@@ -4524,7 +4550,7 @@
 		<on>MAI</on>
 		<grd>6</grd>
 		<str>8</str>
-		<mean lang="de">(Numeralklassifikator fuer Blaetter)</mean>
+		<mean lang="de">(Numeralklassifikator für Blätter)</mean>
 		<freq>911</freq>
 		<rad>75</rad>
 		<had>1156</had>
@@ -4534,7 +4560,7 @@
 		<on>ZOKU</on>
 		<grd>5</grd>
 		<str>12</str>
-		<mean lang="de">gehoeren zu</mean>
+		<mean lang="de">gehören zu</mean>
 		<freq>912</freq>
 		<rad>44</rad>
 		<had>1637</had>
@@ -4706,7 +4732,7 @@
 		<kun>tsuyu</kun>
 		<grd>8</grd>
 		<str>21</str>
-		<mean lang="de">offen, entbloesst;</mean>
+		<mean lang="de">offen, entblößt;</mean>
 		<freq>928</freq>
 		<rad>173</rad>
 		<had>951</had>
@@ -4782,7 +4808,7 @@
 		<on>JU</on>
 		<grd>8</grd>
 		<str>14</str>
-		<mean lang="de">anfordern, benoetigen</mean>
+		<mean lang="de">anfordern, benötigen</mean>
 		<freq>935</freq>
 		<rad>173</rad>
 		<had>1416</had>
@@ -4933,7 +4959,7 @@
 		<kun>a(teru)</kun>
 		<grd>8</grd>
 		<str>6</str>
-		<mean lang="de">fuellen;</mean>
+		<mean lang="de">füllen;</mean>
 		<freq>949</freq>
 		<rad>8</rad>
 		<had>828</had>
@@ -5009,7 +5035,7 @@
 		<kun>mitsu(gu)</kun>
 		<grd>8</grd>
 		<str>10</str>
-		<mean lang="de">jmd. finanziell unterstuetzen</mean>
+		<mean lang="de">jmd. finanziell unterstützen</mean>
 		<freq>956</freq>
 		<rad>48</rad>
 		<had>1719</had>
@@ -5040,7 +5066,7 @@
 		<on>KYAKU</on>
 		<grd>8</grd>
 		<str>7</str>
-		<mean lang="de">zurueckziehen</mean>
+		<mean lang="de">zurückziehen</mean>
 		<freq>959</freq>
 		<rad>26</rad>
 		<had>1783</had>
@@ -5061,7 +5087,7 @@
 		<on>CHIN</on>
 		<grd>6</grd>
 		<str>13</str>
-		<mean lang="de">Gebuehr</mean>
+		<mean lang="de">Gebühr</mean>
 		<freq>961</freq>
 		<rad>154</rad>
 		<had>751</had>
