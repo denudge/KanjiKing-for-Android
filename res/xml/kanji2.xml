@@ -1910,7 +1910,7 @@
 		<freq>665</freq>
 		<rad>137</rad>
         <had>823</had>
-        <hint></hint>
+        <hint>Boot - Deckel - Tisch</hint>
 	</card>
 	<card>
 		<jap>抗</jap>
@@ -1920,7 +1920,8 @@
 		<mean lang="de">Widerstand leisten</mean>
 		<freq>666</freq>
 		<rad>64</rad>
-		<had>824</had>
+        <had>824</had>
+        <hint>Hand - Deckel - Tisch</hint>
 	</card>
 	<card>
 		<jap>冷</jap>
@@ -1931,7 +1932,8 @@
 		<mean lang="de">kalt</mean>
 		<freq>667</freq>
 		<rad>15</rad>
-		<had>832</had>
+        <had>832</had>
+        <hint>Eis - jetzt</hint>
 	</card>
 	<card>
 		<jap>模</jap>
@@ -2457,6 +2459,7 @@
 		<freq>713</freq>
 		<rad>137</rad>
         <had>376</had>
+        <hint>Boot - Beine - Mund</hint>
 	</card>
 	<card>
 		<jap>倍</jap>
@@ -2816,9 +2819,10 @@
 	<card>
 		<jap>狙</jap>
 		<on>SO</on>
+		<kun>nera-u</kun>
 		<grd>8</grd>
 		<str>8</str>
-		<mean lang="de">sight</mean>
+		<mean lang="de">beobachten; ein Auge haben auf; anvisieren</mean>
 		<freq>745</freq>
 		<rad>94</rad>
         <had>0</had>
