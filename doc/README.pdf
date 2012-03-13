@@ -1,0 +1,1012 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 15 0 R
+ /F4 20 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+4 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:mathias.lieber@googlemail.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 227.9323
+ 707.7736
+ 370.3423
+ 719.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 548.0236
+ 0 ]
+ /Rect [ 62.69291
+ 635.7736
+ 117.7029
+ 647.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 548.0236
+ 0 ]
+ /Rect [ 527.0227
+ 635.7736
+ 532.5827
+ 647.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 455.0236
+ 0 ]
+ /Rect [ 62.69291
+ 617.7736
+ 104.3729
+ 629.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 455.0236
+ 0 ]
+ /Rect [ 527.0227
+ 617.7736
+ 532.5827
+ 629.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 254.0236
+ 0 ]
+ /Rect [ 62.69291
+ 599.7736
+ 133.2629
+ 611.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 254.0236
+ 0 ]
+ /Rect [ 527.0227
+ 599.7736
+ 532.5827
+ 611.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 62.69291
+ 581.7736
+ 164.9329
+ 593.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Rect [ 527.0227
+ 581.7736
+ 532.5827
+ 593.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 614.8236
+ 0 ]
+ /Rect [ 62.69291
+ 563.7736
+ 90.47291
+ 575.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 614.8236
+ 0 ]
+ /Rect [ 527.0227
+ 563.7736
+ 532.5827
+ 575.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F3': class PDFType1Font 
+15 0 obj
+% Font Helvetica-Oblique
+<< /BaseFont /Helvetica-Oblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER12': class PDFDictionary 
+16 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://code.google.com/p/kanji-flashcards-android/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 251.1061
+ 479.7736
+ 325.9828
+ 491.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class PDFDictionary 
+17 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (mailto:joe@daverin.com) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 340.2894
+ 479.7736
+ 421.9861
+ 491.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class PDFDictionary 
+18 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://en.wikipedia.org/wiki/Radical_Chinese_character) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 402.3354
+ 149.7736
+ 436.7854
+ 161.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+19 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R ]
+ /Contents 31 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 30 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F4': class PDFType1Font 
+20 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page2': class PDFPage 
+21 0 obj
+% Page dictionary
+<< /Contents 32 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 30 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R22': class PDFCatalog 
+22 0 obj
+% Document Root
+<< /Outlines 24 0 R
+ /PageLabels 33 0 R
+ /PageMode /UseNone
+ /Pages 30 0 R
+ /Type /Catalog >>
+endobj
+% 'R23': class PDFInfo 
+23 0 obj
+<< /Author (Mathias Lieber <mathias.lieber@googlemail.com>)
+ /CreationDate (D:20120313223538-01'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (KanjiKing for Android - README) >>
+endobj
+% 'R24': class PDFOutlines 
+24 0 obj
+<< /Count 5
+ /First 25 0 R
+ /Last 29 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+25 0 obj
+<< /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 548.0236
+ 0 ]
+ /Next 26 0 R
+ /Parent 24 0 R
+ /Title (Description) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+26 0 obj
+<< /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 455.0236
+ 0 ]
+ /Next 27 0 R
+ /Parent 24 0 R
+ /Prev 25 0 R
+ /Title (Features) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+27 0 obj
+<< /Dest [ 19 0 R
+ /XYZ
+ 62.69291
+ 254.0236
+ 0 ]
+ /Next 28 0 R
+ /Parent 24 0 R
+ /Prev 26 0 R
+ /Title (Learning order) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+28 0 obj
+<< /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 753.0236
+ 0 ]
+ /Next 29 0 R
+ /Parent 24 0 R
+ /Prev 27 0 R
+ /Title (Supported languages) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+29 0 obj
+<< /Dest [ 21 0 R
+ /XYZ
+ 62.69291
+ 614.8236
+ 0 ]
+ /Parent 24 0 R
+ /Prev 28 0 R
+ /Title (Notes) >>
+endobj
+% 'R30': class PDFPages 
+30 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 19 0 R
+ 21 0 R ]
+ /Type /Pages >>
+endobj
+% 'R31': class PDFStream 
+31 0 obj
+% page stream
+<< /Length 8126 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 78.83488 0 Td (KanjiKing for Android - README) Tj T* -78.83488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 704.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 36.93937 0 Td (Author:) Tj T* -36.93937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Mathias Lieber <) Tj 0 0 .501961 rg (mathias.lieber@googlemail.com) Tj 0 0 0 rg (>) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 689.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 33.02937 0 Td (Version:) Tj T* -33.02937 0 Td ET
+Q
+Q
+q
+1 0 0 1 91.03937 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1.3.5 of 2012/03/02) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 656.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Table of Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 560.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Features) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Learning order) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Supported languages) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 527.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Description) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 497.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .175697 Tw 12 TL /F3 10 Tf 0 0 0 rg (KanjiKing for Android ) Tj /F1 10 Tf (is an Android application for learning Japanese characters \() Tj /F3 10 Tf (Kanji) Tj /F1 10 Tf (\) and vocabulary. It) Tj T* 0 Tw (comes pre-packaged with 2500 Kanji and 5000 words.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 467.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .966651 Tw 12 TL /F1 10 Tf 0 0 0 rg (It has been developed based on code of ) Tj 0 0 .501961 rg (KanjiFlashcards ) Tj 0 0 0 rg (by ) Tj 0 0 .501961 rg (joe@daverin.com ) Tj 0 0 0 rg (and I understand this as) Tj T* 0 Tw (some kind of successor as joe writes he does not maintain it anymore. So I used his icon for example.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 434.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Features) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 422.0236 cm
+Q
+q
+1 0 0 1 62.69291 422.0236 cm
+Q
+q
+1 0 0 1 62.69291 410.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Effective cardbox system) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 404.0236 cm
+Q
+q
+1 0 0 1 62.69291 392.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Order by frequency for optimal practice) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 386.0236 cm
+Q
+q
+1 0 0 1 62.69291 374.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Alternating active and passive knowledge) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 368.0236 cm
+Q
+q
+1 0 0 1 62.69291 356.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Switchable between Kanji and vocabulary mode) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 350.0236 cm
+Q
+q
+1 0 0 1 62.69291 338.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pre-packaged with 2500 Kanji and 5000 words) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 332.0236 cm
+Q
+q
+1 0 0 1 62.69291 320.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Simple flashcard style - you judge yourself ) Tj /F3 10 Tf (correct ) Tj /F1 10 Tf (or not) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+Q
+q
+1 0 0 1 62.69291 302.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Kanji information: Frequency, stroke count, Radical number, Hadamitzky number) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 296.0236 cm
+Q
+q
+1 0 0 1 62.69291 284.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Hints based on primitives \(only available in German\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 278.0236 cm
+Q
+q
+1 0 0 1 62.69291 266.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Actively used and maintained) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 266.0236 cm
+Q
+q
+1 0 0 1 62.69291 233.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Learning order) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 167.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .273984 Tw (Learning Japanese Kanji or vocabulary means both fun and hard work, often combined with frustration as) Tj T* 0 Tw 2.669431 Tw (these seem to look the same. For teachers and students as well, it is useful to start with simpler) Tj T* 0 Tw .851412 Tw (characters and later extend studies to more complex characters built out of simpler ones. Unfortunately,) Tj T* 0 Tw .733488 Tw (this way you need a lot of time to master the most frequent Kanji, that might have a high complexity but) Tj T* 0 Tw (are essential to start reading public writings, the internet or news.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 125.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.719318 Tw 12 TL /F3 10 Tf 0 0 0 rg (KanjiKing for Android ) Tj /F1 10 Tf (assumes that you have understood the concept of ) Tj 0 0 .501961 rg (radicals) Tj 0 0 0 rg (, as the primitives of) Tj T* 0 Tw .104987 Tw (Japanese characters are called. The frequency of the Kanji is used as the order of learning. This way, you) Tj T* 0 Tw (can easily reach a coverage of 90% of Japanese texts with just around 850 characters.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 138.6949 0 Td 12 TL /F3 10 Tf 0 0 0 rg (KanjiKing for Android - README ) Tj /F1 10 Tf (- Description) Tj T* -138.6949 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.0999 0 Td (Page 1) Tj T* -225.0999 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R32': class PDFStream 
+32 0 obj
+% page stream
+<< /Length 2875 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 732.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Supported languages) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .351654 Tw (The data structure for the Kanji or vocabulary files is not limited to any language. You could add meaning) Tj T* 0 Tw (in any language to a Kanji just by specifying a language tag to it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F4 10 Tf 0 0 0 rg (<) Tj (mean lang="en") Tj (>) Tj (tower) Tj (<) Tj (/mean) Tj (>) Tj  T* (<) Tj (mean lang="de") Tj (>) Tj (Turm) Tj (<) Tj (/mean) Tj (>) Tj  T* (<) Tj (mean lang="it") Tj (>) Tj (torre) Tj (<) Tj (/mean) Tj (>) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 593.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Notes) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 539.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.339431 Tw (The data is encoded in UTF-8 and is interpreted in the Unihan method by the android device, using a) Tj T* 0 Tw 2.090651 Tw (common font for JCK chars \(Chinese, Japanese and Korean\). That means that the Kanji look might) Tj T* 0 Tw .348651 Tw (slightly differ from the original Japanese one. Even further, Android prefers the Chinese variant by default) Tj T* 0 Tw (and the DroidSans font in standard Android is quite Chinese.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 497.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .510988 Tw (That means that in quite some cases you have to be careful about certain strokes - but you will get used) Tj T* 0 Tw .038988 Tw (to it. In rare cases, the chinese variant has one stroke more or less, which you can identify by counting the) Tj T* 0 Tw (strokes and comparing the count with the defined one displayed in the next-to-top row.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 467.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.359985 Tw (Don't worry too much - most likely you won't notice the differences and your reading capabilities won't) Tj T* 0 Tw (limited at any time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 449.8236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If you have the chance, you can also replace the base font in your device.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 56.69291 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 116.1699 0 Td 12 TL /F3 10 Tf 0 0 0 rg (KanjiKing for Android - README ) Tj /F1 10 Tf (- Supported languages) Tj T* -116.1699 0 Td ET
+Q
+Q
+q
+1 0 0 1 56.69291 56.69291 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 225.0999 0 Td (Page 2) Tj T* -225.0999 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R33': class PDFPageLabels 
+33 0 obj
+% Document Root
+<< /Nums [ 0
+ 34 0 R
+ 1
+ 35 0 R ] >>
+endobj
+% 'R34': class PDFPageLabel 
+34 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R35': class PDFPageLabel 
+35 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 36
+0000000000 65535 f
+0000000113 00000 n
+0000000247 00000 n
+0000000412 00000 n
+0000000599 00000 n
+0000000854 00000 n
+0000001095 00000 n
+0000001336 00000 n
+0000001577 00000 n
+0000001818 00000 n
+0000002059 00000 n
+0000002301 00000 n
+0000002543 00000 n
+0000002786 00000 n
+0000003029 00000 n
+0000003258 00000 n
+0000003453 00000 n
+0000003723 00000 n
+0000003965 00000 n
+0000004224 00000 n
+0000004638 00000 n
+0000004798 00000 n
+0000005079 00000 n
+0000005238 00000 n
+0000005562 00000 n
+0000005687 00000 n
+0000005859 00000 n
+0000006043 00000 n
+0000006233 00000 n
+0000006428 00000 n
+0000006578 00000 n
+0000006695 00000 n
+0000014920 00000 n
+0000017898 00000 n
+0000018004 00000 n
+0000018081 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\343G \213K;\343L\217\370~\344\032\023\257\007) (\343G \213K;\343L\217\370~\344\032\023\257\007)] 
+
+ /Info 23 0 R
+ /Root 22 0 R
+ /Size 36 >>
+startxref
+18128
+%%EOF
