@@ -14,6 +14,7 @@
 		<grd>1</grd>
 		<str>4</str>
 		<mean lang="de">Tag, Sonne</mean>
+        <mean lang="en">day, sun</mean>
 		<freq>1</freq>
 		<rad>72</rad>
 		<had>5</had>
@@ -25,6 +26,7 @@
 		<grd>1</grd>
 		<str>1</str>
 		<mean lang="de">eins</mean>
+        <mean lang="en">one</mean>
 		<freq>2</freq>
 		<rad>1</rad>
 		<had>2</had>
@@ -36,6 +38,7 @@
 		<grd>2</grd>
 		<str>8</str>
 		<mean lang="de">Land</mean>
+        <mean lang="en">nation, country</mean>
 		<freq>3</freq>
 		<rad>31</rad>
 		<had>40</had>
@@ -47,6 +50,7 @@
 		<grd>2</grd>
 		<str>6</str>
 		<mean lang="de">Treffen</mean>
+        <mean lang="en">meet</mean>
 		<freq>4</freq>
 		<rad>9</rad>
 		<had>158</had>
@@ -58,6 +62,7 @@
 		<grd>1</grd>
 		<str>2</str>
 		<mean lang="de">Mensch</mean>
+        <mean lang="en">man</mean>
 		<freq>5</freq>
 		<rad>9</rad>
 		<had>1</had>
@@ -69,6 +74,7 @@
 		<grd>1</grd>
 		<str>6</str>
 		<mean lang="de">Jahr</mean>
+        <mean lang="en">year</mean>
 		<freq>6</freq>
 		<rad>4</rad>
 		<had>45</had>
@@ -80,6 +86,7 @@
 		<grd>1</grd>
 		<str>3</str>
 		<mean lang="de">groß</mean>
+        <mean lang="en">big</mean>
 		<freq>7</freq>
 		<rad>37</rad>
 		<had>26</had>
@@ -91,6 +98,7 @@
 		<grd>1</grd>
 		<str>2</str>
 		<mean lang="de">zehn</mean>
+        <mean lang="en">ten</mean>
 		<freq>8</freq>
 		<rad>24</rad>
 		<had>12</had>
@@ -102,6 +110,7 @@
 		<grd>1</grd>
 		<str>2</str>
 		<mean lang="de">zwei</mean>
+        <mean lang="en">two</mean>
 		<freq>9</freq>
 		<rad>7</rad>
 		<had>3</had>
@@ -113,6 +122,7 @@
 		<grd>1</grd>
 		<str>5</str>
 		<mean lang="de">Buch, Ursprung</mean>
+        <mean lang="en">book, origin, main</mean>
 		<freq>10</freq>
 		<rad>2</rad>
 		<had>25</had>
@@ -124,6 +134,7 @@
 		<grd>1</grd>
 		<str>4</str>
 		<mean lang="de">Mitte</mean>
+        <mean lang="en">middle</mean>
 		<freq>11</freq>
 		<rad>2</rad>
 		<had>28</had>
@@ -135,6 +146,7 @@
 		<grd>2</grd>
 		<str>8</str>
 		<mean lang="de">lang</mean>
+        <mean lang="en">long</mean>
 		<freq>12</freq>
 		<rad>168</rad>
 		<had>95</had>
@@ -146,6 +158,7 @@
 		<grd>1</grd>
 		<str>5</str>
 		<mean lang="de">hinaus</mean>
+        <mean lang="en">exit</mean>
 		<freq>13</freq>
 		<rad>2</rad>
 		<had>53</had>
@@ -157,6 +170,7 @@
 		<grd>1</grd>
 		<str>3</str>
 		<mean lang="de">drei</mean>
+        <mean lang="en">three</mean>
 		<freq>14</freq>
 		<rad>1</rad>
 		<had>4</had>
@@ -168,6 +182,7 @@
 		<grd>2</grd>
 		<str>6</str>
 		<mean lang="de">gleich</mean>
+        <mean lang="en">equal</mean>
 		<freq>15</freq>
 		<rad>13</rad>
 		<had>198</had>
