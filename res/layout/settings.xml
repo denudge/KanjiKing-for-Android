@@ -2,21 +2,38 @@
 <PreferenceScreen
    xmlns:android="http://schemas.android.com/apk/res/android"
    android:title="Settings">
+
+   
    <PreferenceCategory android:title="General">
+      <ListPreference android:title="Language" android:key="language"
+         android:entries="@array/PreferencesLanguageItems"
+         android:entryValues="@array/PreferencesLanguageValues"
+         android:defaultValue="de"
+         android:dialogTitle="Choose an option please">
+      </ListPreference>
+
       <ListPreference android:title="Mode" android:key="mode"
          android:entries="@array/PreferencesModeItems"
          android:entryValues="@array/PreferencesModeValues"
+         android:defaultValue="1"
          android:dialogTitle="Choose an option please">
       </ListPreference>
       <CheckBoxPreference android:key="endless"
-         android:title="Endless mode"></CheckBoxPreference>
+          android:title="Endless mode"
+          android:defaultValue="false">
+      </CheckBoxPreference>
    </PreferenceCategory>
+   
+   
    <PreferenceCategory android:title="Kanji">
       <ListPreference android:title="Maximum Frequency" android:key="max_freq"
          android:entries="@array/PreferencesFrequencyItems"
          android:entryValues="@array/PreferencesFrequencyValues"
+         android:defaultValue="0"
          android:dialogTitle="Choose an option please">
       </ListPreference>
    </PreferenceCategory>
+
+
 </PreferenceScreen>
 

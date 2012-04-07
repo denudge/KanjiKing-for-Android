@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KanjiKing</string>
+
+    <string-array name="PreferencesLanguageItems">
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+
+    <string-array name="PreferencesLanguageValues">
+        <item>en</item>
+        <item>de</item>
+    </string-array>
+
     <string-array name="PreferencesFrequencyItems">
         <item>(keine)</item>
         <item>10</item>
