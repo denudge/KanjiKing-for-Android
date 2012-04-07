@@ -413,20 +413,17 @@ public class KanjiKing extends Activity
     else 
         card_html.append("<div class=\"reading_kun\">&nbsp;</div>");
 
-    if (show_explanation)
-    {
-        if (card.getMeaning("de") != null)
-            card_html.append("<div class=\"meaning de\">")
-                .append(TextUtils.htmlEncode(card.getMeaning("de")))
+    if (show_explanation) {
+        if (card.getMeaning(_language) != null) {
+            card_html.append("<div class=\"meaning\">")
+                .append(TextUtils.htmlEncode(card.getMeaning(_language)))
                 .append("</div>");
-
-        if (card.getMeaning("en") != null)
-            card_html.append("<div class=\"meaning en\">")
-                .append(TextUtils.htmlEncode(card.getMeaning("en")))
-                .append("</div>");
+        } else {
+            card_html.append("<div class=\"meaning\">(no meaning available)</div>");
+        }
     }
     else
-        card_html.append("<div class=\"meaning de\">&nbsp;</div>");
+        card_html.append("<div class=\"meaning\">&nbsp;</div>");
 
     card_html.append("</body>");
 
@@ -437,7 +434,6 @@ public class KanjiKing extends Activity
     }
    
     _card_webview.loadDataWithBaseURL(null, card_html.toString(), "text/html", HTTP.UTF_8, null);
-    // _card_webview.loadData(card_html.toString(), "text/html", HTTP.UTF_8);
     _card_webview.setBackgroundColor(0xff000000);
     // _card_webview.setVisibility(View.VISIBLE);
     return true;
