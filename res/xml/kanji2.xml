@@ -1425,7 +1425,7 @@
 		<kun>kuru(shimu), niga(i)</kun>
 		<grd>3</grd>
 		<str>8</str>
-		<mean lang="de">Leid</mean>
+		<mean lang="de">Leid, leiden; bitter</mean>
 		<freq>623</freq>
 		<rad>140</rad>
         <had>545</had>
@@ -2881,7 +2881,7 @@
 		<kun>kata(i), kata(maru), kata(meru)</kun>
 		<grd>4</grd>
 		<str>8</str>
-		<mean lang="de">hart</mean>
+		<mean lang="de">hart; festigen</mean>
 		<freq>750</freq>
 		<rad>31</rad>
         <had>972</had>
@@ -2915,7 +2915,7 @@
 		<kun>notto-ru</kun>
 		<grd>5</grd>
 		<str>9</str>
-		<mean lang="de">Regel</mean>
+		<mean lang="de">Regel; einem Beispiel folgen</mean>
 		<freq>753</freq>
 		<rad>154</rad>
         <had>608</had>
@@ -3827,10 +3827,9 @@
 	<card>
 		<jap>幕</jap>
 		<on>BAKU, MAKU</on>
-		<kun>maku</kun>
 		<grd>6</grd>
 		<str>13</str>
-		<mean lang="de">Akt</mean>
+		<mean lang="de">Akt, Vorhang; Shôgunat</mean>
 		<freq>835</freq>
 		<rad>140</rad>
 		<had>1432</had>
@@ -3980,7 +3979,7 @@
 		<kun>arawa(su), ichijiru(shii)</kun>
 		<grd>6</grd>
 		<str>11</str>
-		<mean lang="de">veröffentlichen</mean>
+		<mean lang="de">verfassen, veröffentlichen; bemerkenswert</mean>
 		<freq>849</freq>
 		<rad>140</rad>
 		<had>859</had>
