@@ -419,7 +419,7 @@ public class KanjiKing extends Activity
                 .append(TextUtils.htmlEncode(card.getMeaning(_language)))
                 .append("</div>");
         } else {
-            card_html.append("<div class=\"meaning\">(no meaning available)</div>");
+            card_html.append("<div class=\"meaning\">(no meaning available, switch language)</div>");
         }
     }
     else
