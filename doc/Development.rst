@@ -20,5 +20,5 @@ Start KanjiKing in Emulator
 
 Debugging
 =========
-* run ``adb-logcat``
+* Run ``adb-logcat``
 
