@@ -31,3 +31,12 @@ Documentation
 * Added doc/ChangeLog.rst
 * Added doc/Development.rst
 
+
+
+0.3.5 (2012-02-26)
+==================
+
+General
+-------
+* Several new hints in kanji2.xml
+
