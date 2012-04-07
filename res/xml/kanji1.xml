@@ -208,7 +208,7 @@
 		<freq>17</freq>
 		<rad>66</rad>
         <had>483</had>
-        <hint>korrekt - schlagen</hint>
+        <hint lang="de">korrekt - schlagen</hint>
 	</card>
 	<card>
 		<jap>事</jap>
@@ -253,7 +253,7 @@
 		<freq>21</freq>
 		<rad>113</rad>
         <had>308</had>
-        <hint>zeigen - Erde</hint>
+        <hint lang="de">zeigen - Erde</hint>
 	</card>
 	<card>
 		<jap>見</jap>
@@ -287,7 +287,7 @@
 		<freq>24</freq>
 		<rad>12</rad>
         <had>38</had>
-        <hint>8 - Schwert</hint>
+        <hint lang="de">8 - Schwert</hint>
 	</card>
 	<card>
 		<jap>議</jap>
@@ -298,7 +298,7 @@
 		<freq>25</freq>
 		<rad>149</rad>
         <had>292</had>
-        <hint>sprechen - Gerechtigkeit</hint>
+        <hint lang="de">sprechen - Gerechtigkeit</hint>
 	</card>
 	<card>
 		<jap>後</jap>
@@ -310,7 +310,7 @@
 		<freq>26</freq>
 		<rad>60</rad>
 		<had>48</had>
-        <hint>laufen - Faden - schlagen</hint>
+        <hint lang="de">laufen - Faden - schlagen</hint>
 	</card>
 	<card>
 		<jap>前</jap>
@@ -355,7 +355,7 @@
 		<freq>30</freq>
 		<rad>162</rad>
         <had>440</had>
-        <hint>Wagen - Weg</hint>
+        <hint lang="de">Wagen - Weg</hint>
 	</card>
 	<card>
 		<jap>五</jap>
@@ -398,7 +398,7 @@
 		<freq>34</freq>
 		<rad>67</rad>
         <had>365</had>
-        <hint>schlagen - Zoll</hint>
+        <hint lang="de">schlagen - Zoll</hint>
 	</card>
 	<card>
 		<jap>上</jap>
@@ -420,7 +420,7 @@
 		<freq>36</freq>
 		<rad>163</rad>
         <had>86</had>
-        <hint>stehen - Mund - Gemeinde</hint>
+        <hint lang="de">stehen - Mund - Gemeinde</hint>
 	</card>
 	<card>
 		<jap>東</jap>
@@ -432,7 +432,7 @@
 		<freq>37</freq>
 		<rad>4</rad>
         <had>71</had>
-        <hint>Sonne hinterm Baum</hint>
+        <hint lang="de">Sonne hinterm Baum</hint>
 	</card>
 	<card>
 		<jap>者</jap>
@@ -444,7 +444,7 @@
 		<freq>38</freq>
 		<rad>125</rad>
         <had>164</had>
-        <hint>Erde - Tag</hint>
+        <hint lang="de">Erde - Tag</hint>
 	</card>
 	<card>
 		<jap>党</jap>
@@ -519,7 +519,7 @@
 		<freq>45</freq>
 		<rad>75</rad>
         <had>146</had>
-        <hint>Baum - Auge</hint>
+        <hint lang="de">Baum - Auge</hint>
 	</card>
 	<card>
 		<jap>方</jap>
@@ -586,7 +586,7 @@
 		<freq>51</freq>
 		<rad>69</rad>
         <had>174</had>
-        <hint>stehen - Baum - Axt</hint>
+        <hint lang="de">stehen - Baum - Axt</hint>
 	</card>
 	<card>
 		<jap>場</jap>
@@ -598,7 +598,7 @@
 		<freq>52</freq>
 		<rad>32</rad>
         <had>154</had>
-        <hint>Erde - Sonne - Feder</hint>
+        <hint lang="de">Erde - Sonne - Feder</hint>
 	</card>
 	<card>
 		<jap>金</jap>
@@ -620,7 +620,7 @@
 		<freq>54</freq>
 		<rad>30</rad>
         <had>163</had>
-        <hint>Mund - Muschel</hint>
+        <hint lang="de">Mund - Muschel</hint>
 	</card>
 	<card>
 		<jap>九</jap>
@@ -654,7 +654,7 @@
 		<freq>57</freq>
 		<rad>162</rad>
         <had>800</had>
-        <hint>selbst - selbst - zusammen - Weg</hint>
+        <hint lang="de">selbst - selbst - zusammen - Weg</hint>
 	</card>
 	<card>
 		<jap>立</jap>
@@ -765,7 +765,7 @@
 		<freq>67</freq>
 		<rad>72</rad>
         <had>18</had>
-        <hint>Sonne - Mond</hint>
+        <hint lang="de">Sonne - Mond</hint>
 	</card>
 	<card>
 		<jap>実</jap>
@@ -832,7 +832,7 @@
 		<freq>73</freq>
 		<rad>19</rad>
 		<had>231</had>
-        <hint>schwer - Kraft</hint>
+        <hint lang="de">schwer - Kraft</hint>
 	</card>
 	<card>
 		<jap>京</jap>
@@ -843,7 +843,7 @@
 		<freq>74</freq>
 		<rad>8</rad>
         <had>189</had>
-        <hint>Deckel - Mund - klein</hint>
+        <hint lang="de">Deckel - Mund - klein</hint>
 	</card>
 	<card>
 		<jap>全</jap>
@@ -899,7 +899,7 @@
 		<freq>79</freq>
 		<rad>120</rad>
         <had>548</had>
-        <hint>Faden - Hand - Erde</hint>
+        <hint lang="de">Faden - Hand - Erde</hint>
 	</card>
 	<card>
 		<jap>通</jap>
@@ -922,7 +922,7 @@
 		<freq>81</freq>
 		<rad>36</rad>
         <had>83</had>
-        <hint>Hand - Orakel</hint>
+        <hint lang="de">Hand - Orakel</hint>
 	</card>
 	<card>
 		<jap>最</jap>
@@ -934,7 +934,7 @@
 		<freq>82</freq>
 		<rad>72</rad>
 		<had>263</had>
-        <hint>Tag - nehmen</hint>
+        <hint lang="de">Tag - nehmen</hint>
     </card>
 	<card>
 		<jap>言</jap>
@@ -968,7 +968,7 @@
 		<freq>85</freq>
 		<rad>96</rad>
         <had>298</had>
-        <hint>König - sehen</hint>
+        <hint lang="de">König - sehen</hint>
 	</card>
 	<card>
 		<jap>理</jap>
@@ -980,7 +980,7 @@
 		<freq>86</freq>
 		<rad>96</rad>
         <had>143</had>
-        <hint>König - Meile</hint>
+        <hint lang="de">König - Meile</hint>
 	</card>
 	<card>
 		<jap>調</jap>
@@ -992,7 +992,7 @@
 		<freq>87</freq>
 		<rad>149</rad>
         <had>342</had>
-        <hint>sagen - Woche</hint>
+        <hint lang="de">sagen - Woche</hint>
 	</card>
 	<card>
 		<jap>体</jap>
@@ -1004,7 +1004,7 @@
 		<freq>88</freq>
 		<rad>9</rad>
         <had>61</had>
-        <hint>Mensch - Buch</hint>
+        <hint lang="de">Mensch - Buch</hint>
 	</card>
 	<card>
 		<jap>化</jap>
@@ -1016,7 +1016,7 @@
 		<freq>89</freq>
 		<rad>9</rad>
         <had>254</had>
-        <hint>Mensch - Löffel</hint>
+        <hint lang="de">Mensch - Löffel</hint>
 	</card>
 	<card>
 		<jap>田</jap>
@@ -1071,7 +1071,7 @@
 		<freq>94</freq>
 		<rad>120</rad>
         <had>211</had>
-        <hint>Faden - einwickeln</hint>
+        <hint lang="de">Faden - einwickeln</hint>
 	</card>
 	<card>
 		<jap>主</jap>
@@ -1093,7 +1093,7 @@
 		<freq>96</freq>
 		<rad>72</rad>
         <had>354</had>
-        <hint>Sonne - bestimmt - Kopf</hint>
+        <hint lang="de">Sonne - bestimmt - Kopf</hint>
 	</card>
 	<card>
 		<jap>下</jap>
@@ -1126,7 +1126,7 @@
 		<freq>99</freq>
 		<rad>180</rad>
         <had>132</had>
-        <hint>stehen - Tag - Herz</hint>
+        <hint lang="de">stehen - Tag - Herz</hint>
 	</card>
 	<card>
 		<jap>法</jap>
@@ -1137,7 +1137,7 @@
 		<freq>100</freq>
 		<rad>85</rad>
         <had>123</had>
-        <hint>Wasser - vergangen</hint>
+        <hint lang="de">Wasser - vergangen</hint>
 	</card>
 	<card>
 		<jap>不</jap>
@@ -1181,7 +1181,7 @@
 		<freq>104</freq>
 		<rad>61</rad>
         <had>98</had>
-        <hint>Herz - Leben</hint>
+        <hint lang="de">Herz - Leben</hint>
 	</card>
 	<card>
 		<jap>的</jap>
@@ -1193,7 +1193,7 @@
 		<freq>105</freq>
 		<rad>106</rad>
         <had>210</had>
-        <hint>weiß - einwickeln</hint>
+        <hint lang="de">weiß - einwickeln</hint>
 	</card>
 	<card>
 		<jap>要</jap>
@@ -1205,7 +1205,7 @@
 		<freq>106</freq>
 		<rad>146</rad>
         <had>419</had>
-        <hint>Westen - Frau</hint>
+        <hint lang="de">Westen - Frau</hint>
 	</card>
 	<card>
 		<jap>用</jap>
@@ -1227,7 +1227,7 @@
 		<freq>108</freq>
 		<rad>18</rad>
         <had>427</had>
-        <hint> - Tuch - Schwert</hint>
+        <hint lang="de"> - Tuch - Schwert</hint>
 	</card>
 	<card>
 		<jap>治</jap>
@@ -1239,7 +1239,7 @@
 		<freq>109</freq>
 		<rad>85</rad>
         <had>493</had>
-        <hint>Wasser - Sockel</hint>
+        <hint lang="de">Wasser - Sockel</hint>
 	</card>
 	<card>
 		<jap>度</jap>
@@ -1261,7 +1261,7 @@
 		<freq>111</freq>
 		<rad>110</rad>
         <had>235</had>
-        <hint>Hellebarde - schlagen - Kraft</hint>
+        <hint lang="de">Hellebarde - schlagen - Kraft</hint>
 	</card>
 	<card>
 		<jap>強</jap>
@@ -1273,7 +1273,7 @@
 		<freq>112</freq>
 		<rad>57</rad>
         <had>217</had>
-        <hint>Bogen - privat - Insekt</hint>
+        <hint lang="de">Bogen - privat - Insekt</hint>
 	</card>
 	<card>
 		<jap>気</jap>
@@ -1360,7 +1360,7 @@
 		<freq>120</freq>
 		<rad>166</rad>
         <had>236</had>
-        <hint>Meile - vorher</hint>
+        <hint lang="de">Meile - vorher</hint>
 	</card>
 	<card>
 		<jap>協</jap>
@@ -1371,7 +1371,7 @@
 		<freq>121</freq>
 		<rad>24</rad>
         <had>234</had>
-        <hint>10 - Kraft - Kraft - Kraft</hint>
+        <hint lang="de">10 - Kraft - Kraft - Kraft</hint>
 	</card>
 	<card>
 		<jap>取</jap>
@@ -1383,7 +1383,7 @@
 		<freq>122</freq>
 		<rad>128</rad>
         <had>65</had>
-        <hint>Ohr - Hand</hint>
+        <hint lang="de">Ohr - Hand</hint>
 	</card>
 	<card>
 		<jap>都</jap>
@@ -1395,7 +1395,7 @@
 		<freq>123</freq>
 		<rad>163</rad>
         <had>188</had>
-        <hint>Person - Gemeinde</hint>
+        <hint lang="de">Person - Gemeinde</hint>
 	</card>
 	<card>
 		<jap>和</jap>
@@ -1406,7 +1406,7 @@
 		<freq>124</freq>
 		<rad>115</rad>
         <had>124</had>
-        <hint>Getreide - Mund</hint>
+        <hint lang="de">Getreide - Mund</hint>
 	</card>
 	<card>
 		<jap>統</jap>
@@ -1418,7 +1418,7 @@
 		<freq>125</freq>
 		<rad>120</rad>
         <had>830</had>
-        <hint>Faden - füllen</hint>
+        <hint lang="de">Faden - füllen</hint>
 	</card>
 	<card>
 		<jap>以</jap>
@@ -1460,7 +1460,7 @@
 		<freq>129</freq>
 		<rad>120</rad>
         <had>697</had>
-        <hint>Faden - öffentlich - Herz</hint>
+        <hint lang="de">Faden - öffentlich - Herz</hint>
 	</card>
 	<card>
 		<jap>加</jap>
@@ -1472,7 +1472,7 @@
 		<freq>130</freq>
 		<rad>19</rad>
         <had>709</had>
-        <hint>Kraft - Mund</hint>
+        <hint lang="de">Kraft - Mund</hint>
 	</card>
 	<card>
 		<jap>山</jap>
@@ -1495,7 +1495,7 @@
 		<freq>132</freq>
 		<rad>102</rad>
         <had>99</had>
-        <hint>Feld - Herz</hint>
+        <hint lang="de">Feld - Herz</hint>
 	</card>
 	<card>
 		<jap>家</jap>
@@ -1507,7 +1507,7 @@
 		<freq>133</freq>
 		<rad>40</rad>
         <had>165</had>
-        <hint>Dach - Schwein</hint>
+        <hint lang="de">Dach - Schwein</hint>
 	</card>
 	<card>
 		<jap>話</jap>
@@ -1519,7 +1519,7 @@
 		<freq>134</freq>
 		<rad>149</rad>
         <had>238</had>
-        <hint>sperechen - Zunge</hint>
+        <hint lang="de">sperechen - Zunge</hint>
 	</card>
 	<card>
 		<jap>世</jap>
@@ -1542,7 +1542,7 @@
 		<freq>136</freq>
 		<rad>87</rad>
         <had>260</had>
-        <hint>Kralle - Hand</hint>
+        <hint lang="de">Kralle - Hand</hint>
 	</card>
 	<card>
 		<jap>区</jap>
@@ -1563,7 +1563,7 @@
 		<freq>138</freq>
 		<rad>181</rad>
         <had>834</had>
-        <hint>Befehl - Kopf</hint>
+        <hint lang="de">Befehl - Kopf</hint>
 	</card>
 	<card>
 		<jap>多</jap>
@@ -1575,7 +1575,7 @@
 		<freq>139</freq>
 		<rad>36</rad>
         <had>229</had>
-        <hint>Abend - Abend</hint>
+        <hint lang="de">Abend - Abend</hint>
 	</card>
 	<card>
 		<jap>県</jap>
@@ -1597,7 +1597,7 @@
 		<freq>141</freq>
 		<rad>120</rad>
         <had>243</had>
-        <hint>Faden - verkaufen</hint>
+        <hint lang="de">Faden - verkaufen</hint>
 	</card>
 	<card>
 		<jap>進</jap>
@@ -1609,7 +1609,7 @@
 		<freq>142</freq>
 		<rad>162</rad>
         <had>437</had>
-        <hint>Spatz - Weg</hint>
+        <hint lang="de">Spatz - Weg</hint>
 	</card>
 	<card>
 		<jap>正</jap>
@@ -1632,7 +1632,7 @@
 		<freq>144</freq>
 		<rad>40</rad>
         <had>105</had>
-        <hint>Dach - Frau</hint>
+        <hint lang="de">Dach - Frau</hint>
 	</card>
 	<card>
 		<jap>設</jap>
@@ -1644,7 +1644,7 @@
 		<freq>145</freq>
 		<rad>149</rad>
         <had>577</had>
-        <hint>sprechen - Lanze</hint>
+        <hint lang="de">sprechen - Lanze</hint>
 	</card>
 	<card>
 		<jap>保</jap>
@@ -1656,7 +1656,7 @@
 		<freq>146</freq>
 		<rad>9</rad>
         <had>489</had>
-        <hint>Mensch - Mund - Baum</hint>
+        <hint lang="de">Mensch - Mund - Baum</hint>
 	</card>
 	<card>
 		<jap>改</jap>
@@ -1668,7 +1668,7 @@
 		<freq>147</freq>
 		<rad>49</rad>
         <had>514</had>
-        <hint>selbst - schlagen</hint>
+        <hint lang="de">selbst - schlagen</hint>
 	</card>
 	<card>
 		<jap>数</jap>
@@ -1680,7 +1680,7 @@
 		<freq>148</freq>
 		<rad>66</rad>
         <had>225</had>
-        <hint>Reis - Frau - schlagen</hint>
+        <hint lang="de">Reis - Frau - schlagen</hint>
 	</card>
 	<card>
 		<jap>記</jap>
@@ -1692,7 +1692,7 @@
 		<freq>149</freq>
 		<rad>149</rad>
         <had>371</had>
-        <hint>sprechen - selbst</hint>
+        <hint lang="de">sprechen - selbst</hint>
 	</card>
 	<card>
 		<jap>院</jap>
@@ -1703,7 +1703,7 @@
 		<freq>150</freq>
 		<rad>170</rad>
         <had>614</had>
-        <hint>Gemeinde - vollenden</hint>
+        <hint lang="de">Gemeinde - vollenden</hint>
 	</card>
 	<card>
 		<jap>女</jap>
@@ -1726,7 +1726,7 @@
 		<freq>152</freq>
         <rad>145</rad>
         <had>679</had>
-        <hint>zeigen - Schwert</hint>
+        <hint lang="de">zeigen - Schwert</hint>
 	</card>
 	<card>
 		<jap>北</jap>
@@ -1759,7 +1759,7 @@
 		<freq>155</freq>
 		<rad>64</rad>
         <had>1041</had>
-        <hint>Hand - sieben - Tag</hint>
+        <hint lang="de">Hand - sieben - Tag</hint>
 	</card>
 	<card>
 		<jap>権</jap>
@@ -1770,7 +1770,7 @@
 		<freq>156</freq>
 		<rad>75</rad>
         <had>335</had>
-        <hint>Baum - Pfeil - Spatz</hint>
+        <hint lang="de">Baum - Pfeil - Spatz</hint>
 	</card>
 	<card>
 		<jap>心</jap>
@@ -1813,7 +1813,7 @@
 		<freq>160</freq>
 		<rad>118</rad>
 		<had>404</had>
-        <hint>Bambus - </hint>
+        <hint lang="de">Bambus - </hint>
 	</card>
 	<card>
 		<jap>産</jap>
@@ -1825,7 +1825,7 @@
 		<freq>161</freq>
 		<rad>117</rad>
         <had>278</had>
-        <hint>stehen - Leben</hint>
+        <hint lang="de">stehen - Leben</hint>
 	</card>
 	<card>
 		<jap>結</jap>
@@ -1837,7 +1837,7 @@
 		<freq>162</freq>
 		<rad>120</rad>
         <had>485</had>
-        <hint>Faden - Samurai - Mund</hint>
+        <hint lang="de">Faden - Samurai - Mund</hint>
 	</card>
 	<card>
 		<jap>百</jap>
@@ -1868,7 +1868,7 @@
 		<freq>165</freq>
 		<rad>25</rad>
         <had>169</had>
-        <hint>alt - Feuer</hint>
+        <hint lang="de">alt - Feuer</hint>
 	</card>
 	<card>
 		<jap>教</jap>
@@ -1880,7 +1880,7 @@
 		<freq>166</freq>
 		<rad>66</rad>
         <had>245</had>
-        <hint>Erde - Kind - schlagen</hint>
+        <hint lang="de">Erde - Kind - schlagen</hint>
 	</card>
 	<card>
 		<jap>報</jap>
@@ -1892,7 +1892,7 @@
 		<freq>167</freq>
 		<rad>32</rad>
         <had>685</had>
-        <hint>Glück - anti</hint>
+        <hint lang="de">Glück - anti</hint>
 	</card>
 	<card>
 		<jap>済</jap>
@@ -1904,7 +1904,7 @@
 		<freq>168</freq>
 		<rad>85</rad>
         <had>549</had>
-        <hint>Wasser - gleich</hint>
+        <hint lang="de">Wasser - gleich</hint>
 	</card>
 	<card>
 		<jap>書</jap>
@@ -1916,7 +1916,7 @@
 		<freq>169</freq>
 		<rad>129</rad>
         <had>131</had>
-        <hint>Pinsel - Tag</hint>
+        <hint lang="de">Pinsel - Tag</hint>
 	</card>
 	<card>
 		<jap>府</jap>
@@ -1927,7 +1927,7 @@
 		<freq>170</freq>
 		<rad>53</rad>
         <had>504</had>
-        <hint>Dach - Dorf</hint>
+        <hint lang="de">Dach - Dorf</hint>
 	</card>
 	<card>
 		<jap>活</jap>
@@ -1939,7 +1939,7 @@
 		<freq>171</freq>
 		<rad>85</rad>
         <had>237</had>
-        <hint>Wasser - Zunge</hint>
+        <hint lang="de">Wasser - Zunge</hint>
 	</card>
 	<card>
 		<jap>原</jap>
@@ -1951,7 +1951,7 @@
 		<freq>172</freq>
 		<rad>27</rad>
         <had>136</had>
-        <hint>Abhang - Quelle</hint>
+        <hint lang="de">Abhang - Quelle</hint>
 	</card>
 	<card>
 		<jap>先</jap>
@@ -2007,7 +2007,7 @@
 		<freq>177</freq>
 		<rad>36</rad>
         <had>82</had>
-        <hint>Abend - Mund</hint>
+        <hint lang="de">Abend - Mund</hint>
 	</card>
 	<card>
 		<jap>交</jap>
@@ -2029,7 +2029,7 @@
 		<freq>179</freq>
 		<rad>154</rad>
         <had>750</had>
-        <hint>Nächster - Muschel</hint>
+        <hint lang="de">Nächster - Muschel</hint>
 	</card>
 	<card>
 		<jap>予</jap>
@@ -2073,7 +2073,7 @@
 		<freq>183</freq>
 		<rad>170</rad>
         <had>618</had>
-        <hint>Gemeinde - Abend - zeigen</hint>
+        <hint lang="de">Gemeinde - Abend - zeigen</hint>
 	</card>
 	<card>
 		<jap>査</jap>
@@ -2084,7 +2084,7 @@
 		<freq>184</freq>
 		<rad>75</rad>
         <had>624</had>
-        <hint>Baum - Auge</hint>
+        <hint lang="de">Baum - Auge</hint>
 	</card>
 	<card>
 		<jap>勝</jap>
@@ -2096,7 +2096,7 @@
 		<freq>185</freq>
 		<rad>130</rad>
         <had>509</had>
-        <hint>Mond - - Kraft</hint>
+        <hint lang="de">Mond - - Kraft</hint>
 	</card>
 	<card>
 		<jap>面</jap>
@@ -2117,7 +2117,7 @@
 		<freq>187</freq>
 		<rad>115</rad>
         <had>466</had>
-        <hint>Getreide - Frau</hint>
+        <hint lang="de">Getreide - Frau</hint>
 	</card>
 	<card>
 		<jap>告</jap>
@@ -2139,7 +2139,7 @@
 		<freq>189</freq>
 		<rad>14</rad>
         <had>438</had>
-        <hint>Dach - Wagen</hint>
+        <hint lang="de">Dach - Wagen</hint>
 	</card>
 	<card>
 		<jap>文</jap>
@@ -2195,7 +2195,7 @@
 		<freq>194</freq>
 		<rad>162</rad>
         <had>445</had>
-        <hint>Axt - Weg</hint>
+        <hint lang="de">Axt - Weg</hint>
 	</card>
 	<card>
 		<jap>千</jap>
@@ -2228,7 +2228,7 @@
 		<freq>197</freq>
 		<rad>18</rad>
         <had>1026</had>
-        <hint>halb - Schwert</hint>
+        <hint lang="de">halb - Schwert</hint>
 	</card>
 	<card>
 		<jap>認</jap>
@@ -2240,7 +2240,7 @@
 		<freq>198</freq>
 		<rad>149</rad>
         <had>738</had>
-        <hint>sprechen - Schneide - Herz</hint>
+        <hint lang="de">sprechen - Schneide - Herz</hint>
 	</card>
 	<card>
 		<jap>画</jap>
@@ -2262,7 +2262,7 @@
 		<freq>200</freq>
 		<rad>85</rad>
         <had>117</had>
-        <hint>Wasser - Dach - Mutter</hint>
+        <hint lang="de">Wasser - Dach - Mutter</hint>
 	</card>
 	<card>
 		<jap>参</jap>
@@ -2274,7 +2274,7 @@
 		<freq>201</freq>
 		<rad>28</rad>
         <had>710</had>
-        <hint>privat - groß - Licht</hint>
+        <hint lang="de">privat - groß - Licht</hint>
 	</card>
 	<card>
 		<jap>売</jap>
@@ -2296,7 +2296,7 @@
 		<freq>203</freq>
 		<rad>115</rad>
         <had>329</had>
-        <hint>Getreide - Schwert</hint>
+        <hint lang="de">Getreide - Schwert</hint>
 	</card>
 	<card>
 		<jap>組</jap>
@@ -2308,7 +2308,7 @@
 		<freq>204</freq>
 		<rad>120</rad>
         <had>418</had>
-        <hint>Faden - Auge</hint>
+        <hint lang="de">Faden - Auge</hint>
 	</card>
 	<card>
 		<jap>知</jap>
@@ -2320,7 +2320,7 @@
 		<freq>205</freq>
 		<rad>111</rad>
         <had>214</had>
-        <hint>Pfeil - Mund</hint>
+        <hint lang="de">Pfeil - Mund</hint>
 	</card>
 	<card>
 		<jap>案</jap>
@@ -2331,7 +2331,7 @@
 		<freq>206</freq>
 		<rad>40</rad>
         <had>106</had>
-        <hint>Dach - Frau - Baum</hint>
+        <hint lang="de">Dach - Frau - Baum</hint>
 	</card>
 	<card>
 		<jap>道</jap>
@@ -2343,7 +2343,7 @@
 		<freq>207</freq>
 		<rad>162</rad>
         <had>149</had>
-        <hint>Kopf - Weg</hint>
+        <hint lang="de">Kopf - Weg</hint>
 	</card>
 	<card>
 		<jap>信</jap>
@@ -2354,7 +2354,7 @@
 		<freq>208</freq>
 		<rad>9</rad>
         <had>157</had>
-        <hint>Mensch - sprechen</hint>
+        <hint lang="de">Mensch - sprechen</hint>
 	</card>
 	<card>
 		<jap>策</jap>
@@ -2365,7 +2365,7 @@
 		<freq>209</freq>
 		<rad>118</rad>
         <had>880</had>
-        <hint>Bambus - Tuch auf Baum</hint>
+        <hint lang="de">Bambus - Tuch auf Baum</hint>
 	</card>
 	<card>
 		<jap>集</jap>
@@ -2389,7 +2389,7 @@
 		<freq>211</freq>
 		<rad>32</rad>
         <had>268</had>
-        <hint></hint>
+        <hint lang="de"></hint>
 	</card>
 	<card>
 		<jap>件</jap>
@@ -2400,7 +2400,7 @@
 		<freq>212</freq>
 		<rad>9</rad>
         <had>732</had>
-        <hint>Mensch - Rind</hint>
+        <hint lang="de">Mensch - Rind</hint>
 	</card>
 	<card>
 		<jap>団</jap>
@@ -2411,7 +2411,7 @@
 		<freq>213</freq>
 		<rad>31</rad>
         <had>491</had>
-        <hint>Grenze - Zoll</hint>
+        <hint lang="de">Grenze - Zoll</hint>
 	</card>
 	<card>
 		<jap>別</jap>
@@ -2423,7 +2423,7 @@
 		<freq>214</freq>
 		<rad>18</rad>
         <had>267</had>
-        <hint>Mund - Kraft - Schwert</hint>
+        <hint lang="de">Mund - Kraft - Schwert</hint>
 	</card>
 	<card>
 		<jap>物</jap>
@@ -2446,7 +2446,7 @@
 		<freq>216</freq>
 		<rad>9</rad>
         <had>609</had>
-        <hint>Mensch - Muschel - Schwert</hint>
+        <hint lang="de">Mensch - Muschel - Schwert</hint>
 	</card>
 	<card>
 		<jap>任</jap>
@@ -2458,7 +2458,7 @@
 		<freq>217</freq>
 		<rad>9</rad>
         <had>334</had>
-        <hint>Mensch - König</hint>
+        <hint lang="de">Mensch - König</hint>
 	</card>
 	<card>
 		<jap>引</jap>
@@ -2503,7 +2503,7 @@
 		<freq>221</freq>
 		<rad>63</rad>
         <had>153</had>
-        <hint>Tür - Axt</hint>
+        <hint lang="de">Tür - Axt</hint>
 	</card>
 	<card>
 		<jap>次</jap>
@@ -2515,7 +2515,7 @@
 		<freq>222</freq>
 		<rad>15</rad>
         <had>384</had>
-        <hint>Eis - fehlen</hint>
+        <hint lang="de">Eis - fehlen</hint>
 	</card>
 	<card>
 		<jap>水</jap>
@@ -2569,7 +2569,7 @@
 		<freq>227</freq>
 		<rad>149</rad>
         <had>293</had>
-        <hint>sprechen - Dach - Buch</hint>
+        <hint lang="de">sprechen - Dach - Buch</hint>
 	</card>
 	<card>
 		<jap>計</jap>
@@ -2581,7 +2581,7 @@
 		<freq>228</freq>
 		<rad>149</rad>
         <had>340</had>
-        <hint>sprechen - 10</hint>
+        <hint lang="de">sprechen - 10</hint>
 	</card>
 	<card>
 		<jap>死</jap>
@@ -2593,7 +2593,7 @@
 		<freq>229</freq>
 		<rad>78</rad>
         <had>85</had>
-        <hint>Dach - Abend - Löffel</hint>
+        <hint lang="de">Dach - Abend - Löffel</hint>
 	</card>
 	<card>
 		<jap>官</jap>
@@ -2615,7 +2615,7 @@
 		<freq>231</freq>
 		<rad>32</rad>
         <had>712</had>
-        <hint>Erde - Beine - Feld - Mund</hint>
+        <hint lang="de">Erde - Beine - Feld - Mund</hint>
 	</card>
 	<card>
 		<jap>係</jap>
@@ -2627,7 +2627,7 @@
 		<freq>232</freq>
 		<rad>9</rad>
         <had>909</had>
-        <hint>Mensch - Faden</hint>
+        <hint lang="de">Mensch - Faden</hint>
 	</card>
 	<card>
 		<jap>感</jap>
@@ -2638,7 +2638,7 @@
 		<freq>233</freq>
 		<rad>61</rad>
         <had>262</had>
-        <hint> - Herz</hint>
+        <hint lang="de"> - Herz</hint>
 	</card>
 	<card>
 		<jap>特</jap>
@@ -2660,7 +2660,7 @@
 		<freq>235</freq>
 		<rad>61</rad>
 		<had>209</had>
-        <hint>Herz - blau</hint>
+        <hint lang="de">Herz - blau</hint>
     </card>
 	<card>
 		<jap>投</jap>
@@ -2672,7 +2672,7 @@
 		<freq>236</freq>
 		<rad>64</rad>
         <had>1021</had>
-        <hint>Hand - Lanze</hint>
+        <hint lang="de">Hand - Lanze</hint>
 	</card>
 	<card>
 		<jap>示</jap>
@@ -2695,7 +2695,7 @@
 		<freq>238</freq>
 		<rad>8</rad>
 		<had>258</had>
-        <hint>rot - schlagen</hint>
+        <hint lang="de">rot - schlagen</hint>
 	</card>
 	<card>
 		<jap>打</jap>
@@ -2707,7 +2707,7 @@
 		<freq>239</freq>
 		<rad>64</rad>
         <had>1020</had>
-        <hint>Hand - TEI</hint>
+        <hint lang="de">Hand - TEI</hint>
 	</card>
 	<card>
 		<jap>男</jap>
@@ -2719,7 +2719,7 @@
 		<freq>240</freq>
 		<rad>102</rad>
 		<had>101</had>
-        <hint>Feld - Kraft</hint>
+        <hint lang="de">Feld - Kraft</hint>
 	</card>
 	<card>
 		<jap>基</jap>
@@ -2742,7 +2742,7 @@
 		<freq>242</freq>
 		<rad>115</rad>
         <had>125</had>
-        <hint>Getreide - privat</hint>
+        <hint lang="de">Getreide - privat</hint>
 	</card>
 	<card>
 		<jap>各</jap>
@@ -2754,7 +2754,7 @@
 		<freq>243</freq>
 		<rad>34</rad>
         <had>642</had>
-        <hint>schlagen - Mund</hint>
+        <hint lang="de">schlagen - Mund</hint>
 	</card>
 	<card>
 		<jap>始</jap>
@@ -2766,7 +2766,7 @@
 		<freq>244</freq>
 		<rad>38</rad>
         <had>494</had>
-        <hint>Frau - privat - Mund</hint>
+        <hint lang="de">Frau - privat - Mund</hint>
 	</card>
 	<card>
 		<jap>島</jap>
@@ -2821,7 +2821,7 @@
 		<freq>249</freq>
 		<rad>177</rad>
         <had>1075</had>
-        <hint>Gras - </hint>
+        <hint lang="de">Gras - </hint>
 	</card>
 	<card>
 		<jap>価</jap>
@@ -2854,7 +2854,7 @@
 		<freq>252</freq>
 		<rad>112</rad>
         <had>603</had>
-        <hint>Stein - Dach - Spatz</hint>
+        <hint lang="de">Stein - Dach - Spatz</hint>
 	</card>
 	<card>
 		<jap>村</jap>
@@ -2866,7 +2866,7 @@
 		<freq>253</freq>
 		<rad>75</rad>
         <had>191</had>
-        <hint>Baum - Zoll</hint>
+        <hint lang="de">Baum - Zoll</hint>
 	</card>
 	<card>
 		<jap>提</jap>
@@ -2878,7 +2878,7 @@
 		<freq>254</freq>
 		<rad>64</rad>
         <had>628</had>
-        <hint>Hand - Sonne - Fuß</hint>
+        <hint lang="de">Hand - Sonne - Fuß</hint>
 	</card>
 	<card>
 		<jap>運</jap>
@@ -2890,7 +2890,7 @@
 		<freq>255</freq>
 		<rad>162</rad>
         <had>439</had>
-        <hint>Armee - Weg</hint>
+        <hint lang="de">Armee - Weg</hint>
 	</card>
 	<card>
 		<jap>終</jap>
@@ -2902,7 +2902,7 @@
 		<freq>256</freq>
 		<rad>120</rad>
         <had>458</had>
-        <hint>Faden - schlagen</hint>
+        <hint lang="de">Faden - schlagen</hint>
 	</card>
 	<card>
 		<jap>挙</jap>
@@ -2914,7 +2914,7 @@
 		<freq>257</freq>
 		<rad>64</rad>
         <had>801</had>
-        <hint>Kralle - Beine - Hand</hint>
+        <hint lang="de">Kralle - Beine - Hand</hint>
 	</card>
 	<card>
 		<jap>果</jap>
@@ -2926,7 +2926,7 @@
 		<freq>258</freq>
 		<rad>2</rad>
         <had>487</had>
-        <hint>Feld - Baum</hint>
+        <hint lang="de">Feld - Baum</hint>
 	</card>
 	<card>
 		<jap>西</jap>
@@ -2949,7 +2949,7 @@
 		<freq>260</freq>
 		<rad>19</rad>
         <had>646</had>
-        <hint>Erde - Beine - Erde - Neun - Kraft</hint>
+        <hint lang="de">Erde - Beine - Erde - Neun - Kraft</hint>
 	</card>
 	<card>
 		<jap>減</jap>
@@ -2961,7 +2961,7 @@
 		<freq>261</freq>
 		<rad>85</rad>
         <had>715</had>
-        <hint>Wasser - </hint>
+        <hint lang="de">Wasser - </hint>
 	</card>
 	<card>
 		<jap>台</jap>
@@ -2972,7 +2972,7 @@
 		<freq>262</freq>
 		<rad>28</rad>
         <had>492</had>
-        <hint>privat - Mund</hint>
+        <hint lang="de">privat - Mund</hint>
 	</card>
 	<card>
 		<jap>広</jap>
@@ -2984,7 +2984,7 @@
 		<freq>263</freq>
 		<rad>53</rad>
         <had>694</had>
-        <hint>Schrägdach - privat</hint>
+        <hint lang="de">Schrägdach - privat</hint>
 	</card>
 	<card>
 		<jap>容</jap>
@@ -2995,7 +2995,7 @@
 		<freq>264</freq>
 		<rad>40</rad>
         <had>654</had>
-        <hint>Dach - Tal</hint>
+        <hint lang="de">Dach - Tal</hint>
 	</card>
 	<card>
 		<jap>必</jap>
@@ -3017,7 +3017,7 @@
 		<freq>266</freq>
 		<rad>53</rad>
         <had>827</had>
-        <hint>Schrägdach - Herz</hint>
+        <hint lang="de">Schrägdach - Herz</hint>
 	</card>
 	<card>
 		<jap>演</jap>
@@ -3028,7 +3028,7 @@
 		<freq>267</freq>
 		<rad>85</rad>
         <had>344</had>
-        <hint>Wasser - Dach - </hint>
+        <hint lang="de">Wasser - Dach - </hint>
 	</card>
 	<card>
 		<jap>電</jap>
@@ -3039,7 +3039,7 @@
 		<freq>268</freq>
 		<rad>173</rad>
         <had>108</had>
-        <hint>Regen - Sonne</hint>
+        <hint lang="de">Regen - Sonne</hint>
 	</card>
 	<card>
 		<jap>歳</jap>
@@ -3050,7 +3050,7 @@
 		<freq>269</freq>
 		<rad>77</rad>
         <had>479</had>
-        <hint>stoppen - </hint>
+        <hint lang="de">stoppen - </hint>
 	</card>
 	<card>
 		<jap>住</jap>
@@ -3062,7 +3062,7 @@
 		<freq>270</freq>
 		<rad>9</rad>
         <had>156</had>
-        <hint>Mensch - Herr</hint>
+        <hint lang="de">Mensch - Herr</hint>
 	</card>
 	<card>
 		<jap>争</jap>
@@ -3074,7 +3074,7 @@
 		<freq>271</freq>
 		<rad>4</rad>
         <had>302</had>
-        <hint>wieder - Schweinskopf</hint>
+        <hint lang="de">wieder - Schweinskopf</hint>
 	</card>
 	<card>
 		<jap>談</jap>
@@ -3085,7 +3085,7 @@
 		<freq>272</freq>
 		<rad>149</rad>
         <had>593</had>
-        <hint>sagen - Feuer - Feuer</hint>
+        <hint lang="de">sagen - Feuer - Feuer</hint>
 	</card>
 	<card>
 		<jap>能</jap>
@@ -3096,7 +3096,7 @@
 		<freq>273</freq>
 		<rad>28</rad>
         <had>386</had>
-        <hint>privat - Mond - Löffel - Löffel</hint>
+        <hint lang="de">privat - Mond - Löffel - Löffel</hint>
 	</card>
 	<card>
 		<jap>無</jap>
@@ -3108,7 +3108,7 @@
 		<freq>274</freq>
 		<rad>86</rad>
         <had>93</had>
-        <hint> - Feuer</hint>
+        <hint lang="de"> - Feuer</hint>
     </card>
 	<card>
 		<jap>再</jap>
@@ -3131,7 +3131,7 @@
 		<freq>276</freq>
 		<rad>9</rad>
         <had>122</had>
-        <hint>Mensch - stehen</hint>
+        <hint lang="de">Mensch - stehen</hint>
 	</card>
 	<card>
 		<jap>置</jap>
@@ -3143,7 +3143,7 @@
 		<freq>277</freq>
 		<rad>122</rad>
         <had>426</had>
-        <hint>Netz - 10 - Auge</hint>
+        <hint lang="de">Netz - 10 - Auge</hint>
 	</card>
 	<card>
 		<jap>企</jap>
@@ -3154,7 +3154,7 @@
 		<freq>278</freq>
 		<rad>9</rad>
 		<had>481</had>
-        <hint>Dach - stoppen</hint>
+        <hint lang="de">Dach - stoppen</hint>
 	</card>
 	<card>
 		<jap>真</jap>
@@ -3166,7 +3166,7 @@
 		<freq>279</freq>
 		<rad>24</rad>
         <had>422</had>
-        <hint>10 - Werkzeug</hint>
+        <hint lang="de">10 - Werkzeug</hint>
 	</card>
 	<card>
 		<jap>流</jap>
@@ -3178,7 +3178,7 @@
 		<freq>280</freq>
 		<rad>85</rad>
         <had>247</had>
-        <hint>Wasser - Deckel - privat - Fluss</hint>
+        <hint lang="de">Wasser - Deckel - privat - Fluss</hint>
 	</card>
 	<card>
 		<jap>格</jap>
@@ -3189,7 +3189,7 @@
 		<freq>281</freq>
 		<rad>75</rad>
         <had>643</had>
-        <hint>Baum - schlagen - Mund</hint>
+        <hint lang="de">Baum - schlagen - Mund</hint>
 	</card>
 	<card>
 		<jap>有</jap>
@@ -3201,7 +3201,7 @@
 		<freq>282</freq>
 		<rad>130</rad>
         <had>265</had>
-        <hint>10 - Mond</hint>
+        <hint lang="de">10 - Mond</hint>
 	</card>
 	<card>
 		<jap>疑</jap>
@@ -3213,7 +3213,7 @@
 		<freq>283</freq>
 		<rad>21</rad>
 		<had>1516</had>
-        <hint>sieben - Pfeil - Ma - bestimmt</hint>
+        <hint lang="de">sieben - Pfeil - Ma - bestimmt</hint>
 	</card>
 	<card>
 		<jap>口</jap>
@@ -3236,7 +3236,7 @@
 		<freq>285</freq>
 		<rad>162</rad>
         <had>413</had>
-        <hint> - Weg</hint>
+        <hint lang="de"> - Weg</hint>
 	</card>
 	<card>
 		<jap>局</jap>
@@ -3247,7 +3247,7 @@
 		<freq>286</freq>
 		<rad>44</rad>
         <had>170</had>
-        <hint>Leichnam - einwickeln - Mund</hint>
+        <hint lang="de">Leichnam - einwickeln - Mund</hint>
 	</card>
 	<card>
 		<jap>少</jap>
@@ -3270,7 +3270,7 @@
 		<freq>288</freq>
 		<rad>70</rad>
         <had>512</had>
-        <hint>Richtung - schlagen</hint>
+        <hint lang="de">Richtung - schlagen</hint>
 	</card>
 	<card>
 		<jap>税</jap>
@@ -3281,7 +3281,7 @@
 		<freq>289</freq>
 		<rad>115</rad>
         <had>399</had>
-        <hint>Getreide - Beine - Bruder</hint>
+        <hint lang="de">Getreide - Beine - Bruder</hint>
 	</card>
 	<card>
 		<jap>検</jap>
@@ -3292,7 +3292,7 @@
 		<freq>290</freq>
 		<rad>75</rad>
         <had>531</had>
-        <hint>Baum - Dach - </hint>
+        <hint lang="de">Baum - Dach - </hint>
 	</card>
 	<card>
 		<jap>藤</jap>
@@ -3304,7 +3304,7 @@
 		<freq>291</freq>
 		<rad>140</rad>
         <had>0</had>
-        <hint>Gras - Mond - </hint>
+        <hint lang="de">Gras - Mond - </hint>
 	</card>
 	<card>
 		<jap>町</jap>
@@ -3316,7 +3316,7 @@
 		<freq>292</freq>
 		<rad>102</rad>
         <had>182</had>
-        <hint>Feld - TEI</hint>
+        <hint lang="de">Feld - TEI</hint>
 	</card>
 	<card>
 		<jap>常</jap>
@@ -3328,7 +3328,7 @@
 		<freq>293</freq>
 		<rad>42</rad>
         <had>497</had>
-        <hint>Dach - Mund - Tuch</hint>
+        <hint lang="de">Dach - Mund - Tuch</hint>
 	</card>
 	<card>
 		<jap>校</jap>
@@ -3339,7 +3339,7 @@
 		<freq>294</freq>
 		<rad>75</rad>
         <had>115</had>
-        <hint>Baum - Kreuzung</hint>
+        <hint lang="de">Baum - Kreuzung</hint>
 	</card>
 	<card>
 		<jap>料</jap>
@@ -3350,7 +3350,7 @@
 		<freq>295</freq>
 		<rad>119</rad>
         <had>319</had>
-        <hint>Reis - Hohlmaß</hint>
+        <hint lang="de">Reis - Hohlmaß</hint>
 	</card>
 	<card>
 		<jap>沢</jap>
@@ -3362,7 +3362,7 @@
 		<freq>296</freq>
 		<rad>85</rad>
         <had>994</had>
-        <hint>Wasser - Tür</hint>
+        <hint lang="de">Wasser - Tür</hint>
 	</card>
 	<card>
 		<jap>裁</jap>
@@ -3374,7 +3374,7 @@
 		<freq>297</freq>
 		<rad>24</rad>
         <had>1123</had>
-        <hint>Erde - Kleidung - Speer</hint>
+        <hint lang="de">Erde - Kleidung - Speer</hint>
 	</card>
 	<card>
 		<jap>状</jap>
@@ -3385,7 +3385,7 @@
 		<freq>298</freq>
 		<rad>90</rad>
         <had>626</had>
-        <hint>links - Hund</hint>
+        <hint lang="de">links - Hund</hint>
 	</card>
 	<card>
 		<jap>工</jap>
@@ -3407,7 +3407,7 @@
 		<freq>300</freq>
 		<rad>54</rad>
         <had>892</had>
-        <hint>Pinsel - gehen</hint>
+        <hint lang="de">Pinsel - gehen</hint>
 	</card>
 	<card>
 		<jap>語</jap>
@@ -3419,7 +3419,7 @@
 		<freq>301</freq>
 		<rad>149</rad>
         <had>67</had>
-        <hint>sprechen - 5 -Mund</hint>
+        <hint lang="de">sprechen - 5 -Mund</hint>
 	</card>
 	<card>
 		<jap>球</jap>
@@ -3431,7 +3431,7 @@
 		<freq>302</freq>
 		<rad>96</rad>
         <had>726</had>
-        <hint>König - fordern</hint>
+        <hint lang="de">König - fordern</hint>
 	</card>
 	<card>
 		<jap>営</jap>
@@ -3443,7 +3443,7 @@
 		<freq>303</freq>
 		<rad>30</rad>
         <had>722</had>
-        <hint>Dach - Mund - Mund</hint>
+        <hint lang="de">Dach - Mund - Mund</hint>
 	</card>
 	<card>
 		<jap>空</jap>
@@ -3455,7 +3455,7 @@
 		<freq>304</freq>
 		<rad>116</rad>
         <had>140</had>
-        <hint>Loch - bauen</hint>
+        <hint lang="de">Loch - bauen</hint>
 	</card>
 	<card>
 		<jap>職</jap>
@@ -3466,7 +3466,7 @@
 		<freq>305</freq>
 		<rad>128</rad>
         <had>385</had>
-        <hint>nehmen - stehen - Tag - Speer</hint>
+        <hint lang="de">nehmen - stehen - Tag - Speer</hint>
 	</card>
 	<card>
 		<jap>証</jap>
@@ -3477,7 +3477,7 @@
 		<freq>306</freq>
 		<rad>149</rad>
         <had>484</had>
-        <hint>sprechen - korrekt</hint>
+        <hint lang="de">sprechen - korrekt</hint>
 	</card>
 	<card>
 		<jap>土</jap>
@@ -3511,7 +3511,7 @@
 		<freq>309</freq>
 		<rad>61</rad>
         <had>303</had>
-        <hint>wieder - Schweinskopf - Herz</hint>
+        <hint lang="de">wieder - Schweinskopf - Herz</hint>
 	</card>
 	<card>
 		<jap>止</jap>
@@ -3534,7 +3534,7 @@
 		<freq>311</freq>
 		<rad>162</rad>
         <had>441</had>
-        <hint> - Weg</hint>
+        <hint lang="de"> - Weg</hint>
 	</card>
 	<card>
 		<jap>援</jap>
@@ -3545,7 +3545,7 @@
 		<freq>312</freq>
 		<rad>64</rad>
         <had>1088</had>
-        <hint>Hand - Kralle - Freund</hint>
+        <hint lang="de">Hand - Kralle - Freund</hint>
 	</card>
 	<card>
 		<jap>供</jap>
@@ -3557,7 +3557,7 @@
 		<freq>313</freq>
 		<rad>9</rad>
         <had>197</had>
-        <hint>Mensch - zusammen</hint>
+        <hint lang="de">Mensch - zusammen</hint>
 	</card>
 	<card>
 		<jap>可</jap>
@@ -3578,7 +3578,7 @@
 		<freq>315</freq>
 		<rad>60</rad>
         <had>375</had>
-        <hint>Schritt - Lanze</hint>
+        <hint lang="de">Schritt - Lanze</hint>
 	</card>
 	<card>
 		<jap>構</jap>
@@ -3590,7 +3590,7 @@
 		<freq>316</freq>
 		<rad>75</rad>
         <had>1010</had>
-        <hint>Baum - - noch einmal</hint>
+        <hint lang="de">Baum - - noch einmal</hint>
 	</card>
 	<card>
 		<jap>木</jap>
@@ -3613,7 +3613,7 @@
 		<freq>318</freq>
 		<rad>18</rad>
         <had>519</had>
-        <hint>Schaden - Schwert</hint>
+        <hint lang="de">Schaden - Schwert</hint>
 	</card>
 	<card>
 		<jap>聞</jap>
@@ -3625,7 +3625,7 @@
 		<freq>319</freq>
 		<rad>169</rad>
         <had>64</had>
-        <hint>Tor - Ohr</hint>
+        <hint lang="de">Tor - Ohr</hint>
 	</card>
 	<card>
 		<jap>身</jap>
@@ -3648,7 +3648,7 @@
 		<freq>321</freq>
 		<rad>154</rad>
         <had>749</had>
-        <hint> - Muschel</hint>
+        <hint lang="de"> - Muschel</hint>
 	</card>
 	<card>
 		<jap>付</jap>
@@ -3660,7 +3660,7 @@
 		<freq>322</freq>
 		<rad>9</rad>
         <had>192</had>
-        <hint>Mensch - Zoll</hint>
+        <hint lang="de">Mensch - Zoll</hint>
 	</card>
 	<card>
 		<jap>施</jap>
@@ -3672,7 +3672,7 @@
 		<freq>323</freq>
 		<rad>70</rad>
         <had>1004</had>
-        <hint>Richtung - </hint>
+        <hint lang="de">Richtung - </hint>
 	</card>
 	<card>
 		<jap>切</jap>
@@ -3684,7 +3684,7 @@
 		<freq>324</freq>
 		<rad>18</rad>
         <had>39</had>
-        <hint>sieben - Schwert</hint>
+        <hint lang="de">sieben - Schwert</hint>
 	</card>
 	<card>
 		<jap>由</jap>
@@ -3706,7 +3706,7 @@
 		<freq>326</freq>
 		<rad>149</rad>
         <had>400</had>
-        <hint>sprechen - Beine - Bruder</hint>
+        <hint lang="de">sprechen - Beine - Bruder</hint>
 	</card>
 	<card>
 		<jap>転</jap>
@@ -3718,7 +3718,7 @@
 		<freq>327</freq>
 		<rad>159</rad>
         <had>433</had>
-        <hint>Wagen - </hint>
+        <hint lang="de">Wagen - </hint>
 	</card>
 	<card>
 		<jap>食</jap>
@@ -3752,7 +3752,7 @@
 		<freq>330</freq>
 		<rad>172</rad>
         <had>557</had>
-        <hint>Gras -  - Spatz</hint>
+        <hint lang="de">Gras -  - Spatz</hint>
 	</card>
 	<card>
 		<jap>防</jap>
@@ -3764,7 +3764,7 @@
 		<freq>331</freq>
 		<rad>170</rad>
         <had>513</had>
-        <hint>Gemeinde - Richtung</hint>
+        <hint lang="de">Gemeinde - Richtung</hint>
 	</card>
 	<card>
 		<jap>補</jap>
@@ -3776,7 +3776,7 @@
 		<freq>332</freq>
 		<rad>145</rad>
         <had>889</had>
-        <hint>Kleidung - </hint>
+        <hint lang="de">Kleidung - </hint>
 	</card>
 	<card>
 		<jap>車</jap>
@@ -3799,7 +3799,7 @@
 		<freq>334</freq>
 		<rad>9</rad>
         <had>1033</had>
-        <hint>Mensch - Auge - Herz - schlagen</hint>
+        <hint lang="de">Mensch - Auge - Herz - schlagen</hint>
 	</card>
 	<card>
 		<jap>夫</jap>
@@ -3822,7 +3822,7 @@
 		<freq>336</freq>
 		<rad>112</rad>
         <had>896</had>
-        <hint>Stein - nicht</hint>
+        <hint lang="de">Stein - nicht</hint>
 	</card>
 	<card>
 		<jap>収</jap>
@@ -3834,7 +3834,7 @@
 		<freq>337</freq>
 		<rad>29</rad>
         <had>757</had>
-        <hint> - Hand</hint>
+        <hint lang="de"> - Hand</hint>
 	</card>
 	<card>
 		<jap>断</jap>
@@ -3846,7 +3846,7 @@
 		<freq>338</freq>
 		<rad>69</rad>
         <had>1024</had>
-        <hint>Kasten - Reis - Axt</hint>
+        <hint lang="de">Kasten - Reis - Axt</hint>
 	</card>
 	<card>
 		<jap>井</jap>
@@ -3869,7 +3869,7 @@
 		<freq>340</freq>
 		<rad>9</rad>
         <had>390</had>
-        <hint>Mensch - möglich</hint>
+        <hint lang="de">Mensch - möglich</hint>
 	</card>
 	<card>
 		<jap>南</jap>
@@ -3914,7 +3914,7 @@
 		<freq>344</freq>
 		<rad>162</rad>
         <had>814</had>
-        <hint>Leder - Weg</hint>
+        <hint lang="de">Leder - Weg</hint>
 	</card>
 	<card>
 		<jap>消</jap>
@@ -3926,7 +3926,7 @@
 		<freq>345</freq>
 		<rad>85</rad>
         <had>845</had>
-        <hint>Wasser - - Mond</hint>
+        <hint lang="de">Wasser - - Mond</hint>
 	</card>
 	<card>
 		<jap>境</jap>
@@ -3938,7 +3938,7 @@
 		<freq>346</freq>
 		<rad>32</rad>
         <had>864</had>
-        <hint>König - stehen - (sehen)</hint>
+        <hint lang="de">König - stehen - (sehen)</hint>
 	</card>
 	<card>
 		<jap>神</jap>
@@ -3950,7 +3950,7 @@
 		<freq>347</freq>
 		<rad>113</rad>
         <had>310</had>
-        <hint>zeigen - </hint>
+        <hint lang="de">zeigen - </hint>
 	</card>
 	<card>
 		<jap>番</jap>
@@ -3961,7 +3961,7 @@
 		<freq>348</freq>
 		<rad>165</rad>
         <had>185</had>
-        <hint>Getreide - Feld</hint>
+        <hint lang="de">Getreide - Feld</hint>
 	</card>
 	<card>
 		<jap>規</jap>
@@ -3972,7 +3972,7 @@
 		<freq>349</freq>
 		<rad>147</rad>
         <had>607</had>
-        <hint>Mann - sehen</hint>
+        <hint lang="de">Mann - sehen</hint>
 	</card>
 	<card>
 		<jap>術</jap>
@@ -3984,7 +3984,7 @@
 		<freq>350</freq>
 		<rad>60</rad>
         <had>187</had>
-        <hint>Schritt - Baum - gehen</hint>
+        <hint lang="de">Schritt - Baum - gehen</hint>
 	</card>
 	<card>
 		<jap>護</jap>
@@ -3996,7 +3996,7 @@
 		<freq>351</freq>
 		<rad>149</rad>
         <had>1312</had>
-        <hint>sprechen - Gras - Spatz - Hand</hint>
+        <hint lang="de">sprechen - Gras - Spatz - Hand</hint>
 	</card>
 	<card>
 		<jap>展</jap>
@@ -4007,7 +4007,7 @@
 		<freq>352</freq>
 		<rad>44</rad>
         <had>1129</had>
-        <hint>Tür - - Kleidung</hint>
+        <hint lang="de">Tür - - Kleidung</hint>
 	</card>
 	<card>
 		<jap>態</jap>
@@ -4018,7 +4018,7 @@
 		<freq>353</freq>
 		<rad>61</rad>
         <had>387</had>
-        <hint>Talent - Herz</hint>
+        <hint lang="de">Talent - Herz</hint>
 	</card>
 	<card>
 		<jap>導</jap>
@@ -4030,7 +4030,7 @@
 		<freq>354</freq>
 		<rad>41</rad>
         <had>703</had>
-        <hint>Weg - Zoll</hint>
+        <hint lang="de">Weg - Zoll</hint>
 	</card>
 	<card>
 		<jap>鮮</jap>
@@ -4042,7 +4042,7 @@
 		<freq>355</freq>
 		<rad>195</rad>
         <had>701</had>
-        <hint>Fisch - Schaf</hint>
+        <hint lang="de">Fisch - Schaf</hint>
 	</card>
 	<card>
 		<jap>備</jap>
@@ -4054,7 +4054,7 @@
 		<freq>356</freq>
 		<rad>9</rad>
         <had>768</had>
-        <hint>Mensch - - Angelegenheit</hint>
+        <hint lang="de">Mensch - - Angelegenheit</hint>
 	</card>
 	<card>
 		<jap>宅</jap>
@@ -4066,7 +4066,7 @@
 		<freq>357</freq>
 		<rad>40</rad>
         <had>178</had>
-        <hint>Dach - Haar</hint>
+        <hint lang="de">Dach - Haar</hint>
 	</card>
 	<card>
 		<jap>害</jap>
@@ -4088,7 +4088,7 @@
 		<freq>359</freq>
 		<rad>164</rad>
         <had>515</had>
-        <hint>Wein - selbst</hint>
+        <hint lang="de">Wein - selbst</hint>
 	</card>
 	<card>
 		<jap>副</jap>
@@ -4099,7 +4099,7 @@
 		<freq>360</freq>
 		<rad>18</rad>
         <had>714</had>
-        <hint> - Schwert</hint>
+        <hint lang="de"> - Schwert</hint>
 	</card>
 	<card>
 		<jap>算</jap>
@@ -4110,7 +4110,7 @@
 		<freq>361</freq>
 		<rad>118</rad>
         <had>747</had>
-        <hint>Bambus - Auge - Hände</hint>
+        <hint lang="de">Bambus - Auge - Hände</hint>
 	</card>
 	<card>
 		<jap>視</jap>
@@ -4122,7 +4122,7 @@
 		<freq>362</freq>
 		<rad>113</rad>
         <had>606</had>
-        <hint>zeigen - sehen</hint>
+        <hint lang="de">zeigen - sehen</hint>
 	</card>
 	<card>
 		<jap>条</jap>
@@ -4133,7 +4133,7 @@
 		<freq>363</freq>
 		<rad>34</rad>
         <had>564</had>
-        <hint>schlagen - Baum</hint>
+        <hint lang="de">schlagen - Baum</hint>
 	</card>
 	<card>
 		<jap>幹</jap>
@@ -4156,7 +4156,7 @@
 		<freq>365</freq>
 		<rad>94</rad>
         <had>219</had>
-        <hint>Tier - Insekt</hint>
+        <hint lang="de">Tier - Insekt</hint>
 	</card>
 	<card>
 		<jap>警</jap>
@@ -4167,7 +4167,7 @@
 		<freq>366</freq>
 		<rad>149</rad>
         <had>706</had>
-        <hint>Gras - einwickeln - schlagen - sprechen</hint>
+        <hint lang="de">Gras - einwickeln - schlagen - sprechen</hint>
 	</card>
 	<card>
 		<jap>宮</jap>
@@ -4201,7 +4201,7 @@
 		<freq>369</freq>
 		<rad>8</rad>
         <had>246</had>
-        <hint>Deckel - privat - Mond</hint>
+        <hint lang="de">Deckel - privat - Mond</hint>
 	</card>
 	<card>
 		<jap>席</jap>
@@ -4212,7 +4212,7 @@
 		<freq>370</freq>
 		<rad>53</rad>
         <had>379</had>
-        <hint>Schrägdach - - Tuch</hint>
+        <hint lang="de">Schrägdach - - Tuch</hint>
 	</card>
 	<card>
 		<jap>輸</jap>
@@ -4223,7 +4223,7 @@
 		<freq>371</freq>
 		<rad>159</rad>
         <had>546</had>
-        <hint>Wagen - Dach - Mond - Schwert</hint>
+        <hint lang="de">Wagen - Dach - Mond - Schwert</hint>
 	</card>
 	<card>
 		<jap>訪</jap>
@@ -4235,7 +4235,7 @@
 		<freq>372</freq>
 		<rad>149</rad>
         <had>1181</had>
-        <hint>sprechen - Richtung</hint>
+        <hint lang="de">sprechen - Richtung</hint>
 	</card>
 	<card>
 		<jap>楽</jap>
@@ -4247,7 +4247,7 @@
 		<freq>373</freq>
 		<rad>75</rad>
         <had>358</had>
-        <hint>dunkel - strahlen - Baum</hint>
+        <hint lang="de">dunkel - strahlen - Baum</hint>
 	</card>
 	<card>
 		<jap>起</jap>
@@ -4259,7 +4259,7 @@
 		<freq>374</freq>
 		<rad>156</rad>
         <had>373</had>
-        <hint>Erde - Fuß - selbst</hint>
+        <hint lang="de">Erde - Fuß - selbst</hint>
 	</card>
 	<card>
 		<jap>万</jap>
@@ -4304,7 +4304,7 @@
 		<freq>378</freq>
 		<rad>53</rad>
         <had>168</had>
-        <hint>Schrägdach - besetzen</hint>
+        <hint lang="de">Schrägdach - besetzen</hint>
 	</card>
 	<card>
 		<jap>述</jap>
@@ -4316,7 +4316,7 @@
 		<freq>379</freq>
 		<rad>162</rad>
         <had>968</had>
-        <hint>Baum - Weg</hint>
+        <hint lang="de">Baum - Weg</hint>
 	</card>
 	<card>
 		<jap>残</jap>
@@ -4328,7 +4328,7 @@
 		<freq>380</freq>
 		<rad>78</rad>
         <had>650</had>
-        <hint>zersetzen - Speer</hint>
+        <hint lang="de">zersetzen - Speer</hint>
 	</card>
 	<card>
 		<jap>想</jap>
@@ -4339,7 +4339,7 @@
 		<freq>381</freq>
 		<rad>61</rad>
         <had>147</had>
-        <hint>Baum - Auge - Herz</hint>
+        <hint lang="de">Baum - Auge - Herz</hint>
 	</card>
 	<card>
 		<jap>線</jap>
@@ -4350,7 +4350,7 @@
 		<freq>382</freq>
 		<rad>120</rad>
         <had>299</had>
-        <hint>Faden - Quelle</hint>
+        <hint lang="de">Faden - Quelle</hint>
 	</card>
 	<card>
 		<jap>率</jap>
@@ -4362,7 +4362,7 @@
 		<freq>383</freq>
 		<rad>8</rad>
         <had>788</had>
-        <hint>Deckel - dunkel - strahlen - 10</hint>
+        <hint lang="de">Deckel - dunkel - strahlen - 10</hint>
 	</card>
 	<card>
 		<jap>病</jap>
@@ -4384,7 +4384,7 @@
 		<freq>385</freq>
 		<rad>161</rad>
         <had>369</had>
-        <hint>Stück - vormittag</hint>
+        <hint lang="de">Stück - vormittag</hint>
 	</card>
 	<card>
 		<jap>州</jap>
@@ -4405,7 +4405,7 @@
 		<freq>387</freq>
 		<rad>1</rad>
         <had>1031</had>
-        <hint>stoppen - Spieß</hint>
+        <hint lang="de">stoppen - Spieß</hint>
 	</card>
 	<card>
 		<jap>声</jap>
@@ -4417,7 +4417,7 @@
 		<freq>388</freq>
 		<rad>32</rad>
         <had>746</had>
-        <hint>Diener - Tor</hint>
+        <hint lang="de">Diener - Tor</hint>
 	</card>
 	<card>
 		<jap>質</jap>
@@ -4428,7 +4428,7 @@
 		<freq>389</freq>
 		<rad>154</rad>
         <had>176</had>
-        <hint>Axt - Axt - Muschel</hint>
+        <hint lang="de">Axt - Axt - Muschel</hint>
 	</card>
 	<card>
 		<jap>念</jap>
@@ -4439,7 +4439,7 @@
 		<freq>390</freq>
 		<rad>9</rad>
         <had>579</had>
-        <hint>jetzt - Herz</hint>
+        <hint lang="de">jetzt - Herz</hint>
 	</card>
 	<card>
 		<jap>待</jap>
@@ -4451,7 +4451,7 @@
 		<freq>391</freq>
 		<rad>60</rad>
         <had>452</had>
-        <hint>Schritt - </hint>
+        <hint lang="de">Schritt - </hint>
 	</card>
 	<card>
 		<jap>試</jap>
@@ -4463,7 +4463,7 @@
 		<freq>392</freq>
 		<rad>149</rad>
         <had>526</had>
-        <hint>sprechen - Spieß - bauen</hint>
+        <hint lang="de">sprechen - Spieß - bauen</hint>
 	</card>
 	<card>
 		<jap>族</jap>
@@ -4474,7 +4474,7 @@
 		<freq>393</freq>
 		<rad>70</rad>
         <had>221</had>
-        <hint>Richtung - - Pfeil</hint>
+        <hint lang="de">Richtung - - Pfeil</hint>
 	</card>
 	<card>
 		<jap>象</jap>
@@ -4495,7 +4495,7 @@
 		<freq>395</freq>
 		<rad>167</rad>
         <had>313</had>
-        <hint>Metall - begrenzen</hint>
+        <hint lang="de">Metall - begrenzen</hint>
 	</card>
 	<card>
 		<jap>域</jap>
@@ -4506,7 +4506,7 @@
 		<freq>396</freq>
 		<rad>32</rad>
         <had>970</had>
-        <hint>Erde - Mund - Speer</hint>
+        <hint lang="de">Erde - Mund - Speer</hint>
 	</card>
 	<card>
 		<jap>助</jap>
@@ -4518,7 +4518,7 @@
 		<freq>397</freq>
 		<rad>19</rad>
         <had>623</had>
-        <hint>Auge - Kraft</hint>
+        <hint lang="de">Auge - Kraft</hint>
 	</card>
 	<card>
 		<jap>労</jap>
@@ -4530,7 +4530,7 @@
 		<freq>398</freq>
 		<rad>19</rad>
         <had>233</had>
-        <hint>Dach - Kraft</hint>
+        <hint lang="de">Dach - Kraft</hint>
 	</card>
 	<card>
 		<jap>例</jap>
@@ -4542,7 +4542,7 @@
 		<freq>399</freq>
 		<rad>9</rad>
         <had>612</had>
-        <hint>Mensch - zersetzen - Schwert</hint>
+        <hint lang="de">Mensch - zersetzen - Schwert</hint>
 	</card>
 	<card>
 		<jap>衛</jap>
@@ -4553,7 +4553,7 @@
 		<freq>400</freq>
 		<rad>60</rad>
         <had>815</had>
-        <hint>fahren - Leder - fahren</hint>
+        <hint lang="de">fahren - Leder - fahren</hint>
 	</card>
 	<card>
 		<jap>然</jap>
@@ -4565,7 +4565,7 @@
 		<freq>401</freq>
 		<rad>86</rad>
         <had>651</had>
-        <hint>Abend - Hund - Feuer</hint>
+        <hint lang="de">Abend - Hund - Feuer</hint>
 	</card>
 	<card>
 		<jap>早</jap>
@@ -4577,7 +4577,7 @@
 		<freq>402</freq>
 		<rad>72</rad>
         <had>248</had>
-        <hint>Tag - 10</hint>
+        <hint lang="de">Tag - 10</hint>
 	</card>
 	<card>
 		<jap>張</jap>
@@ -4589,7 +4589,7 @@
 		<freq>403</freq>
 		<rad>57</rad>
         <had>1106</had>
-        <hint>Bogen - lang</hint>
+        <hint lang="de">Bogen - lang</hint>
 	</card>
 	<card>
 		<jap>映</jap>
@@ -4601,7 +4601,7 @@
 		<freq>404</freq>
 		<rad>72</rad>
         <had>352</had>
-        <hint>Tag - Zentrum</hint>
+        <hint lang="de">Tag - Zentrum</hint>
 	</card>
 	<card>
 		<jap>限</jap>
@@ -4613,7 +4613,7 @@
 		<freq>405</freq>
 		<rad>170</rad>
         <had>847</had>
-        <hint>Gemeinde - begrenzen</hint>
+        <hint lang="de">Gemeinde - begrenzen</hint>
 	</card>
 	<card>
 		<jap>親</jap>
@@ -4625,7 +4625,7 @@
 		<freq>406</freq>
 		<rad>147</rad>
         <had>175</had>
-        <hint>stehen - Baum - sehen</hint>
+        <hint lang="de">stehen - Baum - sehen</hint>
 	</card>
 	<card>
 		<jap>額</jap>
@@ -4637,7 +4637,7 @@
 		<freq>407</freq>
 		<rad>181</rad>
         <had>838</had>
-        <hint>jedes - Kopf</hint>
+        <hint lang="de">jedes - Kopf</hint>
 	</card>
 	<card>
 		<jap>監</jap>
@@ -4648,7 +4648,7 @@
 		<freq>408</freq>
 		<rad>108</rad>
         <had>1663</had>
-        <hint>Diener - - Teller</hint>
+        <hint lang="de">Diener - - Teller</hint>
 	</card>
 	<card>
 		<jap>環</jap>
@@ -4659,7 +4659,7 @@
 		<freq>409</freq>
 		<rad>96</rad>
         <had>865</had>
-        <hint>König - Netz - Mund - Kleidung</hint>
+        <hint lang="de">König - Netz - Mund - Kleidung</hint>
 	</card>
 	<card>
 		<jap>験</jap>
@@ -4670,7 +4670,7 @@
 		<freq>410</freq>
 		<rad>187</rad>
         <had>532</had>
-        <hint>Pferd - Dach - </hint>
+        <hint lang="de">Pferd - Dach - </hint>
 	</card>
 	<card>
 		<jap>追</jap>
@@ -4692,7 +4692,7 @@
 		<freq>412</freq>
 		<rad>40</rad>
         <had>1383</had>
-        <hint>Dach - Reihe</hint>
+        <hint lang="de">Dach - Reihe</hint>
 	</card>
 	<card>
 		<jap>商</jap>
@@ -4714,7 +4714,7 @@
 		<freq>414</freq>
 		<rad>140</rad>
         <had>253</had>
-        <hint>Gras - Welt - Baum</hint>
+        <hint lang="de">Gras - Welt - Baum</hint>
 	</card>
 	<card>
 		<jap>義</jap>
@@ -4725,7 +4725,7 @@
 		<freq>415</freq>
 		<rad>123</rad>
         <had>291</had>
-        <hint>Schaf - ich</hint>
+        <hint lang="de">Schaf - ich</hint>
 	</card>
 	<card>
 		<jap>伝</jap>
@@ -4737,7 +4737,7 @@
 		<freq>416</freq>
 		<rad>9</rad>
         <had>434</had>
-        <hint>Mensch - </hint>
+        <hint lang="de">Mensch - </hint>
 	</card>
 	<card>
 		<jap>働</jap>
@@ -4749,7 +4749,7 @@
 		<freq>417</freq>
 		<rad>9</rad>
         <had>232</had>
-        <hint>Mensch - schwer - Kraft</hint>
+        <hint lang="de">Mensch - schwer - Kraft</hint>
 	</card>
 	<card>
 		<jap>形</jap>
@@ -4771,7 +4771,7 @@
 		<freq>419</freq>
 		<rad>72</rad>
         <had>853</had>
-        <hint>Sonne - Hauptstadt</hint>
+        <hint lang="de">Sonne - Hauptstadt</hint>
 	</card>
 	<card>
 		<jap>落</jap>
@@ -4783,7 +4783,7 @@
 		<freq>420</freq>
 		<rad>140</rad>
         <had>839</had>
-        <hint>Gras - Wasser - jedes</hint>
+        <hint lang="de">Gras - Wasser - jedes</hint>
 	</card>
 	<card>
 		<jap>欧</jap>
@@ -4794,7 +4794,7 @@
 		<freq>421</freq>
 		<rad>76</rad>
         <had>1022</had>
-        <hint>Distrikt - fehlen</hint>
+        <hint lang="de">Distrikt - fehlen</hint>
 	</card>
 	<card>
 		<jap>担</jap>
@@ -4806,7 +4806,7 @@
 		<freq>422</freq>
 		<rad>64</rad>
         <had>1274</had>
-        <hint>Hand - Tag</hint>
+        <hint lang="de">Hand - Tag</hint>
 	</card>
 	<card>
 		<jap>好</jap>
@@ -4818,7 +4818,7 @@
 		<freq>423</freq>
 		<rad>38</rad>
         <had>104</had>
-        <hint>Frau - Kind</hint>
+        <hint lang="de">Frau - Kind</hint>
 	</card>
 	<card>
 		<jap>退</jap>
@@ -4830,7 +4830,7 @@
 		<freq>424</freq>
 		<rad>162</rad>
         <had>846</had>
-        <hint>begrenzen - Weg</hint>
+        <hint lang="de">begrenzen - Weg</hint>
 	</card>
 	<card>
 		<jap>準</jap>
@@ -4841,7 +4841,7 @@
 		<freq>425</freq>
 		<rad>24</rad>
         <had>778</had>
-        <hint>Wasser - Spatz - 10</hint>
+        <hint lang="de">Wasser - Spatz - 10</hint>
 	</card>
 	<card>
 		<jap>賞</jap>
@@ -4852,7 +4852,7 @@
 		<freq>426</freq>
 		<rad>42</rad>
         <had>500</had>
-        <hint>Dach - Muschel</hint>
+        <hint lang="de">Dach - Muschel</hint>
 	</card>
 	<card>
 		<jap>訴</jap>
@@ -4864,7 +4864,7 @@
 		<freq>427</freq>
 		<rad>149</rad>
         <had>1402</had>
-        <hint>sprechen - (Axt)</hint>
+        <hint lang="de">sprechen - (Axt)</hint>
 	</card>
 	<card>
 		<jap>辺</jap>
@@ -4876,7 +4876,7 @@
 		<freq>428</freq>
 		<rad>162</rad>
         <had>775</had>
-        <hint>Schwert - Weg</hint>
+        <hint lang="de">Schwert - Weg</hint>
 	</card>
 	<card>
 		<jap>造</jap>
@@ -4888,7 +4888,7 @@
 		<freq>429</freq>
 		<rad>162</rad>
         <had>691</had>
-        <hint>mitteilen - Weg</hint>
+        <hint lang="de">mitteilen - Weg</hint>
 	</card>
 	<card>
 		<jap>英</jap>
@@ -4899,7 +4899,7 @@
 		<freq>430</freq>
 		<rad>140</rad>
         <had>353</had>
-        <hint>Gras - Zentrum</hint>
+        <hint lang="de">Gras - Zentrum</hint>
 	</card>
 	<card>
 		<jap>被</jap>
@@ -4911,7 +4911,7 @@
 		<freq>431</freq>
 		<rad>145</rad>
         <had>976</had>
-        <hint>Kleidung - Haut</hint>
+        <hint lang="de">Kleidung - Haut</hint>
 	</card>
 	<card>
 		<jap>株</jap>
@@ -4923,7 +4923,7 @@
 		<freq>432</freq>
 		<rad>75</rad>
         <had>741</had>
-        <hint>Baum - </hint>
+        <hint lang="de">Baum - </hint>
 	</card>
 	<card>
 		<jap>頭</jap>
@@ -4935,7 +4935,7 @@
 		<freq>433</freq>
 		<rad>151</rad>
         <had>276</had>
-        <hint>Bohne - Kopf</hint>
+        <hint lang="de">Bohne - Kopf</hint>
 	</card>
 	<card>
 		<jap>技</jap>
@@ -4947,7 +4947,7 @@
 		<freq>434</freq>
 		<rad>64</rad>
         <had>871</had>
-        <hint>Hand - Zweig</hint>
+        <hint lang="de">Hand - Zweig</hint>
 	</card>
 	<card>
 		<jap>低</jap>
@@ -4959,7 +4959,7 @@
 		<freq>435</freq>
 		<rad>9</rad>
         <had>561</had>
-        <hint>Mensch - Familie</hint>
+        <hint lang="de">Mensch - Familie</hint>
 	</card>
 	<card>
 		<jap>毎</jap>
@@ -4970,7 +4970,7 @@
 		<freq>436</freq>
 		<rad>80</rad>
         <had>116</had>
-        <hint>Dach - Mutter</hint>
+        <hint lang="de">Dach - Mutter</hint>
 	</card>
 	<card>
 		<jap>医</jap>
@@ -4981,7 +4981,7 @@
 		<freq>437</freq>
 		<rad>22</rad>
         <had>220</had>
-        <hint>Kasten - Pfeil</hint>
+        <hint lang="de">Kasten - Pfeil</hint>
 	</card>
 	<card>
 		<jap>復</jap>
@@ -4992,7 +4992,7 @@
 		<freq>438</freq>
 		<rad>60</rad>
         <had>917</had>
-        <hint>Schritt - Dach - Sonne - schlagen</hint>
+        <hint lang="de">Schritt - Dach - Sonne - schlagen</hint>
 	</card>
 	<card>
 		<jap>仕</jap>
@@ -5004,7 +5004,7 @@
 		<freq>439</freq>
 		<rad>9</rad>
         <had>333</had>
-        <hint>Mensch - Diener</hint>
+        <hint lang="de">Mensch - Diener</hint>
 	</card>
 	<card>
 		<jap>去</jap>
@@ -5027,7 +5027,7 @@
 		<freq>441</freq>
 		<rad>38</rad>
         <had>929</had>
-        <hint>nächste - Frau</hint>
+        <hint lang="de">nächste - Frau</hint>
 	</card>
 	<card>
 		<jap>味</jap>
@@ -5039,7 +5039,7 @@
 		<freq>442</freq>
 		<rad>30</rad>
         <had>307</had>
-        <hint>Mund - Zukunft</hint>
+        <hint lang="de">Mund - Zukunft</hint>
 	</card>
 	<card>
 		<jap>負</jap>
@@ -5051,7 +5051,7 @@
 		<freq>443</freq>
 		<rad>154</rad>
         <had>510</had>
-        <hint>wieder - Muschel</hint>
+        <hint lang="de">wieder - Muschel</hint>
 	</card>
 	<card>
 		<jap>閣</jap>
@@ -5062,7 +5062,7 @@
 		<freq>444</freq>
 		<rad>169</rad>
         <had>837</had>
-        <hint>Tor - jedes</hint>
+        <hint lang="de">Tor - jedes</hint>
 	</card>
 	<card>
 		<jap>韓</jap>
@@ -5084,7 +5084,7 @@
 		<freq>446</freq>
 		<rad>85</rad>
         <had>378</had>
-        <hint>Wasser - Grad</hint>
+        <hint lang="de">Wasser - Grad</hint>
 	</card>
 	<card>
 		<jap>失</jap>
@@ -5107,7 +5107,7 @@
 		<freq>448</freq>
 		<rad>115</rad>
         <had>1121</had>
-        <hint>Getreide - viel</hint>
+        <hint lang="de">Getreide - viel</hint>
 	</card>
 	<card>
 		<jap>差</jap>
@@ -5119,7 +5119,7 @@
 		<freq>449</freq>
 		<rad>123</rad>
         <had>658</had>
-        <hint> - bauen</hint>
+        <hint lang="de"> - bauen</hint>
 	</card>
 	<card>
 		<jap>衆</jap>
@@ -5130,7 +5130,7 @@
 		<freq>450</freq>
 		<rad>143</rad>
         <had>792</had>
-        <hint>Blut - Kleidung</hint>
+        <hint lang="de">Blut - Kleidung</hint>
 	</card>
 	<card>
 		<jap>個</jap>
@@ -5141,7 +5141,7 @@
 		<freq>451</freq>
 		<rad>9</rad>
         <had>973</had>
-        <hint>Mensch - Grenze - alt</hint>
+        <hint lang="de">Mensch - Grenze - alt</hint>
 	</card>
 	<card>
 		<jap>門</jap>
@@ -5174,7 +5174,7 @@
 		<freq>454</freq>
 		<rad>149</rad>
         <had>1028</had>
-        <hint>sprechen - flach</hint>
+        <hint lang="de">sprechen - flach</hint>
 	</card>
 	<card>
 		<jap>課</jap>
@@ -5185,7 +5185,7 @@
 		<freq>455</freq>
 		<rad>149</rad>
         <had>488</had>
-        <hint>sprechen - Frucht</hint>
+        <hint lang="de">sprechen - Frucht</hint>
 	</card>
 	<card>
 		<jap>末</jap>
@@ -5197,7 +5197,7 @@
 		<freq>456</freq>
 		<rad>4</rad>
         <had>305</had>
-        <hint>wie Baum</hint>
+        <hint lang="de">wie Baum</hint>
 	</card>
 	<card>
 		<jap>守</jap>
@@ -5209,7 +5209,7 @@
 		<freq>457</freq>
 		<rad>40</rad>
         <had>490</had>
-        <hint>Dach - Zoll</hint>
+        <hint lang="de">Dach - Zoll</hint>
 	</card>
 	<card>
 		<jap>若</jap>
@@ -5221,7 +5221,7 @@
 		<freq>458</freq>
 		<rad>140</rad>
         <had>544</had>
-        <hint>Gras - rechts</hint>
+        <hint lang="de">Gras - rechts</hint>
 	</card>
 	<card>
 		<jap>脳</jap>
@@ -5232,7 +5232,7 @@
 		<freq>459</freq>
 		<rad>130</rad>
         <had>1278</had>
-        <hint>Fleisch - </hint>
+        <hint lang="de">Fleisch - </hint>
 	</card>
 	<card>
 		<jap>極</jap>
@@ -5244,7 +5244,7 @@
 		<freq>460</freq>
 		<rad>75</rad>
         <had>336</had>
-        <hint>Baum - Mund - einwickeln - Mund</hint>
+        <hint lang="de">Baum - Mund - einwickeln - Mund</hint>
 	</card>
 	<card>
 		<jap>種</jap>
@@ -5256,7 +5256,7 @@
 		<freq>461</freq>
 		<rad>115</rad>
         <had>228</had>
-        <hint>Getreide - schwer</hint>
+        <hint lang="de">Getreide - schwer</hint>
 	</card>
 	<card>
 		<jap>美</jap>
@@ -5268,7 +5268,7 @@
 		<freq>462</freq>
 		<rad>123</rad>
         <had>400</had>
-        <hint>Schaf - groß</hint>
+        <hint lang="de">Schaf - groß</hint>
 	</card>
 	<card>
 		<jap>岡</jap>
@@ -5290,7 +5290,7 @@
 		<freq>464</freq>
 		<rad>59</rad>
         <had>854</had>
-        <hint>Aussicht - Licht</hint>
+        <hint lang="de">Aussicht - Licht</hint>
 	</card>
 	<card>
 		<jap>命</jap>
@@ -5313,7 +5313,7 @@
 		<freq>466</freq>
 		<rad>9</rad>
         <had>1249</had>
-        <hint>jetzt - Mund</hint>
+        <hint lang="de">jetzt - Mund</hint>
 	</card>
 	<card>
 		<jap>福</jap>
@@ -5324,7 +5324,7 @@
 		<freq>467</freq>
 		<rad>113</rad>
         <had>1379</had>
-        <hint>zeigen - 1 - Mund - Feld</hint>
+        <hint lang="de">zeigen - 1 - Mund - Feld</hint>
 	</card>
 	<card>
 		<jap>蔵</jap>
@@ -5336,7 +5336,7 @@
 		<freq>468</freq>
 		<rad>140</rad>
         <had>1286</had>
-        <hint>Gras - Minister - Speer</hint>
+        <hint lang="de">Gras - Minister - Speer</hint>
 	</card>
 	<card>
 		<jap>量</jap>
@@ -5347,7 +5347,7 @@
 		<freq>469</freq>
 		<rad>72</rad>
         <had>411</had>
-        <hint>Sonne - Meile</hint>
+        <hint lang="de">Sonne - Meile</hint>
 	</card>
 	<card>
 		<jap>望</jap>
@@ -5359,7 +5359,7 @@
 		<freq>470</freq>
 		<rad>96</rad>
         <had>673</had>
-        <hint>tot - Fleisch - König</hint>
+        <hint lang="de">tot - Fleisch - König</hint>
 	</card>
 	<card>
 		<jap>松</jap>
@@ -5371,7 +5371,7 @@
 		<freq>471</freq>
 		<rad>75</rad>
         <had>696</had>
-        <hint>Baum - öffentlich</hint>
+        <hint lang="de">Baum - öffentlich</hint>
 	</card>
 	<card>
 		<jap>非</jap>
@@ -5394,7 +5394,7 @@
 		<freq>473</freq>
 		<rad>64</rad>
         <had>1016</had>
-        <hint>Wagen - Lanze - Hand</hint>
+        <hint lang="de">Wagen - Lanze - Hand</hint>
 	</card>
 	<card>
 		<jap>佐</jap>
@@ -5405,7 +5405,7 @@
 		<freq>474</freq>
 		<rad>9</rad>
         <had>1744</had>
-        <hint>Mensch - links</hint>
+        <hint lang="de">Mensch - links</hint>
 	</card>
 	<card>
 		<jap>核</jap>
@@ -5416,7 +5416,7 @@
 		<freq>475</freq>
 		<rad>75</rad>
         <had>1212</had>
-        <hint>Baum - Dach - </hint>
+        <hint lang="de">Baum - Dach - </hint>
 	</card>
 	<card>
 		<jap>観</jap>
@@ -5428,7 +5428,7 @@
 		<freq>476</freq>
 		<rad>147</rad>
         <had>604</had>
-        <hint>Spatz - sehen</hint>
+        <hint lang="de">Spatz - sehen</hint>
 	</card>
 	<card>
 		<jap>察</jap>
@@ -5439,7 +5439,7 @@
 		<freq>477</freq>
 		<rad>40</rad>
         <had>619</had>
-        <hint>Dach - Feier</hint>
+        <hint lang="de">Dach - Feier</hint>
 	</card>
 	<card>
 		<jap>整</jap>
@@ -5451,7 +5451,7 @@
 		<freq>478</freq>
 		<rad>77</rad>
         <had>503</had>
-        <hint>Bündel - schlagen - korrekt</hint>
+        <hint lang="de">Bündel - schlagen - korrekt</hint>
 	</card>
 	<card>
 		<jap>段</jap>
@@ -5462,7 +5462,7 @@
 		<freq>479</freq>
 		<rad>79</rad>
         <had>362</had>
-        <hint> - Lanze</hint>
+        <hint lang="de"> - Lanze</hint>
 	</card>
 	<card>
 		<jap>横</jap>
@@ -5474,7 +5474,7 @@
 		<freq>480</freq>
 		<rad>75</rad>
         <had>781</had>
-        <hint>Baum - gelb</hint>
+        <hint lang="de">Baum - gelb</hint>
 	</card>
 	<card>
 		<jap>融</jap>
@@ -5485,7 +5485,7 @@
 		<freq>481</freq>
 		<rad>193</rad>
         <had>1588</had>
-        <hint>Dreifuß - Insekt</hint>
+        <hint lang="de">Dreifuß - Insekt</hint>
 	</card>
 	<card>
 		<jap>型</jap>
@@ -5497,7 +5497,7 @@
 		<freq>482</freq>
 		<rad>32</rad>
         <had>888</had>
-        <hint>Form - Schwert - Erde</hint>
+        <hint lang="de">Form - Schwert - Erde</hint>
 	</card>
 	<card>
 		<jap>白</jap>
@@ -5520,7 +5520,7 @@
 		<freq>484</freq>
 		<rad>85</rad>
         <had>536</had>
-        <hint>Wasser - suchen</hint>
+        <hint lang="de">Wasser - suchen</hint>
 	</card>
 	<card>
 		<jap>字</jap>
@@ -5531,7 +5531,7 @@
 		<freq>485</freq>
 		<rad>40</rad>
         <had>110</had>
-        <hint>Dach - Kind</hint>
+        <hint lang="de">Dach - Kind</hint>
 	</card>
 	<card>
 		<jap>答</jap>
@@ -5543,7 +5543,7 @@
 		<freq>486</freq>
 		<rad>118</rad>
         <had>160</had>
-        <hint>Bambus - passen</hint>
+        <hint lang="de">Bambus - passen</hint>
 	</card>
 	<card>
 		<jap>夜</jap>
@@ -5555,7 +5555,7 @@
 		<freq>487</freq>
 		<rad>8</rad>
         <had>471</had>
-        <hint>Dach - Mensch - schlagen</hint>
+        <hint lang="de">Dach - Mensch - schlagen</hint>
 	</card>
 	<card>
 		<jap>製</jap>
@@ -5566,7 +5566,7 @@
 		<freq>488</freq>
 		<rad>145</rad>
         <had>428</had>
-        <hint>System - Kleidung</hint>
+        <hint lang="de">System - Kleidung</hint>
 	</card>
 	<card>
 		<jap>票</jap>
@@ -5577,7 +5577,7 @@
 		<freq>489</freq>
 		<rad>146</rad>
         <had>922</had>
-        <hint>Westen - zeigen</hint>
+        <hint lang="de">Westen - zeigen</hint>
 	</card>
 	<card>
 		<jap>況</jap>
@@ -5588,7 +5588,7 @@
 		<freq>490</freq>
 		<rad>85</rad>
         <had>850</had>
-        <hint>Wasser - Bruder</hint>
+        <hint lang="de">Wasser - Bruder</hint>
 	</card>
 	<card>
 		<jap>音</jap>
@@ -5600,7 +5600,7 @@
 		<freq>491</freq>
 		<rad>180</rad>
         <had>347</had>
-        <hint>stehen - Tag</hint>
+        <hint lang="de">stehen - Tag</hint>
 	</card>
 	<card>
 		<jap>申</jap>
@@ -5623,7 +5623,7 @@
 		<freq>493</freq>
 		<rad>75</rad>
         <had>403</had>
-        <hint>Baum - </hint>
+        <hint lang="de">Baum - </hint>
 	</card>
 	<card>
 		<jap>財</jap>
@@ -5634,7 +5634,7 @@
 		<freq>494</freq>
 		<rad>154</rad>
         <had>553</had>
-        <hint>Muschel - Talent</hint>
+        <hint lang="de">Muschel - Talent</hint>
 	</card>
 	<card>
 		<jap>港</jap>
@@ -5646,7 +5646,7 @@
 		<freq>495</freq>
 		<rad>85</rad>
         <had>669</had>
-        <hint>Wasser - zusammen - selbst</hint>
+        <hint lang="de">Wasser - zusammen - selbst</hint>
 	</card>
 	<card>
 		<jap>識</jap>
@@ -5657,7 +5657,7 @@
 		<freq>496</freq>
 		<rad>149</rad>
         <had>681</had>
-        <hint>sprechen -  - Speer</hint>
+        <hint lang="de">sprechen -  - Speer</hint>
 	</card>
 	<card>
 		<jap>注</jap>
@@ -5669,7 +5669,7 @@
 		<freq>497</freq>
 		<rad>85</rad>
         <had>357</had>
-        <hint>Wasser - Herr</hint>
+        <hint lang="de">Wasser - Herr</hint>
 	</card>
 	<card>
 		<jap>呼</jap>
@@ -5681,7 +5681,7 @@
 		<freq>498</freq>
 		<rad>30</rad>
         <had>1254</had>
-        <hint>Mund - Kralle</hint>
+        <hint lang="de">Mund - Kralle</hint>
 	</card>
 	<card>
 		<jap>渉</jap>
@@ -5692,7 +5692,7 @@
 		<freq>499</freq>
 		<rad>85</rad>
         <had>432</had>
-        <hint>Wasser - stoppen - wenig</hint>
+        <hint lang="de">Wasser - stoppen - wenig</hint>
 	</card>
 	<card>
 		<jap>達</jap>
@@ -5703,7 +5703,7 @@
 		<freq>500</freq>
 		<rad>162</rad>
         <had>448</had>
-        <hint>stehen - Schaf - Weg</hint>
+        <hint lang="de">stehen - Schaf - Weg</hint>
 	</card>
 </cardset>
 
