@@ -53,8 +53,9 @@ public class KanjiKing extends Activity
 
     // Settings
     private static int _mode               = MODE_KANJI;
-    private static boolean _endless        = true;
+    private static boolean _endless        = false;
     private static int _max_freq           = 0;
+    private static String _language         = "de";
 
     // The card view
     private Button _no_button, _yes_button, _hint_button;
@@ -63,16 +64,24 @@ public class KanjiKing extends Activity
     private WebView _card_webview;
 
 
-    public static int getMode() {
+    public static int getMode()
+    {
         return _mode;
     }
 
-    public static boolean getEndless() {
+    public static boolean getEndless()
+    {
         return _endless;
     }
 
-    public static int getMaxFreq() {
+    public static int getMaxFreq()
+    {
         return _max_freq;
+    }
+
+    public static String getLanguage()
+    {
+        return _language;
     }
 
     // @Override
@@ -115,15 +124,19 @@ public class KanjiKing extends Activity
 
     }
 
-    private void loadSettings() {
+    private void loadSettings()
+    {
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
         _mode       = Integer.parseInt(settings.getString("mode", "1"));
-        _endless    = settings.getBoolean("endless", true);
+        _endless    = settings.getBoolean("endless", false);
         _max_freq   = Integer.parseInt(settings.getString("max_freq", "0"));
+        _language   = settings.getString("language", "de");
+        Log.i(TAG, "Settings activated.");
     }
 
     @Override
-    protected void onResume() {
+    protected void onResume()
+    {
     	super.onResume();
         loadSettings();
     }
@@ -138,6 +151,7 @@ public class KanjiKing extends Activity
         editor.putBoolean("endless", _endless);
         editor.putInteger("mode", _mode);
         editor.putInteger("max_freq", _max_freq);
+        editor.putString("language", _language);
 
         // Save changes
         editor.commit();       
@@ -181,7 +195,8 @@ public class KanjiKing extends Activity
         // and display the next card on startup
         showQuestion();
     
-        _no_button.setOnClickListener(new View.OnClickListener() {
+        _no_button.setOnClickListener(new View.OnClickListener()
+        {
             public void onClick(View v) {
                 _box.answer(false);
                 saveToDisk();
@@ -189,7 +204,8 @@ public class KanjiKing extends Activity
             }
         });
 
-        _yes_button.setOnClickListener(new View.OnClickListener() {
+        _yes_button.setOnClickListener(new View.OnClickListener()
+        {
             public void onClick(View v) {
                 _box.answer(true);
                 saveToDisk();
@@ -197,14 +213,16 @@ public class KanjiKing extends Activity
             }
         });
 
-        _hint_button.setOnClickListener(new View.OnClickListener() {
+        _hint_button.setOnClickListener(new View.OnClickListener()
+        {
             public void onClick(View v) {
                 showHint();
             }
         });
     }
 
-    private final View.OnTouchListener screenTouchListener = new View.OnTouchListener() {
+    private final View.OnTouchListener screenTouchListener = new View.OnTouchListener()
+    {
         public boolean onTouch(View v, MotionEvent event) {
             if (event.getAction() == MotionEvent.ACTION_UP) {
                 if (_no_button.getVisibility() == View.INVISIBLE) {
@@ -217,7 +235,8 @@ public class KanjiKing extends Activity
     };
 
   @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
+  public boolean onCreateOptionsMenu(Menu menu)
+  {
     boolean result = super.onCreateOptionsMenu(menu);
     menu.add(1, MENU_EXPORT_ID, 1, "Export");
     menu.add(2, MENU_IMPORT_ID, 2, "Import");
@@ -226,20 +245,13 @@ public class KanjiKing extends Activity
     menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
     menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
 
-/*
-    menu.add(3, PRACTICE_MODE_ID, 2, "Practice mode");
-    SubMenu quiz_size_menu = menu.addSubMenu(3, QUIZ_SIZE_MENU, 3, "Quiz mode");
-    quiz_size_menu.add(4, QUIZ_20_ID, 1, "20 questions");
-    quiz_size_menu.add(5, QUIZ_50_ID, 2, "50 questions");
-    quiz_size_menu.add(6, QUIZ_100_ID, 3, "100 questions");
-    menu.add(7, CHOOSE_CARDS_ID, 4, "Choose cards");
-*/
     return result;
   }
     
   
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
         if (_mode == MODE_KANJI) {
           menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(true);
           menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(false);
@@ -247,16 +259,13 @@ public class KanjiKing extends Activity
           menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(false);
           menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(true);
         }
-/*
-    menu.setGroupVisible(1, !study_mode_);
-    menu.setGroupVisible(2, study_mode_ || quiz_mode_);
-    menu.setGroupVisible(3, !quiz_mode_);
-*/
-    return true;
+
+        return true;
   }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
         switch (item.getItemId()) {
             case MENU_EXPORT_ID:
                 String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
@@ -294,60 +303,8 @@ public class KanjiKing extends Activity
                 startActivity(settingsActivity);
                 loadSettings();
                 return true;
-
-
-/*            case MENU_EXPORT_BIN:
-                saveToExternalBin();
-                return true;
-            case MENU_IMPORT_BIN:
-                loadFromExternalBin();
-                showQuestion();
-                return true;
-*/
         }
-/*
-      Intent i = new Intent(this, ConfigureDecks.class);
-      ConfigureDecks.Param p = new ConfigureDecks.Param();
-      p.selected_subsets_list = new ArrayList<BitSet>(deck_sub_selections_);
-      p.deck_names = new ArrayList<String>();
-      p.deck_sizes = new ArrayList<Integer>();
-      for (Deck deck : collection_.decks()) {
-        p.deck_names.add(deck.name());
-        p.deck_sizes.add(deck.cards().size());
-      }
-      p.cards_per_subset = CARDS_PER_SUBSET;
-      ConfigureDecks.PARAM.put(i, p);
-      startActivityForResult(i, CONFIGURE_DECKS);
-      return true;
-    case REVIEW_MODE_ID:
-      startReviewMode();
-      return true;
-    case PRACTICE_MODE_ID:
-      study_mode_ = false;
-      quiz_mode_ = false;
-      current_deck_.startPracticeMode();
-      showNextCard();
-      return true;
-    case QUIZ_20_ID:
-      quiz_mode_ = true;
-      study_mode_ = false;
-      current_deck_.startQuizMode(20);
-      showNextCard();
-      return true;
-    case QUIZ_50_ID:
-      quiz_mode_ = true;
-      study_mode_ = false;
-      current_deck_.startQuizMode(50);
-      showNextCard();
-      return true;
-    case QUIZ_100_ID:
-      quiz_mode_ = true;
-      study_mode_ = false;
-      current_deck_.startQuizMode(100);
-      showNextCard();
-      return true;
-    }
-*/
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -486,36 +443,7 @@ public class KanjiKing extends Activity
     return true;
   }
 
-/*
-    @Override
-    public void onSaveInstanceState(Bundle savedInstanceState) {
-        try {
-            savedInstanceState.putInt("mode", _mode);
-        } catch (Exception e) {
-            Log.v(TAG, "Error saving instance state: " + e.getMessage());
-        }
-        super.onSaveInstanceState(savedInstanceState);
-    }
 
-    @Override
-    public void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-        try {
-            _mode = savedInstanceState.getInt("mode", MODE_KANJI);
-        } catch (Exception e) {
-            Log.v(TAG, "Error restoring instance state: " + e.getMessage());
-        }
-    }
-*/
-
-/*
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
- 
-        // Set a new layout - framework will automatically choose portrait or landscape as needed
-        // Reconnect all listeners for controls in the layout
-    }
-*/
 
 
     /********************** Storage functions ******************************/
@@ -607,58 +535,5 @@ public class KanjiKing extends Activity
         }
     }
 
-/*
-    public void loadFromExternalBin()
-    {
-        String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-        
-        try {
-            File file = new File(extStorageDirectory, "/kanjibox.dump");
-            FileInputStream fis = new FileInputStream(file);
-            ObjectInputStream ois = new ObjectInputStream(fis);
-            try {
-                _box = (CardBox) ois.readObject();
-                Toast.makeText(KanjiKing.this, "Imported to kanjibox.dump", Toast.LENGTH_LONG).show();
-            } catch (ClassNotFoundException e) {
-                Log.e(TAG, "DESERIALIZATION FAILED (CLASS NOT FOUND):" + e.getMessage(), e);
-                return;
-            }
-        } catch (FileNotFoundException e) {
-            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-        } catch (StreamCorruptedException e) {
-            Log.e(TAG, "DESERIALIZATION FAILED (CORRUPT):" + e.getMessage(), e);
-            return;
-        } catch (IOException e) {
-            Log.e(TAG, "DESERIALIZATION FAILED (IO EXCEPTION):"+e.getMessage(), e);
-            return;
-        }
-    }
-
-    public void saveToExternalBin()
-    {
-        String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-        File file = new File(extStorageDirectory, "/kanjibox.dump");
-
-        try {
-            FileOutputStream fos = new FileOutputStream(file);
-            ByteArrayOutputStream bos = new ByteArrayOutputStream(); 
-            ObjectOutput out = new ObjectOutputStream(bos);
-            out.writeObject(_box);
-            byte[] buf = bos.toByteArray();
-            fos.write(buf);
-            fos.flush();
-            fos.close(); 
-            Toast.makeText(KanjiKing.this, "Exported to kanjibox.dump", Toast.LENGTH_LONG).show();
-        } catch (FileNotFoundException e) {
-            // e.printStackTrace();
-            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-        } catch (IOException e) {
-            // e.printStackTrace();
-            Log.e(TAG, "DESERIALIZATION FAILED (IO EXCEPTION):"+e.getMessage(), e);
-            return;
-        }
-    }
-*/
-    
 }
 
