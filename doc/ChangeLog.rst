@@ -1,3 +1,17 @@
+0.3.7 (2012-04-07)
+==================
+
+General
+-------
+* Allow per-language hints
+* Allow hint also in passive mode
+
+Documentation
+-------------
+* Updated roadmap
+
+
+
 0.3.6 (2012-04-07)
 ==================
 
