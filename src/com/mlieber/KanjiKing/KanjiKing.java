@@ -345,9 +345,10 @@ public class KanjiKing extends Activity
         return false;
     }
 
-    _hint_field.setText(card.getHint());
-    if ((!show_japanese)&&(card.getHint() != null))
+    if (null != card.getHint(_language)) {
+        _hint_field.setText(card.getHint(_language));
         _hint_button.setVisibility(View.VISIBLE);
+    }
 
     card_html.append("<html>")
         .append("<head>")

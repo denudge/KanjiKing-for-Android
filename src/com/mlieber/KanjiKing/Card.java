@@ -13,9 +13,8 @@ public class Card implements java.io.Serializable {
 	private String _reading_on	= null;
 	private String _reading_kun	= null;
     private Style   _style      = null;
-    private String  _hint       = null;
 
-    private int     _grade   	= 0;
+    private int _grade       	= 0;
 	private int _frequency 		= 0;
 	private int _hadamitzky	    = 0;
 	private int _halpern		= 0;
@@ -24,17 +23,18 @@ public class Card implements java.io.Serializable {
     private int _type           = TYPE_KANJI;
 
 	private HashMap<String, String>	_meaning;
+    private HashMap<String, String> _hint;
 
-  	public Card(String japanese) {
-		_japanese = japanese;
-		_meaning = new HashMap<String, String>();
+    public Card(String japanese) {
+		_japanese   = japanese;
+		_meaning    = new HashMap<String, String>();
+		_hint       = new HashMap<String, String>();
 	}
 
 	public String getJapanese() { return _japanese; }
 	public String getHint() { return _hint; }
 	public String getOnReading() { return _reading_on; }
 	public String getKunReading() { return _reading_kun; }
-	public String getMeaning(String language) { return _meaning.get(language); }
 	public int getFrequency() { return _frequency; }
 	public int getHadamitzkyNumber() { return _hadamitzky; }
 	public int getHalpernNumber() { return _halpern; }
@@ -43,6 +43,9 @@ public class Card implements java.io.Serializable {
 	public int getGrade() { return _grade; }
     public String getStyle() { if (_style == null ) return null; return _style.toString(); }
     public int getType() { return _type; }
+
+	public String getMeaning(String language) { return _meaning.get(language); }
+	public String getHint(String language) { return _hint.get(language); }
 
     public Card setType(int type) {
         _type = type;
@@ -59,11 +62,6 @@ public class Card implements java.io.Serializable {
 		return this;
 	}
 
-	public Card setHint(String hint) {
-		_hint = hint;
-		return this;
-	}
-
 	public Card setOnReading(String reading_on) {
 		_reading_on = reading_on;
 		return this;
@@ -76,6 +74,11 @@ public class Card implements java.io.Serializable {
 
 	public Card setMeaning(String language, String meaning) {
 		_meaning.put(language, meaning);
+		return this;
+	}
+
+	public Card setHint(String language, String hint) {
+		_hint.put(language, hint);
 		return this;
 	}
 

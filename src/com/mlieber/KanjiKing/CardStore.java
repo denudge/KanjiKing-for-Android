@@ -7,6 +7,13 @@ import android.content.res.XmlResourceParser;
 import java.io.IOException;
 import android.util.Log;
 
+/**
+ * A Card store holds all information of kanji or vocabulary cards.
+ * So the cardbox just holds the kanji or Japanese vocabulary as
+ * reference to a card stored here.
+ * Downside is that you need to have the full card store loaded
+ * when opening a cardbox, e.g. with personal words
+ */
 public class CardStore {
 
     private static HashMap<String, Card> _map;
@@ -22,6 +29,10 @@ public class CardStore {
 		_map.clear();
     }
 
+
+    /**
+     * Reads an XML resource into a card store
+     */
 	public boolean loadFromXMLFile(
       					XmlResourceParser xml) {
 
@@ -33,6 +44,7 @@ public class CardStore {
 			String lang = null, type = null;
 		    Style _style = null;
 
+            // Iterate all xml tags
 			while (next_tag != XmlResourceParser.END_DOCUMENT) {
 
         		if (next_tag == XmlResourceParser.START_TAG) {
@@ -47,9 +59,12 @@ public class CardStore {
                             card.setType(Card.TYPE_KANJI);
                     }
 
-					lang = null;
-          			if (xml.getName().equals("mean"))
+                    // only meaning and hint are language-dependent
+                    lang = null;
+          			if ((xml.getName().equals("mean"))
+                        || (xml.getName().equals("hint"))) {
 						lang = xml.getAttributeValue(null, "lang");
+                    }
 				}
 
             	if (next_tag == XmlResourceParser.END_TAG) {
@@ -101,10 +116,8 @@ public class CardStore {
 						if ((card != null)&&(lang != null))
 							card.setMeaning(lang, text);
 
-          			if (xml.getName().equals("card"))
-					{
-						if ((card != null)&&(card.getJapanese() != ""))
-                        {
+          			if (xml.getName().equals("card")) {
+						if ((card != null)&&(card.getJapanese() != "")) {
 							_map.put(card.getJapanese(), card);
                             _ncards++;
                         }
