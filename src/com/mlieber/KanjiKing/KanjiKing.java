@@ -225,7 +225,7 @@ public class KanjiKing extends Activity
     {
         public boolean onTouch(View v, MotionEvent event) {
             if (event.getAction() == MotionEvent.ACTION_UP) {
-                if (_no_button.getVisibility() == View.INVISIBLE) {
+                if (View.INVISIBLE == _no_button.getVisibility()) {
                     showAnswer();
                     return true;
                 }
@@ -312,6 +312,9 @@ public class KanjiKing extends Activity
     {
         _no_button.setVisibility(View.INVISIBLE);
         _yes_button.setVisibility(View.INVISIBLE);
+
+        // Reset hint
+        _hint_field.setText(null);
         _hint_field.setVisibility(View.INVISIBLE);
         _hint_button.setVisibility(View.INVISIBLE);
 
@@ -345,9 +348,11 @@ public class KanjiKing extends Activity
         return false;
     }
 
-    if (null != card.getHint(_language)) {
-        _hint_field.setText(card.getHint(_language));
-        _hint_button.setVisibility(View.VISIBLE);
+    if (View.INVISIBLE == _hint_field.getVisibility()) {
+        if (null != card.getHint(_language)) {
+            _hint_field.setText(card.getHint(_language));
+            _hint_button.setVisibility(View.VISIBLE);
+        }
     }
 
     card_html.append("<html>")

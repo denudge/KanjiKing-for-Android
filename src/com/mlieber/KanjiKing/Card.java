@@ -32,7 +32,6 @@ public class Card implements java.io.Serializable {
 	}
 
 	public String getJapanese() { return _japanese; }
-	public String getHint() { return _hint; }
 	public String getOnReading() { return _reading_on; }
 	public String getKunReading() { return _reading_kun; }
 	public int getFrequency() { return _frequency; }

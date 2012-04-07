@@ -76,10 +76,6 @@ public class CardStore {
 						if (card != null)
 							card.setJapanese(text);
 
-					if (xml.getName().equals("hint"))
-						if (card != null)
-							card.setHint(text);
-
 					if (xml.getName().equals("on"))
 						if (card != null)
 							card.setOnReading(text);
@@ -115,6 +111,10 @@ public class CardStore {
 					if (xml.getName().equals("mean"))
 						if ((card != null)&&(lang != null))
 							card.setMeaning(lang, text);
+
+					if (xml.getName().equals("hint"))
+						if ((card != null)&&(lang != null))
+							card.setHint(lang, text);
 
           			if (xml.getName().equals("card")) {
 						if ((card != null)&&(card.getJapanese() != "")) {
