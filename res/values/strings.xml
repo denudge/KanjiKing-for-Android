@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">KanjiKing</string>
+    <string name="Search">Suchen</string>
 
     <string-array name="PreferencesLanguageItems">
         <item>English</item>
