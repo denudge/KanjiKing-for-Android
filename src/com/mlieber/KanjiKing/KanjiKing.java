@@ -46,10 +46,11 @@ public class KanjiKing extends Activity
     public static final int MENU_SWITCH_MODE_KANJI_ID = Menu.FIRST + 3;
     public static final int MENU_SWITCH_MODE_WORDS_ID = Menu.FIRST + 4;
     public static final int MENU_SETTINGS_ID = Menu.FIRST + 5;
+    public static final int MENU_SEARCH_ID = Menu.FIRST + 6;
 
     // sub objects
-    private CardStore _cardstore    = null;
-    private CardBox _box            = null;
+    protected static CardStore _cardstore    = null;
+    protected static CardBox _box            = null;
 
     // Settings
     private static int _mode               = MODE_KANJI;
@@ -105,16 +106,13 @@ public class KanjiKing extends Activity
         _cardstore = new CardStore();
         _cardstore.clear();
     
-        if (_mode == MODE_KANJI)
-        {
+        if (_mode == MODE_KANJI) {
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji1));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji2));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji3));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji4));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji5));
-        }
-        else
-        {
+        } else {
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln1));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln2));
             _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln3));
@@ -164,8 +162,6 @@ public class KanjiKing extends Activity
     {
         super.onCreate(savedInstanceState);
 
-        Locale.setDefault(Locale.JAPAN);
-
         // load settings
         loadSettings();
 
@@ -195,8 +191,7 @@ public class KanjiKing extends Activity
         // and display the next card on startup
         showQuestion();
     
-        _no_button.setOnClickListener(new View.OnClickListener()
-        {
+        _no_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 _box.answer(false);
                 saveToDisk();
@@ -204,8 +199,7 @@ public class KanjiKing extends Activity
             }
         });
 
-        _yes_button.setOnClickListener(new View.OnClickListener()
-        {
+        _yes_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 _box.answer(true);
                 saveToDisk();
@@ -213,8 +207,7 @@ public class KanjiKing extends Activity
             }
         });
 
-        _hint_button.setOnClickListener(new View.OnClickListener()
-        {
+        _hint_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 showHint();
             }
@@ -244,6 +237,7 @@ public class KanjiKing extends Activity
     menu.add(4, MENU_SWITCH_MODE_KANJI_ID, 4, "Switch to kanji mode");
     menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
     menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
+    menu.add(7, MENU_SEARCH_ID, 6, "Search");
 
     return result;
   }
@@ -303,9 +297,20 @@ public class KanjiKing extends Activity
                 startActivity(settingsActivity);
                 loadSettings();
                 return true;
+
+            case MENU_SEARCH_ID:
+                Intent searchActivity = new Intent(getBaseContext(),
+                       Search.class);
+                startActivity(searchActivity);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public static CardBox getCardBox()
+    {
+        return _box;
     }
 
     private boolean showQuestion()
@@ -380,8 +385,7 @@ public class KanjiKing extends Activity
     else
         show_reading = (show_japanese && show_explanation);
 
-    if (show_japanese)
-    {
+    if (show_japanese) {
         card_html
             .append("<div class=\"info\">")
             .append("F: ")
