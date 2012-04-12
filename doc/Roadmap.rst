@@ -4,7 +4,8 @@ Roadmap
 Planned Features
 ----------------
 * Display total of active kanji in kanjibox
-* About Activity with version info and usage explanation
+* "About" activity with version info and usage explanation
+* Kanji search function
 
 Packaging
 ---------
