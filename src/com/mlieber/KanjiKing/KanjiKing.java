@@ -85,6 +85,16 @@ public class KanjiKing extends Activity
         return _language;
     }
 
+    public static CardStore getCardStore()
+    {
+        return _cardstore;
+    }
+
+    public static CardBox getCardBox()
+    {
+        return _box;
+    }
+
     // @Override
     public void onPause(Bundle savedInstanceState)
     {
@@ -308,11 +318,6 @@ public class KanjiKing extends Activity
         return super.onOptionsItemSelected(item);
     }
 
-    public static CardBox getCardBox()
-    {
-        return _box;
-    }
-
     private boolean showQuestion()
     {
         _no_button.setVisibility(View.INVISIBLE);
@@ -388,16 +393,7 @@ public class KanjiKing extends Activity
     if (show_japanese) {
         card_html
             .append("<div class=\"info\">")
-            .append("F: ")
-            .append(card.getFrequency())
-            .append(" / G: ")
-            .append(card.getGrade())
-            .append(" / S: ")
-            .append(card.getStrokesCount())
-            .append(" / R: ")
-            .append(card.getRadical())
-            .append(" / H: ")
-            .append(card.getHadamitzkyNumber())
+            .append(card.getInfo())
             .append("</div><br>");
 
         if (card.getJapanese() != null)

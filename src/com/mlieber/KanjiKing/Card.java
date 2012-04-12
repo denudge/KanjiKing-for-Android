@@ -46,6 +46,23 @@ public class Card implements java.io.Serializable {
 	public String getMeaning(String language) { return _meaning.get(language); }
 	public String getHint(String language) { return _hint.get(language); }
 
+    public String getInfo() {
+        StringBuilder sb = new StringBuilder();
+                
+        sb.append("F: ")
+           .append(getFrequency())
+            .append(" / G: ")
+            .append(getGrade())
+            .append(" / S: ")
+            .append(getStrokesCount())
+            .append(" / R: ")
+            .append(getRadical())
+            .append(" / H: ")
+            .append(getHadamitzkyNumber());
+
+        return sb.toString();
+    }
+    
     public Card setType(int type) {
         _type = type;
         return this;
@@ -110,5 +127,6 @@ public class Card implements java.io.Serializable {
 		_grade = grade;
 		return this;
 	}
+
 }
 
