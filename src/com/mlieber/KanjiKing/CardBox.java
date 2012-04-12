@@ -225,6 +225,35 @@ public class CardBox implements java.io.Serializable {
         return sb.toString();
     }
 
+
+
+    /****************** SEARCH FUNCTIONS ***************************/
+
+    public int getBoxListNumber(String search)
+    {
+        // check each card box from bottom to top (faster)
+        for (int c = 0; c < _nLists; c++) {
+            for (int d = 0; d < _lists[c].size(); d++) {
+                if (search.equals(_lists[c].get(d)))
+                    return (c+1);
+            }
+        }
+
+        // check the learned kanji
+        for (int d = 0; d < _done.size(); d++) {
+            if (search.equals(_done.get(d)))
+                return 99;
+        }
+
+        // the kanji has never been seen/learned before
+        return 0;
+    }
+
+
+    
+
+    /***************** IMPORT AND EXPORT FUNCTIONS **********************/
+
     public String asXML()
     {
         StringBuilder sb = new StringBuilder();
