@@ -7,7 +7,7 @@ KanjiKing for Android - README
 ==============================
 
 :Author: Mathias Lieber <mathias.lieber@googlemail.com>
-:Version: 1.3.5 of 2012/03/02 
+:Version: 1.3.8 of 2012/04/12 
 
 .. contents:: Table of Contents
 
@@ -33,7 +33,7 @@ Features
 * Kanji information: Frequency, stroke count, Radical number, Hadamitzky number
 * Hints based on primitives (only available in German)
 * Actively used and maintained
-
+* Search Kanji(s) by a word and see your learning status
 
 Learning order
 --------------
