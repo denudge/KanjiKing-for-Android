@@ -1,3 +1,12 @@
+0.3.8 (2012-04-12)
+==================
+
+General
+-------
+* New kanji search functionality (works only reasonably in Kanji mode)
+
+
+
 0.3.7 (2012-04-07)
 ==================
 
