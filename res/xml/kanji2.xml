@@ -3968,7 +3968,7 @@
 		<kun>hii(deru)</kun>
 		<grd>8</grd>
 		<str>7</str>
-		<mean lang="de">hervorragen</mean>
+		<mean lang="de">hervorragen; übertreffen</mean>
 		<freq>848</freq>
 		<rad>115</rad>
 		<had>1683</had>
@@ -3989,7 +3989,7 @@
 		<on>CHÔ</on>
 		<grd>8</grd>
 		<str>14</str>
-		<mean lang="de">sammeln; auffordern</mean>
+		<mean lang="de">Vor-, Anzeichen; sammeln, auffordern</mean>
 		<freq>850</freq>
 		<rad>60</rad>
 		<had>1420</had>
@@ -4017,10 +4017,10 @@
 	<card>
 		<jap>弾</jap>
 		<on>DAN</on>
-		<kun>hazu(mu), hi(ku), tama</kun>
+		<kun>tama; hazu(mu); hi(ku)</kun>
 		<grd>8</grd>
 		<str>12</str>
-		<mean lang="de">Kugel</mean>
+		<mean lang="de">Kugel; zurückprallen; Instrument spielen</mean>
 		<freq>853</freq>
 		<rad>57</rad>
 		<had>1539</had>
