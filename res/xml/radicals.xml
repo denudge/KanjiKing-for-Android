@@ -1,0 +1,1074 @@
+<cardset>
+	<card>
+		<jap>一</jap>
+		<rad>1</rad>
+		<mean lang="de">eins</mean>
+	</card>
+	<card>
+		<jap>丨</jap>
+		<rad>2</rad>
+	</card>
+	<card>
+		<jap>丶</jap>
+		<rad>3</rad>
+	</card>
+	<card>
+		<jap>丿</jap>
+		<rad>4</rad>
+	</card>
+	<card>
+		<jap>乙</jap>
+		<rad>5</rad>
+		<mean lang="de">Nr. 2</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>6</rad>
+		<mean lang="de">(Vertikalstrich)</mean>
+	</card>
+	<card>
+		<jap>二</jap>
+		<rad>7</rad>
+		<mean lang="de">zwei</mean>
+	</card>
+	<card>
+		<jap>亠</jap>
+		<rad>8</rad>
+		<mean lang="de">Deckel, oben</mean>
+	</card>
+	<card>
+		<jap>人</jap>
+		<rad>9</rad>
+		<kun>ninben</kun>
+		<mean lang="de">Mensch</mean>
+	</card>
+	<card>
+		<jap>儿</jap>
+		<rad>10</rad>
+		<mean lang="de">Beine</mean>
+	</card>
+	<card>
+		<jap>入</jap>
+		<rad>11</rad>
+		<mean lang="de">eintreten</mean>
+	</card>
+	<card>
+		<jap>八</jap>
+		<rad>12</rad>
+		<mean lang="de">acht</mean>
+	</card>
+	<card>
+		<jap>冂</jap>
+		<rad>13</rad>
+		<mean lang="de">umfassen</mean>
+	</card>
+	<card>
+		<jap>冖</jap>
+		<rad>14</rad>
+		<mean lang="de">bedecken</mean>
+	</card>
+	<card>
+		<jap>冫</jap>
+		<rad>15</rad>
+		<kun>nisui</kun>
+		<mean lang="de">Eis</mean>
+	</card>
+	<card>
+		<jap>凡</jap>
+		<rad>16</rad>
+		<mean lang="de">Tisch</mean>
+	</card>
+	<card>
+		<jap>凵</jap>
+		<rad>17</rad>
+		<mean lang="de">Behälter</mean>
+	</card>
+	<card>
+		<jap>刀</jap>
+		<rad>18</rad>
+		<mean lang="de">Messer</mean>
+	</card>
+	<card>
+		<jap>力</jap>
+		<rad>19</rad>
+		<mean lang="de">Kraft</mean>
+	</card>
+	<card>
+		<jap>勹</jap>
+		<rad>20</rad>
+		<mean lang="de">20</mean>
+	</card>
+	<card>
+		<jap>匕</jap>
+		<rad>21</rad>
+		<mean lang="de">Löffel</mean>
+	</card>
+	<card>
+		<jap>匚</jap>
+		<rad>22</rad>
+		<mean lang="de">Kasten</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>23</rad>
+		<mean lang="de">verstecken</mean>
+	</card>
+	<card>
+		<jap>十</jap>
+		<rad>24</rad>
+		<mean lang="de">zehn</mean>
+	</card>
+	<card>
+		<jap>卜</jap>
+		<rad>25</rad>
+		<mean lang="de">Orakel</mean>
+	</card>
+	<card>
+		<jap>卩</jap>
+		<rad>26</rad>
+		<mean lang="de">Stempel, Siegel</mean>
+	</card>
+	<card>
+		<jap>厂</jap>
+		<rad>27</rad>
+		<mean lang="de">Abhang</mean>
+	</card>
+	<card>
+		<jap>厶</jap>
+		<rad>28</rad>
+		<mean lang="de">privat</mean>
+	</card>
+	<card>
+		<jap>又</jap>
+		<rad>29</rad>
+		<mean lang="de">wieder; Hand</mean>
+	</card>
+	<card>
+		<jap>口</jap>
+		<rad>30</rad>
+		<kun>kuchihen</kun>
+		<mean lang="de">Mund, Öffnung</mean>
+	</card>
+	<card>
+		<jap>囗</jap>
+		<rad>31</rad>
+		<kun>kunigamae</kun>
+		<mean lang="de">Begrenzung</mean>
+	</card>
+	<card>
+		<jap>土</jap>
+		<rad>32</rad>
+		<kun>tsuchihen</kun>
+		<mean lang="de">Erde</mean>
+	</card>
+	<card>
+		<jap>士</jap>
+		<rad>33</rad>
+		<mean lang="de">Mann</mean>
+	</card>
+	<card>
+		<jap>夂</jap>
+		<rad>34</rad>
+		<mean lang="de">folgen</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>35</rad>
+		<mean lang="de">langsam gehen</mean>
+	</card>
+	<card>
+		<jap>夕</jap>
+		<rad>36</rad>
+		<mean lang="de">Abend</mean>
+	</card>
+	<card>
+		<jap>大</jap>
+		<rad>37</rad>
+		<mean lang="de">groß</mean>
+	</card>
+	<card>
+		<jap>女</jap>
+		<rad>38</rad>
+		<mean lang="de">Frau</mean>
+	</card>
+	<card>
+		<jap>子</jap>
+		<rad>39</rad>
+		<mean lang="de">Kind</mean>
+	</card>
+	<card>
+		<jap>宀</jap>
+		<rad>40</rad>
+		<mean lang="de">Dach</mean>
+	</card>
+	<card>
+		<jap>寸</jap>
+		<rad>41</rad>
+		<mean lang="de">Zoll</mean>
+	</card>
+	<card>
+		<jap>小</jap>
+		<rad>42</rad>
+		<mean lang="de">klein</mean>
+	</card>
+	<card>
+		<jap>尢</jap>
+		<rad>43</rad>
+		<mean lang="de">lahm</mean>
+	</card>
+	<card>
+		<jap>尸</jap>
+		<rad>44</rad>
+		<mean lang="de">Leichnam</mean>
+	</card>
+	<card>
+		<jap>屮</jap>
+		<rad>45</rad>
+		<mean lang="de">Sproß</mean>
+	</card>
+	<card>
+		<jap>山</jap>
+		<rad>46</rad>
+		<mean lang="de">Berg</mean>
+	</card>
+	<card>
+		<jap>川</jap>
+		<rad>47</rad>
+		<mean lang="de">Fluss</mean>
+	</card>
+	<card>
+		<jap>工</jap>
+		<rad>48</rad>
+		<mean lang="de">Arbeit</mean>
+	</card>
+	<card>
+		<jap>己</jap>
+		<rad>49</rad>
+		<mean lang="de">selbst</mean>
+	</card>
+	<card>
+		<jap>巾</jap>
+		<rad>50</rad>
+		<mean lang="de">Tuch</mean>
+	</card>
+	<card>
+		<jap>干</jap>
+		<rad>51</rad>
+		<mean lang="de">trocken; Schild</mean>
+	</card>
+	<card>
+		<jap>幺</jap>
+		<rad>52</rad>
+		<mean lang="de">jung, gering</mean>
+	</card>
+	<card>
+		<jap>广</jap>
+		<rad>53</rad>
+		<mean lang="de">Schrägdach</mean>
+	</card>
+	<card>
+		<jap>廴</jap>
+		<rad>54</rad>
+		<mean lang="de">bewegen</mean>
+	</card>
+	<card>
+		<jap>廾</jap>
+		<rad>55</rad>
+		<mean lang="de">gefaltete Hände</mean>
+	</card>
+	<card>
+		<jap>弋</jap>
+		<rad>56</rad>
+		<mean lang="de">Wurfspieß</mean>
+	</card>
+	<card>
+		<jap>弓</jap>
+		<rad>57</rad>
+		<mean lang="de">Schieß-Bogen</mean>
+	</card>
+	<card>
+		<jap>彐</jap>
+		<rad>58</rad>
+		<mean lang="de">Schweinskopf</mean>
+	</card>
+	<card>
+		<jap>彡</jap>
+		<rad>59</rad>
+		<mean lang="de">Haar, Licht</mean>
+	</card>
+	<card>
+		<jap>彳</jap>
+		<rad>60</rad>
+		<mean lang="de">Schritt</mean>
+	</card>
+	<card>
+		<jap>心</jap>
+		<rad>61</rad>
+		<mean lang="de">Herz</mean>
+	</card>
+	<card>
+		<jap>戈</jap>
+		<rad>62</rad>
+		<mean lang="de">Speer</mean>
+	</card>
+	<card>
+		<jap>戸</jap>
+		<rad>63</rad>
+		<mean lang="de">Waffe; Tür</mean>
+	</card>
+	<card>
+		<jap>手</jap>
+		<rad>64</rad>
+		<mean lang="de">Hand</mean>
+	</card>
+	<card>
+		<jap>支</jap>
+		<rad>65</rad>
+		<mean lang="de">Zweig</mean>
+	</card>
+	<card>
+		<jap>攵</jap>
+		<rad>66</rad>
+		<mean lang="de">schlagen</mean>
+	</card>
+	<card>
+		<jap>文</jap>
+		<rad>67</rad>
+		<mean lang="de">Literatur</mean>
+	</card>
+	<card>
+		<jap>斗</jap>
+		<rad>68</rad>
+		<mean lang="de">Scheffel</mean>
+	</card>
+	<card>
+		<jap>斤</jap>
+		<rad>69</rad>
+		<mean lang="de">Axt</mean>
+	</card>
+	<card>
+		<jap>方</jap>
+		<rad>70</rad>
+		<mean lang="de">Richtung</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>71</rad>
+		<mean lang="de">nicht</mean>
+	</card>
+	<card>
+		<jap>日</jap>
+		<rad>72</rad>
+		<mean lang="de">Sonne, Tag</mean>
+	</card>
+	<card>
+		<jap>曰</jap>
+		<rad>73</rad>
+		<mean lang="de">sagen</mean>
+	</card>
+	<card>
+		<jap>月</jap>
+		<rad>74</rad>
+		<mean lang="de">Mond, Monat</mean>
+	</card>
+	<card>
+		<jap>木</jap>
+		<rad>75</rad>
+		<mean lang="de">Baum, Holz</mean>
+	</card>
+	<card>
+		<jap>欠</jap>
+		<rad>76</rad>
+		<mean lang="de">Mangel</mean>
+	</card>
+	<card>
+		<jap>止</jap>
+		<rad>77</rad>
+		<mean lang="de">anhalten</mean>
+	</card>
+	<card>
+		<jap>歹</jap>
+		<rad>78</rad>
+		<mean lang="de">zersetzen</mean>
+	</card>
+	<card>
+		<jap>殳</jap>
+		<rad>79</rad>
+		<mean lang="de">Lanze</mean>
+	</card>
+	<card>
+		<jap>母</jap>
+		<rad>80</rad>
+		<mean lang="de">Mutter; nicht</mean>
+	</card>
+	<card>
+		<jap>比</jap>
+		<rad>81</rad>
+		<mean lang="de">vergleichen</mean>
+	</card>
+	<card>
+		<jap>毛</jap>
+		<rad>82</rad>
+		<mean lang="de">Haar</mean>
+	</card>
+	<card>
+		<jap>氏</jap>
+		<rad>83</rad>
+		<mean lang="de">Familie</mean>
+	</card>
+	<card>
+		<jap>气</jap>
+		<rad>84</rad>
+		<mean lang="de">Atem, Luft</mean>
+	</card>
+	<card>
+		<jap>水</jap>
+		<rad>85</rad>
+		<mean lang="de">Wasser</mean>
+	</card>
+	<card>
+		<jap>火</jap>
+		<rad>86</rad>
+		<mean lang="de">Feuer</mean>
+	</card>
+	<card>
+		<jap>爪</jap>
+		<rad>87</rad>
+		<mean lang="de">Klaue, Kralle</mean>
+	</card>
+	<card>
+		<jap>父</jap>
+		<rad>88</rad>
+		<mean lang="de">Vater</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>89</rad>
+		<mean lang="de">mischen</mean>
+	</card>
+	<card>
+		<jap>爿</jap>
+		<rad>90</rad>
+		<mean lang="de">gespaltenes Holz (linke Hälfte)</mean>
+	</card>
+	<card>
+		<jap>片</jap>
+		<rad>91</rad>
+		<mean lang="de">gespaltenes Holz, rechte Hälfte</mean>
+	</card>
+	<card>
+		<jap>牙</jap>
+		<rad>92</rad>
+		<mean lang="de">Eckzahn</mean>
+	</card>
+	<card>
+		<jap>牛</jap>
+		<rad>93</rad>
+		<mean lang="de">Rind</mean>
+	</card>
+	<card>
+		<jap>犬</jap>
+		<rad>94</rad>
+		<mean lang="de">Hund</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>95</rad>
+		<mean lang="de">dunkel</mean>
+	</card>
+	<card>
+		<jap>王</jap>
+		<rad>96</rad>
+		<mean lang="de">Edelstein</mean>
+	</card>
+	<card>
+		<jap>瓜</jap>
+		<rad>97</rad>
+		<mean lang="de">Melone</mean>
+	</card>
+	<card>
+		<jap>瓦</jap>
+		<rad>98</rad>
+		<mean lang="de">Ziegel</mean>
+	</card>
+	<card>
+		<jap>甘</jap>
+		<rad>99</rad>
+		<mean lang="de">süß</mean>
+	</card>
+	<card>
+		<jap>生</jap>
+		<rad>100</rad>
+		<mean lang="de">leben</mean>
+	</card>
+	<card>
+		<jap>用</jap>
+		<rad>101</rad>
+		<mean lang="de">gebrauchen</mean>
+	</card>
+	<card>
+		<jap>田</jap>
+		<rad>102</rad>
+		<mean lang="de">Reisfeld</mean>
+	</card>
+	<card>
+		<jap>疋</jap>
+		<rad>103</rad>
+		<mean lang="de">Stoffrolle</mean>
+	</card>
+	<card>
+		<jap>疒</jap>
+		<rad>104</rad>
+		<mean lang="de">Krankheit</mean>
+	</card>
+	<card>
+		<jap>癶</jap>
+		<rad>105</rad>
+		<mean lang="de">gespreizte Beine</mean>
+	</card>
+	<card>
+		<jap>白</jap>
+		<rad>106</rad>
+		<mean lang="de">weiß</mean>
+	</card>
+	<card>
+		<jap>皮</jap>
+		<rad>107</rad>
+		<mean lang="de">Haut</mean>
+	</card>
+	<card>
+		<jap>皿</jap>
+		<rad>108</rad>
+		<mean lang="de">Schüssel</mean>
+	</card>
+	<card>
+		<jap>目</jap>
+		<rad>109</rad>
+		<mean lang="de">Auge</mean>
+	</card>
+	<card>
+		<jap>矛</jap>
+		<rad>110</rad>
+		<mean lang="de">Hellebarde</mean>
+	</card>
+	<card>
+		<jap>矢</jap>
+		<rad>111</rad>
+		<mean lang="de">Pfeil</mean>
+	</card>
+	<card>
+		<jap>石</jap>
+		<rad>112</rad>
+		<mean lang="de">Stein</mean>
+	</card>
+	<card>
+		<jap>示</jap>
+		<rad>113</rad>
+		<mean lang="de">zeigen</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>114</rad>
+		<mean lang="de">Fußstapfen, Spur</mean>
+	</card>
+	<card>
+		<jap>禾</jap>
+		<rad>115</rad>
+		<mean lang="de">Getreide</mean>
+	</card>
+	<card>
+		<jap>穴</jap>
+		<rad>116</rad>
+		<mean lang="de">Loch, Höhle</mean>
+	</card>
+	<card>
+		<jap>立</jap>
+		<rad>117</rad>
+		<mean lang="de">stehen</mean>
+	</card>
+	<card>
+		<jap>竹</jap>
+		<rad>118</rad>
+		<mean lang="de">Bambus</mean>
+	</card>
+	<card>
+		<jap>米</jap>
+		<rad>119</rad>
+		<mean lang="de">Reis</mean>
+	</card>
+	<card>
+		<jap>糸</jap>
+		<rad>120</rad>
+		<mean lang="de">Faden</mean>
+	</card>
+	<card>
+		<jap>缶</jap>
+		<rad>121</rad>
+		<mean lang="de">Krug</mean>
+	</card>
+	<card>
+		<jap>网</jap>
+		<rad>122</rad>
+		<mean lang="de">Netz</mean>
+	</card>
+	<card>
+		<jap>羊</jap>
+		<rad>123</rad>
+		<mean lang="de">Schaf</mean>
+	</card>
+	<card>
+		<jap>羽</jap>
+		<rad>124</rad>
+		<mean lang="de">Flügel</mean>
+	</card>
+	<card>
+		<jap>老</jap>
+		<rad>125</rad>
+		<mean lang="de">alt</mean>
+	</card>
+	<card>
+		<jap>而</jap>
+		<rad>126</rad>
+		<mean lang="de">Bart; und</mean>
+	</card>
+	<card>
+		<jap>耒</jap>
+		<rad>127</rad>
+		<mean lang="de">Pflug</mean>
+	</card>
+	<card>
+		<jap>耳</jap>
+		<rad>128</rad>
+		<mean lang="de">Ohr</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>129</rad>
+		<mean lang="de">Pinsel</mean>
+	</card>
+	<card>
+		<jap>肉</jap>
+		<rad>130</rad>
+		<mean lang="de">Fleisch</mean>
+	</card>
+	<card>
+		<jap>臣</jap>
+		<rad>131</rad>
+		<mean lang="de">Diener; Minister</mean>
+	</card>
+	<card>
+		<jap>自</jap>
+		<rad>132</rad>
+		<mean lang="de">selbst</mean>
+	</card>
+	<card>
+		<jap>至</jap>
+		<rad>133</rad>
+		<mean lang="de">erreichen</mean>
+	</card>
+	<card>
+		<jap>臼</jap>
+		<rad>134</rad>
+		<mean lang="de">Mörser</mean>
+	</card>
+	<card>
+		<jap>舌</jap>
+		<rad>135</rad>
+		<mean lang="de">Zunge</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>136</rad>
+		<mean lang="de">gegensätzlich; irren</mean>
+	</card>
+	<card>
+		<jap>舟</jap>
+		<rad>137</rad>
+		<mean lang="de">Schiff</mean>
+	</card>
+	<card>
+		<jap>艮</jap>
+		<rad>138</rad>
+		<mean lang="de">Grenze</mean>
+	</card>
+	<card>
+		<jap>色</jap>
+		<rad>139</rad>
+		<mean lang="de">Farbe</mean>
+	</card>
+	<card>
+		<jap>艸</jap>
+		<rad>140</rad>
+		<mean lang="de">Gras, Pflanze</mean>
+	</card>
+	<card>
+		<jap>虍</jap>
+		<rad>141</rad>
+		<mean lang="de">Tiger</mean>
+	</card>
+	<card>
+		<jap>虫</jap>
+		<rad>142</rad>
+		<mean lang="de">Wurm, Insekt</mean>
+	</card>
+	<card>
+		<jap>血</jap>
+		<rad>143</rad>
+		<mean lang="de">Blut</mean>
+	</card>
+	<card>
+		<jap>行</jap>
+		<rad>144</rad>
+		<mean lang="de">gehen</mean>
+	</card>
+	<card>
+		<jap>衣</jap>
+		<rad>145</rad>
+		<mean lang="de">Kleidung</mean>
+	</card>
+	<card>
+		<jap>西</jap>
+		<rad>146</rad>
+		<mean lang="de">bedecken; Westen</mean>
+	</card>
+	<card>
+		<jap>見</jap>
+		<rad>147</rad>
+		<mean lang="de">sehen</mean>
+	</card>
+	<card>
+		<jap>角</jap>
+		<rad>148</rad>
+		<mean lang="de">Horn; Ecke</mean>
+	</card>
+	<card>
+		<jap>言</jap>
+		<rad>149</rad>
+		<mean lang="de">sprechen</mean>
+	</card>
+	<card>
+		<jap>谷</jap>
+		<rad>150</rad>
+		<mean lang="de">Tal</mean>
+	</card>
+	<card>
+		<jap>豆</jap>
+		<rad>151</rad>
+		<mean lang="de">Bohne</mean>
+	</card>
+	<card>
+		<jap>豕</jap>
+		<rad>152</rad>
+		<mean lang="de">Schwein</mean>
+	</card>
+	<card>
+		<jap>豸</jap>
+		<rad>153</rad>
+		<mean lang="de">Reptil</mean>
+	</card>
+	<card>
+		<jap>貝</jap>
+		<rad>154</rad>
+		<mean lang="de">Muschel, Geld</mean>
+	</card>
+	<card>
+		<jap>赤</jap>
+		<rad>155</rad>
+		<mean lang="de">rot</mean>
+	</card>
+	<card>
+		<jap>走</jap>
+		<rad>156</rad>
+		<mean lang="de">laufen</mean>
+	</card>
+	<card>
+		<jap>足</jap>
+		<rad>157</rad>
+		<mean lang="de">Fuß</mean>
+	</card>
+	<card>
+		<jap>身</jap>
+		<rad>158</rad>
+		<mean lang="de">Körper</mean>
+	</card>
+	<card>
+		<jap>車</jap>
+		<rad>159</rad>
+		<mean lang="de">Wagen, Rad</mean>
+	</card>
+	<card>
+		<jap>辛</jap>
+		<rad>160</rad>
+		<mean lang="de">bitter</mean>
+	</card>
+	<card>
+		<jap>辰</jap>
+		<rad>161</rad>
+		<mean lang="de">vormittags</mean>
+	</card>
+	<card>
+		<jap>辶</jap>
+		<rad>162</rad>
+		<mean lang="de">bewegen</mean>
+	</card>
+	<card>
+		<jap>邑</jap>
+		<rad>163</rad>
+		<mean lang="de">Gemeinde</mean>
+	</card>
+	<card>
+		<jap>酉</jap>
+		<rad>164</rad>
+		<mean lang="de">Weinkrug; Vogel</mean>
+	</card>
+	<card>
+		<jap>采</jap>
+		<rad>165</rad>
+		<mean lang="de">trennen</mean>
+	</card>
+	<card>
+		<jap>里</jap>
+		<rad>166</rad>
+		<mean lang="de">Meile; Dorf</mean>
+	</card>
+	<card>
+		<jap>金</jap>
+		<rad>167</rad>
+		<mean lang="de">Metall, Gold</mean>
+	</card>
+	<card>
+		<jap>長</jap>
+		<rad>168</rad>
+		<mean lang="de">lang</mean>
+	</card>
+	<card>
+		<jap>門</jap>
+		<rad>169</rad>
+		<mean lang="de">Tor</mean>
+	</card>
+	<card>
+		<jap>阜</jap>
+		<rad>170</rad>
+		<mean lang="de">Hügel</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>171</rad>
+		<mean lang="de">fangen</mean>
+	</card>
+	<card>
+		<jap>隹</jap>
+		<rad>172</rad>
+		<mean lang="de">kleiner Vogel</mean>
+	</card>
+	<card>
+		<jap>雨</jap>
+		<rad>173</rad>
+		<mean lang="de">Regen</mean>
+	</card>
+	<card>
+		<jap>青</jap>
+		<rad>174</rad>
+		<mean lang="de">grün, blau; unreif</mean>
+	</card>
+	<card>
+		<jap>非</jap>
+		<rad>175</rad>
+		<mean lang="de">falsch; nicht</mean>
+	</card>
+	<card>
+		<jap>面</jap>
+		<rad>176</rad>
+		<mean lang="de">Gesicht; Oberfläche</mean>
+	</card>
+	<card>
+		<jap>革</jap>
+		<rad>177</rad>
+		<mean lang="de">Leder</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>178</rad>
+		<mean lang="de">Leder</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>179</rad>
+		<mean lang="de">Lauch</mean>
+	</card>
+	<card>
+		<jap>音</jap>
+		<rad>180</rad>
+		<mean lang="de">Ton, Laut</mean>
+	</card>
+	<card>
+		<jap>頁</jap>
+		<rad>181</rad>
+		<mean lang="de">Kopf</mean>
+	</card>
+	<card>
+		<jap>風</jap>
+		<rad>182</rad>
+		<mean lang="de">Wind</mean>
+	</card>
+	<card>
+		<jap>飛</jap>
+		<rad>183</rad>
+		<mean lang="de">fliegen</mean>
+	</card>
+	<card>
+		<jap>食</jap>
+		<rad>184</rad>
+		<mean lang="de">essen</mean>
+	</card>
+	<card>
+		<jap>首</jap>
+		<rad>185</rad>
+		<mean lang="de">Kopf</mean>
+	</card>
+	<card>
+		<jap>香</jap>
+		<rad>186</rad>
+		<mean lang="de">Duft</mean>
+	</card>
+	<card>
+		<jap>馬</jap>
+		<rad>187</rad>
+		<mean lang="de">Pferd</mean>
+	</card>
+	<card>
+		<jap>骨</jap>
+		<rad>188</rad>
+		<mean lang="de">Knochen</mean>
+	</card>
+	<card>
+		<jap>高</jap>
+		<rad>189</rad>
+		<mean lang="de">hoch</mean>
+	</card>
+	<card>
+		<jap>髟</jap>
+		<rad>190</rad>
+		<mean lang="de">lange Haare</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>191</rad>
+		<mean lang="de">kämpfen</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>192</rad>
+		<mean lang="de">Kräuter</mean>
+	</card>
+	<card>
+		<jap>鬲</jap>
+		<rad>193</rad>
+		<mean lang="de">Dreifuß</mean>
+	</card>
+	<card>
+		<jap>鬼</jap>
+		<rad>194</rad>
+		<mean lang="de">Dämon</mean>
+	</card>
+	<card>
+		<jap>魚</jap>
+		<rad>195</rad>
+		<mean lang="de">Fisch</mean>
+	</card>
+	<card>
+		<jap>鳥</jap>
+		<rad>196</rad>
+		<mean lang="de">Vogel</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>197</rad>
+		<mean lang="de">Salz</mean>
+	</card>
+	<card>
+		<jap>鹿</jap>
+		<rad>198</rad>
+		<mean lang="de">Hirsch</mean>
+	</card>
+	<card>
+		<jap>麦</jap>
+		<rad>199</rad>
+		<mean lang="de">Weizen</mean>
+	</card>
+	<card>
+		<jap>麻</jap>
+		<rad>200</rad>
+		<mean lang="de">Hanf</mean>
+	</card>
+	<card>
+		<jap>黄</jap>
+		<rad>201</rad>
+		<mean lang="de">gelb</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>202</rad>
+		<mean lang="de">Hirse</mean>
+	</card>
+	<card>
+		<jap>黒</jap>
+		<rad>203</rad>
+		<mean lang="de">schwarz</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>204</rad>
+		<mean lang="de">sticken</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>205</rad>
+		<mean lang="de">Frosch</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>206</rad>
+		<mean lang="de">dreibeiniger Kessel</mean>
+	</card>
+	<card>
+		<jap>鼓</jap>
+		<rad>207</rad>
+		<mean lang="de">Trommel</mean>
+	</card>
+	<card>
+		<jap>鼠</jap>
+		<rad>208</rad>
+		<mean lang="de">Maus, Ratte</mean>
+	</card>
+	<card>
+		<jap>鼻</jap>
+		<rad>209</rad>
+		<mean lang="de">Nase</mean>
+	</card>
+	<card>
+		<jap>齊</jap>
+		<rad>210</rad>
+		<mean lang="de">gleich; ordnen</mean>
+	</card>
+	<card>
+		<jap>齒</jap>
+		<rad>211</rad>
+		<mean lang="de">Zahn</mean>
+	</card>
+	<card>
+		<jap>龍</jap>
+		<rad>212</rad>
+		<mean lang="de">Drache</mean>
+	</card>
+	<card>
+		<jap>龜</jap>
+		<rad>213</rad>
+		<mean lang="de">Schildkröte</mean>
+	</card>
+	<card>
+		<jap></jap>
+		<rad>214</rad>
+		<mean lang="de">Flöte</mean>
+	</card>
+</cardset>
