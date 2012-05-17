@@ -3,15 +3,81 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
+
+    <TextView
+    	android:text="Search by word or phrase"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
     <EditText
-        android:id="@+id/search_input"
+        android:id="@+id/search_word"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" />
+
+    <TextView
+    	android:text="Search by number of strokes"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:weightSum="1.0"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/search_strokes_preview"
+            android:text="(Strk)"
+            android:layout_height="wrap_content"
+            android:layout_weight=".34"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content" />
+        <SeekBar 
+            android:id="@+id/search_strokes"
+            android:max="25"
+            android:layout_height="wrap_content"
+            android:layout_weight=".66"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+    	android:text="Search by radical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:weightSum="1.0"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/search_radical_preview"
+            android:text="(Rad)"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".34"
+            android:layout_width="wrap_content" />
+        <SeekBar 
+            android:id="@+id/search_radical"
+            android:max="214"
+            android:layout_height="wrap_content"
+            android:layout_weight=".66"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
     <Button
         android:id="@+id/search_button"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
+        android:paddingTop="5dp"
         android:text="@string/Search" />
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/search_result_title"
+    	android:text="Search Result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dip"
+        android:paddingLeft="5dip"
+        style="?android:attr/listSeparatorTextViewStyle" />
     <TextView  
         android:id="@+id/search_result"
         android:layout_width="fill_parent" 

@@ -6,12 +6,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.EditText;
+import android.widget.SeekBar;
 import android.util.Log;
 import java.util.Vector;
 
 public class Search extends Activity
 {
-    private EditText _search_input;
+    private EditText _search_word;
+    private SeekBar _search_strokes;
     private Button _search_button;
     private TextView _search_result;
     private CardBox _cardbox;
@@ -31,13 +33,14 @@ public class Search extends Activity
         // use the search view here
         setContentView(R.layout.search);
 
-        _search_input = (EditText) findViewById(R.id.search_input);
+        _search_word = (EditText) findViewById(R.id.search_word);
+        _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
         _search_button = (Button)   findViewById(R.id.search_button);
         _search_result = (TextView) findViewById(R.id.search_result);
    
         _search_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                String input = (((TextView) _search_input).getText()).toString();
+                String input = (((TextView) _search_word).getText()).toString();
                 _search_result.setText(formatSearchResult(search(input)));
             }
         });
