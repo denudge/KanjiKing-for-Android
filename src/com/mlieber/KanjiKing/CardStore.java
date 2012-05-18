@@ -9,15 +9,15 @@ import android.util.Log;
 
 /**
  * A Card store holds all information of kanji or vocabulary cards.
- * So the cardbox just holds the kanji or Japanese vocabulary as
+ * So a *Cardbox* just holds the kanji or Japanese vocabulary as
  * reference to a card stored here.
  * Downside is that you need to have the full card store loaded
  * when opening a cardbox, e.g. with personal words
  */
 public class CardStore {
 
-    private static HashMap<String, Card> _map;
-    private static final String TAG = "CardStore";
+    private HashMap<String, Card> _map;
+    private final String TAG = "CardStore";
 
     CardStore() {
         if (this._map == null)

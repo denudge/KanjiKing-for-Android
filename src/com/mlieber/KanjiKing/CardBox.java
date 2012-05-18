@@ -20,6 +20,7 @@ public class CardBox implements java.io.Serializable {
     private int _order = ORDER_FREQUENCY;
 
     // The card lists that hold the cards
+    private CardStore _cardstore;
     private CardList _pool = null;
     private CardList _done;
 
@@ -31,6 +32,7 @@ public class CardBox implements java.io.Serializable {
         _done = new CardList(0);
         _nLists = N_LISTS;
         _order = order;
+        _cardstore = KanjiKing.getCardStore();
         initializeLists();
         if (fill)
             fillPool();
@@ -66,8 +68,7 @@ public class CardBox implements java.io.Serializable {
         if (_pool.size() > 0)
             return;
         
-        CardStore _cs = new CardStore();
-        Object[] _cards = _cs.getCards();
+        Object[] _cards = _cardstore.getCards();
         for (Object _card : _cards)
             _pool.add((String) _card);
 
@@ -85,8 +86,7 @@ public class CardBox implements java.io.Serializable {
                 return _pool.pop();
 
             // Does the card fit?
-            CardStore _cs = new CardStore();
-            Card _c = _cs.get(_card);
+            Card _c = _cardstore.get(_card);
             if ((_c.getFrequency() > 0) && (_c.getFrequency() <= KanjiKing.getMaxFreq()))
                 return _pool.pop();
         }

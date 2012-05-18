@@ -6,7 +6,7 @@ public class CardComparator implements Comparator<String>{
     private CardStore _cs;
 
     public CardComparator() {
-        _cs = new CardStore();
+        _cs = KanjiKing.getCardStore();
     }
 
     public int compare(String str_a, String str_b) {
