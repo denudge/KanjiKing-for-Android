@@ -28,12 +28,12 @@ Features
 * Order by frequency for optimal practice
 * Alternating active and passive knowledge test
 * Switchable between Kanji and vocabulary mode
-* Pre-packaged with 2500 Kanji and 5000 words
-* Simple flashcard style - you judge yourself *correct* or not
-* Kanji information: Frequency, stroke count, Radical number, Hadamitzky number
+* Pre-packaged with 2500 most common Kanji and 5000 most common words
+* Simple and fast flashcard style - you judge yourself *correct* or not
+* Kanji information: frequency, stroke count, Radical number, Hadamitzky number
 * Hints based on primitives (only available in German)
 * Actively used and maintained
-* Search Kanji(s) by a word and see your learning status
+* Search Kanjis in phrases, by stroke count or radical and see your learning status
 
 Learning order
 --------------

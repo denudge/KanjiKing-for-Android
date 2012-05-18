@@ -1,9 +1,18 @@
+0.4.0 (2012-05-18)
+==================
+
+Search
+------
+* New: Search kanji by phrase, stroke count or radical (or any combination of them)
+
+
+
 0.3.8 (2012-04-12)
 ==================
 
-General
--------
-* New kanji search functionality (works only reasonably in Kanji mode)
+Search
+------
+* New: Kanji search functionality (works only reasonably in Kanji mode)
 
 
 
