@@ -1,3 +1,13 @@
+1.4.2 (2012-05-18)
+==================
+
+Search
+------
+* Harmonized version code and version name
+* Fixed scrolling of search results
+
+
+
 1.4.1 (2012-05-18)
 ==================
 
