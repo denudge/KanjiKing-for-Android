@@ -12,12 +12,17 @@ import java.util.Vector;
 
 public class Search extends Activity
 {
+    private static final String TAG = "KanjiKing/Search";
     private EditText _search_word;
+    private SeekBar _search_radical;
     private SeekBar _search_strokes;
     private Button _search_button;
     private TextView _search_result;
+    private TextView _search_radical_preview;
+    private TextView _search_strokes_preview;
     private CardBox _cardbox;
     private CardStore _cardstore;
+    private CardStore _radicals;
     private String _language;
 
     /** Called when the activity is first created. */
@@ -34,33 +39,139 @@ public class Search extends Activity
         setContentView(R.layout.search);
 
         _search_word = (EditText) findViewById(R.id.search_word);
+        _search_radical = (SeekBar) findViewById(R.id.search_radical);
+        _search_radical_preview = (TextView) findViewById(R.id.search_radical_preview);
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
+        _search_strokes_preview = (TextView) findViewById(R.id.abcde123);
         _search_button = (Button)   findViewById(R.id.search_button);
         _search_result = (TextView) findViewById(R.id.search_result);
-   
+  
+        //load radicals
+        _radicals = new CardStore();
+        _radicals.clear();
+        _radicals.loadFromXMLFile(getResources().getXml(R.xml.radicals));
+
+        // animate strokes slider
+        _search_strokes.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            public void onProgressChanged(SeekBar b, int progress, boolean fromUser) {
+                    if (!fromUser) return;
+                    Log.i(TAG, "Moving strokes bar to " + progress);
+                    if (progress == 0)
+                        _search_strokes_preview.setText("");
+                    else
+                        _search_strokes_preview.setText(progress + "");
+            }
+
+            public void onStartTrackingTouch(SeekBar b) { }
+            public void onStopTrackingTouch(SeekBar b) { }
+        });
+                
+        // animate radicals slider
+        _search_radical.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            public void onProgressChanged(SeekBar b, int progress, boolean fromUser) {
+                if (!fromUser) return;
+                if (progress == 0) {
+                    _search_radical_preview.setText("");
+                    return;
+                }
+
+                Card radical = _radicals.get(progress + "");
+                if (null == radical)
+                    _search_radical_preview.setText(progress + ": !");
+                else
+                    _search_radical_preview.setText(progress + ": " + radical.getOnReading());
+            }
+
+            public void onStartTrackingTouch(SeekBar b) { }
+            public void onStopTrackingTouch(SeekBar b) { }
+        });
+
+        // connect search button
         _search_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 String input = (((TextView) _search_word).getText()).toString();
-                _search_result.setText(formatSearchResult(search(input)));
+                _search_result.setText(formatSearchResult(
+                        search(_cardstore, input, _search_radical.getProgress(), _search_strokes.getProgress())
+                ));
             }
         });
     }
 
 
-    private Card[] search(String search)
+    private Card[] search(CardStore base, String search, int radical, int strokes)
     {
-        if (null == _cardstore)
+        boolean init = false;
+        Object[] obj = null;
+        Card card = null;
+
+        if (null == base)
             return null;
         
+        if (((search == null) || (search.equals(""))) && (radical < 1) && (strokes < 1))
+            return null;
+
         Vector<Card> rv = new Vector<Card>();
 
-        // It is a kanji-specific search
-        for (int i=0; i < search.length(); i++) {
-            String ch = search.charAt(i) + "";
-            Card card = _cardstore.get(ch);
+        // phrase search
+        if ((null != search) && (!search.equals(""))) {
+            init = true;
+            for (int i=0; i < search.length(); i++) {
+                String ch = search.charAt(i) + "";
+                card = base.get(ch);
 
-            if (null != card)
-                rv.add(card);
+                if (null != card)
+                    rv.add(card);
+            }
+        }
+
+        // radical search
+        if (radical > 0) {
+            if (!init) {
+                Log.i(TAG, "Search by radical " + radical);
+               init = true;
+                if (null == obj)
+                    obj = base.getCards();
+
+                for (int i=0; i < obj.length; i++) {
+                    card = (Card) base.get((String) obj[i]);
+                    if (radical == card.getRadical())
+                        rv.add(card);
+                }
+            } else {
+                Log.i(TAG, "Filtering search by radical " + radical);
+                // radical filter
+                for (int i=0; i < rv.size(); i++) {
+                    card = rv.get(i);
+                    if (radical != card.getRadical()) {
+                        rv.removeElement(card);
+                        i--;
+                    }
+                }
+            }
+        }
+
+        // strokes search
+        if (strokes > 0) {
+            if (!init) {
+               init = true;
+                if (null == obj)
+                    obj = base.getCards();
+
+                for (int i=0; i < obj.length; i++) {
+                    card = (Card) base.get((String) obj[i]);
+                    if (strokes == card.getStrokesCount())
+                        rv.add(card);
+                }
+            } else {
+                // strokes filter
+                for (int i=0; i < rv.size(); i++) {
+                    card = rv.get(i);
+                    if (strokes != card.getStrokesCount()) {
+                        rv.removeElement(card);
+                        i--;
+                    }
+                }
+            }
         }
 
         Card[] ra = new Card[rv.size()];
@@ -109,6 +220,5 @@ public class Search extends Activity
         return sb.toString();
     }
 
-    
 }
 

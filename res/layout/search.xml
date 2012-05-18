@@ -23,17 +23,17 @@
         android:weightSum="1.0"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/search_strokes_preview"
-            android:text="(Strk)"
+            android:id="@+id/abcde123"
+            android:text=""
+            android:paddingRight="5dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".34"
-            android:paddingRight="10dp"
-            android:layout_width="wrap_content" />
+            android:layout_weight="0.3"
+            android:layout_width="40dp" />
         <SeekBar 
             android:id="@+id/search_strokes"
             android:max="25"
             android:layout_height="wrap_content"
-            android:layout_weight=".66"
+            android:layout_weight=".7"
             android:layout_width="wrap_content" />
     </LinearLayout>
 
@@ -48,16 +48,16 @@
         android:layout_height="wrap_content">
         <TextView
             android:id="@+id/search_radical_preview"
-            android:text="(Rad)"
-            android:paddingRight="10dp"
+            android:text=""
+            android:paddingRight="5dp"
             android:layout_height="wrap_content"
-            android:layout_weight=".34"
-            android:layout_width="wrap_content" />
+            android:layout_weight="0.3"
+            android:layout_width="40dp" />
         <SeekBar 
             android:id="@+id/search_radical"
-            android:max="214"
+            android:max="215"
             android:layout_height="wrap_content"
-            android:layout_weight=".66"
+            android:layout_weight="0.7"
             android:layout_width="wrap_content" />
     </LinearLayout>
 
