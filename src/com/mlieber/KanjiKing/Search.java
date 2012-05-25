@@ -108,7 +108,7 @@ public class Search extends Activity
             return null;
         
         if (((search == null) || (search.equals(""))) && (radical < 1) && (strokes < 1))
-            return null;
+            return new Card[0];
 
         Vector<Card> rv = new Vector<Card>();
 
@@ -173,6 +173,9 @@ public class Search extends Activity
                 }
             }
         }
+        
+        if (!init)
+            return new Card[0];
 
         Card[] ra = new Card[rv.size()];
         return rv.toArray(ra);
