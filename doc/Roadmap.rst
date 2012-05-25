@@ -7,6 +7,7 @@ Planned Features
 * "About" activity with version info and usage explanation
 * Multi-Radical search
 * Styled search result ListView
+* Order search result by frequency
 
 Packaging
 ---------
