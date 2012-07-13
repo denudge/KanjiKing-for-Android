@@ -1,3 +1,17 @@
+1.4.4 (2012-07-13)
+==================
+
+Search
+------
+* Support search by Kanji reading (On and Kun)
+* Sort search results by frequency
+
+Documentation
+-------------
+* Fixed command typo
+
+
+
 1.4.3 (2012-05-25)
 ==================
 
