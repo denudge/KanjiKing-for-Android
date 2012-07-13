@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import android.util.Log;
 
-public class CardList implements java.io.Serializable {
+public class CardList implements java.io.Serializable
+{
     private static final String TAG = "CardList";
     private final int _maxSize;
     private ArrayList<String> _list = null;
@@ -72,7 +73,7 @@ public class CardList implements java.io.Serializable {
     }
 
     public void sort() {
-        Comparator<String> _cc = new CardComparator();
+        Comparator<String> _cc = new CardStringComparator();
         java.util.Collections.sort(_list, _cc);
         
     }

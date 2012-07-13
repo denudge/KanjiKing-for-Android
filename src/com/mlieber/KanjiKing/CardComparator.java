@@ -2,17 +2,13 @@ package com.mlieber.KanjiKing;
 
 import java.util.Comparator;
 
-public class CardComparator implements Comparator<String>{
-    private CardStore _cs;
+public class CardComparator implements Comparator<Card>{
 
     public CardComparator() {
-        _cs = KanjiKing.getCardStore();
     }
 
-    public int compare(String str_a, String str_b) {
-        Card a = _cs.get(str_a);
-        Card b = _cs.get(str_b);
-
+    public int compare(Card a, Card b)
+    {
         if (a.getFrequency() < b.getFrequency())
             return -1;
         if (a.getFrequency() > b.getFrequency())
