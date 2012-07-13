@@ -3,8 +3,11 @@ package com.mlieber.KanjiKing;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import android.util.Log;
 
 public class Card implements java.io.Serializable {
+
+    private static final String TAG = "Card";
 
     public static final int TYPE_KANJI = 1;
     public static final int TYPE_WORD  = 2;
@@ -127,6 +130,41 @@ public class Card implements java.io.Serializable {
 		_grade = grade;
 		return this;
 	}
+
+    public boolean hasReading(String reading) {
+
+        // First, search direct hits
+        if (null != _reading_on) {
+            if (_reading_on.equals(reading))
+                return true;
+        }
+
+        if (null != _reading_kun) {
+            if (_reading_kun.equals(reading))
+                return true;
+        }
+
+        // Then, search general appearance
+        String haystack = "";
+        if (null != _reading_on)
+            haystack = _reading_on;
+        if (null != _reading_kun)
+            haystack = haystack + ", " + _reading_kun;
+
+        if (-1 == haystack.indexOf(reading))
+            return false;
+
+        // Then, search by pattern
+        String pattern = "^(.+[;, ]+)?(" + reading + ")([;, \\(-]+.+)?$";
+        if (haystack.matches(pattern))
+            return true;
+
+        if (_hadamitzky == 1) {
+            Log.i(TAG, "On: " + _reading_on + "// Kun: " + _reading_kun + "// Search: " + reading);
+        }
+       
+        return false;
+    }
 
 }
 
