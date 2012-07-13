@@ -13,7 +13,7 @@ Compiling
 Installation in Emulator
 ========================
 * Run ``adb install bin/KanjiKing-debug.apk``
-  or ``adb -r install bin/KanjiKing-debug.apk``, if already installed
+  or ``adb install -r bin/KanjiKing-debug.apk``, if already installed
 
 
 Start KanjiKing in Emulator
