@@ -159,10 +159,6 @@ public class Card implements java.io.Serializable {
         if (haystack.matches(pattern))
             return true;
 
-        if (_hadamitzky == 1) {
-            Log.i(TAG, "On: " + _reading_on + "// Kun: " + _reading_kun + "// Search: " + reading);
-        }
-       
         return false;
     }
 
