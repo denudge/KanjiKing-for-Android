@@ -9,11 +9,20 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Search by word or phrase"
+            android:text="Search in word or phrase"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
         <EditText
             android:id="@+id/search_word"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Search by reading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_reading"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />
 

@@ -9,11 +9,14 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.util.Log;
 import java.util.Vector;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class Search extends Activity
 {
     private static final String TAG = "KanjiKing/Search";
-    private EditText _search_word;
+    private EditText _search_phrase;
+    private EditText _search_reading;
     private SeekBar _search_radical;
     private SeekBar _search_strokes;
     private Button _search_button;
@@ -38,7 +41,8 @@ public class Search extends Activity
         // use the search view here
         setContentView(R.layout.search);
 
-        _search_word = (EditText) findViewById(R.id.search_word);
+        _search_phrase = (EditText) findViewById(R.id.search_word);
+        _search_reading = (EditText) findViewById(R.id.search_reading);
         _search_radical = (SeekBar) findViewById(R.id.search_radical);
         _search_radical_preview = (TextView) findViewById(R.id.search_radical_preview);
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
@@ -89,16 +93,18 @@ public class Search extends Activity
         // connect search button
         _search_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                String input = (((TextView) _search_word).getText()).toString();
+                String phrase = (((TextView) _search_phrase).getText()).toString();
+                String reading = (((TextView) _search_reading).getText()).toString();
+                _search_result.setText("Searching...");
                 _search_result.setText(formatSearchResult(
-                        search(_cardstore, input, _search_radical.getProgress(), _search_strokes.getProgress())
+                        search(_cardstore, phrase, reading, _search_radical.getProgress(), _search_strokes.getProgress())
                 ));
             }
         });
     }
 
 
-    private Card[] search(CardStore base, String search, int radical, int strokes)
+    private Card[] search(CardStore base, String search, String reading, int radical, int strokes)
     {
         boolean init = false;
         Object[] obj = null;
@@ -107,7 +113,7 @@ public class Search extends Activity
         if (null == base)
             return null;
         
-        if (((search == null) || (search.equals(""))) && (radical < 1) && (strokes < 1))
+        if (((search == null) || (search.equals(""))) && ((reading == null) || (reading.equals(""))) && (radical < 1) && (strokes < 1))
             return new Card[0];
 
         Vector<Card> rv = new Vector<Card>();
@@ -121,6 +127,30 @@ public class Search extends Activity
 
                 if (null != card)
                     rv.add(card);
+            }
+        }
+
+        if ((null != reading) && (!reading.equals(""))) {
+            if (!init) {
+                Log.i(TAG, "Search by reading " + reading);
+               init = true;
+                if (null == obj)
+                    obj = base.getCards();
+
+                for (int i=0; i < obj.length; i++) {
+                    card = (Card) base.get((String) obj[i]);
+                    if (card.hasReading(reading))
+                        rv.add(card);
+                }
+            } else {
+                Log.i(TAG, "Filtering search by radical " + radical);
+                // radical filter
+                for (int i=0; i < rv.size(); i++) {
+                    card = rv.get(i);
+                    if (! card.hasReading(reading))
+                        rv.removeElement(card);
+                        i--;
+                }
             }
         }
 
@@ -177,8 +207,13 @@ public class Search extends Activity
         if (!init)
             return new Card[0];
 
+        Comparator<Card> _cc = new CardComparator();
+        java.util.Collections.sort(rv, _cc);
+
         Card[] ra = new Card[rv.size()];
-        return rv.toArray(ra);
+        rv.toArray(ra);
+
+        return ra;
     }
 
     private String formatSearchResult(Card[] result) {
