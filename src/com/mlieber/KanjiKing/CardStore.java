@@ -108,6 +108,10 @@ public class CardStore {
 						if (card != null)
 							card.setRadical(Integer.parseInt(text));
 
+					if (xml.getName().equals("word"))
+						if (card != null)
+							card.addWord(text);
+
 					if (xml.getName().equals("mean"))
 						if ((card != null)&&(lang != null))
 							card.setMeaning(lang, text);
