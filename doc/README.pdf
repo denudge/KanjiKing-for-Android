@@ -122,7 +122,7 @@ endobj
  /Dest [ 19 0 R
  /XYZ
  62.69291
- 236.0236
+ 218.0236
  0 ]
  /Rect [ 62.69291
  599.7736
@@ -140,7 +140,7 @@ endobj
  /Dest [ 19 0 R
  /XYZ
  62.69291
- 236.0236
+ 218.0236
  0 ]
  /Rect [ 527.0227
  599.7736
@@ -269,9 +269,9 @@ endobj
  0
  0 ]
  /Rect [ 402.3354
- 131.7736
+ 113.7736
  436.7854
- 143.7736 ]
+ 125.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -348,7 +348,7 @@ endobj
 % 'R23': class PDFInfo 
 23 0 obj
 << /Author (Mathias Lieber <mathias.lieber@googlemail.com>)
- /CreationDate (D:20120713141432-01'00')
+ /CreationDate (D:20120812002415-01'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -390,7 +390,7 @@ endobj
 << /Dest [ 19 0 R
  /XYZ
  62.69291
- 236.0236
+ 218.0236
  0 ]
  /Next 28 0 R
  /Parent 24 0 R
@@ -431,7 +431,7 @@ endobj
 % 'R31': class PDFStream 
 31 0 obj
 % page stream
-<< /Length 8563 >>
+<< /Length 8920 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -476,7 +476,7 @@ q
 1 0 0 1 91.03937 3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1.4.4 of 2012/07/13) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1.4.5 of 2012/08/11) Tj T* ET
 Q
 Q
 q
@@ -832,23 +832,47 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 248.0236 cm
+1 0 0 1 62.69291 242.0236 cm
 Q
 q
-1 0 0 1 62.69291 215.0236 cm
+1 0 0 1 62.69291 230.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Show up to 5 most important words for each Kanji) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 230.0236 cm
+Q
+q
+1 0 0 1 62.69291 197.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Learning order) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 149.0236 cm
+1 0 0 1 62.69291 131.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .273984 Tw (Learning Japanese Kanji or vocabulary means both fun and hard work, often combined with frustration as) Tj T* 0 Tw 2.669431 Tw (these seem to look the same. For teachers and students as well, it is useful to start with simpler) Tj T* 0 Tw .851412 Tw (characters and later extend studies to more complex characters built out of simpler ones. Unfortunately,) Tj T* 0 Tw .733488 Tw (this way you need a lot of time to master the most frequent Kanji, that might have a high complexity but) Tj T* 0 Tw (are essential to start reading public writings, the internet or news.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 107.0236 cm
+1 0 0 1 62.69291 89.02362 cm
 q
 BT 1 0 0 1 0 26 Tm 1.719318 Tw 12 TL /F3 10 Tf 0 0 0 rg (KanjiKing for Android ) Tj /F1 10 Tf (assumes that you have understood the concept of ) Tj 0 0 .501961 rg (radicals) Tj 0 0 0 rg (, as the primitives of) Tj T* 0 Tw .104987 Tw (Japanese characters are called. The frequency of the Kanji is used as the order of learning. This way, you) Tj T* 0 Tw (can easily reach a coverage of 90% of Japanese texts with just around 850 characters.) Tj T* ET
 Q
@@ -1019,18 +1043,18 @@ xref
 0000006428 00000 n
 0000006578 00000 n
 0000006695 00000 n
-0000015357 00000 n
-0000018335 00000 n
-0000018441 00000 n
-0000018518 00000 n
+0000015714 00000 n
+0000018692 00000 n
+0000018798 00000 n
+0000018875 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\316$\333\345UqJ\267\272\367\335|\257\265q\025) (\316$\333\345UqJ\267\272\367\335|\257\265q\025)] 
+ [(\236\033\321\343\332\316\273K\033\002\222\3572\232K\372) (\236\033\321\343\332\316\273K\033\002\222\3572\232K\372)] 
 
  /Info 23 0 R
  /Root 22 0 R
  /Size 36 >>
 startxref
-18565
+18922
 %%EOF
