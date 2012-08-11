@@ -55,8 +55,9 @@ public class KanjiKing extends Activity
     // Settings
     private static int _mode               = MODE_KANJI;
     private static boolean _endless        = false;
+    private static boolean _show_words     = true;
     private static int _max_freq           = 0;
-    private static String _language         = "de";
+    private static String _language        = "de";
 
     // The card view
     private Button _no_button, _yes_button, _hint_button;
@@ -427,9 +428,20 @@ public class KanjiKing extends Activity
         } else {
             card_html.append("<div class=\"meaning\">(no meaning available, switch language)</div>");
         }
+
     }
     else
         card_html.append("<div class=\"meaning\">&nbsp;</div>");
+
+    if ((show_japanese) && (show_explanation)) {
+        card_html.append("<div class=\"words\">");
+        for (String word : card.getWords()) {
+            card_html.append("<div class=\"word\">")
+                .append(TextUtils.htmlEncode(word))
+                .append("</div>");
+        }
+        card_html.append("</div>");
+    }
 
     card_html.append("</body>");
 
