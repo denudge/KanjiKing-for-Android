@@ -6,6 +6,7 @@
 		div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps;}
 		div.reading_kun {font-size: 200%; color: #9090ff;}
 		div.meaning {color: #e0e0e0;}
+		div.words { margin-top: 1em; }
     </style>
 	<card>
 		<jap>良</jap>
@@ -18,6 +19,13 @@
 		<rad>138</rad>
         <had>321</had>
         <hint lang="de">Strich - begrenzen</hint>
+		<words>
+			<word>良い</word>
+			<word>不良</word>
+			<word>改良</word>
+			<word>良心</word>
+			<word>良好</word>
+		</words>
 	</card>
 	<card>
 		<jap>響</jap>
@@ -30,6 +38,13 @@
 		<rad>180</rad>
         <had>856</had>
         <hint lang="de"> - Mann - Ton</hint>
+		<words>
+			<word>影響</word>
+			<word>響く</word>
+			<word>響き</word>
+			<word>音響</word>
+			<word>反響</word>
+		</words>
 	</card>
 	<card>
 		<jap>阪</jap>
@@ -42,6 +57,11 @@
 		<rad>170</rad>
         <had>0</had>
         <hint lang="de">Gemeinde - anti</hint>
+		<words>
+			<word>大阪</word>
+			<word>阪神</word>
+			<word>阪急</word>
+		</words>
 	</card>
 	<card>
 		<jap>帰</jap>
@@ -54,6 +74,13 @@
 		<rad>58</rad>
         <had>317</had>
         <hint lang="de">Schwert - Schweinskopf - Tuch</hint>
+		<words>
+			<word>帰る</word>
+			<word>帰り</word>
+			<word>帰国</word>
+			<word>帰宅</word>
+			<word>復帰</word>
+		</words>
 	</card>
 	<card>
 		<jap>針</jap>
@@ -66,6 +93,13 @@
 		<rad>167</rad>
         <had>341</had>
         <hint lang="de">Metall - 10</hint>
+		<words>
+			<word>専門</word>
+			<word>専用</word>
+			<word>専業</word>
+			<word>専念</word>
+			<word>専務</word>
+		</words>
 	</card>
 	<card>
 		<jap>専</jap>
@@ -78,6 +112,10 @@
 		<rad>41</rad>
         <had>600</had>
         <hint lang="de">Glück - Zoll</hint>
+		<words>
+			<word>方針</word>
+			<word>指針</word>
+		</words>
 	</card>
 	<card>
 		<jap>推</jap>
@@ -90,6 +128,13 @@
 		<rad>64</rad>
         <had>1233</had>
         <hint lang="de">Hand - Spatz</hint>
+		<words>
+			<word>推進</word>
+			<word>推定</word>
+			<word>推移</word>
+			<word>推理</word>
+			<word>推計</word>
+		</words>
 	</card>
 	<card>
 		<jap>谷</jap>
@@ -101,6 +146,13 @@
 		<freq>508</freq>
 		<rad>150</rad>
 		<had>653</had>
+		<words>
+			<word>長谷川</word>
+			<word>世田谷</word>
+			<word>谷口</word>
+			<word>大谷</word>
+			<word>谷川</word>
+		</words>
 	</card>
 	<card>
 		<jap>古</jap>
@@ -112,6 +164,13 @@
 		<freq>509</freq>
 		<rad>24</rad>
 		<had>172</had>
+		<words>
+			<word>古い</word>
+			<word>中古</word>
+			<word>古代</word>
+			<word>考古学</word>
+			<word>古田</word>
+		</words>
 	</card>
 	<card>
 		<jap>候</jap>
@@ -124,6 +183,11 @@
 		<rad>9</rad>
         <had>944</had>
         <hint lang="de">Mensch - - Pfeil</hint>
+		<words>
+			<word>候補</word>
+			<word>気候</word>
+			<word>立候補</word>
+		</words>
 	</card>
 	<card>
 		<jap>史</jap>
@@ -134,6 +198,12 @@
 		<freq>511</freq>
 		<rad>2</rad>
 		<had>332</had>
+		<words>
+			<word>史上</word>
+			<word>女史</word>
+			<word>史料</word>
+			<word>史観</word>
+		</words>
 	</card>
 	<card>
 		<jap>天</jap>
@@ -145,6 +215,13 @@
 		<freq>512</freq>
 		<rad>1</rad>
 		<had>141</had>
+		<words>
+			<word>天気</word>
+			<word>楽天</word>
+			<word>天然</word>
+			<word>天井</word>
+			<word>天使</word>
+		</words>
 	</card>
 	<card>
 		<jap>階</jap>
@@ -156,6 +233,10 @@
 		<rad>170</rad>
         <had>588</had>
         <hint lang="de">Gemeinde - alle</hint>
+		<words>
+			<word>段階</word>
+			<word>階段</word>
+		</words>
 	</card>
 	<card>
 		<jap>程</jap>
@@ -168,6 +249,13 @@
 		<rad>115</rad>
         <had>417</had>
         <hint lang="de">Getreide - Mund - König</hint>
+		<words>
+			<word>程度</word>
+			<word>ある程度</word>
+			<word>過程</word>
+			<word>日程</word>
+			<word>課程</word>
+		</words>
 	</card>
 	<card>
 		<jap>満</jap>
@@ -180,6 +268,13 @@
 		<rad>85</rad>
         <had>201</had>
         <hint lang="de">Wasser - gemeinsam - Berg</hint>
+		<words>
+			<word>満足</word>
+			<word>不満</word>
+			<word>満たす</word>
+			<word>満ちる</word>
+			<word>満員</word>
+		</words>
 	</card>
 	<card>
 		<jap>敗</jap>
@@ -192,6 +287,13 @@
 		<rad>154</rad>
         <had>511</had>
         <hint lang="de">Muschel - schlagen</hint>
+		<words>
+			<word>失敗</word>
+			<word>敗戦</word>
+			<word>敗北</word>
+			<word>敗れる</word>
+			<word>敗訴</word>
+		</words>
 	</card>
 	<card>
 		<jap>管</jap>
@@ -204,6 +306,13 @@
 		<rad>118</rad>
         <had>328</had>
         <hint lang="de">Bambus - Behörde</hint>
+		<words>
+			<word>管理</word>
+			<word>保管</word>
+			<word>所管</word>
+			<word>管内</word>
+			<word>配管</word>
+		</words>
 	</card>
 	<card>
 		<jap>値</jap>
@@ -216,6 +325,13 @@
 		<rad>9</rad>
         <had>425</had>
         <hint lang="de">Mensch - direkt</hint>
+		<words>
+			<word>価値</word>
+			<word>値段</word>
+			<word>数値</word>
+			<word>値上げ</word>
+			<word>値する</word>
+		</words>
 	</card>
 	<card>
 		<jap>歌</jap>
@@ -228,6 +344,13 @@
 		<rad>76</rad>
         <had>392</had>
         <hint lang="de">möglich - möglich - fehlen</hint>
+		<words>
+			<word>歌う</word>
+			<word>歌手</word>
+			<word>国歌</word>
+			<word>和歌山</word>
+			<word>歌声</word>
+		</words>
 	</card>
 	<card>
 		<jap>買</jap>
@@ -240,6 +363,13 @@
 		<rad>122</rad>
         <had>241</had>
         <hint lang="de">Netz - Muschel</hint>
+		<words>
+			<word>買う</word>
+			<word>買い物</word>
+			<word>売買</word>
+			<word>買える</word>
+			<word>買収</word>
+		</words>
 	</card>
 	<card>
 		<jap>突</jap>
@@ -252,6 +382,13 @@
 		<rad>116</rad>
         <had>898</had>
         <hint lang="de">Loch - groß</hint>
+		<words>
+			<word>突然</word>
+			<word>突入</word>
+			<word>突く</word>
+			<word>突き</word>
+			<word>突撃</word>
+		</words>
 	</card>
 	<card>
 		<jap>兵</jap>
@@ -263,6 +400,12 @@
 		<freq>522</freq>
 		<rad>4</rad>
 		<had>784</had>
+		<words>
+			<word>派兵</word>
+			<word>兵衛</word>
+			<word>兵力</word>
+			<word>米兵</word>
+		</words>
 	</card>
 	<card>
 		<jap>接</jap>
@@ -274,6 +417,13 @@
 		<rad>64</rad>
         <had>486</had>
         <hint lang="de">Hand - stehen - Frau</hint>
+		<words>
+			<word>直接</word>
+			<word>接続</word>
+			<word>面接</word>
+			<word>間接</word>
+			<word>接近</word>
+		</words>
 	</card>
 	<card>
 		<jap>請</jap>
@@ -286,6 +436,13 @@
 		<rad>149</rad>
         <had>661</had>
         <hint lang="de">sprechen - blau</hint>
+		<words>
+			<word>請求</word>
+			<word>申請</word>
+			<word>要請</word>
+			<word>請負</word>
+			<word>下請け</word>
+		</words>
 	</card>
 	<card>
 		<jap>器</jap>
@@ -298,6 +455,13 @@
 		<rad>30</rad>
         <had>527</had>
         <hint lang="de">Mund - Mund - groß -Mund - Mund</hint>
+		<words>
+			<word>機器</word>
+			<word>楽器</word>
+			<word>武器</word>
+			<word>兵器</word>
+			<word>核兵器</word>
+		</words>
 	</card>
 	<card>
 		<jap>士</jap>
@@ -308,6 +472,13 @@
 		<freq>526</freq>
 		<rad>33</rad>
 		<had>572</had>
+		<words>
+			<word>同士</word>
+			<word>兵士</word>
+			<word>武士</word>
+			<word>戦士</word>
+			<word>税理士</word>
+		</words>
 	</card>
 	<card>
 		<jap>光</jap>
@@ -319,6 +490,13 @@
 		<freq>527</freq>
 		<rad>42</rad>
 		<had>138</had>
+		<words>
+			<word>観光</word>
+			<word>光景</word>
+			<word>光る</word>
+			<word>日光</word>
+			<word>光学</word>
+		</words>
 	</card>
 	<card>
 		<jap>討</jap>
@@ -331,6 +509,13 @@
 		<rad>149</rad>
         <had>1018</had>
         <hint lang="de">sprechen - Zoll</hint>
+		<words>
+			<word>検討</word>
+			<word>討論</word>
+			<word>討議</word>
+			<word>再検討</word>
+			<word>討つ</word>
+		</words>
 	</card>
 	<card>
 		<jap>路</jap>
@@ -343,6 +528,13 @@
 		<rad>157</rad>
         <had>151</had>
         <hint lang="de">Fuß - alle</hint>
+		<words>
+			<word>道路</word>
+			<word>路線</word>
+			<word>回路</word>
+			<word>路上</word>
+			<word>通路</word>
+		</words>
 	</card>
 	<card>
 		<jap>悪</jap>
@@ -355,6 +547,13 @@
 		<rad>1</rad>
         <had>304</had>
         <hint lang="de">Asien - Herz</hint>
+		<words>
+			<word>悪い</word>
+			<word>最悪</word>
+			<word>悪化</word>
+			<word>悪意</word>
+			<word>悪質</word>
+		</words>
 	</card>
 	<card>
 		<jap>科</jap>
@@ -366,6 +565,13 @@
 		<rad>115</rad>
         <had>320</had>
         <hint lang="de">Getreide - Liter</hint>
+		<words>
+			<word>科学</word>
+			<word>教科書</word>
+			<word>科目</word>
+			<word>学科</word>
+			<word>分科</word>
+		</words>
 	</card>
 	<card>
 		<jap>攻</jap>
@@ -378,6 +584,13 @@
 		<rad>48</rad>
         <had>819</had>
         <hint lang="de">bauen - schlagen</hint>
+		<words>
+			<word>攻撃</word>
+			<word>専攻</word>
+			<word>攻める</word>
+			<word>攻め</word>
+			<word>攻勢</word>
+		</words>
 	</card>
 	<card>
 		<jap>崎</jap>
@@ -390,6 +603,13 @@
 		<rad>46</rad>
         <had>1362</had>
         <hint lang="de">Berg - groß - möglich</hint>
+		<words>
+			<word>宮崎</word>
+			<word>長崎</word>
+			<word>川崎</word>
+			<word>山崎</word>
+			<word>岡崎</word>
+		</words>
 	</card>
 	<card>
 		<jap>督</jap>
@@ -401,6 +621,9 @@
 		<rad>109</rad>
         <had>1670</had>
         <hint lang="de"> - Hand - Auge</hint>
+		<words>
+			<word>監督</word>
+		</words>
 	</card>
 	<card>
 		<jap>授</jap>
@@ -413,6 +636,13 @@
 		<rad>64</rad>
         <had>602</had>
         <hint lang="de">Hand - bekommen</hint>
+		<words>
+			<word>授業</word>
+			<word>教授</word>
+			<word>助教授</word>
+			<word>授与</word>
+			<word>伝授</word>
+		</words>
 	</card>
 	<card>
 		<jap>催</jap>
@@ -425,6 +655,13 @@
 		<rad>9</rad>
         <had>1317</had>
         <hint lang="de">Mensch - Berg - Spatz</hint>
+		<words>
+			<word>開催</word>
+			<word>主催</word>
+			<word>催す</word>
+			<word>催し</word>
+			<word>共催</word>
+		</words>
 	</card>
 	<card>
 		<jap>細</jap>
@@ -437,6 +674,13 @@
 		<rad>120</rad>
         <had>695</had>
         <hint lang="de">Faden - Feld</hint>
+		<words>
+			<word>細かい</word>
+			<word>細い</word>
+			<word>細部</word>
+			<word>細か</word>
+			<word>明細</word>
+		</words>
 	</card>
 	<card>
 		<jap>効</jap>
@@ -449,6 +693,13 @@
 		<rad>19</rad>
         <had>816</had>
         <hint lang="de">Kreuzung - Kraft</hint>
+		<words>
+			<word>効果</word>
+			<word>有効</word>
+			<word>効率</word>
+			<word>効く</word>
+			<word>無効</word>
+		</words>
 	</card>
 	<card>
 		<jap>図</jap>
@@ -460,6 +711,13 @@
 		<freq>539</freq>
 		<rad>31</rad>
         <had>339</had>
+		<words>
+			<word>図る</word>
+			<word>意図</word>
+			<word>地図</word>
+			<word>図書</word>
+			<word>図面</word>
+		</words>
 	</card>
 	<card>
 		<jap>週</jap>
@@ -471,6 +729,13 @@
 		<rad>162</rad>
         <had>92</had>
         <hint lang="de">drehen - Weg</hint>
+		<words>
+			<word>週間</word>
+			<word>今週</word>
+			<word>先週</word>
+			<word>週末</word>
+			<word>来週</word>
+		</words>
 	</card>
 	<card>
 		<jap>積</jap>
@@ -483,6 +748,13 @@
 		<rad>115</rad>
         <had>656</had>
         <hint lang="de">Getreide - blau</hint>
+		<words>
+			<word>積極</word>
+			<word>面積</word>
+			<word>積む</word>
+			<word>集積</word>
+			<word>積み重ねる</word>
+		</words>
 	</card>
 	<card>
 		<jap>丸</jap>
@@ -494,6 +766,13 @@
 		<freq>542</freq>
 		<rad>4</rad>
 		<had>644</had>
+		<words>
+			<word>丸い</word>
+			<word>日の丸</word>
+			<word>丸山</word>
+			<word>丸ごと</word>
+			<word>丸の内</word>
+		</words>
 	</card>
 	<card>
 		<jap>他</jap>
@@ -506,6 +785,13 @@
 		<rad>9</rad>
         <had>120</had>
         <hint lang="de">Mensch - </hint>
+		<words>
+			<word>その他</word>
+			<word>他人</word>
+			<word>他者</word>
+			<word>他方</word>
+			<word>他社</word>
+		</words>
 	</card>
 	<card>
 		<jap>及</jap>
@@ -517,6 +803,13 @@
 		<freq>544</freq>
 		<rad>4</rad>
 		<had>1257</had>
+		<words>
+			<word>及び</word>
+			<word>及ぶ</word>
+			<word>及ぼす</word>
+			<word>言及</word>
+			<word>追及</word>
+		</words>
 	</card>
 	<card>
 		<jap>湾</jap>
@@ -528,6 +821,10 @@
 		<rad>85</rad>
         <had>670</had>
         <hint lang="de">Wasser - rot - Bogen</hint>
+		<words>
+			<word>台湾</word>
+			<word>港湾</word>
+		</words>
 	</card>
 	<card>
 		<jap>録</jap>
@@ -539,6 +836,13 @@
 		<rad>167</rad>
         <had>538</had>
         <hint lang="de">Metall - Schweinskopf - Wasser</hint>
+		<words>
+			<word>記録</word>
+			<word>録音</word>
+			<word>収録</word>
+			<word>録画</word>
+			<word>目録</word>
+		</words>
 	</card>
 	<card>
 		<jap>処</jap>
@@ -550,6 +854,13 @@
 		<rad>34</rad>
         <had>1137</had>
         <hint lang="de">Tisch - langsam gehen</hint>
+		<words>
+			<word>処理</word>
+			<word>処分</word>
+			<word>対処</word>
+			<word>何処</word>
+			<word>処置</word>
+		</words>
 	</card>
 	<card>
 		<jap>省</jap>
@@ -562,6 +873,13 @@
 		<rad>4</rad>
         <had>145</had>
         <hint lang="de">wenig - Auge</hint>
+		<words>
+			<word>反省</word>
+			<word>外務省</word>
+			<word>労働省</word>
+			<word>大蔵省</word>
+			<word>文部省</word>
+		</words>
 	</card>
 	<card>
 		<jap>旧</jap>
@@ -573,6 +891,11 @@
 		<rad>2</rad>
         <had>1216</had>
         <hint lang="de">Strich - Tag</hint>
+		<words>
+			<word>復旧</word>
+			<word>旧約</word>
+			<word>旧来</word>
+		</words>
 	</card>
 	<card>
 		<jap>室</jap>
@@ -585,6 +908,13 @@
 		<rad>40</rad>
         <had>166</had>
         <hint lang="de">Dach - führen zu</hint>
+		<words>
+			<word>教室</word>
+			<word>室内</word>
+			<word>室長</word>
+			<word>個室</word>
+			<word>病室</word>
+		</words>
 	</card>
 	<card>
 		<jap>憲</jap>
@@ -596,6 +926,11 @@
 		<rad>40</rad>
         <had>521</had>
         <hint lang="de">Dach - - Netz - Herz</hint>
+		<words>
+			<word>憲法</word>
+			<word>違憲</word>
+			<word>改憲</word>
+		</words>
 	</card>
 	<card>
 		<jap>太</jap>
@@ -607,6 +942,11 @@
 		<freq>552</freq>
 		<rad>37</rad>
 		<had>629</had>
+		<words>
+			<word>太い</word>
+			<word>太る</word>
+			<word>太田</word>
+		</words>
 	</card>
 	<card>
 		<jap>橋</jap>
@@ -619,6 +959,13 @@
 		<rad>75</rad>
         <had>597</had>
         <hint lang="de">Baum - pfeil - Mund - wenden</hint>
+		<words>
+			<word>高橋</word>
+			<word>橋本</word>
+			<word>大橋</word>
+			<word>日本橋</word>
+			<word>新橋</word>
+		</words>
 	</card>
 	<card>
 		<jap>歩</jap>
@@ -631,6 +978,13 @@
 		<rad>77</rad>
         <had>431</had>
         <hint lang="de">stoppen - wenig</hint>
+		<words>
+			<word>歩く</word>
+			<word>進歩</word>
+			<word>歩む</word>
+			<word>歩行</word>
+			<word>歩道</word>
+		</words>
 	</card>
 	<card>
 		<jap>離</jap>
@@ -643,6 +997,13 @@
 		<rad>172</rad>
         <had>1281</had>
         <hint lang="de"> - Spatz</hint>
+		<words>
+			<word>離れる</word>
+			<word>分離</word>
+			<word>離す</word>
+			<word>切り離す</word>
+			<word>離れ</word>
+		</words>
 	</card>
 	<card>
 		<jap>岸</jap>
@@ -655,6 +1016,11 @@
 		<rad>46</rad>
         <had>586</had>
         <hint lang="de">Berg - Dach - </hint>
+		<words>
+			<word>海岸</word>
+			<word>湾岸</word>
+			<word>対岸</word>
+		</words>
 	</card>
 	<card>
 		<jap>客</jap>
@@ -666,6 +1032,13 @@
 		<rad>40</rad>
         <had>641</had>
         <hint lang="de">Dach - alle</hint>
+		<words>
+			<word>お客様</word>
+			<word>お客</word>
+			<word>観客</word>
+			<word>客観</word>
+			<word>乗客</word>
+		</words>
 	</card>
 	<card>
 		<jap>風</jap>
@@ -677,6 +1050,13 @@
 		<freq>558</freq>
 		<rad>182</rad>
 		<had>29</had>
+		<words>
+			<word>風景</word>
+			<word>台風</word>
+			<word>風味</word>
+			<word>風土</word>
+			<word>風水</word>
+		</words>
 	</card>
 	<card>
 		<jap>紙</jap>
@@ -689,6 +1069,13 @@
 		<rad>120</rad>
         <had>180</had>
         <hint lang="de">Faden - Familie</hint>
+		<words>
+			<word>手紙</word>
+			<word>表紙</word>
+			<word>用紙</word>
+			<word>紙面</word>
+			<word>白紙</word>
+		</words>
 	</card>
 	<card>
 		<jap>激</jap>
@@ -701,6 +1088,13 @@
 		<rad>85</rad>
         <had>1017</had>
         <hint lang="de">Wasser - - schlagen</hint>
+		<words>
+			<word>激しい</word>
+			<word>急激</word>
+			<word>感激</word>
+			<word>過激</word>
+			<word>激減</word>
+		</words>
 	</card>
 	<card>
 		<jap>否</jap>
@@ -713,6 +1107,11 @@
 		<rad>1</rad>
         <had>1248</had>
         <hint lang="de">nicht - Mund</hint>
+		<words>
+			<word>否定</word>
+			<word>否決</word>
+			<word>否認</word>
+		</words>
 	</card>
 	<card>
 		<jap>周</jap>
@@ -725,6 +1124,13 @@
 		<rad>13</rad>
         <had>91</had>
         <hint lang="de">Grenze - Erde - Mund</hint>
+		<words>
+			<word>周り</word>
+			<word>周辺</word>
+			<word>周年</word>
+			<word>周知</word>
+			<word>周期</word>
+		</words>
 	</card>
 	<card>
 		<jap>師</jap>
@@ -736,6 +1142,11 @@
 		<rad>2</rad>
         <had>409</had>
         <hint lang="de"> - Tuch</hint>
+		<words>
+			<word>教師</word>
+			<word>医師</word>
+			<word>技師</word>
+		</words>
 	</card>
 	<card>
 		<jap>摘</jap>
@@ -748,6 +1159,11 @@
 		<rad>64</rad>
         <had>1447</had>
         <hint lang="de">Hand - passen</hint>
+		<words>
+			<word>指摘</word>
+			<word>摘発</word>
+			<word>摘む</word>
+		</words>
 	</card>
 	<card>
 		<jap>材</jap>
@@ -759,6 +1175,13 @@
 		<rad>75</rad>
         <had>552</had>
         <hint lang="de">Baum - Talent</hint>
+		<words>
+			<word>取材</word>
+			<word>人材</word>
+			<word>材料</word>
+			<word>教材</word>
+			<word>食材</word>
+		</words>
 	</card>
 	<card>
 		<jap>登</jap>
@@ -771,6 +1194,13 @@
 		<rad>105</rad>
         <had>960</had>
         <hint lang="de">Beine - Bohne</hint>
+		<words>
+			<word>登録</word>
+			<word>登場</word>
+			<word>登る</word>
+			<word>登山</word>
+			<word>登校</word>
+		</words>
 	</card>
 	<card>
 		<jap>系</jap>
@@ -782,6 +1212,13 @@
 		<rad>4</rad>
         <had>908</had>
         <hint lang="de">Strich - Faden</hint>
+		<words>
+			<word>体系</word>
+			<word>系統</word>
+			<word>日系</word>
+			<word>理系</word>
+			<word>文系</word>
+		</words>
 	</card>
 	<card>
 		<jap>批</jap>
@@ -793,6 +1230,10 @@
 		<rad>64</rad>
         <had>1029</had>
         <hint lang="de">Hand - vergleichen</hint>
+		<words>
+			<word>批判</word>
+			<word>批評</word>
+		</words>
 	</card>
 	<card>
 		<jap>郎</jap>
@@ -804,6 +1245,13 @@
 		<rad>163</rad>
         <had>980</had>
         <hint lang="de">gut - Gemeinde</hint>
+		<words>
+			<word>太郎</word>
+			<word>一郎</word>
+			<word>三郎</word>
+			<word>野郎</word>
+			<word>次郎</word>
+		</words>
 	</card>
 	<card>
 		<jap>母</jap>
@@ -815,6 +1263,13 @@
 		<freq>570</freq>
 		<rad>80</rad>
 		<had>112</had>
+		<words>
+			<word>母親</word>
+			<word>お母さん</word>
+			<word>母子</word>
+			<word>母さん</word>
+			<word>母国</word>
+		</words>
 	</card>
 	<card>
 		<jap>易</jap>
@@ -827,6 +1282,13 @@
 		<rad>72</rad>
         <had>759</had>
         <hint lang="de">Tag - gramm</hint>
+		<words>
+			<word>容易</word>
+			<word>易い</word>
+			<word>安易</word>
+			<word>難易</word>
+			<word>交易</word>
+		</words>
 	</card>
 	<card>
 		<jap>健</jap>
@@ -839,6 +1301,13 @@
 		<rad>9</rad>
         <had>893</had>
         <hint lang="de">Mensch - bauen</hint>
+		<words>
+			<word>保健</word>
+			<word>健全</word>
+			<word>保健所</word>
+			<word>健在</word>
+			<word>健常</word>
+		</words>
 	</card>
 	<card>
 		<jap>黒</jap>
@@ -851,6 +1320,13 @@
 		<rad>203</rad>
         <had>206</had>
         <hint lang="de">Meile - Feuer</hint>
+		<words>
+			<word>黒い</word>
+			<word>黒人</word>
+			<word>黒字</word>
+			<word>白黒</word>
+			<word>黒田</word>
+		</words>
 	</card>
 	<card>
 		<jap>火</jap>
@@ -862,6 +1338,12 @@
 		<freq>574</freq>
 		<rad>86</rad>
 		<had>20</had>
+		<words>
+			<word>火山</word>
+			<word>火事</word>
+			<word>放火</word>
+			<word>火力</word>
+		</words>
 	</card>
 	<card>
 		<jap>戸</jap>
@@ -873,6 +1355,12 @@
 		<freq>575</freq>
 		<rad>63</rad>
 		<had>152</had>
+		<words>
+			<word>神戸</word>
+			<word>井戸</word>
+			<word>水戸</word>
+			<word>神戸大学</word>
+		</words>
 	</card>
 	<card>
 		<jap>速</jap>
@@ -885,6 +1373,13 @@
 		<rad>162</rad>
         <had>502</had>
         <hint lang="de">Bündel - Weg</hint>
+		<words>
+			<word>高速</word>
+			<word>速い</word>
+			<word>速度</word>
+			<word>早速</word>
+			<word>急速</word>
+		</words>
 	</card>
 	<card>
 		<jap>存</jap>
@@ -896,6 +1391,13 @@
 		<rad>39</rad>
         <had>269</had>
         <hint lang="de">Mensch - Kind</hint>
+		<words>
+			<word>存在</word>
+			<word>保存</word>
+			<word>存じる</word>
+			<word>ご存知</word>
+			<word>生存</word>
+		</words>
 	</card>
 	<card>
 		<jap>花</jap>
@@ -908,6 +1410,13 @@
 		<rad>140</rad>
         <had>255</had>
         <hint lang="de">Gras - verwandeln</hint>
+		<words>
+			<word>花火</word>
+			<word>花見</word>
+			<word>開花</word>
+			<word>花びら</word>
+			<word>立花</word>
+		</words>
 	</card>
 	<card>
 		<jap>春</jap>
@@ -920,6 +1429,13 @@
 		<rad>72</rad>
         <had>460</had>
         <hint lang="de">groß - Tag</hint>
+		<words>
+			<word>春の</word>
+			<word>売春</word>
+			<word>思春期</word>
+			<word>文春</word>
+			<word>春日</word>
+		</words>
 	</card>
 	<card>
 		<jap>飛</jap>
@@ -931,6 +1447,13 @@
 		<freq>580</freq>
 		<rad>183</rad>
 		<had>530</had>
+		<words>
+			<word>飛ぶ</word>
+			<word>飛行機</word>
+			<word>飛ばす</word>
+			<word>飛行</word>
+			<word>飛び出す</word>
+		</words>
 	</card>
 	<card>
 		<jap>殺</jap>
@@ -943,6 +1466,13 @@
 		<rad>79</rad>
         <had>576</had>
         <hint lang="de"> - Baum - Lanze</hint>
+		<words>
+			<word>殺す</word>
+			<word>自殺</word>
+			<word>殺人</word>
+			<word>殺害</word>
+			<word>殺し</word>
+		</words>
 	</card>
 	<card>
 		<jap>央</jap>
@@ -953,6 +1483,10 @@
 		<freq>582</freq>
 		<rad>2</rad>
 		<had>351</had>
+		<words>
+			<word>中央</word>
+			<word>中央アジア</word>
+		</words>
 	</card>
 	<card>
 		<jap>券</jap>
@@ -964,6 +1498,9 @@
 		<rad>18</rad>
         <had>506</had>
         <hint lang="de"> - groß - Kraft</hint>
+		<words>
+			<word>証券</word>
+		</words>
 	</card>
 	<card>
 		<jap>赤</jap>
@@ -975,6 +1512,13 @@
 		<freq>584</freq>
 		<rad>155</rad>
 		<had>207</had>
+		<words>
+			<word>赤い</word>
+			<word>赤字</word>
+			<word>赤ちゃん</word>
+			<word>真っ赤</word>
+			<word>赤外線</word>
+		</words>
 	</card>
 	<card>
 		<jap>号</jap>
@@ -985,6 +1529,11 @@
 		<freq>585</freq>
 		<rad>30</rad>
 		<had>266</had>
+		<words>
+			<word>番号</word>
+			<word>信号</word>
+			<word>記号</word>
+		</words>
 	</card>
 	<card>
 		<jap>単</jap>
@@ -996,6 +1545,13 @@
 		<rad>3</rad>
         <had>300</had>
         <hint lang="de">Kralle - </hint>
+		<words>
+			<word>単位</word>
+			<word>単に</word>
+			<word>単語</word>
+			<word>単なる</word>
+			<word>単独</word>
+		</words>
 	</card>
 	<card>
 		<jap>盟</jap>
@@ -1007,6 +1563,11 @@
 		<rad>108</rad>
         <had>717</had>
         <hint lang="de">Licht - Teller</hint>
+		<words>
+			<word>同盟</word>
+			<word>加盟</word>
+			<word>連盟</word>
+		</words>
 	</card>
 	<card>
 		<jap>座</jap>
@@ -1019,6 +1580,13 @@
 		<rad>53</rad>
         <had>786</had>
         <hint lang="de">Schrägdach - - Erde</hint>
+		<words>
+			<word>座る</word>
+			<word>口座</word>
+			<word>座長</word>
+			<word>銀座</word>
+			<word>座席</word>
+		</words>
 	</card>
 	<card>
 		<jap>青</jap>
@@ -1031,6 +1599,13 @@
 		<rad>174</rad>
         <had>208</had>
         <hint lang="de"> - Mond</hint>
+		<words>
+			<word>青年</word>
+			<word>青い</word>
+			<word>青春</word>
+			<word>青木</word>
+			<word>青山</word>
+		</words>
 	</card>
 	<card>
 		<jap>破</jap>
@@ -1043,6 +1618,13 @@
 		<rad>112</rad>
         <had>665</had>
         <hint lang="de">Stein - Haut</hint>
+		<words>
+			<word>突破</word>
+			<word>破る</word>
+			<word>破産</word>
+			<word>破れる</word>
+			<word>打破</word>
+		</words>
 	</card>
 	<card>
 		<jap>編</jap>
@@ -1055,6 +1637,13 @@
 		<rad>120</rad>
         <had>682</had>
         <hint lang="de">Faden - Tür - Netz</hint>
+		<words>
+			<word>編集</word>
+			<word>編成</word>
+			<word>再編</word>
+			<word>続編</word>
+			<word>前編</word>
+		</words>
 	</card>
 	<card>
 		<jap>捜</jap>
@@ -1067,6 +1656,10 @@
 		<rad>64</rad>
         <had>989</had>
         <hint lang="de">Hand - heißen - Hand</hint>
+		<words>
+			<word>捜査</word>
+			<word>捜す</word>
+		</words>
 	</card>
 	<card>
 		<jap>竹</jap>
@@ -1078,6 +1671,12 @@
 		<freq>593</freq>
 		<rad>118</rad>
         <had>129</had>
+		<words>
+			<word>竹内</word>
+			<word>竹島</word>
+			<word>竹下</word>
+			<word>竹田</word>
+		</words>
 	</card>
 	<card>
 		<jap>除</jap>
@@ -1090,6 +1689,13 @@
 		<rad>170</rad>
         <had>1065</had>
         <hint lang="de">Gemeinde - übrig</hint>
+		<words>
+			<word>除く</word>
+			<word>解除</word>
+			<word>除去</word>
+			<word>取り除く</word>
+			<word>除外</word>
+		</words>
 	</card>
 	<card>
 		<jap>完</jap>
@@ -1101,6 +1707,13 @@
 		<rad>40</rad>
         <had>613</had>
         <hint lang="de">Dach - Ursache</hint>
+		<words>
+			<word>完全</word>
+			<word>完成</word>
+			<word>補完</word>
+			<word>完結</word>
+			<word>不完全</word>
+		</words>
 	</card>
 	<card>
 		<jap>降</jap>
@@ -1113,6 +1726,13 @@
 		<rad>170</rad>
         <had>947</had>
         <hint lang="de">Gemeinde - schlagen - </hint>
+		<words>
+			<word>以降</word>
+			<word>降る</word>
+			<word>降りる</word>
+			<word>下降</word>
+			<word>降ろす</word>
+		</words>
 	</card>
 	<card>
 		<jap>超</jap>
@@ -1125,6 +1745,10 @@
 		<rad>156</rad>
         <had>1000</had>
         <hint lang="de">sagen - rennen</hint>
+		<words>
+			<word>超える</word>
+			<word>超過</word>
+		</words>
 	</card>
 	<card>
 		<jap>責</jap>
@@ -1137,6 +1761,12 @@
 		<rad>154</rad>
         <had>655</had>
         <hint lang="de"> - Muschel</hint>
+		<words>
+			<word>責任</word>
+			<word>無責任</word>
+			<word>責める</word>
+			<word>責務</word>
+		</words>
 	</card>
 	<card>
 		<jap>並</jap>
@@ -1148,6 +1778,13 @@
 		<freq>599</freq>
 		<rad>12</rad>
 		<had>1165</had>
+		<words>
+			<word>並ぶ</word>
+			<word>並べる</word>
+			<word>並びに</word>
+			<word>並み</word>
+			<word>並行</word>
+		</words>
 	</card>
 	<card>
 		<jap>療</jap>
@@ -1159,6 +1796,11 @@
 		<rad>104</rad>
         <had>1322</had>
         <hint lang="de">krank - Linie</hint>
+		<words>
+			<word>医療</word>
+			<word>治療</word>
+			<word>療法</word>
+		</words>
 	</card>
 	<card>
 		<jap>従</jap>
@@ -1171,6 +1813,13 @@
 		<rad>60</rad>
         <had>1482</had>
         <hint lang="de">laufen - - bestimmt</hint>
+		<words>
+			<word>従来</word>
+			<word>従う</word>
+			<word>従業</word>
+			<word>従って</word>
+			<word>従事</word>
+		</words>
 	</card>
 	<card>
 		<jap>右</jap>
@@ -1183,6 +1832,13 @@
 		<rad>30</rad>
         <had>76</had>
         <hint lang="de"> - Mund</hint>
+		<words>
+			<word>右手</word>
+			<word>右側</word>
+			<word>右脳</word>
+			<word>右足</word>
+			<word>右上</word>
+		</words>
 	</card>
 	<card>
 		<jap>修</jap>
@@ -1195,6 +1851,13 @@
 		<rad>9</rad>
         <had>945</had>
         <hint lang="de">Mensch - - Pfeil - Licht</hint>
+		<words>
+			<word>修正</word>
+			<word>研修</word>
+			<word>修理</word>
+			<word>修行</word>
+			<word>修復</word>
+		</words>
 	</card>
 	<card>
 		<jap>捕</jap>
@@ -1207,6 +1870,12 @@
 		<rad>64</rad>
         <had>890</had>
         <hint lang="de">Hand - (wie ergänzen oder Bucht)</hint>
+		<words>
+			<word>捕まえる</word>
+			<word>捕まる</word>
+			<word>捕らえる</word>
+			<word>捕る</word>
+		</words>
 	</card>
 	<card>
 		<jap>隊</jap>
@@ -1218,6 +1887,13 @@
 		<rad>170</rad>
         <had>795</had>
         <hint lang="de">Gemeinde - - Wasser</hint>
+		<words>
+			<word>自衛隊</word>
+			<word>部隊</word>
+			<word>軍隊</word>
+			<word>隊員</word>
+			<word>兵隊</word>
+		</words>
 	</card>
 	<card>
 		<jap>危</jap>
@@ -1230,6 +1906,12 @@
 		<rad>4</rad>
         <had>534</had>
         <hint lang="de">wieder - Abhang - selbst</hint>
+		<words>
+			<word>危機</word>
+			<word>危ない</word>
+			<word>危うい</word>
+		</words>
+	</card>
 	</card>
 	<card>
 		<jap>採</jap>
@@ -1242,6 +1924,13 @@
 		<rad>64</rad>
         <had>933</had>
         <hint lang="de">Hand - trennen</hint>
+		<words>
+			<word>採用</word>
+			<word>採る</word>
+			<word>採点</word>
+			<word>採取</word>
+			<word>採決</word>
+		</words>
 	</card>
 	<card>
 		<jap>織</jap>
@@ -1254,6 +1943,12 @@
 		<rad>120</rad>
         <had>680</had>
         <hint lang="de">Faden - </hint>
+		<words>
+			<word>組織</word>
+			<word>織る</word>
+			<word>織田</word>
+		</words>
+	</card>
 	</card>
 	<card>
 		<jap>森</jap>
@@ -1266,6 +1961,13 @@
 		<rad>75</rad>
         <had>128</had>
         <hint lang="de">Baum - Wäldchen</hint>
+		<words>
+			<word>青森</word>
+			<word>森田</word>
+			<word>大森</word>
+			<word>森山</word>
+			<word>森下</word>
+		</words>
 	</card>
 	<card>
 		<jap>競</jap>
@@ -1278,6 +1980,13 @@
 		<rad>117</rad>
         <had>852</had>
         <hint lang="de">2x: stehen - Bruder</hint>
+		<words>
+			<word>競争</word>
+			<word>競技</word>
+			<word>競合</word>
+			<word>競う</word>
+			<word>競売</word>
+		</words>
 	</card>
 	<card>
 		<jap>拡</jap>
@@ -1290,6 +1999,10 @@
 		<rad>64</rad>
         <had>1113</had>
         <hint lang="de">Hand - breit</hint>
+		<words>
+			<word>拡大</word>
+			<word>拡張</word>
+		</words>
 	</card>
 	<card>
 		<jap>故</jap>
@@ -1302,6 +2015,13 @@
 		<rad>66</rad>
         <had>173</had>
         <hint lang="de">alt - schlagen</hint>
+		<words>
+			<word>事故</word>
+			<word>何故</word>
+			<word>故意</word>
+			<word>故に</word>
+			<word>故人</word>
+		</words>
 	</card>
 	<card>
 		<jap>館</jap>
@@ -1313,6 +2033,13 @@
 		<rad>184</rad>
         <had>327</had>
         <hint lang="de">essen - Behörde</hint>
+		<words>
+			<word>図書館</word>
+			<word>美術館</word>
+			<word>会館</word>
+			<word>映画館</word>
+			<word>大使館</word>
+		</words>
 	</card>
 	<card>
 		<jap>振</jap>
@@ -1325,6 +2052,13 @@
 		<rad>64</rad>
         <had>954</had>
         <hint lang="de">Hand - vormittag</hint>
+		<words>
+			<word>振る</word>
+			<word>振動</word>
+			<word>振り</word>
+			<word>振り回す</word>
+			<word>振り向く</word>
+		</words>
 	</card>
 	<card>
 		<jap>給</jap>
@@ -1337,6 +2071,13 @@
 		<rad>120</rad>
         <had>346</had>
         <hint lang="de">Faden - passen</hint>
+		<words>
+			<word>供給</word>
+			<word>給与</word>
+			<word>給料</word>
+			<word>給付</word>
+			<word>支給</word>
+		</words>
 	</card>
 	<card>
 		<jap>屋</jap>
@@ -1349,6 +2090,13 @@
 		<rad>44</rad>
         <had>167</had>
         <hint lang="de">Tür - ankommen</hint>
+		<words>
+			<word>部屋</word>
+			<word>名古屋</word>
+			<word>本屋</word>
+			<word>小屋</word>
+			<word>屋台</word>
+		</words>
 	</card>
 	<card>
 		<jap>介</jap>
@@ -1359,6 +2107,11 @@
 		<freq>617</freq>
 		<rad>9</rad>
 		<had>453</had>
+		<words>
+			<word>介護</word>
+			<word>介入</word>
+			<word>介助</word>
+		</words>
 	</card>
 	<card>
 		<jap>読</jap>
@@ -1371,6 +2124,13 @@
 		<rad>149</rad>
         <had>244</had>
         <hint lang="de">sprechen - verkaufen</hint>
+		<words>
+			<word>読む</word>
+			<word>読者</word>
+			<word>読める</word>
+			<word>読書</word>
+			<word>読売新聞</word>
+		</words>
 	</card>
 	<card>
 		<jap>弁</jap>
@@ -1382,6 +2142,13 @@
 		<rad>28</rad>
         <had>711</had>
         <hint lang="de">privat - Hände</hint>
+		<words>
+			<word>弁護士</word>
+			<word>答弁</word>
+			<word>弁当</word>
+			<word>弁護</word>
+			<word>弁論</word>
+		</words>
 	</card>
 	<card>
 		<jap>根</jap>
@@ -1394,6 +2161,13 @@
 		<rad>75</rad>
         <had>314</had>
         <hint lang="de">Baum - begrenzen</hint>
+		<words>
+			<word>根本</word>
+			<word>屋根</word>
+			<word>大根</word>
+			<word>根性</word>
+			<word>根幹</word>
+		</words>
 	</card>
 	<card>
 		<jap>色</jap>
@@ -1406,6 +2180,13 @@
 		<rad>139</rad>
         <had>204</had>
         <hint lang="de">wieder - </hint>
+		<words>
+			<word>色々</word>
+			<word>景色</word>
+			<word>色んな</word>
+			<word>特色</word>
+			<word>音色</word>
+		</words>
 	</card>
 	<card>
 		<jap>友</jap>
@@ -1418,6 +2199,13 @@
 		<rad>29</rad>
         <had>264</had>
         <hint lang="de"> - Hand</hint>
+		<words>
+			<word>友人</word>
+			<word>友達</word>
+			<word>友だち</word>
+			<word>友好</word>
+			<word>親友</word>
+		</words>
 	</card>
 	<card>
 		<jap>苦</jap>
@@ -1430,6 +2218,13 @@
 		<rad>140</rad>
         <had>545</had>
         <hint lang="de"> - alt</hint>
+		<words>
+			<word>苦労</word>
+			<word>苦手</word>
+			<word>苦しい</word>
+			<word>苦しむ</word>
+			<word>苦しみ</word>
+		</words>
 	</card>
 	<card>
 		<jap>就</jap>
@@ -1442,6 +2237,13 @@
 		<rad>8</rad>
         <had>934</had>
         <hint lang="de">Hauptstadt - </hint>
+		<words>
+			<word>就職</word>
+			<word>就任</word>
+			<word>就業</word>
+			<word>就く</word>
+			<word>就労</word>
+		</words>
 	</card>
 	<card>
 		<jap>迎</jap>
@@ -1454,6 +2256,10 @@
 		<rad>162</rad>
         <had>1055</had>
         <hint lang="de">wie Ei - Weg</hint>
+		<words>
+			<word>迎える</word>
+			<word>送迎</word>
+		</words>
 	</card>
 	<card>
 		<jap>走</jap>
@@ -1466,6 +2272,13 @@
 		<rad>156</rad>
         <had>429</had>
         <hint lang="de">Erde - Fuss</hint>
+		<words>
+			<word>走る</word>
+			<word>走行</word>
+			<word>走り回る</word>
+			<word>走り</word>
+			<word>走り出す</word>
+		</words>
 	</card>
 	<card>
 		<jap>販</jap>
@@ -1477,6 +2290,13 @@
 		<rad>154</rad>
         <had>1048</had>
         <hint lang="de">Muschel - anti</hint>
+		<words>
+			<word>販売</word>
+			<word>通販</word>
+			<word>市販</word>
+			<word>量販</word>
+			<word>再販</word>
+		</words>
 	</card>
 	<card>
 		<jap>園</jap>
@@ -1489,6 +2309,13 @@
 		<rad>31</rad>
         <had>447</had>
         <hint lang="de">Grenze - Erde - </hint>
+		<words>
+			<word>公園</word>
+			<word>学園</word>
+			<word>保育園</word>
+			<word>農園</word>
+			<word>楽園</word>
+		</words>
 	</card>
 	<card>
 		<jap>具</jap>
@@ -1499,6 +2326,13 @@
 		<freq>629</freq>
 		<rad>109</rad>
         <had>420</had>
+		<words>
+			<word>具体</word>
+			<word>道具</word>
+			<word>具合</word>
+			<word>家具</word>
+			<word>不具合</word>
+		</words>
 	</card>
 	<card>
 		<jap>左</jap>
@@ -1511,6 +2345,13 @@
 		<rad>48</rad>
         <had>75</had>
         <hint lang="de"> - bauen</hint>
+		<words>
+			<word>左右</word>
+			<word>左手</word>
+			<word>左側</word>
+			<word>左利き</word>
+			<word>左足</word>
+		</words>
 	</card>
 	<card>
 		<jap>異</jap>
@@ -1523,6 +2364,13 @@
 		<rad>102</rad>
         <had>1061</had>
         <hint lang="de">Feld - gemeinsam</hint>
+		<words>
+			<word>異なる</word>
+			<word>異常</word>
+			<word>異議</word>
+			<word>異動</word>
+			<word>差異</word>
+		</words>
 	</card>
 	<card>
 		<jap>歴</jap>
@@ -1534,6 +2382,12 @@
 		<rad>27</rad>
         <had>480</had>
         <hint lang="de">Hanf - stoppen</hint>
+		<words>
+			<word>歴史</word>
+			<word>学歴</word>
+			<word>経歴</word>
+			<word>歴代</word>
+		</words>
 	</card>
 	<card>
 		<jap>辞</jap>
@@ -1546,6 +2400,13 @@
 		<rad>135</rad>
         <had>688</had>
         <hint lang="de">Zunge - bitter</hint>
+		<words>
+			<word>辞書</word>
+			<word>辞める</word>
+			<word>辞任</word>
+			<word>辞職</word>
+			<word>辞退</word>
+		</words>
 	</card>
 	<card>
 		<jap>将</jap>
@@ -1557,6 +2418,13 @@
 		<rad>90</rad>
         <had>627</had>
         <hint lang="de">links - Kralle - Zoll</hint>
+		<words>
+			<word>将来</word>
+			<word>将軍</word>
+			<word>大将</word>
+			<word>将校</word>
+			<word>主将</word>
+		</words>
 	</card>
 	<card>
 		<jap>秋</jap>
@@ -1569,6 +2437,11 @@
 		<rad>115</rad>
         <had>462</had>
         <hint lang="de">Getreide - Feuer</hint>
+		<words>
+			<word>秋田</word>
+			<word>秋葉原</word>
+			<word>秋山</word>
+		</words>
 	</card>
 	<card>
 		<jap>因</jap>
@@ -1581,6 +2454,13 @@
 		<rad>31</rad>
         <had>554</had>
         <hint lang="de">Grenze - groß</hint>
+		<words>
+			<word>原因</word>
+			<word>要因</word>
+			<word>因果</word>
+			<word>起因</word>
+			<word>因みに</word>
+		</words>
 	</card>
 	<card>
 		<jap>献</jap>
@@ -1591,6 +2471,11 @@
 		<freq>637</freq>
 		<rad>94</rad>
         <had>1355</had>
+		<words>
+			<word>文献</word>
+			<word>献金</word>
+			<word>献身</word>
+		</words>
 	</card>
 	<card>
 		<jap>厳</jap>
@@ -1602,6 +2487,13 @@
 		<freq>638</freq>
 		<rad>4</rad>
 		<had>822</had>
+		<words>
+			<word>厳しい</word>
+			<word>厳格</word>
+			<word>厳選</word>
+			<word>厳重</word>
+			<word>厳正</word>
+		</words>
 	</card>
 	<card>
 		<jap>馬</jap>
@@ -1613,6 +2505,13 @@
 		<freq>639</freq>
 		<rad>187</rad>
 		<had>283</had>
+		<words>
+			<word>競馬</word>
+			<word>馬場</word>
+			<word>馬券</word>
+			<word>有馬</word>
+			<word>馬車</word>
+		</words>
 	</card>
 	<card>
 		<jap>愛</jap>
@@ -1624,6 +2523,13 @@
 		<rad>87</rad>
         <had>259</had>
         <hint lang="de">Kralle - bedecken - Herz - schlagen</hint>
+		<words>
+			<word>愛す</word>
+			<word>可愛い</word>
+			<word>愛情</word>
+			<word>愛する</word>
+			<word>愛知</word>
+		</words>
 	</card>
 	<card>
 		<jap>幅</jap>
@@ -1636,6 +2542,11 @@
 		<rad>50</rad>
         <had>1380</had>
         <hint lang="de">Tuch - fuku</hint>
+		<words>
+			<word>大幅</word>
+			<word>幅広い</word>
+			<word>増幅</word>
+		</words>
 	</card>
 	<card>
 		<jap>休</jap>
@@ -1648,6 +2559,13 @@
 		<rad>9</rad>
         <had>60</had>
         <hint lang="de">Mensch - Baum</hint>
+		<words>
+			<word>休み</word>
+			<word>休む</word>
+			<word>休日</word>
+			<word>連休</word>
+			<word>休業</word>
+		</words>
 	</card>
 	<card>
 		<jap>維</jap>
@@ -1659,6 +2577,10 @@
 		<rad>120</rad>
         <had>1231</had>
         <hint lang="de">Faden - Spatz</hint>
+		<words>
+			<word>維持</word>
+			<word>明治維新</word>
+		</words>
 	</card>
 	<card>
 		<jap>富</jap>
@@ -1671,6 +2593,13 @@
 		<rad>40</rad>
         <had>713</had>
         <hint lang="de">Dach - fuku</hint>
+		<words>
+			<word>富山</word>
+			<word>富む</word>
+			<word>富士</word>
+			<word>富士山</word>
+			<word>富士通</word>
+		</words>
 	</card>
 	<card>
 		<jap>浜</jap>
@@ -1683,6 +2612,11 @@
 		<rad>85</rad>
         <had>785</had>
         <hint lang="de">Wasser - Soldat</hint>
+		<words>
+			<word>横浜</word>
+			<word>浜松</word>
+			<word>浜田</word>
+		</words>
 	</card>
 	<card>
 		<jap>父</jap>
@@ -1694,6 +2628,13 @@
 		<freq>646</freq>
 		<rad>88</rad>
 		<had>113</had>
+		<words>
+			<word>父親</word>
+			<word>お父さん</word>
+			<word>親父</word>
+			<word>父母</word>
+			<word>父さん</word>
+		</words>
 	</card>
 	<card>
 		<jap>遺</jap>
@@ -1705,6 +2646,13 @@
 		<rad>162</rad>
         <had>1172</had>
         <hint lang="de">stechen - Weg</hint>
+		<words>
+			<word>遺伝子</word>
+			<word>遺産</word>
+			<word>遺族</word>
+			<word>遺伝</word>
+			<word>遺体</word>
+		</words>
 	</card>
 	<card>
 		<jap>彼</jap>
@@ -1717,6 +2665,13 @@
 		<rad>60</rad>
         <had>977</had>
         <hint lang="de">laufen - Haut</hint>
+		<words>
+			<word>彼女</word>
+			<word>彼ら</word>
+			<word>彼氏</word>
+			<word>彼方</word>
+			<word>彼女ら</word>
+		</words>
 	</card>
 	<card>
 		<jap>般</jap>
@@ -1728,6 +2683,12 @@
 		<rad>137</rad>
         <had>1096</had>
         <hint lang="de">rot - Lanze</hint>
+		<words>
+			<word>一般</word>
+			<word>全般</word>
+			<word>一般人</word>
+			<word>先般</word>
+		</words>
 	</card>
 	<card>
 		<jap>未</jap>
@@ -1739,6 +2700,13 @@
 		<freq>650</freq>
 		<rad>4</rad>
         <had>306</had>
+		<words>
+			<word>未来</word>
+			<word>未満</word>
+			<word>未だに</word>
+			<word>未だ</word>
+			<word>未知</word>
+		</words>
 	</card>
 	<card>
 		<jap>塁</jap>
@@ -1761,6 +2729,9 @@
 		<rad>154</rad>
         <had>760</had>
         <hint lang="de"> - Schwert - Muschel</hint>
+		<words>
+			<word>貿易</word>
+		</words>
 	</card>
 	<card>
 		<jap>講</jap>
@@ -1772,6 +2743,13 @@
 		<rad>149</rad>
         <had>783</had>
         <hint lang="de">sprechen - - wieder</hint>
+		<words>
+			<word>講演</word>
+			<word>講座</word>
+			<word>講師</word>
+			<word>講義</word>
+			<word>受講</word>
+		</words>
 	</card>
 	<card>
 		<jap>邦</jap>
@@ -1783,6 +2761,10 @@
 		<rad>163</rad>
         <had>808</had>
         <hint lang="de"> - Gemeinde</hint>
+		<words>
+			<word>連邦</word>
+			<word>邦人</word>
+		</words>
 	</card>
 	<card>
 		<jap>舞</jap>
@@ -1795,6 +2777,13 @@
 		<rad>136</rad>
         <had>810</had>
         <hint lang="de">nicht - irren</hint>
+		<words>
+			<word>舞台</word>
+			<word>舞う</word>
+			<word>見舞い</word>
+			<word>見舞う</word>
+			<word>振る舞い</word>
+		</words>
 	</card>
 	<card>
 		<jap>林</jap>
@@ -1807,6 +2796,13 @@
 		<rad>75</rad>
         <had>127</had>
         <hint lang="de">Baum - Baum</hint>
+		<words>
+			<word>小林</word>
+			<word>農林</word>
+			<word>森林</word>
+			<word>農林省</word>
+			<word>林業</word>
+		</words>
 	</card>
 	<card>
 		<jap>装</jap>
@@ -1819,6 +2815,13 @@
 		<rad>145</rad>
         <had>1328</had>
         <hint lang="de">links - Diener - Kleidung</hint>
+		<words>
+			<word>装置</word>
+			<word>装備</word>
+			<word>武装</word>
+			<word>実装</word>
+			<word>装着</word>
+		</words>
 	</card>
 	<card>
 		<jap>諸</jap>
@@ -1831,6 +2834,11 @@
 		<rad>149</rad>
         <had>861</had>
         <hint lang="de">sprechen - Person</hint>
+		<words>
+			<word>諸国</word>
+			<word>諸島</word>
+			<word>諸々</word>
+		</words>
 	</card>
 	<card>
 		<jap>夏</jap>
@@ -1843,6 +2851,12 @@
 		<rad>1</rad>
         <had>461</had>
         <hint lang="de">1 - selbst - schlagen</hint>
+		<words>
+			<word>夏休み</word>
+			<word>真夏</word>
+			<word>初夏</word>
+			<word>夏場</word>
+		</words>
 	</card>
 	<card>
 		<jap>素</jap>
@@ -1854,6 +2868,13 @@
 		<freq>660</freq>
 		<rad>120</rad>
 		<had>271</had>
+		<words>
+			<word>要素</word>
+			<word>素材</word>
+			<word>素直</word>
+			<word>素人</word>
+			<word>素早い</word>
+		</words>
 	</card>
 	<card>
 		<jap>亡</jap>
@@ -1865,6 +2886,12 @@
 		<freq>661</freq>
 		<rad>8</rad>
 		<had>672</had>
+		<words>
+			<word>死亡</word>
+			<word>亡くなる</word>
+			<word>亡命</word>
+			<word>亡くす</word>
+		</words>
 	</card>
 	<card>
 		<jap>劇</jap>
@@ -1876,6 +2903,13 @@
 		<rad>4</rad>
         <had>797</had>
         <hint lang="de">Tiger - Schwein - Schwert</hint>
+		<words>
+			<word>劇場</word>
+			<word>演劇</word>
+			<word>劇的</word>
+			<word>劇団</word>
+			<word>歌劇</word>
+		</words>
 	</card>
 	<card>
 		<jap>河</jap>
@@ -1888,6 +2922,13 @@
 		<rad>85</rad>
         <had>389</had>
         <hint lang="de">Wasser - möglich</hint>
+		<words>
+			<word>河野</word>
+			<word>河川</word>
+			<word>銀河</word>
+			<word>運河</word>
+			<word>河合</word>
+		</words>
 	</card>
 	<card>
 		<jap>遣</jap>
@@ -1900,6 +2941,11 @@
 		<rad>162</rad>
         <had>1173</had>
         <hint lang="de"> - Weg</hint>
+		<words>
+			<word>派遣</word>
+			<word>小遣い</word>
+			<word>遣う</word>
+		</words>
 	</card>
 	<card>
 		<jap>航</jap>
@@ -1911,6 +2957,13 @@
 		<rad>137</rad>
         <had>823</had>
         <hint lang="de">Boot - Deckel - Tisch</hint>
+		<words>
+			<word>航空</word>
+			<word>航空機</word>
+			<word>航海</word>
+			<word>渡航</word>
+			<word>運航</word>
+		</words>
 	</card>
 	<card>
 		<jap>抗</jap>
@@ -1922,6 +2975,12 @@
 		<rad>64</rad>
         <had>824</had>
         <hint lang="de">Hand - Deckel - Tisch</hint>
+		<words>
+			<word>抗議</word>
+			<word>対抗</word>
+			<word>反抗</word>
+			<word>抗生</word>
+		</words>
 	</card>
 	<card>
 		<jap>冷</jap>
@@ -1934,6 +2993,13 @@
 		<rad>15</rad>
         <had>832</had>
         <hint lang="de">Eis - Befehl</hint>
+		<words>
+			<word>冷たい</word>
+			<word>冷戦</word>
+			<word>冷える</word>
+			<word>冷める</word>
+			<word>冷やす</word>
+		</words>
 	</card>
 	<card>
 		<jap>模</jap>
@@ -1945,6 +3011,13 @@
 		<rad>75</rad>
         <had>1425</had>
         <hint lang="de">Baum - Gras - Tag - groß</hint>
+		<words>
+			<word>規模</word>
+			<word>模様</word>
+			<word>小規模</word>
+			<word>模型</word>
+			<word>模試</word>
+		</words>
 	</card>
 	<card>
 		<jap>雄</jap>
@@ -1957,6 +3030,9 @@
 		<rad>172</rad>
         <had>1387</had>
         <hint lang="de"> - Spatz</hint>
+		<words>
+			<word>英雄</word>
+		</words>
 	</card>
 	<card>
 		<jap>適</jap>
@@ -1968,6 +3044,13 @@
 		<rad>162</rad>
         <had>415</had>
         <hint lang="de">wie pflücken - Weg</hint>
+		<words>
+			<word>適用</word>
+			<word>適切</word>
+			<word>適当</word>
+			<word>最適</word>
+			<word>適正</word>
+		</words>
 	</card>
 	<card>
 		<jap>婦</jap>
@@ -1979,6 +3062,12 @@
 		<rad>38</rad>
         <had>316</had>
         <hint lang="de">Frau - Schweinskopf - Tuch</hint>
+		<words>
+			<word>夫婦</word>
+			<word>主婦</word>
+			<word>婦人</word>
+			<word>新婦</word>
+		</words>
 	</card>
 	<card>
 		<jap>鉄</jap>
@@ -1990,6 +3079,13 @@
 		<rad>167</rad>
         <had>312</had>
         <hint lang="de">Metall - verlieren</hint>
+		<words>
+			<word>鉄道</word>
+			<word>地下鉄</word>
+			<word>国鉄</word>
+			<word>近鉄</word>
+			<word>私鉄</word>
+		</words>
 	</card>
 	<card>
 		<jap>寄</jap>
@@ -2002,6 +3098,13 @@
 		<rad>40</rad>
         <had>1361</had>
         <hint lang="de">Dach - groß - möglich</hint>
+		<words>
+			<word>寄せる</word>
+			<word>寄る</word>
+			<word>寄付</word>
+			<word>立ち寄る</word>
+			<word>年寄り</word>
+		</words>
 	</card>
 	<card>
 		<jap>益</jap>
@@ -2012,6 +3115,13 @@
 		<freq>674</freq>
 		<rad>12</rad>
 		<had>716</had>
+		<words>
+			<word>利益</word>
+			<word>収益</word>
+			<word>公益</word>
+			<word>有益</word>
+			<word>国益</word>
+		</words>
 	</card>
 	<card>
 		<jap>込</jap>
@@ -2024,6 +3134,13 @@
 		<rad>162</rad>
         <had>776</had>
         <hint lang="de">eintreten - Weg</hint>
+		<words>
+			<word>書き込み</word>
+			<word>書き込む</word>
+			<word>税込</word>
+			<word>込む</word>
+			<word>込める</word>
+		</words>
 	</card>
 	<card>
 		<jap>顔</jap>
@@ -2035,6 +3152,12 @@
 		<freq>676</freq>
 		<rad>181</rad>
 		<had>277</had>
+		<words>
+			<word>顔面</word>
+			<word>顔色</word>
+			<word>顔つき</word>
+			<word>素顔</word>
+		</words>
 	</card>
 	<card>
 		<jap>緊</jap>
@@ -2045,6 +3168,10 @@
 		<freq>677</freq>
 		<rad>120</rad>
 		<had>1290</had>
+		<words>
+			<word>緊張</word>
+			<word>緊急</word>
+		</words>
 	</card>
 	<card>
 		<jap>類</jap>
@@ -2055,6 +3182,13 @@
 		<freq>678</freq>
 		<rad>181</rad>
 		<had>226</had>
+		<words>
+			<word>種類</word>
+			<word>分類</word>
+			<word>人類</word>
+			<word>書類</word>
+			<word>類型</word>
+		</words>
 	</card>
 	<card>
 		<jap>児</jap>
@@ -2065,6 +3199,13 @@
 		<freq>679</freq>
 		<rad>10</rad>
 		<had>1217</had>
+		<words>
+			<word>育児</word>
+			<word>女児</word>
+			<word>小児</word>
+			<word>小児科</word>
+			<word>男児</word>
+		</words>
 	</card>
 	<card>
 		<jap>余</jap>
@@ -2076,6 +3217,13 @@
 		<freq>680</freq>
 		<rad>9</rad>
 		<had>1063</had>
+		<words>
+			<word>余り</word>
+			<word>余計</word>
+			<word>余地</word>
+			<word>余る</word>
+			<word>余談</word>
+		</words>
 	</card>
 	<card>
 		<jap>禁</jap>
@@ -2087,6 +3235,12 @@
 		<rad>113</rad>
         <had>482</had>
         <hint lang="de">Wäldchen - zeigen</hint>
+		<words>
+			<word>禁止</word>
+			<word>禁じる</word>
+			<word>解禁</word>
+			<word>監禁</word>
+		</words>
 	</card>
 	<card>
 		<jap>印</jap>
@@ -2098,6 +3252,11 @@
 		<freq>682</freq>
 		<rad>2</rad>
 		<had>1043</had>
+		<words>
+			<word>印象</word>
+			<word>目印</word>
+			<word>調印</word>
+		</words>
 	</card>
 	<card>
 		<jap>逆</jap>
@@ -2110,6 +3269,12 @@
 		<rad>162</rad>
         <had>444</had>
         <hint lang="de"> - Weg</hint>
+		<words>
+			<word>逆に</word>
+			<word>逆転</word>
+			<word>逆らう</word>
+			<word>逆行</word>
+		</words>
 	</card>
 	<card>
 		<jap>王</jap>
@@ -2120,6 +3285,13 @@
 		<freq>684</freq>
 		<rad>96</rad>
 		<had>294</had>
+		<words>
+			<word>王国</word>
+			<word>王子</word>
+			<word>女王</word>
+			<word>王様</word>
+			<word>国王</word>
+		</words>
 	</card>
 	<card>
 		<jap>返</jap>
@@ -2132,6 +3304,13 @@
 		<rad>162</rad>
         <had>442</had>
         <hint lang="de">anti - Weg</hint>
+		<words>
+			<word>返す</word>
+			<word>返事</word>
+			<word>振り返る</word>
+			<word>返信</word>
+			<word>返る</word>
+		</words>
 	</card>
 	<card>
 		<jap>標</jap>
@@ -2143,6 +3322,13 @@
 		<rad>75</rad>
         <had>923</had>
         <hint lang="de">Baum - Zettel</hint>
+		<words>
+			<word>目標</word>
+			<word>標準</word>
+			<word>指標</word>
+			<word>商標</word>
+			<word>標本</word>
+		</words>
 	</card>
 	<card>
 		<jap>換</jap>
@@ -2155,6 +3341,13 @@
 		<rad>64</rad>
         <had>1586</had>
         <hint lang="de">Hand - wieder - 4 - groß</hint>
+		<words>
+			<word>交換</word>
+			<word>転換</word>
+			<word>変換</word>
+			<word>置き換える</word>
+			<word>言い換える</word>
+		</words>
 	</card>
 	<card>
 		<jap>久</jap>
@@ -2166,6 +3359,13 @@
 		<freq>688</freq>
 		<rad>4</rad>
 		<had>1210</had>
+		<words>
+			<word>久しぶり</word>
+			<word>久々</word>
+			<word>久保</word>
+			<word>大久保</word>
+			<word>久しい</word>
+		</words>
 	</card>
 	<card>
 		<jap>短</jap>
@@ -2178,6 +3378,13 @@
 		<rad>111</rad>
         <had>215</had>
         <hint lang="de">Pfeil - Bohne</hint>
+		<words>
+			<word>短い</word>
+			<word>短期</word>
+			<word>短編</word>
+			<word>短期間</word>
+			<word>短時間</word>
+		</words>
 	</card>
 	<card>
 		<jap>油</jap>
@@ -2190,6 +3397,12 @@
 		<rad>85</rad>
         <had>364</had>
         <hint lang="de">Wasser - Ursache</hint>
+		<words>
+			<word>石油</word>
+			<word>原油</word>
+			<word>油断</word>
+			<word>給油</word>
+		</words>
 	</card>
 	<card>
 		<jap>妻</jap>
@@ -2202,6 +3415,10 @@
 		<rad>38</rad>
         <had>671</had>
         <hint lang="de">Schweinskopf - Frau</hint>
+		<words>
+			<word>夫妻</word>
+			<word>人妻</word>
+		</words>
 	</card>
 	<card>
 		<jap>暴</jap>
@@ -2214,6 +3431,13 @@
 		<rad>72</rad>
         <had>1014</had>
         <hint lang="de">Tag - gemeinsam - Wasser</hint>
+		<words>
+			<word>暴力</word>
+			<word>暴走</word>
+			<word>暴行</word>
+			<word>暴動</word>
+			<word>暴力団</word>
+		</words>
 	</card>
 	<card>
 		<jap>輪</jap>
@@ -2226,6 +3450,11 @@
 		<rad>159</rad>
         <had>1164</had>
         <hint lang="de">Wagen - Dach - eins - Buch</hint>
+		<words>
+			<word>五輪</word>
+			<word>指輪</word>
+			<word>車輪</word>
+		</words>
 	</card>
 	<card>
 		<jap>占</jap>
@@ -2237,6 +3466,13 @@
 		<freq>694</freq>
 		<rad>25</rad>
         <had>1706</had>
+		<words>
+			<word>占める</word>
+			<word>占い</word>
+			<word>独占</word>
+			<word>占領</word>
+			<word>占有</word>
+		</words>
 	</card>
 	<card>
 		<jap>宣</jap>
@@ -2249,6 +3485,13 @@
 		<rad>40</rad>
         <had>625</had>
         <hint lang="de">Dach - 1 - Tag - 1</hint>
+		<words>
+			<word>宣言</word>
+			<word>宣伝</word>
+			<word>宣告</word>
+			<word>宣教師</word>
+			<word>宣教</word>
+		</words>
 	</card>
 	<card>
 		<jap>背</jap>
@@ -2261,6 +3504,12 @@
 		<rad>130</rad>
         <had>1265</had>
         <hint lang="de">Norden - Mond</hint>
+		<words>
+			<word>背景</word>
+			<word>背中</word>
+			<word>背後</word>
+			<word>背負う</word>
+		</words>
 	</card>
 	<card>
 		<jap>昭</jap>
@@ -2272,6 +3521,9 @@
 		<rad>72</rad>
         <had>997</had>
         <hint lang="de">Tag - rufen</hint>
+		<words>
+			<word>昭和</word>
+		</words>
 	</card>
 	<card>
 		<jap>廃</jap>
@@ -2284,6 +3536,9 @@
 		<rad>53</rad>
         <had>961</had>
         <hint lang="de">Schrägdach - Beginn</hint>
+		<words>
+			<word>廃止</word>
+		</words>
 	</card>
 	<card>
 		<jap>植</jap>
@@ -2296,6 +3551,13 @@
 		<rad>75</rad>
         <had>424</had>
         <hint lang="de">Baum - direkt</hint>
+		<words>
+			<word>植物</word>
+			<word>植民</word>
+			<word>移植</word>
+			<word>植える</word>
+			<word>植木</word>
+		</words>
 	</card>
 	<card>
 		<jap>熱</jap>
@@ -2307,6 +3569,13 @@
 		<freq>700</freq>
 		<rad>86</rad>
 		<had>645</had>
+		<words>
+			<word>熱い</word>
+			<word>熱心</word>
+			<word>情熱</word>
+			<word>断熱</word>
+			<word>熱意</word>
+		</words>
 	</card>
 	<card>
 		<jap>宿</jap>
@@ -2319,6 +3588,13 @@
 		<rad>40</rad>
         <had>179</had>
         <hint lang="de">Dach - Mensch - 100</hint>
+		<words>
+			<word>新宿</word>
+			<word>宿題</word>
+			<word>合宿</word>
+			<word>宿命</word>
+			<word>宿る</word>
+		</words>
 	</card>
 	<card>
 		<jap>薬</jap>
@@ -2331,6 +3607,13 @@
 		<rad>140</rad>
         <had>359</had>
         <hint lang="de">Gras - Musik</hint>
+		<words>
+			<word>農薬</word>
+			<word>薬物</word>
+			<word>医薬品</word>
+			<word>製薬</word>
+			<word>薬局</word>
+		</words>
 	</card>
 	<card>
 		<jap>伊</jap>
@@ -2342,6 +3625,12 @@
 		<rad>9</rad>
         <had>0</had>
         <hint lang="de">Mensch - </hint>
+		<words>
+			<word>伊藤</word>
+			<word>伊東</word>
+			<word>伊勢</word>
+			<word>伊達</word>
+		</words>
 	</card>
 	<card>
 		<jap>江</jap>
@@ -2354,6 +3643,10 @@
 		<rad>85</rad>
         <had>821</had>
         <hint lang="de">Wasser - bauen</hint>
+		<words>
+			<word>江戸</word>
+			<word>近江</word>
+		</words>
 	</card>
 	<card>
 		<jap>清</jap>
@@ -2366,6 +3659,10 @@
 		<rad>85</rad>
         <had>660</had>
         <hint lang="de">Wasser - blau</hint>
+		<words>
+			<word>清水</word>
+			<word>清算</word>
+		</words>
 	</card>
 	<card>
 		<jap>習</jap>
@@ -2378,6 +3675,13 @@
 		<rad>124</rad>
         <had>591</had>
         <hint lang="de">Flügel - weiß</hint>
+		<words>
+			<word>学習</word>
+			<word>講習</word>
+			<word>習う</word>
+			<word>習得</word>
+			<word>演習</word>
+		</words>
 	</card>
 	<card>
 		<jap>険</jap>
@@ -2390,6 +3694,10 @@
 		<rad>170</rad>
         <had>533</had>
         <hint lang="de">Gemeinde - </hint>
+		<words>
+			<word>保険</word>
+			<word>危険</word>
+		</words>
 	</card>
 	<card>
 		<jap>頼</jap>
@@ -2402,6 +3710,13 @@
 		<rad>181</rad>
         <had>1512</had>
         <hint lang="de">Bündel - Kopf</hint>
+		<words>
+			<word>信頼</word>
+			<word>頼む</word>
+			<word>頼る</word>
+			<word>頼り</word>
+			<word>頼もしい</word>
+		</words>
 	</card>
 	<card>
 		<jap>僚</jap>
@@ -2413,6 +3728,11 @@
 		<rad>9</rad>
         <had>1324</had>
         <hint lang="de">Mensch - groß - Linie</hint>
+		<words>
+			<word>官僚</word>
+			<word>同僚</word>
+			<word>閣僚</word>
+		</words>
 	</card>
 	<card>
 		<jap>覚</jap>
@@ -2425,6 +3745,13 @@
 		<rad>147</rad>
         <had>605</had>
         <hint lang="de">Dach - sehen</hint>
+		<words>
+			<word>覚える</word>
+			<word>感覚</word>
+			<word>自覚</word>
+			<word>視覚</word>
+			<word>覚める</word>
+		</words>
 	</card>
 	<card>
 		<jap>吉</jap>
@@ -2436,6 +3763,13 @@
 		<rad>32</rad>
         <had>1141</had>
         <hint lang="de">Diener - Mund</hint>
+		<words>
+			<word>吉田</word>
+			<word>吉川</word>
+			<word>吉野</word>
+			<word>吉岡</word>
+			<word>吉本</word>
+		</words>
 	</card>
 	<card>
 		<jap>盛</jap>
@@ -2448,6 +3782,13 @@
 		<rad>108</rad>
         <had>719</had>
         <hint lang="de">werden - Teller</hint>
+		<words>
+			<word>盛り上がる</word>
+			<word>盛り込む</word>
+			<word>盛ん</word>
+			<word>盛る</word>
+			<word>盛り上げる</word>
+		</words>
 	</card>
 	<card>
 		<jap>船</jap>
@@ -2460,6 +3801,11 @@
 		<rad>137</rad>
         <had>376</had>
         <hint lang="de">Boot - Beine - Mund</hint>
+		<words>
+			<word>船長</word>
+			<word>風船</word>
+			<word>造船</word>
+		</words>
 	</card>
 	<card>
 		<jap>倍</jap>
@@ -2471,6 +3817,11 @@
 		<rad>9</rad>
         <had>87</had>
         <hint lang="de">Mensch - Teil</hint>
+		<words>
+			<word>安倍</word>
+			<word>倍増</word>
+			<word>倍率</word>
+		</words>
 	</card>
 	<card>
 		<jap>均</jap>
@@ -2482,6 +3833,10 @@
 		<rad>32</rad>
         <had>805</had>
         <hint lang="de">Erde - </hint>
+		<words>
+			<word>平均</word>
+			<word>均一</word>
+		</words>
 	</card>
 	<card>
 		<jap>億</jap>
@@ -2504,6 +3859,13 @@
 		<rad>162</rad>
         <had>1072</had>
         <hint lang="de">übrig - Weg</hint>
+		<words>
+			<word>途中</word>
+			<word>途上</word>
+			<word>用途</word>
+			<word>別途</word>
+			<word>途方</word>
+		</words>
 	</card>
 	<card>
 		<jap>圧</jap>
@@ -2515,6 +3877,12 @@
 		<rad>27</rad>
         <had>1342</had>
         <hint lang="de">Abhang - Erde</hint>
+		<words>
+			<word>圧力</word>
+			<word>電圧</word>
+			<word>気圧</word>
+			<word>圧勝</word>
+		</words>
 	</card>
 	<card>
 		<jap>芸</jap>
@@ -2526,6 +3894,13 @@
 		<rad>140</rad>
         <had>435</had>
         <hint lang="de">Gras - </hint>
+		<words>
+			<word>芸術</word>
+			<word>芸能</word>
+			<word>芸術家</word>
+			<word>芸能人</word>
+			<word>文芸</word>
+		</words>
 	</card>
 	<card>
 		<jap>許</jap>
@@ -2538,6 +3913,12 @@
 		<rad>149</rad>
         <had>737</had>
         <hint lang="de">sprechen - Mittag</hint>
+		<words>
+			<word>許す</word>
+			<word>特許</word>
+			<word>許可</word>
+			<word>許容</word>
+		</words>
 	</card>
 	<card>
 		<jap>皇</jap>
@@ -2550,6 +3931,13 @@
 		<rad>106</rad>
         <had>297</had>
         <hint lang="de">weiß - König</hint>
+		<words>
+			<word>天皇</word>
+			<word>皇室</word>
+			<word>皇太子</word>
+			<word>教皇</word>
+			<word>皇族</word>
+		</words>
 	</card>
 	<card>
 		<jap>臨</jap>
@@ -2562,6 +3950,10 @@
 		<rad>131</rad>
         <had>836</had>
         <hint lang="de">Minister - - Ware</hint>
+		<words>
+			<word>臨時</word>
+			<word>臨む</word>
+		</words>
 	</card>
 	<card>
 		<jap>踏</jap>
@@ -2574,6 +3966,13 @@
 		<rad>157</rad>
         <had>1559</had>
         <hint lang="de">Fuß - Wasser - Tag</hint>
+		<words>
+			<word>踏まえる</word>
+			<word>踏む</word>
+			<word>踏み込む</word>
+			<word>踏み出す</word>
+			<word>踏み切る</word>
+		</words>
 	</card>
 	<card>
 		<jap>駅</jap>
@@ -2585,6 +3984,10 @@
 		<rad>187</rad>
         <had>284</had>
         <hint lang="de">Pferd - Sumpf</hint>
+		<words>
+			<word>駅前</word>
+			<word>駅伝</word>
+		</words>
 	</card>
 	<card>
 		<jap>署</jap>
@@ -2596,6 +3999,11 @@
 		<rad>122</rad>
         <had>860</had>
         <hint lang="de">Netz - Person</hint>
+		<words>
+			<word>署名</word>
+			<word>部署</word>
+			<word>税務署</word>
+		</words>
 	</card>
 	<card>
 		<jap>抜</jap>
@@ -2608,6 +4016,13 @@
 		<rad>64</rad>
         <had>1713</had>
         <hint lang="de">Hand - Freund</hint>
+		<words>
+			<word>抜く</word>
+			<word>抜ける</word>
+			<word>抜き</word>
+			<word>抜本</word>
+			<word>選抜</word>
+		</words>
 	</card>
 	<card>
 		<jap>壊</jap>
@@ -2620,6 +4035,11 @@
 		<rad>32</rad>
         <had>1407</had>
         <hint lang="de">Erde - - Netz - Kleidung</hint>
+		<words>
+			<word>破壊</word>
+			<word>壊れる</word>
+			<word>壊す</word>
+		</words>
 	</card>
 	<card>
 		<jap>債</jap>
@@ -2631,6 +4051,13 @@
 		<rad>9</rad>
         <had>1118</had>
         <hint lang="de">Mensch - Verantwortung</hint>
+		<words>
+			<word>債権</word>
+			<word>債務</word>
+			<word>国債</word>
+			<word>債券</word>
+			<word>負債</word>
+		</words>
 	</card>
 	<card>
 		<jap>便</jap>
@@ -2643,6 +4070,13 @@
 		<rad>9</rad>
         <had>330</had>
         <hint lang="de">Mensch - </hint>
+		<words>
+			<word>便利</word>
+			<word>不便</word>
+			<word>利便</word>
+			<word>便り</word>
+			<word>便乗</word>
+		</words>
 	</card>
 	<card>
 		<jap>伸</jap>
@@ -2655,6 +4089,12 @@
 		<rad>9</rad>
         <had>1108</had>
         <hint lang="de">Mensch - sagen</hint>
+		<words>
+			<word>伸びる</word>
+			<word>伸ばす</word>
+			<word>伸び</word>
+			<word>追伸</word>
+		</words>
 	</card>
 	<card>
 		<jap>留</jap>
@@ -2667,6 +4107,13 @@
 		<rad>102</rad>
         <had>761</had>
         <hint lang="de"> - Feld</hint>
+		<words>
+			<word>留学</word>
+			<word>留学生</word>
+			<word>留まる</word>
+			<word>留意</word>
+			<word>留める</word>
+		</words>
 	</card>
 	<card>
 		<jap>罪</jap>
@@ -2679,6 +4126,11 @@
 		<rad>122</rad>
         <had>885</had>
         <hint lang="de">Netz - nicht</hint>
+		<words>
+			<word>無罪</word>
+			<word>有罪</word>
+			<word>罪悪</word>
+		</words>
 	</card>
 	<card>
 		<jap>停</jap>
@@ -2690,6 +4142,13 @@
 		<rad>9</rad>
         <had>1185</had>
         <hint lang="de">Mensch - Restaurant</hint>
+		<words>
+			<word>停止</word>
+			<word>調停</word>
+			<word>停電</word>
+			<word>バス停</word>
+			<word>停車</word>
+		</words>
 	</card>
 	<card>
 		<jap>興</jap>
@@ -2701,6 +4160,13 @@
 		<freq>734</freq>
 		<rad>12</rad>
 		<had>368</had>
+		<words>
+			<word>興味</word>
+			<word>興味深い</word>
+			<word>振興</word>
+			<word>復興</word>
+			<word>新興</word>
+		</words>
 	</card>
 	<card>
 		<jap>爆</jap>
@@ -2712,6 +4178,13 @@
 		<rad>86</rad>
         <had>1015</had>
         <hint lang="de">Feuer - wüten</hint>
+		<words>
+			<word>爆発</word>
+			<word>原爆</word>
+			<word>爆破</word>
+			<word>自爆</word>
+			<word>爆撃</word>
+		</words>
 	</card>
 	<card>
 		<jap>陸</jap>
@@ -2723,6 +4196,13 @@
 		<rad>170</rad>
         <had>647</had>
         <hint lang="de">Gemeinde - Erde - Beine - Erde</hint>
+		<words>
+			<word>大陸</word>
+			<word>陸上</word>
+			<word>上陸</word>
+			<word>陸軍</word>
+			<word>着陸</word>
+		</words>
 	</card>
 	<card>
 		<jap>玉</jap>
@@ -2734,6 +4214,9 @@
 		<freq>737</freq>
 		<rad>96</rad>
         <had>295</had>
+		<words>
+			<word>目玉</word>
+		</words>
 	</card>
 	<card>
 		<jap>源</jap>
@@ -2746,6 +4229,13 @@
 		<rad>85</rad>
         <had>580</had>
         <hint lang="de">Wasser - Ursache</hint>
+		<words>
+			<word>資源</word>
+			<word>財源</word>
+			<word>電源</word>
+			<word>起源</word>
+			<word>根源</word>
+		</words>
 	</card>
 	<card>
 		<jap>儀</jap>
@@ -2757,6 +4247,12 @@
 		<rad>9</rad>
         <had>727</had>
         <hint lang="de">Mensch - Gerechtigkeit</hint>
+		<words>
+			<word>儀式</word>
+			<word>余儀ない</word>
+			<word>行儀</word>
+		</words>
+	</card>
 	</card>
 	<card>
 		<jap>波</jap>
@@ -2768,6 +4264,13 @@
 		<freq>740</freq>
 		<rad>85</rad>
 		<had>666</had>
+		<words>
+			<word>電波</word>
+			<word>周波数</word>
+			<word>波動</word>
+			<word>波及</word>
+			<word>波長</word>
+		</words>
 	</card>
 	<card>
 		<jap>創</jap>
@@ -2779,6 +4282,13 @@
 		<freq>741</freq>
 		<rad>18</rad>
 		<had>1308</had>
+		<words>
+			<word>創造</word>
+			<word>創設</word>
+			<word>創作</word>
+			<word>創業</word>
+			<word>創立</word>
+		</words>
 	</card>
 	<card>
 		<jap>障</jap>
@@ -2791,6 +4301,13 @@
 		<rad>170</rad>
         <had>858</had>
         <hint lang="de">Gemeinde - stehen - schnell</hint>
+		<words>
+			<word>障害</word>
+			<word>保障</word>
+			<word>故障</word>
+			<word>支障</word>
+			<word>障る</word>
+		</words>
 	</card>
 	<card>
 		<jap>継</jap>
@@ -2803,6 +4320,13 @@
 		<rad>120</rad>
         <had>1025</had>
         <hint lang="de">Faden - entscheiden</hint>
+		<words>
+			<word>継続</word>
+			<word>中継</word>
+			<word>引き継ぐ</word>
+			<word>受け継ぐ</word>
+			<word>後継</word>
+		</words>
 	</card>
 	<card>
 		<jap>筋</jap>
@@ -2815,6 +4339,11 @@
 		<rad>118</rad>
         <had>1090</had>
         <hint lang="de">Bambus - Fleisch - Kraft</hint>
+		<words>
+			<word>背筋</word>
+			<word>道筋</word>
+			<word>筋力</word>
+		</words>
 	</card>
 	<card>
 		<jap>狙</jap>
@@ -2827,6 +4356,10 @@
 		<rad>94</rad>
         <had>0</had>
         <hint lang="de">Tier - außerdem</hint>
+		<words>
+			<word>狙う</word>
+			<word>狙い</word>
+		</words>
 	</card>
 	<card>
 		<jap>帯</jap>
@@ -2839,6 +4372,13 @@
 		<rad>50</rad>
         <had>963</had>
         <hint lang="de"> - Tuch</hint>
+		<words>
+			<word>世帯</word>
+			<word>地帯</word>
+			<word>連帯</word>
+			<word>帯びる</word>
+			<word>熱帯</word>
+		</words>
 	</card>
 	<card>
 		<jap>延</jap>
@@ -2851,6 +4391,13 @@
 		<rad>54</rad>
         <had>1115</had>
         <hint lang="de">korrekt - langsam gehen</hint>
+		<words>
+			<word>延長</word>
+			<word>延期</word>
+			<word>延ばす</word>
+			<word>延びる</word>
+			<word>生き延びる</word>
+		</words>
 	</card>
 	<card>
 		<jap>羽</jap>
@@ -2862,6 +4409,11 @@
 		<freq>748</freq>
 		<rad>124</rad>
 		<had>590</had>
+		<words>
+			<word>羽田</word>
+			<word>羽目</word>
+			<word>羽根</word>
+		</words>
 	</card>
 	<card>
 		<jap>努</jap>
@@ -2874,6 +4426,10 @@
 		<rad>19</rad>
         <had>1595</had>
         <hint lang="de">Frau - Hand - Kraft</hint>
+		<words>
+			<word>努力</word>
+			<word>努める</word>
+		</words>
 	</card>
 	<card>
 		<jap>固</jap>
@@ -2886,6 +4442,13 @@
 		<rad>31</rad>
         <had>972</had>
         <hint lang="de">Grenze - alt</hint>
+		<words>
+			<word>固定</word>
+			<word>固い</word>
+			<word>固める</word>
+			<word>固有</word>
+			<word>固まる</word>
+		</words>
 	</card>
 	<card>
 		<jap>闘</jap>
