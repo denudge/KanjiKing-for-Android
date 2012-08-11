@@ -3,6 +3,7 @@ package com.mlieber.KanjiKing;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Vector;
 import android.util.Log;
 
 public class Card implements java.io.Serializable {
@@ -15,7 +16,7 @@ public class Card implements java.io.Serializable {
 	private String _japanese	= null;
 	private String _reading_on	= null;
 	private String _reading_kun	= null;
-    private Style   _style      = null;
+    private Style  _style       = null;
 
     private int _grade       	= 0;
 	private int _frequency 		= 0;
@@ -27,11 +28,13 @@ public class Card implements java.io.Serializable {
 
 	private HashMap<String, String>	_meaning;
     private HashMap<String, String> _hint;
+    private Vector<String> _words;
 
     public Card(String japanese) {
 		_japanese   = japanese;
 		_meaning    = new HashMap<String, String>();
 		_hint       = new HashMap<String, String>();
+        _words      = new Vector<String>();
 	}
 
 	public String getJapanese() { return _japanese; }
@@ -46,7 +49,14 @@ public class Card implements java.io.Serializable {
     public String getStyle() { if (_style == null ) return null; return _style.toString(); }
     public int getType() { return _type; }
 
-	public String getMeaning(String language) { return _meaning.get(language); }
+    public Vector<String> getWords() { return _words; }
+
+    public Card addWord(String word) {
+        _words.add(word);
+        return this;
+    }
+
+    public String getMeaning(String language) { return _meaning.get(language); }
 	public String getHint(String language) { return _hint.get(language); }
 
     public String getInfo() {
