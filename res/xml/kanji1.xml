@@ -149,6 +149,9 @@
 		<freq>9</freq>
 		<rad>7</rad>
 		<had>3</had>
+		<words>
+			<word>二つ</word>
+		</words>
 	</card>
 	<card>
 		<jap>本</jap>
@@ -237,6 +240,9 @@
 		<freq>14</freq>
 		<rad>1</rad>
 		<had>4</had>
+		<words>
+			<word>三つ</word>
+		</words>
 	</card>
 	<card>
 		<jap>同</jap>
