@@ -1,3 +1,13 @@
+1.4.8 (2012-08-11)
+==================
+
+General
+-------
+* Style Kanji word data buttons
+* Link Kanji word explanation
+
+
+
 1.4.5 (2012-08-11)
 ==================
 
