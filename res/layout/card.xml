@@ -1,80 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/card_layout"
+    android:id="@+id/card_layout"
     android:layout_height="fill_parent"
     android:layout_width="fill_parent"
     android:stretchColumns="0"
     >
-<TableRow
-     android:id="@+id/hint_row"
-     android:gravity="center"
-     android:layout_weight="100.0">
-      <TextView android:id="@+id/hint_field"
-       android:layout_height="wrap_content"
-       android:layout_width="fill_parent"
-       android:gravity="center"
-       android:text="1/20"
-        />
- </TableRow>
-<TableRow
-     android:id="@+id/card_tablerow"
-     android:gravity="center"
-     android:layout_weight="100.0">
-     <android.webkit.WebView android:id="@+id/card_webview" android:layout_width="fill_parent" android:layout_height="wrap_content"></android.webkit.WebView>
- </TableRow>
- <TableRow
-   android:layout_height="wrap_content"
-   android:layout_width="fill_parent">
-   <TableLayout
-     android:layout_height="wrap_content"
-     android:layout_width="fill_parent">
-     <TableRow
-      android:layout_height="wrap_content" android:layout_width="fill_parent">
-      <Button android:id="@+id/no_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="no"
-      android:layout_weight="10.0"
-      />
-      <Button android:id="@+id/hint_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="hint"
-      android:gravity="center"
-      />
-    <!--
-      <LinearLayout
-       android:layout_height="wrap_content"
-       android:layout_width="fill_parent"
-       android:layout_weight="100.0"
-       android:orientation="vertical">
-      <TextView android:id="@+id/kanji_number"
-       android:layout_height="wrap_content"
-       android:layout_width="fill_parent"
-       android:gravity="center"
-       android:text="1/20"
-        />
-    <ProgressBar android:id="@+id/overall_score"
-        android:indeterminateOnly="false" 
-        android:progressDrawable="@android:drawable/progress_horizontal" 
-        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal" 
-        android:minHeight="15dip" 
-        android:maxHeight="15dip"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:max="100"
-        android:progress="50"
-        android:secondaryProgress="0" />
-    </LinearLayout>
-    -->
-    <Button android:id="@+id/yes_button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="yes"
-      android:layout_weight="10.0"
-      />
+    <TableRow
+        android:id="@+id/hint_row"
+        android:gravity="center"
+        android:layout_weight="40.0">
+        <TextView android:id="@+id/hint_field"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:text="1/20"
+            />
     </TableRow>
-   </TableLayout>
- </TableRow>
+
+    <!-- Main content in WebView -->
+    <TableRow
+        android:id="@+id/card_tablerow"
+        android:gravity="center"
+        android:layout_weight="100.0">
+        <android.webkit.WebView android:id="@+id/card_webview" android:layout_width="fill_parent" android:layout_height="wrap_content"></android.webkit.WebView>
+    </TableRow>
+
+
+    <!-- Words bar -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+                <Button android:id="@+id/word1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="10.0"
+                    android:background="@drawable/tag"
+                    />
+                <Button android:id="@+id/word2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="10.0"
+                    android:background="@drawable/tag"
+                    />
+                <Button android:id="@+id/word3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="10.0"
+                    android:background="@drawable/tag"
+                    />
+                <Button android:id="@+id/word4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="10.0"
+                    android:background="@drawable/tag"
+                    />
+                <Button android:id="@+id/word5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_weight="10.0"
+                    android:background="@drawable/tag"
+                    />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <!-- Button bar -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent">
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent">
+                <Button android:id="@+id/no_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="no"
+                    android:layout_weight="50.0"
+                    />
+                <Button android:id="@+id/hint_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hint"
+                    android:gravity="center"
+                    />
+                <Button android:id="@+id/yes_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yes"
+                    android:layout_weight="50.0"
+                    />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
 </TableLayout>
 

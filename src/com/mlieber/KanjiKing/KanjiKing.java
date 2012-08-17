@@ -11,6 +11,7 @@ import org.apache.http.protocol.HTTP;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebChromeClient;
+import android.net.Uri;
 
 import android.widget.Button;
 // import android.widget.ProgressBar;
@@ -61,6 +62,8 @@ public class KanjiKing extends Activity
 
     // The card view
     private Button _no_button, _yes_button, _hint_button;
+    private Button _word[];
+
     // private ProgressBar _overall_score;
     private TextView _hint_field;
     private WebView _card_webview;
@@ -194,6 +197,13 @@ public class KanjiKing extends Activity
         _hint_button = (Button)findViewById(R.id.hint_button);
         _hint_field = (TextView)findViewById(R.id.hint_field);
 
+        _word = new Button[5];
+        _word[0] = (Button)findViewById(R.id.word1);
+        _word[1] = (Button)findViewById(R.id.word2);
+        _word[2] = (Button)findViewById(R.id.word3);
+        _word[3] = (Button)findViewById(R.id.word4);
+        _word[4] = (Button)findViewById(R.id.word5);
+
         _card_webview.setOnTouchListener(screenTouchListener);
 
         // _overall_score.setVisibility(View.INVISIBLE);
@@ -223,6 +233,22 @@ public class KanjiKing extends Activity
                 showHint();
             }
         });
+
+        View.OnClickListener wordExplainer = new View.OnClickListener() {
+            public void onClick(View v) {
+                String url = "http://www.wadoku.de/index.jsp?search=search&phrase=" + ((Button) v).getText() + "&search=suche";
+
+                final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
+                startActivity(intent);
+                
+                // Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                // startActivity(browserIntent);
+            }       
+        };
+
+        for (int i = 0; i < 5; i++) {
+            _word[i].setOnClickListener(wordExplainer);
+        }
     }
 
     private final View.OnTouchListener screenTouchListener = new View.OnTouchListener()
@@ -328,6 +354,11 @@ public class KanjiKing extends Activity
         _hint_field.setText(null);
         _hint_field.setVisibility(View.INVISIBLE);
         _hint_button.setVisibility(View.INVISIBLE);
+
+        for (int i = 0; i < 5; i++) {
+            _word[i].setText("");
+            _word[i].setVisibility(View.INVISIBLE);
+        }
 
         if (_box.findNextList() % 2 == 1)
             return showCard(_box.getNextCard(), false, true);
@@ -435,10 +466,20 @@ public class KanjiKing extends Activity
 
     if ((show_japanese) && (show_explanation)) {
         card_html.append("<div class=\"words\">");
+        int i = 0;
         for (String word : card.getWords()) {
+            _word[i].setText(word);
+            _word[i].setVisibility(View.VISIBLE);
+            /*
             card_html.append("<div class=\"word\">")
+                // .append("<a href=\"http://www.wadoku.de/index.jsp?search=search&phrase=" + TextUtils.htmlEncode(word) + "&search=suche\">")
                 .append(TextUtils.htmlEncode(word))
+                // .append("</a>")
                 .append("</div>");
+            */
+            i++;
+            if (i >= 5)
+                break;
         }
         card_html.append("</div>");
     }
