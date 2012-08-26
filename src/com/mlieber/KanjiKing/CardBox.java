@@ -6,7 +6,8 @@ import android.util.Log;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParser;
 
-public class CardBox implements java.io.Serializable {
+public class CardBox implements java.io.Serializable
+{
     private static final String TAG = "CardBox";
 
     public static final int ORDER_NONE       = 0;
@@ -25,9 +26,12 @@ public class CardBox implements java.io.Serializable {
     private CardList _done;
 
     private int _nLists;
+    private int _maxFrequency;
     private CardList[] _lists;
 
-    public CardBox(int order, boolean fill) {
+    public CardBox(int order, boolean fill)
+    {
+        _maxFrequency = 0;
         _pool = new CardList(0);
         _done = new CardList(0);
         _nLists = N_LISTS;
@@ -182,6 +186,15 @@ public class CardBox implements java.io.Serializable {
             // Lets ascend the card to the next level
             _currentList++;
 
+            // Is this an advanced level so can we assume to "know" the card?
+            if (_currentList > 1) {
+                Card c = _cardstore.get(_currentCard);
+                if (null != c) {
+                    if (c.getFrequency() > _maxFrequency)
+                        _maxFrequency = c.getFrequency();
+                }
+            }
+
             // But should we throw this card out?
             if (_currentList >= _nLists)
             {
@@ -201,7 +214,9 @@ public class CardBox implements java.io.Serializable {
         StringBuilder sb = new StringBuilder();
         
         int _currentList = findNextList();
-        
+      
+        sb.append(_maxFrequency + ": ");
+
         sb.append("(")
             .append(_pool.size())
             .append(")");
@@ -259,6 +274,10 @@ public class CardBox implements java.io.Serializable {
         StringBuilder sb = new StringBuilder();
         sb.append("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
 
+        sb.append("<maxFrequency>")
+            .append(_maxFrequency)
+            .append("</maxFrequency>\n");
+
         sb.append("<done>\n")
             .append(_done.asXML())
             .append("</done>\n");
@@ -305,15 +324,23 @@ public class CardBox implements java.io.Serializable {
                 }
 
                 if (next_tag == XmlPullParser.END_TAG) {
-                    if ((xml.getName().equals("card") || (xml.getName().equals("c")))
-                            && (text != null) 
-                            && (text.length() > 0) 
-                            && (_current_list != null)) {
-                        _current_list.add(text);
-                        i++;
+
+                    if (xml.getName().equals("maxFrequency")) {
+                        _maxFrequency = Integer.parseInt(text);
+                        if (_maxFrequency < 0)
+                            _maxFrequency = 0;
                     }
-                    else
-                        Log.i(TAG, "Text or _current_list null/empty while loading");
+
+                    if ((xml.getName().equals("card") || (xml.getName().equals("c")))) {
+                        if ((text != null) 
+                        && (text.length() > 0) 
+                        && (_current_list != null)) {
+                            _current_list.add(text);
+                            i++;
+                        }
+                        else
+                            Log.i(TAG, "Text or _current_list null/empty while loading");
+                    }
                 }
 
                 if (next_tag == XmlPullParser.TEXT)
@@ -332,7 +359,6 @@ public class CardBox implements java.io.Serializable {
             return;
 	    }
     }
-
 
 }
 
