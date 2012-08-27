@@ -14,12 +14,13 @@ import android.util.Log;
  * Downside is that you need to have the full card store loaded
  * when opening a cardbox, e.g. with personal words
  */
-public class CardStore {
-
+public class CardStore
+{
     private HashMap<String, Card> _map;
     private final String TAG = "CardStore";
 
-    CardStore() {
+    CardStore()
+    {
         if (this._map == null)
             this._map = new HashMap<String, Card>();
     }
@@ -33,9 +34,8 @@ public class CardStore {
     /**
      * Reads an XML resource into a card store
      */
-	public boolean loadFromXMLFile(
-      					XmlResourceParser xml) {
-
+	public boolean loadFromXMLFile(XmlResourceParser xml)
+    {
     	try {
 	      	int next_tag = xml.next();
             int _ncards = 0;
@@ -148,8 +148,14 @@ public class CardStore {
         return _map.keySet().toArray(); 
     }
 
-    public Card get(String str) {
-        return _map.get(str);
+    public Card get(String str)
+    {
+        Card[] cards = Card.findByJapanese(KanjiKing.getDB(), Card.TYPE_KANJI, str);
+        if (cards.length > 0)
+            return cards[0];
+        else
+            return null;
+        // return _map.get(str);
     }
 
     public int size() {

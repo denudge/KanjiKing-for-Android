@@ -394,7 +394,8 @@ public class KanjiKing extends Activity
         _hint_button.setVisibility(View.INVISIBLE);
     }
 
-  private boolean showCard(String str, boolean show_japanese, boolean show_explanation) {
+  private boolean showCard(String str, boolean show_japanese, boolean show_explanation)
+  {
     StringBuilder card_html = new StringBuilder();
 
     Card card = _cardstore.get(str);
@@ -412,16 +413,21 @@ public class KanjiKing extends Activity
         }
     }
 
+    String style= "body {text-align: center; color: white; }\n"
+                + "div.info, div.status { color: #888888; font-size:90%; }\n"
+                + "div.japanese {font-size: 500%; color: #99ff99; }\n"
+		        + "div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps; }\n"
+		        + "div.reading_kun {font-size: 200%; color: #9090ff; }\n"
+                + "div.meaning {color: #e0e0e0;}\n";
+
     card_html.append("<html>")
         .append("<head>")
         .append("<title>KanjiKing</title>")
         .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">");
 
-    if (card.getStyle() != null) {
-      card_html.append("<style type=\"text/css\">")
-          .append(TextUtils.htmlEncode(card.getStyle()))
-          .append("</style>");
-    }
+        card_html.append("<style type=\"text/css\">")
+            .append(TextUtils.htmlEncode(style))
+            .append("</style>");
 
     card_html.append("</head>")
         .append("<body>");
@@ -609,14 +615,15 @@ public class KanjiKing extends Activity
     
     /********************** DB functions ******************************/
 
-    public SQLiteDatabase getDB()
+    public static SQLiteDatabase getDB()
     {
         return _dbhelper.getDB();
     }
 
     private void initializeDB()
     {
-        _dbhelper = new DBHelper(this);
+        if (null == _dbhelper)
+            _dbhelper = new DBHelper(this);
 
         try {
             _dbhelper.createDataBase();

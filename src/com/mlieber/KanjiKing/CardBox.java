@@ -187,6 +187,7 @@ public class CardBox implements java.io.Serializable
             _currentList++;
 
             // Is this an advanced level so can we assume to "know" the card?
+            /*
             if (_currentList > 1) {
                 Card c = _cardstore.get(_currentCard);
                 if (null != c) {
@@ -194,6 +195,7 @@ public class CardBox implements java.io.Serializable
                         _maxFrequency = c.getFrequency();
                 }
             }
+            */
 
             // But should we throw this card out?
             if (_currentList >= _nLists)
