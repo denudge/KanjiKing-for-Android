@@ -18,6 +18,7 @@ public class Card implements java.io.Serializable {
 	private String _reading_kun	= null;
     private Style  _style       = null;
 
+    private int _pack           = 0;
     private int _grade       	= 0;
 	private int _frequency 		= 0;
 	private int _hadamitzky	    = 0;
@@ -46,6 +47,7 @@ public class Card implements java.io.Serializable {
 	public int getStrokesCount() { return _strokes; }
 	public int getRadical() { return _radical; }
 	public int getGrade() { return _grade; }
+	public int getPack() { return _pack; }
     public String getStyle() { if (_style == null ) return null; return _style.toString(); }
     public int getType() { return _type; }
 
@@ -172,5 +174,9 @@ public class Card implements java.io.Serializable {
         return false;
     }
 
+	public Card setPack(int pack) {
+		_pack = pack;
+		return this;
+	}
 }
 
