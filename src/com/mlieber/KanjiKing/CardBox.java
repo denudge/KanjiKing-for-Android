@@ -21,7 +21,7 @@ public class CardBox implements java.io.Serializable
     private int _order = ORDER_FREQUENCY;
 
     // The card lists that hold the cards
-    private CardStore _cardstore;
+    private transient CardStore _cardstore;
     private CardList _pool = null;
     private CardList _done;
 
