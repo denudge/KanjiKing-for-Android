@@ -36,6 +36,9 @@ import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
+import android.database.sqlite.SQLiteDatabase;
+import android.database.SQLException;
+
 public class KanjiKing extends Activity
 {
     private static final String TAG = "KanjiKing";
@@ -50,8 +53,9 @@ public class KanjiKing extends Activity
     public static final int MENU_SEARCH_ID = Menu.FIRST + 6;
 
     // sub objects
-    protected static CardStore _cardstore    = null;
-    protected static CardBox _box            = null;
+    protected static CardStore _cardstore   = null;
+    protected static CardBox _box           = null;
+    protected static DBHelper _dbhelper     = null;
 
     // Settings
     private static int _mode               = MODE_KANJI;
@@ -99,11 +103,18 @@ public class KanjiKing extends Activity
         return _box;
     }
 
-    // @Override
     public void onPause(Bundle savedInstanceState)
     {
         saveToDisk();
-        // super.onPause(savedInstanceState);
+        _dbhelper.close();
+    }
+
+    @Override
+    public void onDestroy()
+    {
+        saveToDisk();
+        _dbhelper.close();
+        super.onDestroy();
     }
 
     public String getFilename()
@@ -151,6 +162,7 @@ public class KanjiKing extends Activity
     {
     	super.onResume();
         loadSettings();
+        initializeDB();
     }
 /*
     @Override
@@ -178,6 +190,9 @@ public class KanjiKing extends Activity
 
         // load settings
         loadSettings();
+
+        // start DB
+        initializeDB();
 
         // Load card store
         loadCardStore();
@@ -587,6 +602,33 @@ public class KanjiKing extends Activity
             if (toasts)
                 Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
             return;
+        }
+    }
+
+
+    
+    /********************** DB functions ******************************/
+
+    public SQLiteDatabase getDB()
+    {
+        return _dbhelper.getDB();
+    }
+
+    private void initializeDB()
+    {
+        _dbhelper = new DBHelper(this);
+
+        try {
+            _dbhelper.createDataBase();
+        } catch (IOException ioe) {
+            Log.e(TAG, "Error creating the DB." + ioe.getMessage(), ioe);
+            throw new Error("Error creating the DB.");
+        }
+
+        try {
+            _dbhelper.openDataBase();
+        } catch (SQLException sqle) {
+            throw sqle;
         }
     }
 
