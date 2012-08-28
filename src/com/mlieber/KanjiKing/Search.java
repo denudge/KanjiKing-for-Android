@@ -59,7 +59,6 @@ public class Search extends Activity
         _search_strokes.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             public void onProgressChanged(SeekBar b, int progress, boolean fromUser) {
                     if (!fromUser) return;
-                    Log.i(TAG, "Moving strokes bar to " + progress);
                     if (progress == 0)
                         _search_strokes_preview.setText("");
                     else
@@ -135,7 +134,7 @@ public class Search extends Activity
                 Log.i(TAG, "Search by reading " + reading);
                init = true;
                 if (null == obj)
-                    obj = base.getCards();
+                    obj = base.getKeysByType(Card.TYPE_KANJI);
 
                 for (int i=0; i < obj.length; i++) {
                     card = (Card) base.get((String) obj[i]);
@@ -160,7 +159,7 @@ public class Search extends Activity
                 Log.i(TAG, "Search by radical " + radical);
                init = true;
                 if (null == obj)
-                    obj = base.getCards();
+                    obj = base.getKeysByType(Card.TYPE_KANJI);
 
                 for (int i=0; i < obj.length; i++) {
                     card = (Card) base.get((String) obj[i]);
@@ -185,7 +184,7 @@ public class Search extends Activity
             if (!init) {
                init = true;
                 if (null == obj)
-                    obj = base.getCards();
+                    obj = base.getKeysByType(Card.TYPE_KANJI);
 
                 for (int i=0; i < obj.length; i++) {
                     card = (Card) base.get((String) obj[i]);
@@ -237,7 +236,7 @@ public class Search extends Activity
                 .append(result[i].getMeaning(_language))
                 .append("\n");
 
-            int nbox = _cardbox.getBoxListNumber(result[i].getJapanese());
+            int nbox = _cardbox.getBoxListNumber(result[i].getId() + "");
             sb.append("Lern-Status: ");
 
             switch (nbox) {
