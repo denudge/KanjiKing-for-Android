@@ -130,21 +130,6 @@ public class KanjiKing extends Activity
     {
         _cardstore = new CardStore();
         _cardstore.clear();
-    
-        if (_mode == MODE_KANJI) {
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji1));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji2));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji3));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji4));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.kanji5));
-        } else {
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln1));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln2));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln3));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln4));
-            _cardstore.loadFromXMLFile(getResources().getXml(R.xml.vokabeln5));
-        }
-
     }
 
     private void loadSettings()
