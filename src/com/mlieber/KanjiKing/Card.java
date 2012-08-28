@@ -241,6 +241,36 @@ public class Card implements java.io.Serializable {
         return cards;
     }
 
+    public static String[] getKeysByType(SQLiteDatabase db, int type)
+    {
+        String stmt = "select _id"
+                    + " from card where "
+                    + "type=?"
+                    + "order by _id ASC";
+
+        Cursor mCursor = db.rawQuery(stmt, new String[] { type + ""});
+
+        if (null == mCursor)
+            return new String[0];
+
+        if (! mCursor.moveToFirst()) {
+            mCursor.close();
+            return new String[0];
+        }
+
+        Vector<String> v = new Vector<String>();
+
+        do {
+            v.add(mCursor.getInt(0) + "");
+        } while (mCursor.moveToNext());
+            
+        String[] ar = new String[v.size()];
+        v.toArray(ar);
+
+        mCursor.close();
+        return ar;
+    }
+
     public static Card[] findByType(SQLiteDatabase db, int type)
     {
         return findByFilter(db, "type=" + type, null);
@@ -261,12 +291,7 @@ public class Card implements java.io.Serializable {
 
     public static Card findById(SQLiteDatabase db, int id)
     {
-        String stmt = "select " + dbQueryFields
-                    + " from card where "
-                    + "_id=" + id;
-        Cursor mCursor = db.rawQuery(stmt, new String[0]);
-        Card[] cards = loadCardsFromCursor(mCursor);
-        mCursor.close();
+        Card[] cards = findByFilter(db, "_id=?", id + "");
         if (cards.length > 0)
             return cards[0];
         return null;
@@ -310,10 +335,10 @@ public class Card implements java.io.Serializable {
     {
         String stmt = "select meaning, hint"
                     + " from card_lang"
-                    + " where card = " + _id
-                    + " AND language = '" + lang + "'";
+                    + " where card = ?"
+                    + " AND language = ?";
 
-        Cursor mCursor = KanjiKing.getDB().rawQuery(stmt, new String[0]);
+        Cursor mCursor = KanjiKing.getDB().rawQuery(stmt, new String[] { _id + "", lang});
 
         if (null == mCursor)
             return false;
