@@ -72,9 +72,9 @@ public class CardBox implements java.io.Serializable
         if (_pool.size() > 0)
             return;
         
-        Object[] _cards = _cardstore.getCards();
-        for (Object _card : _cards)
-            _pool.add((String) _card);
+        String[] _cards = _cardstore.getKeysByType(Card.TYPE_KANJI);
+        for (String _card : _cards)
+            _pool.add(_card);
 
         _pool.sort();
     }
