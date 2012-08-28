@@ -36,6 +36,8 @@ public class CardStore
      */
 	public boolean loadFromXMLFile(XmlResourceParser xml)
     {
+        return true;
+/*
     	try {
 	      	int next_tag = xml.next();
             int _ncards = 0;
@@ -142,23 +144,40 @@ public class CardStore
 		} catch (XmlPullParserException e) {
 		  throw new RuntimeException(e);
 	    }
+*/
     }
 
-    public Object[] getCards() {
-        return _map.keySet().toArray(); 
+    public String[] getKeysByType(int type)
+    {
+        return Card.getKeysByType(KanjiKing.getDB(), type);
     }
 
     public Card get(String str)
     {
-        Card[] cards = Card.findByJapanese(KanjiKing.getDB(), Card.TYPE_KANJI, str);
-        if (cards.length > 0)
-            return cards[0];
-        else
+        Card c = _map.get(str);
+        if (null != c)
+            return c;
+       
+        try {
+            int a = Integer.parseInt(str);
+            c = Card.findById(KanjiKing.getDB(), a);
+        } catch (Exception e) {
+            Card[] cards = Card.findByJapanese(KanjiKing.getDB(), Card.TYPE_KANJI, str);
+            if ((cards.length > 0) && (null != cards[0]))
+                c = cards[0];
+            else
+                return null;
+        }
+
+        if (null == c)
             return null;
-        // return _map.get(str);
+
+        _map.put(str, c);
+        return c;
     }
 
-    public int size() {
+    public int size()
+    {
         return _map.size();
     }
 
