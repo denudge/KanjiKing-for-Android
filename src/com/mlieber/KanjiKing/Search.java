@@ -25,7 +25,6 @@ public class Search extends Activity
     private TextView _search_strokes_preview;
     private CardBox _cardbox;
     private CardStore _cardstore;
-    private CardStore _radicals;
     private String _language;
 
     /** Called when the activity is first created. */
@@ -50,11 +49,6 @@ public class Search extends Activity
         _search_button = (Button)   findViewById(R.id.search_button);
         _search_result = (TextView) findViewById(R.id.search_result);
   
-        //load radicals
-        _radicals = new CardStore();
-        _radicals.clear();
-        _radicals.loadFromXMLFile(getResources().getXml(R.xml.radicals));
-
         // animate strokes slider
         _search_strokes.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             public void onProgressChanged(SeekBar b, int progress, boolean fromUser) {
@@ -78,7 +72,7 @@ public class Search extends Activity
                     return;
                 }
 
-                Card radical = _radicals.get(progress + "");
+                Card radical = _cardstore.get(((int) progress + 3000) + "");
                 if (null == radical)
                     _search_radical_preview.setText(progress + ": !");
                 else
