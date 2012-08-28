@@ -14,8 +14,9 @@ public class Card implements java.io.Serializable {
 
     private static final String TAG = "Card";
 
-    public static final int TYPE_KANJI = 1;
-    public static final int TYPE_WORD  = 2;
+    public static final int TYPE_KANJI    = 1;
+    public static final int TYPE_WORD     = 2;
+    public static final int TYPE_RADICAL  = 3;
 
 	private String _japanese	= null;
 	private String _reading_on	= null;
