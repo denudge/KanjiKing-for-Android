@@ -34,6 +34,15 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            android:text="by meaning"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/search_meaning"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
             android:text="by number of strokes"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content" />

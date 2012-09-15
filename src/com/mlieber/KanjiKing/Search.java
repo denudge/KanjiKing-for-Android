@@ -17,6 +17,7 @@ public class Search extends Activity
     private static final String TAG = "KanjiKing/Search";
     private EditText _search_phrase;
     private EditText _search_reading;
+    private EditText _search_meaning;
     private SeekBar _search_radical;
     private SeekBar _search_strokes;
     private Button _search_button;
@@ -42,6 +43,7 @@ public class Search extends Activity
 
         _search_phrase = (EditText) findViewById(R.id.search_word);
         _search_reading = (EditText) findViewById(R.id.search_reading);
+        _search_meaning = (EditText) findViewById(R.id.search_meaning);
         _search_radical = (SeekBar) findViewById(R.id.search_radical);
         _search_radical_preview = (TextView) findViewById(R.id.search_radical_preview);
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
@@ -88,16 +90,19 @@ public class Search extends Activity
             public void onClick(View v) {
                 String phrase = (((TextView) _search_phrase).getText()).toString();
                 String reading = (((TextView) _search_reading).getText()).toString();
+                String meaning = (((TextView) _search_meaning).getText()).toString();
                 _search_result.setText("Searching...");
-                _search_result.setText(formatSearchResult(
-                        search(_cardstore, phrase, reading, _search_radical.getProgress(), _search_strokes.getProgress())
-                ));
+                _search_result.setText(
+                    formatSearchResult(
+                        search(_cardstore, phrase, reading, meaning, _search_radical.getProgress(), _search_strokes.getProgress())
+                    )
+                );
             }
         });
     }
 
 
-    private Card[] search(CardStore base, String search, String reading, int radical, int strokes)
+    private Card[] search(CardStore base, String search, String reading, String meaning, int radical, int strokes)
     {
         boolean init = false;
         Object[] obj = null;
@@ -106,14 +111,10 @@ public class Search extends Activity
         if (null == base)
             return null;
         
-        if (((search == null) || (search.equals(""))) && ((reading == null) || (reading.equals(""))) && (radical < 1) && (strokes < 1))
-            return new Card[0];
-
         Vector<Card> rv = new Vector<Card>();
 
         // phrase search
         if ((null != search) && (!search.equals(""))) {
-            init = true;
             for (int i=0; i < search.length(); i++) {
                 String ch = search.charAt(i) + "";
                 card = base.get(ch);
@@ -121,37 +122,63 @@ public class Search extends Activity
                 if (null != card)
                     rv.add(card);
             }
+            init = true;
         }
 
+        // Reading search
         if ((null != reading) && (!reading.equals(""))) {
             if (!init) {
-                Log.i(TAG, "Search by reading " + reading);
-               init = true;
+                Log.v(TAG, "Search by reading " + reading);
                 if (null == obj)
                     obj = base.getKeysByType(Card.TYPE_KANJI);
 
                 for (int i=0; i < obj.length; i++) {
                     card = (Card) base.get((String) obj[i]);
-                    if (card.hasReading(reading))
+                    if (card.hasReading(reading, false))
                         rv.add(card);
                 }
+               init = true;
             } else {
-                Log.i(TAG, "Filtering search by radical " + radical);
+                Log.v(TAG, "Filtering search by reading " + reading);
                 // radical filter
                 for (int i=0; i < rv.size(); i++) {
                     card = rv.get(i);
-                    if (! card.hasReading(reading))
+                    if (! card.hasReading(reading, false))
                         rv.removeElement(card);
                         i--;
                 }
             }
         }
+        
+        // Meaning search
+        if ((null != meaning) && (!meaning.equals(""))) {
+            if (!init) {
+                Log.v(TAG, "Search by meaning " + meaning);
+                if (null == obj)
+                    obj = base.getKeysByType(Card.TYPE_KANJI);
 
+                for (int i=0; i < obj.length; i++) {
+                    card = (Card) base.get((String) obj[i]);
+                    if (card.hasMeaning(meaning, KanjiKing.getLanguage(), false))
+                        rv.add(card);
+                }
+               init = true;
+            } else {
+                Log.v(TAG, "Filtering search by meaning " + meaning);
+                // radical filter
+                for (int i=0; i < rv.size(); i++) {
+                    card = rv.get(i);
+                    if (! card.hasMeaning(meaning, KanjiKing.getLanguage(), false))
+                        rv.removeElement(card);
+                        i--;
+                }
+            }
+        }
+        
         // radical search
         if (radical > 0) {
             if (!init) {
-                Log.i(TAG, "Search by radical " + radical);
-               init = true;
+                Log.v(TAG, "Search by radical " + radical);
                 if (null == obj)
                     obj = base.getKeysByType(Card.TYPE_KANJI);
 
@@ -160,8 +187,9 @@ public class Search extends Activity
                     if (radical == card.getRadical())
                         rv.add(card);
                 }
+               init = true;
             } else {
-                Log.i(TAG, "Filtering search by radical " + radical);
+                Log.v(TAG, "Filtering search by radical " + radical);
                 // radical filter
                 for (int i=0; i < rv.size(); i++) {
                     card = rv.get(i);

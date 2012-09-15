@@ -163,8 +163,10 @@ public class Card implements java.io.Serializable {
 		return this;
 	}
 
-    public boolean hasReading(String reading) {
 
+
+    public boolean hasReading(String reading, boolean subStrings)
+    {
         // First, search direct hits
         if (null != _reading_on) {
             if (_reading_on.equals(reading))
@@ -186,9 +188,35 @@ public class Card implements java.io.Serializable {
         if (-1 == haystack.indexOf(reading))
             return false;
 
+        if (subStrings)
+            return true;
+
         // Then, search by pattern
-        String pattern = "^(.+[;, ]+)?(" + reading + ")([;, \\(-]+.+)?$";
+        String pattern = "^(.+[;, -]+)?(" + reading + ")([;, \\(-]+.+)?$";
         if (haystack.matches(pattern))
+            return true;
+
+        return false;
+    }
+
+
+
+    public boolean hasMeaning(String meaning, String language, boolean subStrings)
+    {
+        String _meaning = getMeaning(language);
+
+        if (null == _meaning)
+            return false;
+
+        if (-1 == _meaning.indexOf(meaning))
+            return false;
+
+        if (subStrings)
+            return true;
+
+        // Then, search by pattern
+        String pattern = "^(.+[;, -])?(" + meaning + ")([;, \\(-].+)?$";
+        if (_meaning.matches(pattern))
             return true;
 
         return false;
