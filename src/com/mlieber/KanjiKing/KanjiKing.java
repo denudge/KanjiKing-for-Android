@@ -51,6 +51,7 @@ public class KanjiKing extends Activity
     public static final int MENU_SWITCH_MODE_WORDS_ID = Menu.FIRST + 4;
     public static final int MENU_SETTINGS_ID = Menu.FIRST + 5;
     public static final int MENU_SEARCH_ID = Menu.FIRST + 6;
+    public static final int MENU_ABOUT_ID = Menu.FIRST + 7;
 
     // sub objects
     protected static CardStore _cardstore   = null;
@@ -275,6 +276,7 @@ public class KanjiKing extends Activity
     menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
     menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
     menu.add(7, MENU_SEARCH_ID, 6, "Search");
+    menu.add(8, MENU_ABOUT_ID, 7, "About");
 
     return result;
   }
@@ -339,6 +341,12 @@ public class KanjiKing extends Activity
                 Intent searchActivity = new Intent(getBaseContext(),
                        Search.class);
                 startActivity(searchActivity);
+                return true;
+
+            case MENU_ABOUT_ID:
+                Intent aboutActivity = new Intent(getBaseContext(),
+                       About.class);
+                startActivity(aboutActivity);
                 return true;
         }
 
