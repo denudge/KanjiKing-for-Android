@@ -1,3 +1,13 @@
+1.4.9 (2012-09-30)
+==================
+
+General
+-------
+* Kanji data moved to DB
+* About activity
+
+
+
 1.4.8 (2012-08-11)
 ==================
 
@@ -15,6 +25,8 @@ General
 -------
 * Add Kanji word data
 * Show Kanji words on explanation
+
+
 
 1.4.4 (2012-07-13)
 ==================
