@@ -39,7 +39,6 @@ public class About extends Activity
         });
     }
 
-
     private String getVersionNumber()
     {
         try {
@@ -49,7 +48,4 @@ public class About extends Activity
             return "unknown";
         }
     }
-
-
 }
-

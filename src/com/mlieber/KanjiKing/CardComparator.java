@@ -16,4 +16,3 @@ public class CardComparator implements Comparator<Card>{
         return 0;
     }
 }
-

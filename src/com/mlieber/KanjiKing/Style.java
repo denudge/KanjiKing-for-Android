@@ -19,4 +19,3 @@ public class Style {
         return _style;
     }
 }
-

@@ -20,5 +20,3 @@ public class CardStringComparator implements Comparator<String>{
         return 0;
     }
 }
-
-

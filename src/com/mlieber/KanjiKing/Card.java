@@ -133,7 +133,7 @@ public class Card implements java.io.Serializable {
 		return this;
 	}
 
-	public Card setFrequencyi2(int frequency) {
+	public Card setFrequency2(int frequency) {
 		_frequency2 = frequency;
 		return this;
 	}

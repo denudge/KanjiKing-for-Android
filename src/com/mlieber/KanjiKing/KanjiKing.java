@@ -42,6 +42,7 @@ import android.database.SQLException;
 public class KanjiKing extends Activity
 {
     private static final String TAG = "KanjiKing";
+
     public static final int MODE_KANJI = 1;
     public static final int MODE_WORDS = 2;
     public static final int MENU_EXPORT_ID = Menu.FIRST;
@@ -150,23 +151,6 @@ public class KanjiKing extends Activity
         loadSettings();
         initializeDB();
     }
-/*
-    @Override
-    protected void onStop() {
-       super.onStop();
-    
-        // Change preferences
-        SharedPreferences settings = getSharedPreferences(“MyParams”, 0);
-        SharedPreferences.Editor editor = settings.edit();
-        editor.putBoolean("endless", _endless);
-        editor.putInteger("mode", _mode);
-        editor.putInteger("max_freq", _max_freq);
-        editor.putString("language", _language);
-
-        // Save changes
-        editor.commit();       
-    }
-*/
 
     /** Called when the activity is first created. */
     @Override
@@ -237,14 +221,11 @@ public class KanjiKing extends Activity
 
         View.OnClickListener wordExplainer = new View.OnClickListener() {
             public void onClick(View v) {
-                String url = "http://www.wadoku.de/index.jsp?search=search&phrase=" + ((Button) v).getText() + "&search=suche";
+                String url = "http://wadoku.de/search/" + ((Button) v).getText();
 
                 final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
                 startActivity(intent);
-                
-                // Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                // startActivity(browserIntent);
-            }       
+            }
         };
 
         for (int i = 0; i < 5; i++) {
@@ -331,21 +312,18 @@ public class KanjiKing extends Activity
                 return true;
 
             case MENU_SETTINGS_ID:
-                Intent settingsActivity = new Intent(getBaseContext(),
-                       Settings.class);
+                Intent settingsActivity = new Intent(getBaseContext(), Settings.class);
                 startActivity(settingsActivity);
                 loadSettings();
                 return true;
 
             case MENU_SEARCH_ID:
-                Intent searchActivity = new Intent(getBaseContext(),
-                       Search.class);
+                Intent searchActivity = new Intent(getBaseContext(), Search.class);
                 startActivity(searchActivity);
                 return true;
 
             case MENU_ABOUT_ID:
-                Intent aboutActivity = new Intent(getBaseContext(),
-                       About.class);
+                Intent aboutActivity = new Intent(getBaseContext(), About.class);
                 startActivity(aboutActivity);
                 return true;
         }
@@ -484,13 +462,7 @@ public class KanjiKing extends Activity
         for (String word : card.getWords()) {
             _word[i].setText(word);
             _word[i].setVisibility(View.VISIBLE);
-            /*
-            card_html.append("<div class=\"word\">")
-                // .append("<a href=\"http://www.wadoku.de/index.jsp?search=search&phrase=" + TextUtils.htmlEncode(word) + "&search=suche\">")
-                .append(TextUtils.htmlEncode(word))
-                // .append("</a>")
-                .append("</div>");
-            */
+
             i++;
             if (i >= 5)
                 break;
