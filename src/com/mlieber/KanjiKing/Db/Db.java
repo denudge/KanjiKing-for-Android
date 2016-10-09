@@ -14,7 +14,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.mlieber.KanjiKing.Card;
+import com.mlieber.KanjiKing.CardBox.Card;
 
 public class Db extends SQLiteOpenHelper
 {
@@ -223,6 +223,34 @@ public class Db extends SQLiteOpenHelper
         return null;
     }
 
+    public Card[] findByRadical(int radical)
+    {
+        String stmt = "select " + dbQueryFields
+                + " from card where"
+                + " radical=" + radical
+                + " AND type=" + Card.TYPE_KANJI
+                + ";";
+
+        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
+        Card[] cards = loadCardsFromCursor(mCursor);
+        mCursor.close();
+        return cards;
+    }
+
+    public Card[] findByStrokes(int strokes)
+    {
+        String stmt = "select " + dbQueryFields
+                + " from card where"
+                + " strokes=" + strokes
+                + " AND type=" + Card.TYPE_KANJI
+                + ";";
+
+        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
+        Card[] cards = loadCardsFromCursor(mCursor);
+        mCursor.close();
+        return cards;
+    }
+
     protected Card[] findByFilter(String filter, String value)
     {
         String stmt = "select " + dbQueryFields
@@ -230,6 +258,21 @@ public class Db extends SQLiteOpenHelper
                 + filter;
 
         Cursor mCursor = _db.rawQuery(stmt, value == null ? new String[0] : new String[] { value });
+        Card[] cards = loadCardsFromCursor(mCursor);
+        mCursor.close();
+        return cards;
+    }
+
+    public Card[] findByReading(String reading)
+    {
+        String stmt = "select " + dbQueryFields
+                + " from card where "
+                + " (reading_on='" + reading.replace("'", "\\'") + "'"
+                + " OR reading_kun='" + reading.replace("'", "\\'") + "')"
+                + " AND type=" + Card.TYPE_KANJI
+                + ";";
+
+        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
         Card[] cards = loadCardsFromCursor(mCursor);
         mCursor.close();
         return cards;

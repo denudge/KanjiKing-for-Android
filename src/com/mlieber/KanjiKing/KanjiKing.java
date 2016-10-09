@@ -10,6 +10,10 @@ import android.content.res.Configuration;
 import com.mlieber.KanjiKing.Activity.About;
 import com.mlieber.KanjiKing.Activity.Search;
 import com.mlieber.KanjiKing.Activity.Settings;
+import com.mlieber.KanjiKing.CardBox.Card;
+import com.mlieber.KanjiKing.CardBox.CardBox;
+import com.mlieber.KanjiKing.CardBox.CardStore;
+import com.mlieber.KanjiKing.CardBox.DiskStorage;
 import com.mlieber.KanjiKing.Db.Db;
 import org.apache.http.protocol.HTTP;
 import android.webkit.WebView;
@@ -38,9 +42,6 @@ import android.view.MenuItem;
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
-
-import android.database.sqlite.SQLiteDatabase;
-import android.database.SQLException;
 
 public class KanjiKing extends Activity
 {
@@ -111,25 +112,16 @@ public class KanjiKing extends Activity
 
     public void onPause(Bundle savedInstanceState)
     {
-        saveToDisk();
+        DiskStorage.saveToDisk(this, _box, _mode);
         _db.close();
     }
 
     @Override
     public void onDestroy()
     {
-        saveToDisk();
+        DiskStorage.saveToDisk(this, _box, _mode);
         _db.close();
         super.onDestroy();
-    }
-
-    public String getFilename()
-    {
-        if (_mode == MODE_KANJI)
-            return "kanjibox";
-        else
-            return "wordbox";
-
     }
 
     private void initializeCardStore()
@@ -177,10 +169,10 @@ public class KanjiKing extends Activity
         initializeCardStore();
 
         // Construct a box if not already done
-        _box = null;
         loadFromDisk();
-        if (_box == null)
-            _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
+        if (_box == null) {
+            _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, true, _max_freq, _endless);
+        }
 
         // we start with the card view
         setContentView(R.layout.card);
@@ -293,12 +285,12 @@ public class KanjiKing extends Activity
         switch (item.getItemId()) {
             case MENU_EXPORT_ID:
                 String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-                File file = new File(extStorageDirectory, "/" + getFilename() + ".xml");
+                File file = new File(extStorageDirectory, "/" + DiskStorage.getFilename(_mode) + ".xml");
                 saveToFile(file, true);
                 return true;
             case MENU_IMPORT_ID:
                 extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-                file = new File(extStorageDirectory, "/" + getFilename() + ".xml");
+                file = new File(extStorageDirectory, "/" + DiskStorage.getFilename(_mode) + ".xml");
                 loadFromFile(file, true);
                 showQuestion();
                 return true;
@@ -332,7 +324,7 @@ public class KanjiKing extends Activity
 
     private void reset()
     {
-        _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
+        _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, true, _max_freq, _endless);
         showQuestion();
     }
 
@@ -350,10 +342,10 @@ public class KanjiKing extends Activity
 
         initializeCardStore();
 
-        _box = null;
         loadFromDisk();
-        if (_box == null)
-            _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
+        if (_box == null) {
+            _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, true, _max_freq, _endless);
+        }
 
         showQuestion();
     }
@@ -512,51 +504,17 @@ public class KanjiKing extends Activity
   }
 
 
-
-
     /********************** Storage functions ******************************/
 
-    public void saveToDisk() {
-        ByteArrayOutputStream bos = new ByteArrayOutputStream(); 
-        try {
-            ObjectOutput out = new ObjectOutputStream(bos);
-            out.writeObject(_box);
-            byte[] buf = bos.toByteArray();
-
-            FileOutputStream fos = openFileOutput(getFilename(), Context.MODE_PRIVATE);
-            fos.write(buf);
-            fos.close(); 
-        } catch (IOException e) { 
-          Log.v(TAG, "Error Serialising the cardbox: " + e.getMessage(), e);
-        } 
+    private void saveToDisk()
+    {
+        DiskStorage.saveToDisk(this, _box, _mode);
     }
 
-    public void loadFromDisk() {
-        InputStream instream = null;
-        try {
-            instream = openFileInput(getFilename());
-        } catch (FileNotFoundException e) {
-            Log.v(TAG, "Error opening the cardbox file: " + e.getMessage()); 
-            return;
-        }
-       
-        try {
-            ObjectInputStream ois = new ObjectInputStream(instream);
-            try {
-                _box = (CardBox) ois.readObject();
-            } catch (ClassNotFoundException e) {
-                Log.e(TAG, "DESERIALIZATION FAILED (CLASS NOT FOUND):" + e.getMessage(), e);
-                return;
-            }
-        } catch (StreamCorruptedException e) {
-            Log.e(TAG, "DESERIALIZATION FAILED (CORRUPT):" + e.getMessage(), e);
-            return;
-        } catch (IOException e) {
-            Log.e(TAG, "DESERIALIZATION FAILED (IO EXCEPTION):"+e.getMessage(), e);
-            return;
-        }
+    private void loadFromDisk()
+    {
+        _box = DiskStorage.loadFromDisk(this, _mode);
     }
-
 
     public void saveToFile(File file, boolean toasts)
     {
@@ -565,7 +523,7 @@ public class KanjiKing extends Activity
             fos.write(_box.asXML().getBytes("UTF-8"));
             fos.flush();
             fos.close(); 
-            Toast.makeText(KanjiKing.this, "Exported to " + getFilename() + ".xml", Toast.LENGTH_LONG).show();
+            Toast.makeText(KanjiKing.this, "Exported to " + DiskStorage.getFilename(_mode) + ".xml", Toast.LENGTH_LONG).show();
         } catch (FileNotFoundException e) {
             if (toasts)
                 Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
@@ -581,7 +539,7 @@ public class KanjiKing extends Activity
     {
         FileInputStream fis;
 
-        _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, false);
+        _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, false, _max_freq, _endless);
 
         try {
             fis = new FileInputStream(file);

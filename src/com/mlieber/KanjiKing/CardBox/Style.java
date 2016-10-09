@@ -1,4 +1,4 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.CardBox;
 
 public class Style {
 

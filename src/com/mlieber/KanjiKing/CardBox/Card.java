@@ -1,12 +1,7 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.CardBox;
 
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.Vector;
-import android.util.Log;
-
-import android.content.ContentValues;
 
 public class Card implements java.io.Serializable {
 
@@ -19,7 +14,7 @@ public class Card implements java.io.Serializable {
 	private String _japanese	= null;
 	private String _reading_on	= null;
 	private String _reading_kun	= null;
-    private Style  _style       = null;
+    private Style _style       = null;
 
     private int _id             = 0;
     private int _pack           = 0;

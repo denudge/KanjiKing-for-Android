@@ -1,8 +1,8 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.CardBox;
 
-import java.util.ArrayList;
 import java.io.IOException;
 import android.util.Log;
+import com.mlieber.KanjiKing.KanjiKing;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParser;
 
@@ -27,23 +27,27 @@ public class CardBox implements java.io.Serializable
     private CardList _done;
 
     private int _nLists;
-    private int _maxFrequency;
+    private int _maxFrequency = 0;
+    private boolean _endless = false;
+
     private CardList[] _lists;
 
-    public CardBox(int mode, int order, boolean fill)
+    public CardBox(CardStore cardstore, int mode, int order, boolean fill, int maxFrequency, boolean endless)
     {
+        _cardstore = cardstore;
         _mode = mode;
-        _maxFrequency = 0;
+        _maxFrequency = maxFrequency;
+        _endless = endless;
         _pool = new CardList(0);
         _done = new CardList(0);
         _nLists = N_LISTS;
         _order = order;
-        _cardstore = KanjiKing.getCardStore();
+
         initializeLists();
+
         if (fill)
             fillPool(mode);
     }
-
 
 
     /********************* CONSTRUCTOR HELPERS *****************************/
@@ -89,17 +93,17 @@ public class CardBox implements java.io.Serializable
         String _card = _pool.get();
         if (_card != null) {
             // Do we need frequency check?
-            if (KanjiKing.getMaxFreq() == 0)
+            if (_maxFrequency == 0)
                 return _pool.pop();
 
             // Does the card fit?
             Card _c = _cardstore.get(_card);
-            if ((_c.getFrequency() > 0) && (_c.getFrequency() <= KanjiKing.getMaxFreq()))
+            if ((_c.getFrequency() > 0) && (_c.getFrequency() <= _maxFrequency))
                 return _pool.pop();
         }
 
         // Check if we have endless mode
-        if (false == KanjiKing.getEndless())
+        if (! _endless)
             return null;
 
         // Do we have a done card?
@@ -189,18 +193,7 @@ public class CardBox implements java.io.Serializable
             // Lets ascend the card to the next level
             _currentList++;
 
-            // Is this an advanced level so can we assume to "know" the card?
-            /*
-            if (_currentList > 1) {
-                Card c = _cardstore.get(_currentCard);
-                if (null != c) {
-                    if (c.getFrequency() > _maxFrequency)
-                        _maxFrequency = c.getFrequency();
-                }
-            }
-            */
-
-            // But should we throw this card out?
+            // Should we throw this card out?
             if (_currentList >= _nLists)
             {
                 _done.add(_currentCard);

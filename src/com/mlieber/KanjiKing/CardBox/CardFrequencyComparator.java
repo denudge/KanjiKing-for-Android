@@ -1,10 +1,10 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.CardBox;
 
 import java.util.Comparator;
 
-public class CardComparator implements Comparator<Card>{
+public class CardFrequencyComparator implements Comparator<Card>{
 
-    public CardComparator() {
+    public CardFrequencyComparator() {
     }
 
     public int compare(Card a, Card b)

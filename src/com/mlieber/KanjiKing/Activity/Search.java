@@ -9,9 +9,12 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.util.Log;
 import com.mlieber.KanjiKing.*;
+import com.mlieber.KanjiKing.CardBox.Card;
+import com.mlieber.KanjiKing.CardBox.CardBox;
+import com.mlieber.KanjiKing.CardBox.CardFrequencyComparator;
+import com.mlieber.KanjiKing.CardBox.CardStore;
 
 import java.util.Vector;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class Search extends Activity
@@ -107,7 +110,7 @@ public class Search extends Activity
     private Card[] search(CardStore base, String search, String reading, String meaning, int radical, int strokes)
     {
         boolean init = false;
-        Object[] obj = null;
+        String[] obj = null;
         Card card = null;
 
         if (null == base)
@@ -119,7 +122,7 @@ public class Search extends Activity
         if ((null != search) && (!search.equals(""))) {
             for (int i=0; i < search.length(); i++) {
                 String ch = search.charAt(i) + "";
-                card = base.get(ch);
+                card = base.search(ch);
 
                 if (null != card)
                     rv.add(card);
@@ -131,13 +134,9 @@ public class Search extends Activity
         if ((null != reading) && (!reading.equals(""))) {
             if (!init) {
                 Log.v(TAG, "Search by reading " + reading);
-                if (null == obj)
-                    obj = base.getKeysByType(Card.TYPE_KANJI);
-
-                for (int i=0; i < obj.length; i++) {
-                    card = (Card) base.get((String) obj[i]);
-                    if (card.hasReading(reading, false))
-                        rv.add(card);
+                Card[] cards = base.fetchByReading(reading);
+                for (int i=0; i < cards.length; i++) {
+                    rv.add(cards[i]);
                 }
                init = true;
             } else {
@@ -160,8 +159,8 @@ public class Search extends Activity
                     obj = base.getKeysByType(Card.TYPE_KANJI);
 
                 for (int i=0; i < obj.length; i++) {
-                    card = (Card) base.get((String) obj[i]);
-                    if (card.hasMeaning(meaning, KanjiKing.getLanguage(), false))
+                    card = (Card) base.fetchById(Integer.parseInt(obj[i]));
+                    if ((card != null) && (card.hasMeaning(meaning, KanjiKing.getLanguage(), false)))
                         rv.add(card);
                 }
                init = true;
@@ -181,13 +180,9 @@ public class Search extends Activity
         if (radical > 0) {
             if (!init) {
                 Log.v(TAG, "Search by radical " + radical);
-                if (null == obj)
-                    obj = base.getKeysByType(Card.TYPE_KANJI);
-
-                for (int i=0; i < obj.length; i++) {
-                    card = (Card) base.get((String) obj[i]);
-                    if (radical == card.getRadical())
-                        rv.add(card);
+                Card[] cards = base.fetchByRadical(radical);
+                for (int i=0; i < cards.length; i++) {
+                    rv.add(cards[i]);
                 }
                init = true;
             } else {
@@ -206,15 +201,11 @@ public class Search extends Activity
         // strokes search
         if (strokes > 0) {
             if (!init) {
-               init = true;
-                if (null == obj)
-                    obj = base.getKeysByType(Card.TYPE_KANJI);
-
-                for (int i=0; i < obj.length; i++) {
-                    card = (Card) base.get((String) obj[i]);
-                    if (strokes == card.getStrokesCount())
-                        rv.add(card);
+                Card[] cards = base.fetchByStrokes(strokes);
+                for (int i=0; i < cards.length; i++) {
+                    rv.add(cards[i]);
                 }
+                init = true;
             } else {
                 // strokes filter
                 for (int i=0; i < rv.size(); i++) {
@@ -230,7 +221,7 @@ public class Search extends Activity
         if (!init)
             return new Card[0];
 
-        Comparator<Card> _cc = new CardComparator();
+        Comparator<Card> _cc = new CardFrequencyComparator();
         java.util.Collections.sort(rv, _cc);
 
         Card[] ra = new Card[rv.size()];
