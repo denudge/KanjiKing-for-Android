@@ -1,4 +1,4 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.util.Log;
 import android.content.pm.PackageInfo;
+import com.mlieber.KanjiKing.R;
 
 public class About extends Activity
 {

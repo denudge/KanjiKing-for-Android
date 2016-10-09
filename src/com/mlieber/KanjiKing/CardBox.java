@@ -19,6 +19,7 @@ public class CardBox implements java.io.Serializable
 	public static final int BASE_FACTOR     = 5;
 
     private int _order = ORDER_FREQUENCY;
+    private int _mode = KanjiKing.MODE_KANJI;
 
     // The card lists that hold the cards
     private transient CardStore _cardstore;
@@ -29,8 +30,9 @@ public class CardBox implements java.io.Serializable
     private int _maxFrequency;
     private CardList[] _lists;
 
-    public CardBox(int order, boolean fill)
+    public CardBox(int mode, int order, boolean fill)
     {
+        _mode = mode;
         _maxFrequency = 0;
         _pool = new CardList(0);
         _done = new CardList(0);
@@ -39,7 +41,7 @@ public class CardBox implements java.io.Serializable
         _cardstore = KanjiKing.getCardStore();
         initializeLists();
         if (fill)
-            fillPool();
+            fillPool(mode);
     }
 
 
@@ -64,28 +66,25 @@ public class CardBox implements java.io.Serializable
 		return BASE_FACTOR * (1 << index) + 1;
 	}
 
-    private void fillPool()
+    private void fillPool(int mode)
     {
         if (_pool == null)
             _pool = new CardList(0);
 
+        // already filled?
         if (_pool.size() > 0)
             return;
-        
-        /* String[] _cards = _cardstore.getKeysByType(Card.TYPE_KANJI);
-        for (String _card : _cards)
-            _pool.add(_card);
-        */
 
-        for (int c = 1; c <= 2501; c++)
-            _pool.add(c + "");
-
-        _pool.sort();
+        // retrieve necessary card id's from db
+        String[] keys = _cardstore.getKeysByType(mode);
+        for (int c = 0; c < keys.length; c++)
+            _pool.add(keys[c]);
     }
 
     /*********************** MANAGEMENT FUNCTIONS ***************************/
 
-    private String findNewCard() {
+    private String findNewCard()
+    {
         // Look if the pool has a valid card
         String _card = _pool.get();
         if (_card != null) {
@@ -135,7 +134,7 @@ public class CardBox implements java.io.Serializable
     public void clear()
     {
         _pool.clear();
-        fillPool();
+        fillPool(KanjiKing.getMode());
         _done.clear();
         for (int c = 0; c < _nLists; c++)
             _lists[c].clear();

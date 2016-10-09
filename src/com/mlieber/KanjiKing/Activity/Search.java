@@ -1,4 +1,4 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.Activity;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.util.Log;
+import com.mlieber.KanjiKing.*;
+
 import java.util.Vector;
 import java.util.Collections;
 import java.util.Comparator;

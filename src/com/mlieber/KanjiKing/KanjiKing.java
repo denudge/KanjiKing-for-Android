@@ -7,6 +7,10 @@ import android.util.Log;
 import android.text.TextUtils;
 import android.content.res.Configuration;
 
+import com.mlieber.KanjiKing.Activity.About;
+import com.mlieber.KanjiKing.Activity.Search;
+import com.mlieber.KanjiKing.Activity.Settings;
+import com.mlieber.KanjiKing.Db.Db;
 import org.apache.http.protocol.HTTP;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -30,7 +34,6 @@ import android.preference.PreferenceManager;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import java.util.Locale;
 
 import org.xmlpull.v1.XmlPullParserFactory;
 import org.xmlpull.v1.XmlPullParser;
@@ -45,6 +48,7 @@ public class KanjiKing extends Activity
 
     public static final int MODE_KANJI = 1;
     public static final int MODE_WORDS = 2;
+
     public static final int MENU_EXPORT_ID = Menu.FIRST;
     public static final int MENU_IMPORT_ID = Menu.FIRST + 1;
     public static final int MENU_RESET_ID = Menu.FIRST + 2;
@@ -57,7 +61,7 @@ public class KanjiKing extends Activity
     // sub objects
     protected static CardStore _cardstore   = null;
     protected static CardBox _box           = null;
-    protected static DBHelper _dbhelper     = null;
+    protected static Db _db                 = null;
 
     // Settings
     private static int _mode               = MODE_KANJI;
@@ -108,14 +112,14 @@ public class KanjiKing extends Activity
     public void onPause(Bundle savedInstanceState)
     {
         saveToDisk();
-        _dbhelper.close();
+        _db.close();
     }
 
     @Override
     public void onDestroy()
     {
         saveToDisk();
-        _dbhelper.close();
+        _db.close();
         super.onDestroy();
     }
 
@@ -128,9 +132,9 @@ public class KanjiKing extends Activity
 
     }
 
-    public void loadCardStore()
+    private void initializeCardStore()
     {
-        _cardstore = new CardStore();
+        _cardstore = new CardStore(_db, _mode);
         _cardstore.clear();
     }
 
@@ -149,7 +153,10 @@ public class KanjiKing extends Activity
     {
     	super.onResume();
         loadSettings();
-        initializeDB();
+
+        if (null == _db)
+            _db = new Db(this);
+        _db.initialize();
     }
 
     /** Called when the activity is first created. */
@@ -162,15 +169,18 @@ public class KanjiKing extends Activity
         loadSettings();
 
         // start DB
-        initializeDB();
+        if (null == _db)
+            _db = new Db(this);
+        _db.initialize();
 
         // Load card store
-        loadCardStore();
+        initializeCardStore();
 
         // Construct a box if not already done
+        _box = null;
         loadFromDisk();
         if (_box == null)
-            _box = new CardBox(CardBox.ORDER_FREQUENCY, true);
+            _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
 
         // we start with the card view
         setContentView(R.layout.card);
@@ -293,22 +303,11 @@ public class KanjiKing extends Activity
                 showQuestion();
                 return true;
             case MENU_RESET_ID:
-                _box = new CardBox(CardBox.ORDER_FREQUENCY, true);
-                showQuestion();
+                reset();
                 return true;
             case MENU_SWITCH_MODE_KANJI_ID:
             case MENU_SWITCH_MODE_WORDS_ID:
-                if (_mode == MODE_KANJI)
-                    _mode = MODE_WORDS;
-                else
-                    _mode = MODE_KANJI;
-
-                loadCardStore();
-                _box = null;
-                loadFromDisk();
-                if (_box == null)
-                    _box = new CardBox(CardBox.ORDER_FREQUENCY, true);
-                showQuestion();
+                switchMode();
                 return true;
 
             case MENU_SETTINGS_ID:
@@ -329,6 +328,34 @@ public class KanjiKing extends Activity
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void reset()
+    {
+        _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
+        showQuestion();
+    }
+
+    /**
+     * When the mode is changed,
+     * we need to create a new card store
+     * and reload the last box status from disk.
+     */
+    private void switchMode()
+    {
+        if (_mode == MODE_KANJI)
+            _mode = MODE_WORDS;
+        else
+            _mode = MODE_KANJI;
+
+        initializeCardStore();
+
+        _box = null;
+        loadFromDisk();
+        if (_box == null)
+            _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, true);
+
+        showQuestion();
     }
 
     private boolean showQuestion()
@@ -554,6 +581,8 @@ public class KanjiKing extends Activity
     {
         FileInputStream fis;
 
+        _box = new CardBox(_mode, CardBox.ORDER_FREQUENCY, false);
+
         try {
             fis = new FileInputStream(file);
         } catch (FileNotFoundException e) {
@@ -567,42 +596,20 @@ public class KanjiKing extends Activity
             factory.setNamespaceAware(true);
             XmlPullParser xpp = factory.newPullParser();
             xpp.setInput(fis, "UTF-8");
-            _box = new CardBox(CardBox.ORDER_FREQUENCY, false);
             _box.loadFromXML(xpp);
         } catch (XmlPullParserException e) {
             if (toasts)
                 Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-            return;
         }
-    }
 
+        return;
+    }
 
     
     /********************** DB functions ******************************/
 
-    public static SQLiteDatabase getDB()
-    {
-        return _dbhelper.getDB();
+    public static Db getDb() {
+        return _db;
     }
-
-    private void initializeDB()
-    {
-        if (null == _dbhelper)
-            _dbhelper = new DBHelper(this);
-
-        try {
-            _dbhelper.createDataBase();
-        } catch (IOException ioe) {
-            Log.e(TAG, "Error creating the DB." + ioe.getMessage(), ioe);
-            throw new Error("Error creating the DB.");
-        }
-
-        try {
-            _dbhelper.openDataBase();
-        } catch (SQLException sqle) {
-            throw sqle;
-        }
-    }
-
 }
 

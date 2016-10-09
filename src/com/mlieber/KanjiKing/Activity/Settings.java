@@ -1,8 +1,9 @@
-package com.mlieber.KanjiKing;
+package com.mlieber.KanjiKing.Activity;
 
 import android.preference.PreferenceActivity;
 import android.app.Activity;
 import android.os.Bundle;
+import com.mlieber.KanjiKing.R;
 
 
 public class Settings extends PreferenceActivity {

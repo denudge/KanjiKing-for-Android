@@ -13,17 +13,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="Settings"
+        <activity android:name=".Activity.Settings"
                   android:label="Settings"
             android:screenOrientation="portrait"
             android:configChanges="orientation">
         </activity>
-        <activity android:name="Search"
+        <activity android:name=".Activity.Search"
                   android:label="Search"
             android:screenOrientation="portrait"
             android:configChanges="orientation">
         </activity>
-        <activity android:name="About"
+        <activity android:name=".Activity.About"
                   android:label="About"
             android:screenOrientation="portrait"
             android:configChanges="orientation">

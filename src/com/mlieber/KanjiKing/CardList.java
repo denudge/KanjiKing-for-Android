@@ -11,12 +11,14 @@ public class CardList implements java.io.Serializable
     private final int _maxSize;
     private ArrayList<String> _list = null;
 
-    public CardList(int size) {
+    public CardList(int size)
+    {
         _maxSize = size;
         _list = new ArrayList<String>();
     }
 
-    public boolean isFull() {
+    public boolean isFull()
+    {
         if (_maxSize == 0)
             return false;
 
@@ -26,7 +28,8 @@ public class CardList implements java.io.Serializable
         return false;
     }
 
-    public boolean isFilled() {
+    public boolean isFilled()
+    {
         if (_maxSize == 0)
             return false;
 
@@ -44,23 +47,27 @@ public class CardList implements java.io.Serializable
         return _list.isEmpty();
     }
 
-    public String get() {
+    public String get()
+    {
         return get(0);
     }
 
-    public String get(int index) {
+    public String get(int index)
+    {
         if (isEmpty())
             return null;
         return (String) _list.get(index);
     }
 
-    public String pop() {
+    public String pop()
+    {
         if (isEmpty())
             return null;
         return (String) _list.remove(0);
     }
 
-    public boolean add(String str) {
+    public boolean add(String str)
+    {
         if (isFull())
             return false;
 
@@ -68,14 +75,15 @@ public class CardList implements java.io.Serializable
         return true;
     }
 
-    public void clear() {
+    public void clear()
+    {
         _list.clear();
     }
 
-    public void sort() {
+    public void sort()
+    {
         Comparator<String> _cc = new CardStringComparator();
         java.util.Collections.sort(_list, _cc);
-        
     }
 
     public String asXML()
@@ -101,4 +109,3 @@ public class CardList implements java.io.Serializable
         return sb.toString();
     }
 }
-
