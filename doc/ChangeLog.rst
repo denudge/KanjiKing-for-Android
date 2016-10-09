@@ -1,3 +1,13 @@
+1.5.1 (2016-10-10)
+==================
+
+General
+-------
+* Implemented word mode (vocabulary)
+* Refactorings
+
+
+
 1.5.0 (2016-10-06)
 ==================
 

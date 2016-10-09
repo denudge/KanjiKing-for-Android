@@ -7,14 +7,14 @@ KanjiKing for Android - README
 ==============================
 
 :Author: Mathias Lieber <mathias.lieber@googlemail.com>
-:Version: 1.4.5 of 2012/08/11 
+:Version: 1.5.1 of 2016/10/10
 
 .. contents:: Table of Contents
 
 Description
 -----------
 `KanjiKing for Android` is an Android application for learning Japanese characters (`Kanji`)
-and vocabulary. It comes pre-packaged with 2500 Kanji and 5000 words.
+and vocabulary. It comes pre-packaged with 2500 Kanji and 7500 words.
 
 It has been developed based on code of `KanjiFlashcards`_ by joe@daverin.com and I understand
 this as some kind of successor as joe writes he does not maintain it anymore. So I used his
@@ -28,7 +28,7 @@ Features
 * Order by frequency for optimal practice
 * Alternating active and passive knowledge test
 * Switchable between Kanji and vocabulary mode
-* Pre-packaged with 2500 most common Kanji and 5000 most common words
+* Pre-packaged with 2500 most common Kanji and 7500 most common words
 * Simple and fast flashcard style - you judge yourself *correct* or not
 * Kanji information: frequency, stroke count, Radical number, Hadamitzky number
 * Hints based on primitives (only available in German)
