@@ -1,3 +1,13 @@
+1.5.2 (2016-10-10)
+==================
+
+General
+-------
+* Search enhancements
+* Refactorings
+* Cleanups
+
+
 1.5.1 (2016-10-10)
 ==================
 
