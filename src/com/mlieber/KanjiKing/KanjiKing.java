@@ -141,7 +141,7 @@ public class KanjiKing extends Activity
     private void loadSettings()
     {
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
-        _mode       = Integer.parseInt(settings.getString("mode", "1"));
+        // _mode       = Integer.parseInt(settings.getString("mode", "1"));
         _endless    = settings.getBoolean("endless", false);
         _max_freq   = Integer.parseInt(settings.getString("max_freq", "0"));
         _language   = settings.getString("language", "de");
