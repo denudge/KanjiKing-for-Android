@@ -50,14 +50,4 @@
         <item>1500</item>
         <item>2000</item>
     </string-array>
-
-    <string-array name="PreferencesModeItems">
-        <item>Kanji</item>
-        <item>Words</item>
-    </string-array>
-
-    <string-array name="PreferencesModeValues">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 </resources>

@@ -12,12 +12,6 @@
          android:dialogTitle="Choose an option please">
       </ListPreference>
 
-      <ListPreference android:title="Mode" android:key="mode"
-         android:entries="@array/PreferencesModeItems"
-         android:entryValues="@array/PreferencesModeValues"
-         android:defaultValue="1"
-         android:dialogTitle="Choose an option please">
-      </ListPreference>
       <CheckBoxPreference android:key="endless"
           android:title="Endless mode"
           android:defaultValue="false">
