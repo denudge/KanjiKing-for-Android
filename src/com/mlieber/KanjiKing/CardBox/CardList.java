@@ -11,14 +11,12 @@ public class CardList implements Serializable
     private final int _maxSize;
     private ArrayList<String> _list = null;
 
-    public CardList(int size)
-    {
+    public CardList(int size) {
         _maxSize = size;
         _list = new ArrayList<String>();
     }
 
-    public boolean isFull()
-    {
+    public boolean isFull() {
         if (_maxSize == 0)
             return false;
 
@@ -28,12 +26,11 @@ public class CardList implements Serializable
         return false;
     }
 
-    public boolean isFilled()
-    {
+    public boolean isFilled() {
         if (_maxSize == 0)
             return false;
 
-        if (_list.size() >= (_maxSize-1))
+        if (_list.size() >= (_maxSize - 1))
             return true;
 
         return false;
@@ -47,27 +44,23 @@ public class CardList implements Serializable
         return _list.isEmpty();
     }
 
-    public String get()
-    {
+    public String get() {
         return get(0);
     }
 
-    public String get(int index)
-    {
+    public String get(int index) {
         if (isEmpty())
             return null;
         return (String) _list.get(index);
     }
 
-    public String pop()
-    {
+    public String pop() {
         if (isEmpty())
             return null;
         return (String) _list.remove(0);
     }
 
-    public boolean add(String str)
-    {
+    public boolean add(String str) {
         if (isFull())
             return false;
 
@@ -75,28 +68,24 @@ public class CardList implements Serializable
         return true;
     }
 
-    public void clear()
-    {
+    public void clear() {
         _list.clear();
     }
 
-    public String asXML()
-    {
+    public String asXML() {
         StringBuilder sb = new StringBuilder();
         int i = 0;
-        for (int c = 0; c < _list.size(); c++)
-        {
+        for (int c = 0; c < _list.size(); c++) {
             String a = get(c);
-            if ((a == null) || (a.length() == 0))
-            {
+            if ((a == null) || (a.length() == 0)) {
                 Log.i(TAG, "Card " + c + " was empty or null?");
                 continue;
             }
 
             sb.append("\t")
-                .append("<c>")
-                .append(a)
-                .append("</c>\n");
+                    .append("<c>")
+                    .append(a)
+                    .append("</c>\n");
             i++;
         }
         Log.i(TAG, i + " cards exported from this list.");

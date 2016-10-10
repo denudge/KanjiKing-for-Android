@@ -13,25 +13,23 @@ import android.util.Log;
  */
 public class CardStore
 {
-    private HashMap<String, Card> _map;
     private final String TAG = "CardStore";
+
+    private HashMap<String, Card> _map;
     private int _mode;
     private Db _db;
 
-    public CardStore(Db db, int mode)
-    {
+    public CardStore(Db db, int mode) {
         _db = db;
         _mode = mode;
         _map = new HashMap<String, Card>();
     }
 
-    public void clear()
-    {
+    public void clear() {
         _map.clear();
     }
 
-    public String[] getKeysByType(int type)
-    {
+    public String[] getKeysByType(int type) {
         return _db.getKeysByType(type);
     }
 
@@ -41,12 +39,11 @@ public class CardStore
      * @param String str
      * @return Card
      */
-    public Card get(String str)
-    {
+    public Card get(String str) {
         Card c = _map.get(str);
         if (null != c)
             return c;
-       
+
         try {
             c = fetchById(Integer.parseInt(str));
         } catch (Exception e) {
@@ -64,33 +61,27 @@ public class CardStore
         return c;
     }
 
-    public int size()
-    {
+    public int size() {
         return _map.size();
     }
 
-    public Card fetchById(int id)
-    {
+    public Card fetchById(int id) {
         return _db.findById(id);
     }
 
-    public Card[] fetchByRadical(int radical)
-    {
+    public Card[] fetchByRadical(int radical) {
         return _db.findByRadical(radical);
     }
 
-    public Card[] fetchByStrokes(int strokes)
-    {
+    public Card[] fetchByStrokes(int strokes) {
         return _db.findByStrokes(strokes);
     }
 
-    public Card[] fetchByReading(String str)
-    {
+    public Card[] fetchByReading(String str) {
         return _db.findByReading(str);
     }
 
-    private Card fetchByJapanese(String str)
-    {
+    public Card fetchByJapanese(String str) {
         Card[] cards = _db.findByJapanese(_mode, str);
         if ((cards.length > 0) && (null != cards[0])) {
             return cards[0];
@@ -99,8 +90,7 @@ public class CardStore
         return null;
     }
 
-    public Card search(String str)
-    {
+    public Card search(String str) {
         Card[] cards = _db.findByJapanese(Card.TYPE_KANJI, str);
         if ((cards.length > 0) && (null != cards[0])) {
             return cards[0];
