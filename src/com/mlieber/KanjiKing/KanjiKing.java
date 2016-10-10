@@ -13,8 +13,10 @@ import com.mlieber.KanjiKing.Activity.Settings;
 import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.CardBox.CardBox;
 import com.mlieber.KanjiKing.CardBox.CardStore;
-import com.mlieber.KanjiKing.CardBox.DiskStorage;
+import com.mlieber.KanjiKing.CardBox.Storage.DiskStorage;
+import com.mlieber.KanjiKing.CardBox.Storage.XmlStorage;
 import com.mlieber.KanjiKing.Db.Db;
+
 import org.apache.http.protocol.HTTP;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -38,10 +40,6 @@ import android.preference.PreferenceManager;
 
 import android.view.Menu;
 import android.view.MenuItem;
-
-import org.xmlpull.v1.XmlPullParserFactory;
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
 
 public class KanjiKing extends Activity
 {
@@ -110,16 +108,20 @@ public class KanjiKing extends Activity
         return _box;
     }
 
+    public static Db getDb() {
+        return _db;
+    }
+
     public void onPause(Bundle savedInstanceState)
     {
-        DiskStorage.saveToDisk(this, _box, _mode);
+        saveToDisk();
         _db.close();
     }
 
     @Override
     public void onDestroy()
     {
-        DiskStorage.saveToDisk(this, _box, _mode);
+        saveToDisk();
         _db.close();
         super.onDestroy();
     }
@@ -198,7 +200,7 @@ public class KanjiKing extends Activity
 
         // and display the next card on startup
         showQuestion();
-    
+
         _no_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 _box.answer(false);
@@ -263,8 +265,8 @@ public class KanjiKing extends Activity
 
     return result;
   }
-    
-  
+
+
     @Override
     public boolean onPrepareOptionsMenu(Menu menu)
     {
@@ -284,14 +286,10 @@ public class KanjiKing extends Activity
     {
         switch (item.getItemId()) {
             case MENU_EXPORT_ID:
-                String extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-                File file = new File(extStorageDirectory, "/" + DiskStorage.getFilename(_mode) + ".xml");
-                saveToFile(file, true);
+                saveToXml();
                 return true;
             case MENU_IMPORT_ID:
-                extStorageDirectory = Environment.getExternalStorageDirectory().toString();
-                file = new File(extStorageDirectory, "/" + DiskStorage.getFilename(_mode) + ".xml");
-                loadFromFile(file, true);
+                loadFromXml();
                 showQuestion();
                 return true;
             case MENU_RESET_ID:
@@ -459,7 +457,7 @@ public class KanjiKing extends Activity
                 .append(TextUtils.htmlEncode(card.getKunReading()))
                 .append("</div>");
     }
-    else 
+    else
         card_html.append("<div class=\"reading_kun\">&nbsp;</div>");
 
     if (show_explanation) {
@@ -496,78 +494,52 @@ public class KanjiKing extends Activity
         Log.i(TAG, "Webview is null!");
         return false;
     }
-   
+
     _card_webview.loadDataWithBaseURL(null, card_html.toString(), "text/html", HTTP.UTF_8, null);
     _card_webview.setBackgroundColor(0xff000000);
-    // _card_webview.setVisibility(View.VISIBLE);
     return true;
   }
 
 
     /********************** Storage functions ******************************/
 
-    private void saveToDisk()
-    {
-        DiskStorage.saveToDisk(this, _box, _mode);
-    }
-
-    private void loadFromDisk()
-    {
-        _box = DiskStorage.loadFromDisk(this, _mode);
-    }
-
-    public void saveToFile(File file, boolean toasts)
-    {
+    private void saveToDisk() {
         try {
-            FileOutputStream fos = new FileOutputStream(file);
-            fos.write(_box.asXML().getBytes("UTF-8"));
-            fos.flush();
-            fos.close(); 
-            Toast.makeText(KanjiKing.this, "Exported to " + DiskStorage.getFilename(_mode) + ".xml", Toast.LENGTH_LONG).show();
-        } catch (FileNotFoundException e) {
-            if (toasts)
-                Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-            return;
-        } catch (IOException e) {
-            if (toasts)
-                Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-            return;
+            DiskStorage storage = new DiskStorage();
+            storage.save(this, _box, _mode);
+        } catch (Exception e) {
+            Log.v(TAG, "Error saving cardbox to disk!");
+            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
         }
     }
 
-    public void loadFromFile(File file, boolean toasts)
-    {
-        FileInputStream fis;
-
-        _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, false, _max_freq, _endless);
-
+    private void loadFromDisk() {
         try {
-            fis = new FileInputStream(file);
-        } catch (FileNotFoundException e) {
-            if (toasts)
-                Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-            return;
+            DiskStorage storage = new DiskStorage();
+            _box = storage.load(this, _mode);
+        } catch (Exception e) {
+            Log.v(TAG, "Error loading cardbox from disk!");
+            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
         }
-
-        try {
-            XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
-            factory.setNamespaceAware(true);
-            XmlPullParser xpp = factory.newPullParser();
-            xpp.setInput(fis, "UTF-8");
-            _box.loadFromXML(xpp);
-        } catch (XmlPullParserException e) {
-            if (toasts)
-                Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
-        }
-
-        return;
     }
 
-    
-    /********************** DB functions ******************************/
+    private void saveToXml() {
+        try {
+            XmlStorage storage = new XmlStorage();
+            storage.save(this, _box, _mode);
+            Toast.makeText(KanjiKing.this, "Exported to " + storage.getTargetFilename(_mode), Toast.LENGTH_LONG).show();
+        } catch (Exception e) {
+            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
+        }
+    }
 
-    public static Db getDb() {
-        return _db;
+    private void loadFromXml() {
+        try {
+            XmlStorage storage = new XmlStorage();
+            _box = storage.load(this, _mode);
+            Toast.makeText(KanjiKing.this, "Imported from " + storage.getTargetFilename(_mode), Toast.LENGTH_LONG).show();
+        } catch (Exception e) {
+            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
+        }
     }
 }
-
