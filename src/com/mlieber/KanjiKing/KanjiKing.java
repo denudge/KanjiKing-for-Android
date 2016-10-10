@@ -7,6 +7,26 @@ import android.util.Log;
 import android.text.TextUtils;
 import android.content.res.Configuration;
 
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
+import android.webkit.WebChromeClient;
+import android.net.Uri;
+
+import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Environment;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
+
 import com.mlieber.KanjiKing.Activity.About;
 import com.mlieber.KanjiKing.Activity.Search;
 import com.mlieber.KanjiKing.Activity.Settings;
@@ -17,29 +37,9 @@ import com.mlieber.KanjiKing.CardBox.Storage.DiskStorage;
 import com.mlieber.KanjiKing.CardBox.Storage.XmlStorage;
 import com.mlieber.KanjiKing.Db.Db;
 
-import org.apache.http.protocol.HTTP;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.webkit.WebChromeClient;
-import android.net.Uri;
-
-import android.widget.Button;
-// import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import android.view.View;
-import android.view.MotionEvent;
-
 import java.io.*;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Environment;
-import android.widget.Toast;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 
-import android.view.Menu;
-import android.view.MenuItem;
+import org.apache.http.protocol.HTTP;
 
 public class KanjiKing extends Activity
 {
@@ -58,16 +58,16 @@ public class KanjiKing extends Activity
     public static final int MENU_ABOUT_ID = Menu.FIRST + 7;
 
     // sub objects
-    protected static CardStore _cardstore   = null;
-    protected static CardBox _box           = null;
-    protected static Db _db                 = null;
+    protected static CardStore _cardstore = null;
+    protected static CardBox _box = null;
+    protected static Db _db = null;
 
     // Settings
-    private static int _mode               = MODE_KANJI;
-    private static boolean _endless        = false;
-    private static boolean _show_words     = true;
-    private static int _max_freq           = 0;
-    private static String _language        = "de";
+    private static int _mode = MODE_KANJI;
+    private static boolean _endless = false;
+    private static boolean _show_words = true;
+    private static int _max_freq = 0;
+    private static String _language = "de";
 
     // The card view
     private Button _no_button, _yes_button, _hint_button;
@@ -78,33 +78,27 @@ public class KanjiKing extends Activity
     private WebView _card_webview;
 
 
-    public static int getMode()
-    {
+    public static int getMode() {
         return _mode;
     }
 
-    public static boolean getEndless()
-    {
+    public static boolean getEndless() {
         return _endless;
     }
 
-    public static int getMaxFreq()
-    {
+    public static int getMaxFreq() {
         return _max_freq;
     }
 
-    public static String getLanguage()
-    {
+    public static String getLanguage() {
         return _language;
     }
 
-    public static CardStore getCardStore()
-    {
+    public static CardStore getCardStore() {
         return _cardstore;
     }
 
-    public static CardBox getCardBox()
-    {
+    public static CardBox getCardBox() {
         return _box;
     }
 
@@ -112,40 +106,21 @@ public class KanjiKing extends Activity
         return _db;
     }
 
-    public void onPause(Bundle savedInstanceState)
-    {
+    public void onPause(Bundle savedInstanceState) {
         saveToDisk();
         _db.close();
     }
 
     @Override
-    public void onDestroy()
-    {
+    public void onDestroy() {
         saveToDisk();
         _db.close();
         super.onDestroy();
     }
 
-    private void initializeCardStore()
-    {
-        _cardstore = new CardStore(_db, _mode);
-        _cardstore.clear();
-    }
-
-    private void loadSettings()
-    {
-        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
-        // _mode       = Integer.parseInt(settings.getString("mode", "1"));
-        _endless    = settings.getBoolean("endless", false);
-        _max_freq   = Integer.parseInt(settings.getString("max_freq", "0"));
-        _language   = settings.getString("language", "de");
-        Log.i(TAG, "Settings activated.");
-    }
-
     @Override
-    protected void onResume()
-    {
-    	super.onResume();
+    public void onResume() {
+        super.onResume();
         loadSettings();
 
         if (null == _db)
@@ -153,10 +128,11 @@ public class KanjiKing extends Activity
         _db.initialize();
     }
 
-    /** Called when the activity is first created. */
+    /**
+     * Called when the activity is first created.
+     */
     @Override
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // load settings
@@ -180,18 +156,18 @@ public class KanjiKing extends Activity
         setContentView(R.layout.card);
 
         // Initialize layout
-        _card_webview = (WebView)findViewById(R.id.card_webview);
-        _yes_button = (Button)findViewById(R.id.yes_button);
-        _no_button = (Button)findViewById(R.id.no_button);
-        _hint_button = (Button)findViewById(R.id.hint_button);
-        _hint_field = (TextView)findViewById(R.id.hint_field);
+        _card_webview = (WebView) findViewById(R.id.card_webview);
+        _yes_button = (Button) findViewById(R.id.yes_button);
+        _no_button = (Button) findViewById(R.id.no_button);
+        _hint_button = (Button) findViewById(R.id.hint_button);
+        _hint_field = (TextView) findViewById(R.id.hint_field);
 
         _word = new Button[5];
-        _word[0] = (Button)findViewById(R.id.word1);
-        _word[1] = (Button)findViewById(R.id.word2);
-        _word[2] = (Button)findViewById(R.id.word3);
-        _word[3] = (Button)findViewById(R.id.word4);
-        _word[4] = (Button)findViewById(R.id.word5);
+        _word[0] = (Button) findViewById(R.id.word1);
+        _word[1] = (Button) findViewById(R.id.word2);
+        _word[2] = (Button) findViewById(R.id.word3);
+        _word[3] = (Button) findViewById(R.id.word4);
+        _word[4] = (Button) findViewById(R.id.word5);
 
         _card_webview.setOnTouchListener(screenTouchListener);
 
@@ -237,53 +213,36 @@ public class KanjiKing extends Activity
         }
     }
 
-    private final View.OnTouchListener screenTouchListener = new View.OnTouchListener()
-    {
-        public boolean onTouch(View v, MotionEvent event) {
-            if (event.getAction() == MotionEvent.ACTION_UP) {
-                if (View.INVISIBLE == _no_button.getVisibility()) {
-                    showAnswer();
-                    return true;
-                }
-            }
-            return true;
-        }
-    };
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        boolean result = super.onCreateOptionsMenu(menu);
+        menu.add(1, MENU_EXPORT_ID, 1, "Export");
+        menu.add(2, MENU_IMPORT_ID, 2, "Import");
+        menu.add(3, MENU_RESET_ID, 3, "Reset");
+        menu.add(4, MENU_SWITCH_MODE_KANJI_ID, 4, "Switch to kanji mode");
+        menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
+        menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
+        menu.add(7, MENU_SEARCH_ID, 6, "Search");
+        menu.add(8, MENU_ABOUT_ID, 7, "About");
 
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu)
-  {
-    boolean result = super.onCreateOptionsMenu(menu);
-    menu.add(1, MENU_EXPORT_ID, 1, "Export");
-    menu.add(2, MENU_IMPORT_ID, 2, "Import");
-    menu.add(3, MENU_RESET_ID, 3, "Reset");
-    menu.add(4, MENU_SWITCH_MODE_KANJI_ID, 4, "Switch to kanji mode");
-    menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
-    menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
-    menu.add(7, MENU_SEARCH_ID, 6, "Search");
-    menu.add(8, MENU_ABOUT_ID, 7, "About");
-
-    return result;
-  }
-
+        return result;
+    }
 
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu)
-    {
+    public boolean onPrepareOptionsMenu(Menu menu) {
         if (_mode == MODE_KANJI) {
-          menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(true);
-          menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(false);
+            menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(true);
+            menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(false);
         } else {
-          menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(false);
-          menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(true);
+            menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(false);
+            menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(true);
         }
 
         return true;
-  }
+    }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
+    public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case MENU_EXPORT_ID:
                 saveToXml();
@@ -299,18 +258,15 @@ public class KanjiKing extends Activity
             case MENU_SWITCH_MODE_WORDS_ID:
                 switchMode();
                 return true;
-
             case MENU_SETTINGS_ID:
                 Intent settingsActivity = new Intent(getBaseContext(), Settings.class);
                 startActivity(settingsActivity);
                 loadSettings();
                 return true;
-
             case MENU_SEARCH_ID:
                 Intent searchActivity = new Intent(getBaseContext(), Search.class);
                 startActivity(searchActivity);
                 return true;
-
             case MENU_ABOUT_ID:
                 Intent aboutActivity = new Intent(getBaseContext(), About.class);
                 startActivity(aboutActivity);
@@ -320,8 +276,36 @@ public class KanjiKing extends Activity
         return super.onOptionsItemSelected(item);
     }
 
-    private void reset()
-    {
+    private final View.OnTouchListener screenTouchListener = new View.OnTouchListener() {
+        public boolean onTouch(View v, MotionEvent event) {
+            if (event.getAction() == MotionEvent.ACTION_UP) {
+                if (View.INVISIBLE == _no_button.getVisibility()) {
+                    showAnswer();
+                    return true;
+                }
+            }
+            return true;
+        }
+    };
+
+
+    /************************************** LOGIC ******************************************/
+
+    private void initializeCardStore() {
+        _cardstore = new CardStore(_db, _mode);
+        _cardstore.clear();
+    }
+
+    private void loadSettings() {
+        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
+        // _mode       = Integer.parseInt(settings.getString("mode", "1"));
+        _endless = settings.getBoolean("endless", false);
+        _max_freq = Integer.parseInt(settings.getString("max_freq", "0"));
+        _language = settings.getString("language", "de");
+        Log.i(TAG, "Settings activated.");
+    }
+
+    private void reset() {
         _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, true, _max_freq, _endless);
         showQuestion();
     }
@@ -331,8 +315,7 @@ public class KanjiKing extends Activity
      * we need to create a new card store
      * and reload the last box status from disk.
      */
-    private void switchMode()
-    {
+    private void switchMode() {
         if (_mode == MODE_KANJI)
             _mode = MODE_WORDS;
         else
@@ -348,8 +331,7 @@ public class KanjiKing extends Activity
         showQuestion();
     }
 
-    private boolean showQuestion()
-    {
+    private boolean showQuestion() {
         _no_button.setVisibility(View.INVISIBLE);
         _yes_button.setVisibility(View.INVISIBLE);
 
@@ -369,136 +351,129 @@ public class KanjiKing extends Activity
             return showCard(_box.getNextCard(), true, false);
     }
 
-    private boolean showAnswer()
-    {
+    private boolean showAnswer() {
         _no_button.setVisibility(View.VISIBLE);
         _yes_button.setVisibility(View.VISIBLE);
         return showCard(_box.getNextCard(), true, true);
     }
 
-    private void showHint()
-    {
+    private void showHint() {
         _hint_field.setVisibility(View.VISIBLE);
         _hint_button.setVisibility(View.INVISIBLE);
     }
 
-  private boolean showCard(String str, boolean show_japanese, boolean show_explanation)
-  {
-    StringBuilder card_html = new StringBuilder();
+    private boolean showCard(String str, boolean show_japanese, boolean show_explanation) {
+        StringBuilder card_html = new StringBuilder();
 
-    Card card = _cardstore.get(str);
+        Card card = _cardstore.get(str);
 
-    if (card == null)
-    {
-        Log.i(TAG, "Card cannot be found.");
-        return false;
-    }
-
-    if (View.INVISIBLE == _hint_field.getVisibility()) {
-        if (null != card.getHint(_language)) {
-            _hint_field.setText(card.getHint(_language));
-            _hint_button.setVisibility(View.VISIBLE);
+        if (card == null) {
+            Log.i(TAG, "Card cannot be found.");
+            return false;
         }
-    }
 
-    String style= "body {text-align: center; color: white; }\n"
+        if (View.INVISIBLE == _hint_field.getVisibility()) {
+            if (null != card.getHint(_language)) {
+                _hint_field.setText(card.getHint(_language));
+                _hint_button.setVisibility(View.VISIBLE);
+            }
+        }
+
+        String style = "body {text-align: center; color: white; }\n"
                 + "div.info, div.status { color: #888888; font-size:90%; }\n"
                 + "div.japanese {font-size: 500%; color: #99ff99; }\n"
-		        + "div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps; }\n"
-		        + "div.reading_kun {font-size: 200%; color: #9090ff; }\n"
+                + "div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps; }\n"
+                + "div.reading_kun {font-size: 200%; color: #9090ff; }\n"
                 + "div.meaning {color: #e0e0e0;}\n";
 
-    card_html.append("<html>")
-        .append("<head>")
-        .append("<title>KanjiKing</title>")
-        .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">");
+        card_html.append("<html>")
+                .append("<head>")
+                .append("<title>KanjiKing</title>")
+                .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">");
 
         card_html.append("<style type=\"text/css\">")
-            .append(TextUtils.htmlEncode(style))
-            .append("</style>");
+                .append(TextUtils.htmlEncode(style))
+                .append("</style>");
 
-    card_html.append("</head>")
-        .append("<body>");
+        card_html.append("</head>")
+                .append("<body>");
 
-    card_html.append("<div class=\"status\">")
-        .append(TextUtils.htmlEncode(_box.getStatus()))
-        .append("</div><br>");
+        card_html.append("<div class=\"status\">")
+                .append(TextUtils.htmlEncode(_box.getStatus()))
+                .append("</div><br>");
 
-    // ableiten, ob wir im Wort- oder Kanji-Modus sind
-    boolean show_reading = false;
-    if (card.getType()==Card.TYPE_KANJI)
-        show_reading = show_explanation;
-    else
-        show_reading = (show_japanese && show_explanation);
+        // ableiten, ob wir im Wort- oder Kanji-Modus sind
+        boolean show_reading = false;
+        if (card.getType() == Card.TYPE_KANJI)
+            show_reading = show_explanation;
+        else
+            show_reading = (show_japanese && show_explanation);
 
-    if (show_japanese) {
-        card_html
-            .append("<div class=\"info\">")
-            .append(card.getInfo())
-            .append("</div><br>");
+        if (show_japanese) {
+            card_html
+                    .append("<div class=\"info\">")
+                    .append(card.getInfo())
+                    .append("</div><br>");
 
-        if (card.getJapanese() != null)
-            card_html.append("<div class=\"japanese\">")
-                .append(TextUtils.htmlEncode(card.getJapanese()))
-                .append("</div>");
-    } else {
-        card_html.append("<div class=\"info\">&nbsp;</div><br>")
-            .append("<div class=\"japanese\">&nbsp;</div>");
-    }
-
-    if (show_reading) {
-        if (card.getOnReading() != null)
-            card_html.append("<div class=\"reading_on\">")
-                .append(TextUtils.htmlEncode(card.getOnReading()))
-                .append("</div>");
-
-        if (card.getKunReading() != null)
-            card_html.append("<div class=\"reading_kun\">")
-                .append(TextUtils.htmlEncode(card.getKunReading()))
-                .append("</div>");
-    }
-    else
-        card_html.append("<div class=\"reading_kun\">&nbsp;</div>");
-
-    if (show_explanation) {
-        if (card.getMeaning(_language) != null) {
-            card_html.append("<div class=\"meaning\">")
-                .append(TextUtils.htmlEncode(card.getMeaning(_language)))
-                .append("</div>");
+            if (card.getJapanese() != null)
+                card_html.append("<div class=\"japanese\">")
+                        .append(TextUtils.htmlEncode(card.getJapanese()))
+                        .append("</div>");
         } else {
-            card_html.append("<div class=\"meaning\">(no meaning available, switch language)</div>");
+            card_html.append("<div class=\"info\">&nbsp;</div><br>")
+                    .append("<div class=\"japanese\">&nbsp;</div>");
         }
 
-    }
-    else
-        card_html.append("<div class=\"meaning\">&nbsp;</div>");
+        if (show_reading) {
+            if (card.getOnReading() != null)
+                card_html.append("<div class=\"reading_on\">")
+                        .append(TextUtils.htmlEncode(card.getOnReading()))
+                        .append("</div>");
 
-    if ((show_japanese) && (show_explanation)) {
-        card_html.append("<div class=\"words\">");
-        int i = 0;
-        for (String word : card.getWords()) {
-            _word[i].setText(word);
-            _word[i].setVisibility(View.VISIBLE);
+            if (card.getKunReading() != null)
+                card_html.append("<div class=\"reading_kun\">")
+                        .append(TextUtils.htmlEncode(card.getKunReading()))
+                        .append("</div>");
+        } else
+            card_html.append("<div class=\"reading_kun\">&nbsp;</div>");
 
-            i++;
-            if (i >= 5)
-                break;
+        if (show_explanation) {
+            if (card.getMeaning(_language) != null) {
+                card_html.append("<div class=\"meaning\">")
+                        .append(TextUtils.htmlEncode(card.getMeaning(_language)))
+                        .append("</div>");
+            } else {
+                card_html.append("<div class=\"meaning\">(no meaning available, switch language)</div>");
+            }
+
+        } else
+            card_html.append("<div class=\"meaning\">&nbsp;</div>");
+
+        if ((show_japanese) && (show_explanation)) {
+            card_html.append("<div class=\"words\">");
+            int i = 0;
+            for (String word : card.getWords()) {
+                _word[i].setText(word);
+                _word[i].setVisibility(View.VISIBLE);
+
+                i++;
+                if (i >= 5)
+                    break;
+            }
+            card_html.append("</div>");
         }
-        card_html.append("</div>");
+
+        card_html.append("</body>");
+
+        if (_card_webview == null) {
+            Log.i(TAG, "Webview is null!");
+            return false;
+        }
+
+        _card_webview.loadDataWithBaseURL(null, card_html.toString(), "text/html", HTTP.UTF_8, null);
+        _card_webview.setBackgroundColor(0xff000000);
+        return true;
     }
-
-    card_html.append("</body>");
-
-    if (_card_webview == null)
-    {
-        Log.i(TAG, "Webview is null!");
-        return false;
-    }
-
-    _card_webview.loadDataWithBaseURL(null, card_html.toString(), "text/html", HTTP.UTF_8, null);
-    _card_webview.setBackgroundColor(0xff000000);
-    return true;
-  }
 
 
     /********************** Storage functions ******************************/
