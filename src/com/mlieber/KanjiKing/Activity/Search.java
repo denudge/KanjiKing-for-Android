@@ -13,6 +13,7 @@ import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.CardBox.CardBox;
 import com.mlieber.KanjiKing.CardBox.CardFrequencyComparator;
 import com.mlieber.KanjiKing.CardBox.CardStore;
+import com.mlieber.KanjiKing.Search.Criteria;
 
 import java.util.Vector;
 import java.util.Comparator;
@@ -93,141 +94,26 @@ public class Search extends Activity
         // connect search button
         _search_button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                String phrase = (((TextView) _search_phrase).getText()).toString();
-                String reading = (((TextView) _search_reading).getText()).toString();
-                String meaning = (((TextView) _search_meaning).getText()).toString();
+                Criteria criteria = new Criteria();
+                criteria.setSearchPhrase((((TextView) _search_phrase).getText()).toString())
+                        .setReading((((TextView) _search_reading).getText()).toString())
+                        .setMeaning((((TextView) _search_meaning).getText()).toString())
+                        .setRadical(_search_radical.getProgress())
+                        .setStrokes(_search_strokes.getProgress());
+
                 _search_result.setText("Searching...");
+
+                Card[] result = search(criteria);
+
                 _search_result.setText(
-                    formatSearchResult(
-                        search(_cardstore, phrase, reading, meaning, _search_radical.getProgress(), _search_strokes.getProgress())
-                    )
+                    formatSearchResult(result)
                 );
             }
         });
     }
 
-
-    private Card[] search(CardStore base, String search, String reading, String meaning, int radical, int strokes)
-    {
-        boolean init = false;
-        String[] obj = null;
-        Card card = null;
-
-        if (null == base)
-            return null;
-        
-        Vector<Card> rv = new Vector<Card>();
-
-        // phrase search
-        if ((null != search) && (!search.equals(""))) {
-            for (int i=0; i < search.length(); i++) {
-                String ch = search.charAt(i) + "";
-                card = base.search(ch);
-
-                if (null != card)
-                    rv.add(card);
-            }
-            init = true;
-        }
-
-        // Reading search
-        if ((null != reading) && (!reading.equals(""))) {
-            if (!init) {
-                Log.v(TAG, "Search by reading " + reading);
-                Card[] cards = base.fetchByReading(reading);
-                for (int i=0; i < cards.length; i++) {
-                    rv.add(cards[i]);
-                }
-               init = true;
-            } else {
-                Log.v(TAG, "Filtering search by reading " + reading);
-                // radical filter
-                for (int i=0; i < rv.size(); i++) {
-                    card = rv.get(i);
-                    if (! card.hasReading(reading, false))
-                        rv.removeElement(card);
-                        i--;
-                }
-            }
-        }
-        
-        // Meaning search
-        if ((null != meaning) && (!meaning.equals(""))) {
-            if (!init) {
-                Log.v(TAG, "Search by meaning " + meaning);
-                if (null == obj)
-                    obj = base.getKeysByType(Card.TYPE_KANJI);
-
-                for (int i=0; i < obj.length; i++) {
-                    card = (Card) base.fetchById(Integer.parseInt(obj[i]));
-                    if ((card != null) && (card.hasMeaning(meaning, KanjiKing.getLanguage(), false)))
-                        rv.add(card);
-                }
-               init = true;
-            } else {
-                Log.v(TAG, "Filtering search by meaning " + meaning);
-                // radical filter
-                for (int i=0; i < rv.size(); i++) {
-                    card = rv.get(i);
-                    if (! card.hasMeaning(meaning, KanjiKing.getLanguage(), false))
-                        rv.removeElement(card);
-                        i--;
-                }
-            }
-        }
-        
-        // radical search
-        if (radical > 0) {
-            if (!init) {
-                Log.v(TAG, "Search by radical " + radical);
-                Card[] cards = base.fetchByRadical(radical);
-                for (int i=0; i < cards.length; i++) {
-                    rv.add(cards[i]);
-                }
-               init = true;
-            } else {
-                Log.v(TAG, "Filtering search by radical " + radical);
-                // radical filter
-                for (int i=0; i < rv.size(); i++) {
-                    card = rv.get(i);
-                    if (radical != card.getRadical()) {
-                        rv.removeElement(card);
-                        i--;
-                    }
-                }
-            }
-        }
-
-        // strokes search
-        if (strokes > 0) {
-            if (!init) {
-                Card[] cards = base.fetchByStrokes(strokes);
-                for (int i=0; i < cards.length; i++) {
-                    rv.add(cards[i]);
-                }
-                init = true;
-            } else {
-                // strokes filter
-                for (int i=0; i < rv.size(); i++) {
-                    card = rv.get(i);
-                    if (strokes != card.getStrokesCount()) {
-                        rv.removeElement(card);
-                        i--;
-                    }
-                }
-            }
-        }
-        
-        if (!init)
-            return new Card[0];
-
-        Comparator<Card> _cc = new CardFrequencyComparator();
-        java.util.Collections.sort(rv, _cc);
-
-        Card[] ra = new Card[rv.size()];
-        rv.toArray(ra);
-
-        return ra;
+    private Card[] search(Criteria criteria) {
+        return _cardstore.fetchByCriteria(criteria);
     }
 
     private String formatSearchResult(Card[] result) {
@@ -271,6 +157,5 @@ public class Search extends Activity
         
         return sb.toString();
     }
-
 }
 

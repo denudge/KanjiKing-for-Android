@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 import com.mlieber.KanjiKing.CardBox.Card;
+import com.mlieber.KanjiKing.Search.Criteria;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,7 +25,7 @@ public class Db extends SQLiteOpenHelper
     private static String DB_PATH = "/data/data/com.mlieber.KanjiKing/databases/";
     private static String DB_NAME = "kanjiking.db";
 
-    protected static String dbQueryFields = "_id, pack, type, japanese, reading_on, reading_kun"
+    protected static String DB_QUERY_FIELDS = "card._id, card.pack, type, japanese, reading_on, reading_kun"
             + ", frequency, frequency2, grade, strokes, radical"
             + ", hadamitzky, halpern, words";
 
@@ -118,7 +119,7 @@ public class Db extends SQLiteOpenHelper
     }
 
     public Card[] findByRadical(int radical) {
-        String stmt = "select " + dbQueryFields
+        String stmt = "select " + DB_QUERY_FIELDS
                 + " from card where"
                 + " radical=" + radical
                 + " AND type=" + Card.TYPE_KANJI
@@ -131,7 +132,7 @@ public class Db extends SQLiteOpenHelper
     }
 
     public Card[] findByStrokes(int strokes) {
-        String stmt = "select " + dbQueryFields
+        String stmt = "select " + DB_QUERY_FIELDS
                 + " from card where"
                 + " strokes=" + strokes
                 + " AND type=" + Card.TYPE_KANJI
@@ -144,10 +145,10 @@ public class Db extends SQLiteOpenHelper
     }
 
     public Card[] findByReading(String reading) {
-        String stmt = "select " + dbQueryFields
+        String stmt = "select " + DB_QUERY_FIELDS
                 + " from card where "
-                + " (reading_on='" + reading.replace("'", "\\'") + "'"
-                + " OR reading_kun='" + reading.replace("'", "\\'") + "')"
+                + " (reading_on='" + mask(reading) + "'"
+                + " OR reading_kun='" + mask(reading) + "')"
                 + " AND type=" + Card.TYPE_KANJI
                 + ";";
 
@@ -161,8 +162,29 @@ public class Db extends SQLiteOpenHelper
         return findByFilter("type=" + type, null);
     }
 
+    public Card[] findByCriteria(Criteria criteria) {
+        if (criteria.isEmpty()) {
+            return new Card[0];
+        }
+
+        String stmt = new SearchStatement(criteria).toString();
+
+        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
+        Card[] cards = loadCardsFromCursor(mCursor);
+        mCursor.close();
+        return cards;
+    }
+
+    public static String mask(String str) {
+        if (str == null) {
+            return null;
+        }
+
+        return str.replace("'", "\\'");
+    }
+
     private Card[] findByFilter(String filter, String value) {
-        String stmt = "select " + dbQueryFields
+        String stmt = "select " + DB_QUERY_FIELDS
                 + " from card where "
                 + filter;
 
@@ -344,5 +366,4 @@ public class Db extends SQLiteOpenHelper
         String myPath = DB_PATH + DB_NAME;
         _db = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
     }
-
 }

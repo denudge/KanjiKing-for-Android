@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import com.mlieber.KanjiKing.Db.Db;
 import android.util.Log;
+import com.mlieber.KanjiKing.Search.Criteria;
 
 /**
  * A CardStore holds all information of kanji or vocabulary cards.
@@ -79,6 +80,10 @@ public class CardStore
 
     public Card[] fetchByReading(String str) {
         return _db.findByReading(str);
+    }
+
+    public Card[] fetchByCriteria(Criteria criteria) {
+        return _db.findByCriteria(criteria);
     }
 
     public Card fetchByJapanese(String str) {
