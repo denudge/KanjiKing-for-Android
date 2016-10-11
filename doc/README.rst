@@ -7,7 +7,7 @@ KanjiKing for Android - README
 ==============================
 
 :Author: Mathias Lieber <mathias.lieber@googlemail.com>
-:Version: 1.5.1 of 2016/10/10
+:Version: 1.5.3 of 2016/10/11
 
 .. contents:: Table of Contents
 
