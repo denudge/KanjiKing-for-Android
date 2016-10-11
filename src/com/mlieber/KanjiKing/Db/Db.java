@@ -119,43 +119,28 @@ public class Db extends SQLiteOpenHelper
     }
 
     public Card[] findByRadical(int radical) {
-        String stmt = "select " + DB_QUERY_FIELDS
-                + " from card where"
-                + " radical=" + radical
-                + " AND type=" + Card.TYPE_KANJI
-                + ";";
-
-        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
-        Card[] cards = loadCardsFromCursor(mCursor);
-        mCursor.close();
-        return cards;
+        return findByFilter(
+                "radical=" + radical
+                + " AND type=" + Card.TYPE_KANJI,
+                null
+        );
     }
 
     public Card[] findByStrokes(int strokes) {
-        String stmt = "select " + DB_QUERY_FIELDS
-                + " from card where"
-                + " strokes=" + strokes
-                + " AND type=" + Card.TYPE_KANJI
-                + ";";
-
-        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
-        Card[] cards = loadCardsFromCursor(mCursor);
-        mCursor.close();
-        return cards;
+        return findByFilter(
+                "strokes=" + strokes
+                + " AND type=" + Card.TYPE_KANJI,
+                null
+        );
     }
 
     public Card[] findByReading(String reading) {
-        String stmt = "select " + DB_QUERY_FIELDS
-                + " from card where "
-                + " (reading_on='" + mask(reading) + "'"
-                + " OR reading_kun='" + mask(reading) + "')"
-                + " AND type=" + Card.TYPE_KANJI
-                + ";";
-
-        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
-        Card[] cards = loadCardsFromCursor(mCursor);
-        mCursor.close();
-        return cards;
+        return findByFilter(
+                    "(reading_on='" + mask(reading) + "'"
+                    + " OR reading_kun='" + mask(reading) + "')"
+                    + " AND type=" + Card.TYPE_KANJI,
+                    null
+        );
     }
 
     public Card[] findByType(int type) {
@@ -168,11 +153,7 @@ public class Db extends SQLiteOpenHelper
         }
 
         String stmt = new SearchStatement(criteria).toString();
-
-        Cursor mCursor = _db.rawQuery(stmt, new String[0]);
-        Card[] cards = loadCardsFromCursor(mCursor);
-        mCursor.close();
-        return cards;
+        return findByStatement(stmt, null);
     }
 
     public static String mask(String str) {
@@ -186,8 +167,13 @@ public class Db extends SQLiteOpenHelper
     private Card[] findByFilter(String filter, String value) {
         String stmt = "select " + DB_QUERY_FIELDS
                 + " from card where "
-                + filter;
+                + filter
+                + ";";
 
+        return findByStatement(stmt, value);
+    }
+
+    private Card[] findByStatement(String stmt, String value) {
         Cursor mCursor = _db.rawQuery(stmt, value == null ? new String[0] : new String[]{value});
         Card[] cards = loadCardsFromCursor(mCursor);
         mCursor.close();
