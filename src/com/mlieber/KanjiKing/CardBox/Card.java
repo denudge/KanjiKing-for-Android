@@ -248,21 +248,4 @@ public class Card implements java.io.Serializable
 
         return false;
     }
-
-    public String getInfo() {
-        StringBuilder sb = new StringBuilder();
-
-        sb.append("F: ")
-                .append(getFrequency())
-                .append(" / G: ")
-                .append(getGrade())
-                .append(" / S: ")
-                .append(getStrokesCount())
-                .append(" / R: ")
-                .append(getRadical())
-                .append(" / H: ")
-                .append(getHadamitzkyNumber());
-
-        return sb.toString();
-    }
 }

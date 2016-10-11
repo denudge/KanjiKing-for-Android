@@ -13,6 +13,7 @@ import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.CardBox.CardBox;
 import com.mlieber.KanjiKing.CardBox.CardFrequencyComparator;
 import com.mlieber.KanjiKing.CardBox.CardStore;
+import com.mlieber.KanjiKing.Element.SearchResultEntry;
 import com.mlieber.KanjiKing.Search.Criteria;
 
 import java.util.Vector;
@@ -21,6 +22,7 @@ import java.util.Comparator;
 public class Search extends Activity
 {
     private static final String TAG = "KanjiKing/Search";
+
     private EditText _search_phrase;
     private EditText _search_reading;
     private EditText _search_meaning;
@@ -30,11 +32,11 @@ public class Search extends Activity
     private TextView _search_result;
     private TextView _search_radical_preview;
     private TextView _search_strokes_preview;
+
     private CardBox _cardbox;
     private CardStore _cardstore;
     private String _language;
 
-    /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
@@ -126,33 +128,9 @@ public class Search extends Activity
 
         // Display kanji infos for each kanji
         for (int i = 0; i < result.length; i++) {
-            sb.append(result[i].getJapanese())
-                .append(" ")
-                .append(result[i].getOnReading())
-                .append(" ")
-                .append(result[i].getKunReading())
-                .append("\n")
-                .append(result[i].getInfo())
-                .append("\n")
-                .append(result[i].getMeaning(_language))
-                .append("\n");
-
-            int nbox = _cardbox.getBoxListNumber(result[i].getId() + "");
-            sb.append("Lern-Status: ");
-
-            switch (nbox) {
-                case 0:
-                    sb.append("Noch nie gesehen\n");
-                    break;
-                case 99: 
-                    sb.append("Fertig gelernt\n");
-                    break;
-                default:
-                    sb.append("Beim Lernen in Box " + nbox + "\n");
-                    break;
-            }
-
-            sb.append("\n\n");
+            SearchResultEntry entry = new SearchResultEntry(result[i], _language, _cardbox);
+            sb.append(entry.toString())
+                .append("\n\n");
         }
         
         return sb.toString();

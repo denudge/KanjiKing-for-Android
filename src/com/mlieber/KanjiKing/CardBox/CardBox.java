@@ -201,7 +201,7 @@ public class CardBox implements java.io.Serializable
 
         int _currentList = findNextList();
 
-        sb.append(_maxFrequency + ": ");
+        // sb.append(_maxFrequency + ": ");
 
         sb.append("(")
                 .append(_pool.size())

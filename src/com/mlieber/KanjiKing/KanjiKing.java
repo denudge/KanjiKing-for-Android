@@ -39,6 +39,8 @@ import com.mlieber.KanjiKing.Db.Db;
 
 import java.io.*;
 
+import com.mlieber.KanjiKing.Element.CardView;
+import com.mlieber.KanjiKing.Element.KanjiInfo;
 import org.apache.http.protocol.HTTP;
 
 public class KanjiKing extends Activity
@@ -363,8 +365,6 @@ public class KanjiKing extends Activity
     }
 
     private boolean showCard(String str, boolean show_japanese, boolean show_explanation) {
-        StringBuilder card_html = new StringBuilder();
-
         Card card = _cardstore.get(str);
 
         if (card == null) {
@@ -379,78 +379,10 @@ public class KanjiKing extends Activity
             }
         }
 
-        String style = "body {text-align: center; color: white; }\n"
-                + "div.info, div.status { color: #888888; font-size:90%; }\n"
-                + "div.japanese {font-size: 500%; color: #99ff99; }\n"
-                + "div.reading_on {font-size: 230%; color: #9090ff; font-variant: small-caps; }\n"
-                + "div.reading_kun {font-size: 200%; color: #9090ff; }\n"
-                + "div.meaning {color: #e0e0e0;}\n";
-
-        card_html.append("<html>")
-                .append("<head>")
-                .append("<title>KanjiKing</title>")
-                .append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">");
-
-        card_html.append("<style type=\"text/css\">")
-                .append(TextUtils.htmlEncode(style))
-                .append("</style>");
-
-        card_html.append("</head>")
-                .append("<body>");
-
-        card_html.append("<div class=\"status\">")
-                .append(TextUtils.htmlEncode(_box.getStatus()))
-                .append("</div><br>");
-
-        // ableiten, ob wir im Wort- oder Kanji-Modus sind
-        boolean show_reading = false;
-        if (card.getType() == Card.TYPE_KANJI)
-            show_reading = show_explanation;
-        else
-            show_reading = (show_japanese && show_explanation);
-
-        if (show_japanese) {
-            card_html
-                    .append("<div class=\"info\">")
-                    .append(card.getInfo())
-                    .append("</div><br>");
-
-            if (card.getJapanese() != null)
-                card_html.append("<div class=\"japanese\">")
-                        .append(TextUtils.htmlEncode(card.getJapanese()))
-                        .append("</div>");
-        } else {
-            card_html.append("<div class=\"info\">&nbsp;</div><br>")
-                    .append("<div class=\"japanese\">&nbsp;</div>");
-        }
-
-        if (show_reading) {
-            if (card.getOnReading() != null)
-                card_html.append("<div class=\"reading_on\">")
-                        .append(TextUtils.htmlEncode(card.getOnReading()))
-                        .append("</div>");
-
-            if (card.getKunReading() != null)
-                card_html.append("<div class=\"reading_kun\">")
-                        .append(TextUtils.htmlEncode(card.getKunReading()))
-                        .append("</div>");
-        } else
-            card_html.append("<div class=\"reading_kun\">&nbsp;</div>");
-
-        if (show_explanation) {
-            if (card.getMeaning(_language) != null) {
-                card_html.append("<div class=\"meaning\">")
-                        .append(TextUtils.htmlEncode(card.getMeaning(_language)))
-                        .append("</div>");
-            } else {
-                card_html.append("<div class=\"meaning\">(no meaning available, switch language)</div>");
-            }
-
-        } else
-            card_html.append("<div class=\"meaning\">&nbsp;</div>");
+        String card_html = new CardView(card, _box, _language, show_japanese, show_explanation).toString();
 
         if ((show_japanese) && (show_explanation)) {
-            card_html.append("<div class=\"words\">");
+            // card_html.append("<div class=\"words\">");
             int i = 0;
             for (String word : card.getWords()) {
                 _word[i].setText(word);
@@ -460,17 +392,15 @@ public class KanjiKing extends Activity
                 if (i >= 5)
                     break;
             }
-            card_html.append("</div>");
+            // card_html.append("</div>");
         }
-
-        card_html.append("</body>");
 
         if (_card_webview == null) {
             Log.i(TAG, "Webview is null!");
             return false;
         }
 
-        _card_webview.loadDataWithBaseURL(null, card_html.toString(), "text/html", HTTP.UTF_8, null);
+        _card_webview.loadDataWithBaseURL(null, card_html, "text/html", HTTP.UTF_8, null);
         _card_webview.setBackgroundColor(0xff000000);
         return true;
     }
