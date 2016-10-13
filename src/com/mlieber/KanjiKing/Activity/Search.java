@@ -97,6 +97,13 @@ public class Search extends Activity
             public void onStopTrackingTouch(SeekBar b) { }
         });
 
+        // TODO: Implement value extraction
+        View.OnClickListener radicalClickListener = new View.OnClickListener() {
+            public void onClick(View v) {
+                v.setBackgroundColor(0xffffff00);
+            }
+        };
+
         // Create radical button grid - programmatically
         TableLayout radicalTable = (TableLayout) findViewById(R.id.search_radical_grid);
         for (int row = 0; row < 22; row++) {
@@ -111,6 +118,8 @@ public class Search extends Activity
                 radicalButton.setBackgroundResource(R.drawable.radical);
                 radicalButton.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 10.0f));
                 newRow.addView(radicalButton);
+
+                radicalButton.setOnClickListener(radicalClickListener);
             }
             radicalTable.addView(newRow, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
         }
