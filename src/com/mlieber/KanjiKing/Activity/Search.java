@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
-import android.util.Log;
 
 import com.mlieber.KanjiKing.*;
 import com.mlieber.KanjiKing.CardBox.Card;
@@ -12,6 +11,9 @@ import com.mlieber.KanjiKing.CardBox.CardBox;
 import com.mlieber.KanjiKing.CardBox.CardStore;
 import com.mlieber.KanjiKing.Element.SearchResultEntry;
 import com.mlieber.KanjiKing.Search.Criteria;
+
+import java.util.HashSet;
+import java.util.Set;
 
 public class Search extends Activity
 {
@@ -34,6 +36,7 @@ public class Search extends Activity
     private CardBox _cardbox;
     private CardStore _cardstore;
     private String _language;
+    private Set<Integer> _selectedRadicals = new HashSet<Integer>();
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -97,13 +100,19 @@ public class Search extends Activity
             public void onStopTrackingTouch(SeekBar b) { }
         });
 
-        // TODO: Implement value extraction
         View.OnClickListener radicalClickListener = new View.OnClickListener() {
             public void onClick(View v) {
-                v.setBackgroundColor(0xffffff00);
                 int radicalId = v.getId() - 10000;
-                Card radical = _cardstore.get(((int) radicalId + 3000) + "");
-                _search_radical_preview.setText(radicalId + ": " + radical.getOnReading());
+
+                if (!_selectedRadicals.contains(radicalId)) {
+                    Card radical = _cardstore.get(((int) radicalId + 3000) + "");
+                    _search_radical_preview.setText(radicalId + ": " + radical.getOnReading());
+                    v.setBackgroundColor(0xffffff00);
+                    _selectedRadicals.add(radicalId);
+                } else {
+                    v.setBackgroundResource(R.drawable.radical);
+                    _selectedRadicals.remove(radicalId);
+                }
             }
         };
 
