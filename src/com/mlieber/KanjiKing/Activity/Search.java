@@ -101,6 +101,9 @@ public class Search extends Activity
         View.OnClickListener radicalClickListener = new View.OnClickListener() {
             public void onClick(View v) {
                 v.setBackgroundColor(0xffffff00);
+                int radicalId = v.getId() - 10000;
+                Card radical = _cardstore.get(((int) radicalId + 3000) + "");
+                _search_radical_preview.setText(radicalId + ": " + radical.getOnReading());
             }
         };
 
@@ -119,6 +122,8 @@ public class Search extends Activity
                 radicalButton.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT, TableRow.LayoutParams.WRAP_CONTENT, 10.0f));
                 newRow.addView(radicalButton);
 
+                radicalButton.setFocusable(false);
+                radicalButton.setId(10000 + sum + 1);
                 radicalButton.setOnClickListener(radicalClickListener);
             }
             radicalTable.addView(newRow, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
