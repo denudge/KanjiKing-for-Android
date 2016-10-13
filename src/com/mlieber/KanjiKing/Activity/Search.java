@@ -1,24 +1,17 @@
 package com.mlieber.KanjiKing.Activity;
 
 import android.app.Activity;
-import android.graphics.Color;
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.*;
 import android.util.Log;
 
 import com.mlieber.KanjiKing.*;
 import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.CardBox.CardBox;
-import com.mlieber.KanjiKing.CardBox.CardFrequencyComparator;
 import com.mlieber.KanjiKing.CardBox.CardStore;
 import com.mlieber.KanjiKing.Element.SearchResultEntry;
 import com.mlieber.KanjiKing.Search.Criteria;
-
-import java.util.Vector;
-import java.util.Comparator;
 
 public class Search extends Activity
 {
