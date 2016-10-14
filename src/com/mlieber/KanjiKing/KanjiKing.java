@@ -4,9 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.app.AlertDialog;
 import android.util.Log;
-import android.text.TextUtils;
 import android.content.res.Configuration;
 
+import android.view.*;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.webkit.WebChromeClient;
@@ -15,11 +15,6 @@ import android.net.Uri;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.MotionEvent;
-import android.view.View;
 
 import android.content.Context;
 import android.content.Intent;
@@ -37,10 +32,7 @@ import com.mlieber.KanjiKing.CardBox.Storage.DiskStorage;
 import com.mlieber.KanjiKing.CardBox.Storage.XmlStorage;
 import com.mlieber.KanjiKing.Db.Db;
 
-import java.io.*;
-
 import com.mlieber.KanjiKing.Element.CardView;
-import com.mlieber.KanjiKing.Element.KanjiInfo;
 import org.apache.http.protocol.HTTP;
 
 public class KanjiKing extends Activity
@@ -50,15 +42,6 @@ public class KanjiKing extends Activity
     public static final int MODE_KANJI = 1;
     public static final int MODE_WORDS = 2;
 
-    public static final int MENU_EXPORT_ID = Menu.FIRST;
-    public static final int MENU_IMPORT_ID = Menu.FIRST + 1;
-    public static final int MENU_RESET_ID = Menu.FIRST + 2;
-    public static final int MENU_SWITCH_MODE_KANJI_ID = Menu.FIRST + 3;
-    public static final int MENU_SWITCH_MODE_WORDS_ID = Menu.FIRST + 4;
-    public static final int MENU_SETTINGS_ID = Menu.FIRST + 5;
-    public static final int MENU_SEARCH_ID = Menu.FIRST + 6;
-    public static final int MENU_ABOUT_ID = Menu.FIRST + 7;
-
     // sub objects
     protected static CardStore _cardstore = null;
     protected static CardBox _box = null;
@@ -67,7 +50,6 @@ public class KanjiKing extends Activity
     // Settings
     private static int _mode = MODE_KANJI;
     private static boolean _endless = false;
-    private static boolean _show_words = true;
     private static int _max_freq = 0;
     private static String _language = "de";
 
@@ -75,10 +57,8 @@ public class KanjiKing extends Activity
     private Button _no_button, _yes_button, _hint_button;
     private Button _word[];
 
-    // private ProgressBar _overall_score;
     private TextView _hint_field;
     private WebView _card_webview;
-
 
     public static int getMode() {
         return _mode;
@@ -173,7 +153,6 @@ public class KanjiKing extends Activity
 
         _card_webview.setOnTouchListener(screenTouchListener);
 
-        // _overall_score.setVisibility(View.INVISIBLE);
         _hint_field.setVisibility(View.INVISIBLE);
 
         // and display the next card on startup
@@ -217,27 +196,23 @@ public class KanjiKing extends Activity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        boolean result = super.onCreateOptionsMenu(menu);
-        menu.add(1, MENU_EXPORT_ID, 1, "Export");
-        menu.add(2, MENU_IMPORT_ID, 2, "Import");
-        menu.add(3, MENU_RESET_ID, 3, "Reset");
-        menu.add(4, MENU_SWITCH_MODE_KANJI_ID, 4, "Switch to kanji mode");
-        menu.add(5, MENU_SWITCH_MODE_WORDS_ID, 5, "Switch to words mode");
-        menu.add(6, MENU_SETTINGS_ID, 6, "Settings");
-        menu.add(7, MENU_SEARCH_ID, 6, "Search");
-        menu.add(8, MENU_ABOUT_ID, 7, "About");
-
-        return result;
+        // super.onCreateOptionsMenu(menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
     }
 
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
+        MenuItem item = (MenuItem) menu.findItem(R.id.menu_switch_mode);
+        if (item == null) {
+            return true;
+        }
+
         if (_mode == MODE_KANJI) {
-            menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(true);
-            menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(false);
+            item.setTitle("Switch to word mode");
         } else {
-            menu.findItem(MENU_SWITCH_MODE_WORDS_ID).setVisible(false);
-            menu.findItem(MENU_SWITCH_MODE_KANJI_ID).setVisible(true);
+            item.setTitle("Switch to kanji mode");
         }
 
         return true;
@@ -246,30 +221,29 @@ public class KanjiKing extends Activity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case MENU_EXPORT_ID:
+            case R.id.menu_export:
                 saveToXml();
                 return true;
-            case MENU_IMPORT_ID:
+            case R.id.menu_import:
                 loadFromXml();
                 showQuestion();
                 return true;
-            case MENU_RESET_ID:
+            case R.id.menu_reset:
                 reset();
                 return true;
-            case MENU_SWITCH_MODE_KANJI_ID:
-            case MENU_SWITCH_MODE_WORDS_ID:
+            case R.id.menu_switch_mode:
                 switchMode();
                 return true;
-            case MENU_SETTINGS_ID:
+            case R.id.menu_search:
+                Intent searchActivity = new Intent(getBaseContext(), Search.class);
+                startActivity(searchActivity);
+                return true;
+            case R.id.menu_settings:
                 Intent settingsActivity = new Intent(getBaseContext(), Settings.class);
                 startActivity(settingsActivity);
                 loadSettings();
                 return true;
-            case MENU_SEARCH_ID:
-                Intent searchActivity = new Intent(getBaseContext(), Search.class);
-                startActivity(searchActivity);
-                return true;
-            case MENU_ABOUT_ID:
+            case R.id.menu_about:
                 Intent aboutActivity = new Intent(getBaseContext(), About.class);
                 startActivity(aboutActivity);
                 return true;
@@ -300,7 +274,6 @@ public class KanjiKing extends Activity
 
     private void loadSettings() {
         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
-        // _mode       = Integer.parseInt(settings.getString("mode", "1"));
         _endless = settings.getBoolean("endless", false);
         _max_freq = Integer.parseInt(settings.getString("max_freq", "0"));
         _language = settings.getString("language", "de");
@@ -382,7 +355,6 @@ public class KanjiKing extends Activity
         String card_html = new CardView(card, _box, _language, show_japanese, show_explanation).toString();
 
         if ((show_japanese) && (show_explanation)) {
-            // card_html.append("<div class=\"words\">");
             int i = 0;
             for (String word : card.getWords()) {
                 _word[i].setText(word);
@@ -392,7 +364,6 @@ public class KanjiKing extends Activity
                 if (i >= 5)
                     break;
             }
-            // card_html.append("</div>");
         }
 
         if (_card_webview == null) {

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/menu_menu">
+    <item android:id="@+id/menu_export"
+          android:title="Export" />
+    <item android:id="@+id/menu_import"
+          android:title="Import" />
+    <item android:id="@+id/menu_reset"
+          android:title="Reset" />
+    <item android:id="@+id/menu_switch_mode"
+          android:title="Switch to word mode" />
+    <item android:id="@+id/menu_search"
+          android:title="Search kanji" />
+    <item android:id="@+id/menu_settings"
+          android:title="Settings" />
+    <item android:id="@+id/menu_about"
+          android:title="About" />
+</menu>
