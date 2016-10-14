@@ -85,19 +85,20 @@
                     android:text=""
                     android:paddingRight="5dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.3"
-                    android:layout_width="40dp" />
-                <SeekBar
-                    android:id="@+id/search_radical"
-                    android:max="215"
+                    android:layout_width="60dp"
+                    android:layout_weight="0.4" />
+                <CheckBox
+                    android:id="@+id/show_radicals"
+                    android:text="Alle anzeigen"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.7"
+                    android:layout_weight="0.6"
                     android:layout_width="wrap_content" />
             </LinearLayout>
 
             <TableLayout android:id="@+id/search_radical_grid"
                     android:layout_height="wrap_content"
-                    android:layout_width="fill_parent">
+                    android:layout_width="fill_parent"
+                    android:visibility="gone">
             </TableLayout>
         </LinearLayout>
 

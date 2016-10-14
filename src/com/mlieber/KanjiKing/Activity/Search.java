@@ -25,13 +25,14 @@ public class Search extends Activity
     private EditText _search_phrase;
     private EditText _search_reading;
     private EditText _search_meaning;
-    private SeekBar _search_radical;
     private SeekBar _search_strokes;
     private Button _search_button;
     private Button _search_edit_button;
+    private CheckBox _show_radicals_button;
     private TextView _search_result;
     private TextView _search_radical_preview;
     private TextView _search_strokes_preview;
+    private TableLayout _radicalTable;
 
     private CardBox _cardbox;
     private CardStore _cardstore;
@@ -58,13 +59,14 @@ public class Search extends Activity
         _search_phrase = (EditText) findViewById(R.id.search_word);
         _search_reading = (EditText) findViewById(R.id.search_reading);
         _search_meaning = (EditText) findViewById(R.id.search_meaning);
-        _search_radical = (SeekBar) findViewById(R.id.search_radical);
         _search_radical_preview = (TextView) findViewById(R.id.search_radical_preview);
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
         _search_strokes_preview = (TextView) findViewById(R.id.abcde123);
         _search_button = (Button)   findViewById(R.id.search_button);
         _search_result = (TextView) findViewById(R.id.search_result);
         _search_edit_button = (Button) findViewById(R.id.search_edit_button);
+        _show_radicals_button = (CheckBox) findViewById(R.id.show_radicals);
+        _radicalTable = (TableLayout) findViewById(R.id.search_radical_grid);
 
         // animate strokes slider
         _search_strokes.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -79,27 +81,8 @@ public class Search extends Activity
             public void onStartTrackingTouch(SeekBar b) { }
             public void onStopTrackingTouch(SeekBar b) { }
         });
-                
-        // animate radicals slider
-        _search_radical.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-            public void onProgressChanged(SeekBar b, int progress, boolean fromUser) {
-                if (!fromUser) return;
-                if (progress == 0) {
-                    _search_radical_preview.setText("");
-                    return;
-                }
 
-                Card radical = _cardstore.get(((int) progress + 3000) + "");
-                if (null == radical)
-                    _search_radical_preview.setText(progress + ": !");
-                else
-                    _search_radical_preview.setText(progress + ": " + radical.getOnReading());
-            }
-
-            public void onStartTrackingTouch(SeekBar b) { }
-            public void onStopTrackingTouch(SeekBar b) { }
-        });
-
+        // Radicals grid button click listener
         View.OnClickListener radicalClickListener = new View.OnClickListener() {
             public void onClick(View v) {
                 int radicalId = v.getId() - 10000;
@@ -107,7 +90,7 @@ public class Search extends Activity
                 if (!_selectedRadicals.contains(radicalId)) {
                     Card radical = _cardstore.get(((int) radicalId + 3000) + "");
                     _search_radical_preview.setText(radicalId + ": " + radical.getOnReading());
-                    v.setBackgroundColor(0xffffff00);
+                    v.setBackgroundResource(R.drawable.radical_selected);
                     _selectedRadicals.add(radicalId);
                 } else {
                     v.setBackgroundResource(R.drawable.radical);
@@ -117,7 +100,6 @@ public class Search extends Activity
         };
 
         // Create radical button grid - programmatically
-        TableLayout radicalTable = (TableLayout) findViewById(R.id.search_radical_grid);
         for (int row = 0; row < 22; row++) {
             TableRow newRow = new TableRow(this);
             newRow.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
@@ -135,8 +117,25 @@ public class Search extends Activity
                 radicalButton.setId(10000 + sum + 1);
                 radicalButton.setOnClickListener(radicalClickListener);
             }
-            radicalTable.addView(newRow, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
+            _radicalTable.addView(newRow, new TableLayout.LayoutParams(TableLayout.LayoutParams.FILL_PARENT, TableLayout.LayoutParams.WRAP_CONTENT));
         }
+
+        // Toggle radical grid
+        _show_radicals_button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                // TODO Auto-generated method stub
+
+                if (! buttonView.isChecked()) {
+                    _selectedRadicals.clear();
+                    _radicalTable.setVisibility(View.GONE);
+                }
+                else {
+                    _radicalTable.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
 
         // connect search button
         _search_button.setOnClickListener(new View.OnClickListener() {
