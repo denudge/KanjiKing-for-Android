@@ -1,3 +1,14 @@
+1.5.4 (2016-10-14)
+==================
+
+General
+-------
+* Multi-Radical search
+* Search view enhancements
+* Code cleanups
+
+
+
 1.5.3 (2016-10-11)
 ==================
 
