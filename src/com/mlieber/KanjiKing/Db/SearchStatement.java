@@ -1,5 +1,6 @@
 package com.mlieber.KanjiKing.Db;
 
+import android.text.TextUtils;
 import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.Search.Criteria;
 
@@ -50,8 +51,8 @@ public class SearchStatement
                     + "' OR reading_kun LIKE '%" + Db.mask(criteria.getReading())  + "%')";
         }
 
-        if (criteria.getRadical() > 0) {
-            stmt += " AND radical=" + criteria.getRadical();
+        if (! criteria.getRadicals().isEmpty()) {
+            stmt += " AND radical IN (" + TextUtils.join(", ", criteria.getRadicals()) + ")";
         }
 
         if (criteria.getStrokes() > 0) {

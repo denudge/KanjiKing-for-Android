@@ -150,7 +150,7 @@ public class Search extends Activity
                 criteria.setSearchPhrase((((TextView) _search_phrase).getText()).toString())
                         .setReading((((TextView) _search_reading).getText()).toString())
                         .setMeaning((((TextView) _search_meaning).getText()).toString())
-                        .setRadical(_search_radical.getProgress())
+                        .setRadicals(_selectedRadicals)
                         .setStrokes(_search_strokes.getProgress());
 
                 Card[] result = search(criteria);

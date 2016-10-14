@@ -1,11 +1,14 @@
 package com.mlieber.KanjiKing.Search;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Created by nudge on 11.10.16.
  */
 public class Criteria
 {
-    private int radical;
+    private Set<Integer> radicals = new HashSet<Integer>();
 
     private int strokes;
 
@@ -15,12 +18,13 @@ public class Criteria
 
     private String searchPhrase;
 
-    public int getRadical() {
-        return radical;
+    public Set<Integer> getRadicals() {
+        return radicals;
     }
 
-    public Criteria setRadical(int radical) {
-        this.radical = radical;
+    public Criteria setRadicals(Set<Integer> radicals) {
+        this.radicals.clear();
+        this.radicals.addAll(radicals);
         return this;
     }
 
@@ -65,6 +69,6 @@ public class Criteria
                 && ((meaning == null) || (meaning.equals("")))
                 && ((searchPhrase == null) || (searchPhrase.equals("")))
                 && (strokes < 1)
-                && (radical < 1));
+                && (radicals.isEmpty()));
     }
 }
