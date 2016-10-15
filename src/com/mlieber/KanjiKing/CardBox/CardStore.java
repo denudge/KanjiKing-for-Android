@@ -62,6 +62,17 @@ public class CardStore
         return c;
     }
 
+    public void loadRadicals() {
+        Card[] radicals = _db.listRadicals();
+        if (radicals != null) {
+            for (int c = 0; c < radicals.length; c++) {
+                Card radical = radicals[c];
+                _map.put(radical.getId() + "", radical);
+            }
+            Log.i(TAG, "Loaded " + radicals.length + " radicals.");
+        }
+    }
+
     public int size() {
         return _map.size();
     }

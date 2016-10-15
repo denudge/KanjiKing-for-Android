@@ -93,6 +93,10 @@ public class Db extends FileDb
         return findByFilter("type=" + type, null);
     }
 
+    public Card[] listRadicals() {
+        return findByFilter("type="+Card.TYPE_RADICAL + " ORDER BY radical ASC", null);
+    }
+
     public Card[] findByCriteria(Criteria criteria) {
         if (criteria.isEmpty()) {
             return new Card[0];

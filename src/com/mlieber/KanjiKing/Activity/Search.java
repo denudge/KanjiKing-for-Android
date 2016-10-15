@@ -100,6 +100,7 @@ public class Search extends Activity
         };
 
         // Create radical button grid - programmatically
+        _cardstore.loadRadicals();
         for (int row = 0; row < 22; row++) {
             TableRow newRow = new TableRow(this);
             newRow.setLayoutParams(new TableRow.LayoutParams(TableRow.LayoutParams.FILL_PARENT, TableRow.LayoutParams.WRAP_CONTENT));
@@ -124,13 +125,9 @@ public class Search extends Activity
         _show_radicals_button.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                // TODO Auto-generated method stub
-
                 if (! buttonView.isChecked()) {
-                    // _selectedRadicals.clear();
                     _radicalTable.setVisibility(View.GONE);
-                }
-                else {
+                } else {
                     _radicalTable.setVisibility(View.VISIBLE);
                 }
             }
