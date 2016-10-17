@@ -213,14 +213,17 @@ public class KanjiKing extends Activity
         _hint_button = (Button) findViewById(R.id.hint_button);
         _hint_field = (TextView) findViewById(R.id.hint_field);
 
-        _word = new Button[5];
-        _word[0] = (Button) findViewById(R.id.word1);
-        _word[1] = (Button) findViewById(R.id.word2);
-        _word[2] = (Button) findViewById(R.id.word3);
-        _word[3] = (Button) findViewById(R.id.word4);
-        _word[4] = (Button) findViewById(R.id.word5);
-
-        _card_webview.setOnTouchListener(screenTouchListener);
+        _card_webview.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_UP) {
+                    if (View.INVISIBLE == _no_button.getVisibility()) {
+                        showAnswer();
+                        return true;
+                    }
+                }
+                return true;
+            }
+        });
 
         _hint_field.setVisibility(View.INVISIBLE);
 
@@ -252,22 +255,17 @@ public class KanjiKing extends Activity
             }
         };
 
+        _word = new Button[5];
+        _word[0] = (Button) findViewById(R.id.word1);
+        _word[1] = (Button) findViewById(R.id.word2);
+        _word[2] = (Button) findViewById(R.id.word3);
+        _word[3] = (Button) findViewById(R.id.word4);
+        _word[4] = (Button) findViewById(R.id.word5);
+
         for (int i = 0; i < 5; i++) {
             _word[i].setOnClickListener(wordExplainer);
         }
     }
-
-    private final View.OnTouchListener screenTouchListener = new View.OnTouchListener() {
-        public boolean onTouch(View v, MotionEvent event) {
-            if (event.getAction() == MotionEvent.ACTION_UP) {
-                if (View.INVISIBLE == _no_button.getVisibility()) {
-                    showAnswer();
-                    return true;
-                }
-            }
-            return true;
-        }
-    };
 
 
     /************************************** LOGIC ******************************************/
@@ -360,16 +358,7 @@ public class KanjiKing extends Activity
         String card_html = new CardView(card, _box, _language, show_japanese, show_explanation).toString();
 
         if ((show_japanese) && (show_explanation)) {
-            int i = 0;
-            for (String word : card.getWords()) {
-                _word[i].setText(word);
-                _word[i].setVisibility(View.VISIBLE);
-
-                i++;
-                if (i >= 5) {
-                    break;
-                }
-            }
+            fillWordsForExplanation(card);
         }
 
         if (_card_webview == null) {
@@ -380,6 +369,16 @@ public class KanjiKing extends Activity
         _card_webview.loadDataWithBaseURL(null, card_html, "text/html", HTTP.UTF_8, null);
         _card_webview.setBackgroundColor(0xff000000);
         return true;
+    }
+
+    private void fillWordsForExplanation(Card card) {
+        int i = 0;
+        for (String word : card.getWords()) {
+            _word[i].setText(word);
+            _word[i].setVisibility(View.VISIBLE);
+            i++;
+            if (i >= 5) break;
+        }
     }
 
     private void explain(String word) {
