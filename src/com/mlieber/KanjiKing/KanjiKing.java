@@ -33,6 +33,7 @@ import com.mlieber.KanjiKing.CardBox.Storage.XmlStorage;
 import com.mlieber.KanjiKing.Db.Db;
 
 import com.mlieber.KanjiKing.Element.CardView;
+import com.mlieber.KanjiKing.Explanation.ExplanationService;
 import org.apache.http.protocol.HTTP;
 
 public class KanjiKing extends Activity
@@ -43,9 +44,9 @@ public class KanjiKing extends Activity
     public static final int MODE_WORDS = 2;
 
     // sub objects
-    protected static CardStore _cardstore = null;
-    protected static CardBox _box = null;
-    protected static Db _db = null;
+    private static CardStore _cardstore = null;
+    private static CardBox _box = null;
+    private static Db _db = null;
 
     // Settings
     private static int _mode = MODE_KANJI;
@@ -134,64 +135,11 @@ public class KanjiKing extends Activity
             _box = new CardBox(_cardstore, _mode, CardBox.ORDER_FREQUENCY, true, _max_freq, _endless);
         }
 
-        // we start with the card view
-        setContentView(R.layout.card);
-
-        // Initialize layout
-        _card_webview = (WebView) findViewById(R.id.card_webview);
-        _yes_button = (Button) findViewById(R.id.yes_button);
-        _no_button = (Button) findViewById(R.id.no_button);
-        _hint_button = (Button) findViewById(R.id.hint_button);
-        _hint_field = (TextView) findViewById(R.id.hint_field);
-
-        _word = new Button[5];
-        _word[0] = (Button) findViewById(R.id.word1);
-        _word[1] = (Button) findViewById(R.id.word2);
-        _word[2] = (Button) findViewById(R.id.word3);
-        _word[3] = (Button) findViewById(R.id.word4);
-        _word[4] = (Button) findViewById(R.id.word5);
-
-        _card_webview.setOnTouchListener(screenTouchListener);
-
-        _hint_field.setVisibility(View.INVISIBLE);
+        // activate and wire view elements
+        initializeLayout();
 
         // and display the next card on startup
         showQuestion();
-
-        _no_button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                _box.answer(false);
-                saveToDisk();
-                showQuestion();
-            }
-        });
-
-        _yes_button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                _box.answer(true);
-                saveToDisk();
-                showQuestion();
-            }
-        });
-
-        _hint_button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                showHint();
-            }
-        });
-
-        View.OnClickListener wordExplainer = new View.OnClickListener() {
-            public void onClick(View v) {
-                String url = "http://wadoku.de/search/" + ((Button) v).getText();
-
-                final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse(url));
-                startActivity(intent);
-            }
-        };
-
-        for (int i = 0; i < 5; i++) {
-            _word[i].setOnClickListener(wordExplainer);
-        }
     }
 
     @Override
@@ -250,6 +198,63 @@ public class KanjiKing extends Activity
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    /**
+     * Activates and wires all layout elements to event listeners.
+     */
+    private void initializeLayout() {
+        // we start with the card view
+        setContentView(R.layout.card);
+
+        _card_webview = (WebView) findViewById(R.id.card_webview);
+        _yes_button = (Button) findViewById(R.id.yes_button);
+        _no_button = (Button) findViewById(R.id.no_button);
+        _hint_button = (Button) findViewById(R.id.hint_button);
+        _hint_field = (TextView) findViewById(R.id.hint_field);
+
+        _word = new Button[5];
+        _word[0] = (Button) findViewById(R.id.word1);
+        _word[1] = (Button) findViewById(R.id.word2);
+        _word[2] = (Button) findViewById(R.id.word3);
+        _word[3] = (Button) findViewById(R.id.word4);
+        _word[4] = (Button) findViewById(R.id.word5);
+
+        _card_webview.setOnTouchListener(screenTouchListener);
+
+        _hint_field.setVisibility(View.INVISIBLE);
+
+        _no_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                _box.answer(false);
+                saveToDisk();
+                showQuestion();
+            }
+        });
+
+        _yes_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                _box.answer(true);
+                saveToDisk();
+                showQuestion();
+            }
+        });
+
+        _hint_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                showHint();
+            }
+        });
+
+        View.OnClickListener wordExplainer = new View.OnClickListener() {
+            public void onClick(View v) {
+                explain(((Button) v).getText().toString());
+            }
+        };
+
+        for (int i = 0; i < 5; i++) {
+            _word[i].setOnClickListener(wordExplainer);
+        }
     }
 
     private final View.OnTouchListener screenTouchListener = new View.OnTouchListener() {
@@ -361,8 +366,9 @@ public class KanjiKing extends Activity
                 _word[i].setVisibility(View.VISIBLE);
 
                 i++;
-                if (i >= 5)
+                if (i >= 5) {
                     break;
+                }
             }
         }
 
@@ -376,6 +382,9 @@ public class KanjiKing extends Activity
         return true;
     }
 
+    private void explain(String word) {
+        ExplanationService.explain(this, word);
+    }
 
     /********************** Storage functions ******************************/
 
