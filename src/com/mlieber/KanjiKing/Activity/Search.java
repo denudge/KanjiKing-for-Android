@@ -168,6 +168,7 @@ public class Search extends Activity
                 _search_result_area.setVisibility(View.GONE);
                 _search_form.setVisibility(View.VISIBLE);
                 _search_result_title.setText("Search Results");
+                _search_result_items.removeAllViews();
             }
         });
 
