@@ -9,8 +9,8 @@ import com.mlieber.KanjiKing.*;
 import com.mlieber.KanjiKing.CardBox.Card;
 import com.mlieber.KanjiKing.CardBox.CardBox;
 import com.mlieber.KanjiKing.CardBox.CardStore;
-import com.mlieber.KanjiKing.Element.SearchResultEntry;
 import com.mlieber.KanjiKing.Search.Criteria;
+import com.mlieber.KanjiKing.Search.SearchResultItem;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -29,10 +29,11 @@ public class Search extends Activity
     private Button _search_button;
     private Button _search_edit_button;
     private CheckBox _show_radicals_button;
-    private TextView _search_result;
+    private TextView _search_result_title;
     private TextView _search_radical_preview;
     private TextView _search_strokes_preview;
     private TableLayout _radicalTable;
+    private LinearLayout _search_result_items;
 
     private CardBox _cardbox;
     private CardStore _cardstore;
@@ -63,7 +64,8 @@ public class Search extends Activity
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
         _search_strokes_preview = (TextView) findViewById(R.id.abcde123);
         _search_button = (Button)   findViewById(R.id.search_button);
-        _search_result = (TextView) findViewById(R.id.search_result);
+        _search_result_title = (TextView) findViewById(R.id.search_result_title);
+        _search_result_items = (LinearLayout) findViewById(R.id.search_result_items);
         _search_edit_button = (Button) findViewById(R.id.search_edit_button);
         _show_radicals_button = (CheckBox) findViewById(R.id.show_radicals);
         _radicalTable = (TableLayout) findViewById(R.id.search_radical_grid);
@@ -139,7 +141,6 @@ public class Search extends Activity
             public void onClick(View v) {
 
                 _search_form.setVisibility(View.GONE);
-                _search_result.setText("Searching...");
                 _search_result_area.setVisibility(View.VISIBLE);
 
                 Criteria criteria = new Criteria();
@@ -151,9 +152,13 @@ public class Search extends Activity
 
                 Card[] result = search(criteria);
 
-                _search_result.setText(
-                    formatSearchResult(result)
-                );
+                _search_result_title.setText(result.length+" Search Results");
+
+                // new ResultForm
+                for (Card card : result) {
+                    SearchResultItem item = new SearchResultItem(v.getContext(), card);
+                    _search_result_items.addView(item);
+                }
 
             }
         });
@@ -162,6 +167,7 @@ public class Search extends Activity
             public void onClick(View v) {
                 _search_result_area.setVisibility(View.GONE);
                 _search_form.setVisibility(View.VISIBLE);
+                _search_result_title.setText("Search Results");
             }
         });
 
@@ -173,21 +179,4 @@ public class Search extends Activity
         return _cardstore.fetchByCriteria(criteria);
     }
 
-    private String formatSearchResult(Card[] result) {
-        StringBuilder sb = new StringBuilder();
-
-        sb.append(result.length + " Search Result(s)");
-        if (0 == result.length)
-            return sb.toString();
-        else sb.append(": \n----------------\n");
-
-        // Display kanji infos for each kanji
-        for (int i = 0; i < result.length; i++) {
-            SearchResultEntry entry = new SearchResultEntry(result[i], _language, _cardbox);
-            sb.append(entry.toString())
-                .append("\n\n");
-        }
-        
-        return sb.toString();
-    }
 }
