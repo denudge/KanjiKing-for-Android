@@ -38,7 +38,7 @@ public class SearchStatement
         }
 
         if ((criteria.getSearchPhrase() != null) && (!criteria.getSearchPhrase().equals(""))) {
-            stmt += stmt += " AND japanese IN (";
+            stmt += " AND japanese IN (";
             for (int c = 0; c < criteria.getSearchPhrase().length(); c++) {
                 stmt += "'" + criteria.getSearchPhrase().charAt(c) + "', ";
             }
