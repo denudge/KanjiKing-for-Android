@@ -22,7 +22,11 @@
         android:id="@+id/card_tablerow"
         android:gravity="center"
         android:layout_weight="100.0">
-        <android.webkit.WebView android:id="@+id/card_webview" android:layout_width="fill_parent" android:layout_height="wrap_content"></android.webkit.WebView>
+
+        <android.webkit.WebView
+                android:id="@+id/card_webview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
     </TableRow>
 
 
