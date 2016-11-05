@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.*;
 
@@ -20,6 +21,8 @@ import java.util.Set;
 public class Search extends Activity
 {
     private static final String TAG = "KanjiKing/Search";
+
+    private static final int RESULT_CODE_DRAW_KANJI = 451;
 
     private LinearLayout _search_form;
     private LinearLayout _search_result_area;
@@ -77,7 +80,7 @@ public class Search extends Activity
             @Override
             public void onClick(View view) {
                 Intent drawActivity = new Intent(getContext(), Draw.class);
-                startActivity(drawActivity);
+                startActivityForResult(drawActivity, RESULT_CODE_DRAW_KANJI);
             }
         });
 
@@ -189,6 +192,17 @@ public class Search extends Activity
 
     public Context getContext() {
         return this;
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == RESULT_CODE_DRAW_KANJI) {
+            if(resultCode == Activity.RESULT_OK){
+                String result = data.getStringExtra("result");
+                _search_phrase.append(result);
+            }
+        }
     }
 
     private Card[] search(Criteria criteria) {

@@ -1,6 +1,7 @@
 package com.mlieber.KanjiKing.Activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -10,7 +11,6 @@ import com.mlieber.KanjiKing.Element.DrawListener;
 import com.mlieber.KanjiKing.Element.DrawPanel;
 import com.mlieber.KanjiKing.R;
 import com.mlieber.KanjiKing.Search.DrawResult;
-
 
 import java.util.Vector;
 
@@ -44,7 +44,23 @@ public class Draw extends Activity
 
         View.OnClickListener finisher = new View.OnClickListener() {
             public void onClick(View arg0) {
-                finish();
+                if (arg0 instanceof TextView) {
+                    TextView tv = (TextView) arg0;
+                    if ((tv.getText() != null) && (!"".equals(tv.getText()))) {
+                        Intent returnIntent = new Intent();
+                        returnIntent.putExtra("result", tv.getText());
+                        setResult(Activity.RESULT_OK, returnIntent);
+                        finish();
+                    } else {
+                        Intent returnIntent = new Intent();
+                        setResult(Activity.RESULT_CANCELED, returnIntent);
+                        finish();
+                    }
+                } else {
+                    Intent returnIntent = new Intent();
+                    setResult(Activity.RESULT_CANCELED, returnIntent);
+                    finish();
+                }
             }
         };
 
