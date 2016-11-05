@@ -25,6 +25,8 @@ public class DrawPanel extends View {
     private Vector curyvec = null;
     private int lastx, lasty;
 
+    private DrawListener drawListener;
+
     public DrawPanel(Context context) {
         super(context);
         setup();
@@ -42,6 +44,10 @@ public class DrawPanel extends View {
         curyvec = null;
         createGraphics(this.getWidth(), this.getHeight());
         invalidate();
+    }
+
+    public void setDrawListener(DrawListener drawListener) {
+        this.drawListener = drawListener;
     }
 
     @Override
@@ -79,22 +85,28 @@ public class DrawPanel extends View {
                     lasty = Math.round(motionEvent.getY());
                     curxvec.addElement(new Integer(lastx));
                     curyvec.addElement(new Integer(lasty));
-                } else {
-                    // Dragged Event
 
-                    int x, y;
-                    x = Math.round(motionEvent.getX());
-                    y = Math.round(motionEvent.getY());
-                    curxvec.addElement(new Integer(x));
-                    curyvec.addElement(new Integer(y));
-
-                    canvas.drawLine((float) lastx, (float) lasty, (float) x, (float) y, paint);
-
-                    lastx = x;
-                    lasty = y;
-
-                    invalidate();
+                    return true;
                 }
+
+                // Unpressed event
+                if (motionEvent.getAction() == MotionEvent.ACTION_UP) {
+                    if (drawListener != null) {
+                        drawListener.onStrokeFinish(xstrokes, ystrokes);
+                    }
+                    return true;
+                }
+
+                // Dragged Event
+                int x, y;
+                x = Math.round(motionEvent.getX());
+                y = Math.round(motionEvent.getY());
+                curxvec.addElement(new Integer(x));
+                curyvec.addElement(new Integer(y));
+                canvas.drawLine((float) lastx, (float) lasty, (float) x, (float) y, paint);
+                lastx = x;
+                lasty = y;
+                invalidate();
 
                 return true;
             }
