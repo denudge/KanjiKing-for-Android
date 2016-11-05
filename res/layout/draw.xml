@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+            android:text="Draw your desired kanji!"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:layout_width="fill_parent" />
+
+    <com.mlieber.KanjiKing.Element.DrawPanel android:id="@+id/draw_area"
+        android:layout_width="fill_parent"
+        android:layout_weight="40"
+        android:layout_marginTop="5dip"
+        android:background="#ff444444"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dip"
+                  android:layout_weight="0.2"
+                  android:weightSum="1.0"
+                  android:gravity="center">
+        <TextView
+                android:id="@+id/drawResult1"
+                android:text="1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult2"
+                android:text="2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult3"
+                android:text="3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult4"
+                android:text="4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult5"
+                android:text="5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult6"
+                android:text="6"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+        <TextView
+                android:id="@+id/drawResult7"
+                android:text="7"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.15"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:background="@drawable/tag" />
+    </LinearLayout>
+
+    <Button android:id="@+id/btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:layout_weight="0.2"
+            android:text="Clear" />
+
+</LinearLayout>

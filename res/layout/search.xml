@@ -24,10 +24,22 @@
                 android:text="in word or phrase"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content" />
-            <EditText
-                android:id="@+id/search_word"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content" />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:orientation="horizontal"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content">
+                <EditText
+                        android:id="@+id/search_word"
+                        android:layout_weight="0.8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                <Button
+                        android:id="@+id/start_draw"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="0.2"
+                        android:text="Draw" />
+            </LinearLayout>
 
             <TextView
                 android:text="by reading"

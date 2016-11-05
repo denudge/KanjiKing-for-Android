@@ -1,6 +1,8 @@
 package com.mlieber.KanjiKing.Activity;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
@@ -26,8 +28,7 @@ public class Search extends Activity
     private EditText _search_reading;
     private EditText _search_meaning;
     private SeekBar _search_strokes;
-    private Button _search_button;
-    private Button _search_edit_button;
+    private Button _search_button, _search_edit_button, _start_draw_button;
     private CheckBox _show_radicals_button;
     private TextView _search_result_title;
     private TextView _search_radical_preview;
@@ -63,12 +64,22 @@ public class Search extends Activity
         _search_radical_preview = (TextView) findViewById(R.id.search_radical_preview);
         _search_strokes = (SeekBar) findViewById(R.id.search_strokes);
         _search_strokes_preview = (TextView) findViewById(R.id.abcde123);
-        _search_button = (Button)   findViewById(R.id.search_button);
+        _search_button = (Button) findViewById(R.id.search_button);
+        _start_draw_button = (Button) findViewById(R.id.start_draw);
         _search_result_title = (TextView) findViewById(R.id.search_result_title);
         _search_result_items = (LinearLayout) findViewById(R.id.search_result_items);
         _search_edit_button = (Button) findViewById(R.id.search_edit_button);
         _show_radicals_button = (CheckBox) findViewById(R.id.show_radicals);
         _radicalTable = (TableLayout) findViewById(R.id.search_radical_grid);
+
+        // connect draw button
+        _start_draw_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent drawActivity = new Intent(getContext(), Draw.class);
+                startActivity(drawActivity);
+            }
+        });
 
         // animate strokes slider
         _search_strokes.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
@@ -176,8 +187,11 @@ public class Search extends Activity
         _search_form.setVisibility(View.VISIBLE);
     }
 
+    public Context getContext() {
+        return this;
+    }
+
     private Card[] search(Criteria criteria) {
         return _cardstore.fetchByCriteria(criteria);
     }
-
 }

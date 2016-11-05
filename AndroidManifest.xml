@@ -23,6 +23,11 @@
             android:screenOrientation="portrait"
             android:configChanges="orientation">
         </activity>
+          <activity android:name=".Activity.Draw"
+                    android:label="Draw"
+                    android:screenOrientation="portrait"
+                    android:configChanges="orientation">
+          </activity>
         <activity android:name=".Activity.About"
                   android:label="About"
             android:screenOrientation="portrait"
