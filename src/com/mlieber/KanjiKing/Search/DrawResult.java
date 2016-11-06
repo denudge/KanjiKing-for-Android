@@ -228,18 +228,17 @@ public class DrawResult {
             int depth) {
 
         if (dir.length()==1) {
-            int i;
             int difx, dify;
             difx = ((Integer)xv.elementAt(endi-1)).intValue() -
                     ((Integer)xv.elementAt(begi)).intValue();
             dify = ((Integer)yv.elementAt(endi-1)).intValue() -
                     ((Integer)yv.elementAt(begi)).intValue();
-            if ((difx==0)&&(dify==0)) {
+            if ((difx == 0) && (dify == 0)) {
                 return hugeCost;
             }
 
             if ((difx*difx+dify*dify>(20*20))&&(endi-begi>5)&&(depth<4)) {
-                int mi = (endi+begi)/2;
+                int mi = (endi+begi) / 2;
                 int cost1,cost2;
                 cost1=getStrokeScore(xv,yv,begi,mi,dir,depth+1);
                 cost2=getStrokeScore(xv,yv,mi,endi,dir,depth+1);
@@ -248,14 +247,11 @@ public class DrawResult {
             }
 
             double ang;
-            ang = Math.atan2(-dify,difx);
+            ang = Math.atan2(-dify, difx);
             double myang = calculateAngle(dir.charAt(0));
-            double difang = myang - ang;
-            while (difang<0) difang+=2*Math.PI;
-            while (difang>2*Math.PI) difang-=2*Math.PI;
-            if (difang>Math.PI) difang=2*Math.PI-difang;
+            double difang = getAngleDifference(myang, ang);
 
-            return (int)Math.round(difang*angScale)+sCost;
+            return (int) Math.round(difang * angScale) + sCost;
         } else if (begi == endi) {
             return hugeCost * dir.length();
         } else {
@@ -284,6 +280,35 @@ public class DrawResult {
 
             return mincost;
         }
+    }
+
+    private double getAngleDifference(double myAngle, double angle) {
+        double diff = myAngle - angle;
+        return normalizeAngle(diff);
+    }
+
+    /**
+     * Normalizes the angle so that it is always positive and
+     * between 0 and Pi.
+     * Also, I guess the angle is "normalized" in a way that the direction is equalized.
+     *
+     * @param angle
+     * @return angle
+     */
+    private double normalizeAngle(double angle) {
+        while (angle < 0) {
+            angle += 2 * Math.PI;
+        }
+
+        while (angle > 2 * Math.PI) {
+            angle -= 2 * Math.PI;
+        }
+
+        if (angle > Math.PI) {
+            angle = 2 * Math.PI - angle;
+        }
+
+        return angle;
     }
 
     private double calculateAngle(char c) {
