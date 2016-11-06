@@ -4,6 +4,7 @@
 Search
 ------
 * Added handwriting recognition
+* Fixed wrong search sql statement
 
 
 
