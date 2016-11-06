@@ -35,6 +35,7 @@ Features
 * Actively used and maintained
 * Search Kanjis in phrases, by reading, stroke count or radical and see your learning status
 * Show up to 5 most important words for each Kanji
+* Handwriting recognition in Kanji search
 
 Learning order
 --------------
