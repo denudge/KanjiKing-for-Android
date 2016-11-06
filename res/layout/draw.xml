@@ -26,7 +26,7 @@
                   android:layout_weight="0.2"
                   android:weightSum="1.0"
                   android:gravity="center">
-        <TextView
+        <Button
                 android:id="@+id/drawResult1"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult2"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -44,7 +44,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult3"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult4"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult5"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult6"
                 android:text=""
                 android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
                 android:textSize="20dp"
                 android:gravity="center"
                 android:background="@drawable/tag" />
-        <TextView
+        <Button
                 android:id="@+id/drawResult7"
                 android:text=""
                 android:layout_height="wrap_content"

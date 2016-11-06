@@ -18,7 +18,7 @@ public class Draw extends Activity
 {
     private static final String TAG = "KanjiKing/Draw";
 
-    private TextView kanji[];
+    private Button[] kanji;
     private DrawPanel draw_area;
     private Button clear_button;
 
@@ -29,14 +29,14 @@ public class Draw extends Activity
         // use the search view here
         setContentView(R.layout.draw);
 
-        kanji = new TextView[]{
-                (TextView) findViewById(R.id.drawResult1),
-                (TextView) findViewById(R.id.drawResult2),
-                (TextView) findViewById(R.id.drawResult3),
-                (TextView) findViewById(R.id.drawResult4),
-                (TextView) findViewById(R.id.drawResult5),
-                (TextView) findViewById(R.id.drawResult6),
-                (TextView) findViewById(R.id.drawResult7)
+        kanji = new Button[] {
+                (Button) findViewById(R.id.drawResult1),
+                (Button) findViewById(R.id.drawResult2),
+                (Button) findViewById(R.id.drawResult3),
+                (Button) findViewById(R.id.drawResult4),
+                (Button) findViewById(R.id.drawResult5),
+                (Button) findViewById(R.id.drawResult6),
+                (Button) findViewById(R.id.drawResult7)
         };
 
         draw_area = (DrawPanel) findViewById(R.id.draw_area);

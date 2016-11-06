@@ -118,7 +118,7 @@ public class DrawPanel extends View {
         canvas = new Canvas(bitmap);
         paint = new Paint();
         paint.setColor(Color.YELLOW);
-        paint.setStrokeWidth(7.0f);
+        paint.setStrokeWidth(9.0f);
         paint.setStyle(Paint.Style.STROKE);
     }
 }
