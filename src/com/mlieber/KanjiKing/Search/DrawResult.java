@@ -100,9 +100,6 @@ public class DrawResult {
             if (!xe.hasMoreElements()) {
                 return (99997);
             } else {
-	            /*	if ((score>cutoff)&&(strokes>0)) {
-		                return(score/strokes);
-		        }*/
                 Vector vxe = (Vector) xe.nextElement();
                 Vector vye = (Vector) ye.nextElement();
                 int thisscore = getStrokeScore(
@@ -129,9 +126,6 @@ public class DrawResult {
         }
 
         return ((int) Math.round(Math.sqrt(score)));
-        //	return(score/strokes+maxscore);
-        /* count the worst stroke every time
-	     (sort of a pseudo-fuzzy type alg.) */
     }
 
     private int getArgScore(String args) {
@@ -241,18 +235,16 @@ public class DrawResult {
             dify = ((Integer)yv.elementAt(endi-1)).intValue() -
                     ((Integer)yv.elementAt(begi)).intValue();
             if ((difx==0)&&(dify==0)) {
-                //	System.out.println("Ouch2");
-                //	return((int)Math.round(Math.PI*angScale)+sCost);
-                return(hugeCost);
+                return hugeCost;
             }
+
             if ((difx*difx+dify*dify>(20*20))&&(endi-begi>5)&&(depth<4)) {
                 int mi = (endi+begi)/2;
                 int cost1,cost2;
                 cost1=getStrokeScore(xv,yv,begi,mi,dir,depth+1);
                 cost2=getStrokeScore(xv,yv,mi,endi,dir,depth+1);
-                // return the average cost of the substrokes, but penalize if they're
-                // different.
-                return((cost1+cost2)/2);//+Math.abs(cost1-cost2));
+                // return the average cost of the substrokes, but penalize if they're different.
+                return (cost1+cost2) / 2;
             }
 
             double ang;
@@ -263,42 +255,33 @@ public class DrawResult {
             while (difang>2*Math.PI) difang-=2*Math.PI;
             if (difang>Math.PI) difang=2*Math.PI-difang;
 
-            int retcost = (int)Math.round(difang*angScale)+sCost;
-            return(retcost);
-        } else
-        if (begi==endi) {
-	/*	int i;
-		int cost=0;
-		for (i=0;i<dir.length();i++) {
-		cost+=scoreStroke(xv,yv,begi,endi,dir.charAt(i)+"");
-		}
-		int retcost = cost/dir.length();
-		return(retcost);
-		*/
-            return(hugeCost*dir.length());
-        } else
-        { // recurse
-            int l1,l2;
-            l1 = dir.length()/2;
-            l2 = dir.length()-l1;
+            return (int)Math.round(difang*angScale)+sCost;
+        } else if (begi == endi) {
+            return hugeCost * dir.length();
+        } else {
+            // recurse
+            int l1, l2;
+            l1 = dir.length() / 2;
+            l2 = dir.length() - l1;
             String s1, s2;
-            s1 = dir.substring(0,l1);
-            s2 = dir.substring(l1,dir.length());
-            int i;
-            int mincost=hugeCost*dir.length()*2;
-            //9999991;
+            s1 = dir.substring(0, l1);
+            s2 = dir.substring(l1, dir.length());
+
+            int mincost = hugeCost * dir.length() * 2;
             int s1l = s1.length();
             int s2l = s2.length();
             int step = (endi-begi)/10;
             if (step<1) step=1;
 
-            for (i=begi+1+s1l;i<endi-1-s2l;i+=step) {
+            for (int i = begi + 1 + s1l; i < endi - 1 - s2l; i += step) {
                 int ncost;
                 ncost = getStrokeScore(xv, yv, begi, i+1, s1, depth)+
                         getStrokeScore(xv, yv, i-1, endi, s2, depth);
-                if (ncost<mincost) mincost = ncost;
+                if (ncost < mincost) {
+                    mincost = ncost;
+                }
             }
-            // if (mincost==hugeCost*dir.length()*2) System.out.println("Ouch3");
+
             return mincost;
         }
     }
