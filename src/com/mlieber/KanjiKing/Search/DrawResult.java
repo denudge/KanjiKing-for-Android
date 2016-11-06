@@ -36,7 +36,6 @@ public class DrawResult {
 
     private void analyze() {
         clear();
-        // TODO: Implement analysis
 
         if ((xstrokes == null) || (ystrokes == null)) {
             Log.v(TAG, "xstrokes or ystrokes null! Giving up analysis...");
@@ -288,9 +287,8 @@ public class DrawResult {
     }
 
     /**
-     * Normalizes the angle so that it is always positive and
-     * between 0 and Pi.
-     * Also, I guess the angle is "normalized" in a way that the direction is equalized.
+     * Normalizes the angle so that it is always positive and between 0 and PI.
+     * Also, the angle is "normalized" in a way that the smaller direction (of a crossing) is used.
      *
      * @param angle
      * @return angle
