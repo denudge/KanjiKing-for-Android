@@ -46,25 +46,21 @@ public class Draw extends Activity
             public void onClick(View arg0) {
                 if (arg0 instanceof TextView) {
                     TextView tv = (TextView) arg0;
-                    if ((tv.getText() != null) && (!"".equals(tv.getText()))) {
-                        Intent returnIntent = new Intent();
-                        returnIntent.putExtra("result", tv.getText());
-                        setResult(Activity.RESULT_OK, returnIntent);
-                        finish();
-                    } else {
-                        Intent returnIntent = new Intent();
-                        setResult(Activity.RESULT_CANCELED, returnIntent);
-                        finish();
+
+                    // only act on filled buttons
+                    if ((tv.getText() == null) || ("".equals(tv.getText()))) {
+                        return;
                     }
-                } else {
+
                     Intent returnIntent = new Intent();
-                    setResult(Activity.RESULT_CANCELED, returnIntent);
+                    returnIntent.putExtra("result", tv.getText());
+                    setResult(Activity.RESULT_OK, returnIntent);
                     finish();
                 }
             }
         };
 
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < kanji.length; i++) {
             kanji[i].setOnClickListener(finisher);
         }
 

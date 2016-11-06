@@ -52,8 +52,8 @@ public class Stroke {
         if (index == -1) {
             strokes = line;
         } else {
-            strokes = line.substring(0,index).trim();
-            args = line.substring(index+1).trim();
+            strokes = line.substring(0,index);
+            args = line.substring(index+1);
         }
 
         return this;

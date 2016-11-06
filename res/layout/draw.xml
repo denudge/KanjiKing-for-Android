@@ -28,7 +28,7 @@
                   android:gravity="center">
         <TextView
                 android:id="@+id/drawResult1"
-                android:text="1"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -37,7 +37,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult2"
-                android:text="2"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -46,7 +46,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult3"
-                android:text="3"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -55,7 +55,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult4"
-                android:text="4"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -64,7 +64,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult5"
-                android:text="5"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -73,7 +73,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult6"
-                android:text="6"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
@@ -82,7 +82,7 @@
                 android:background="@drawable/tag" />
         <TextView
                 android:id="@+id/drawResult7"
-                android:text="7"
+                android:text=""
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_weight="0.15"
