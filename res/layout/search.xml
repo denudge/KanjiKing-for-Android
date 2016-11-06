@@ -18,7 +18,11 @@
                 android:layout_height="wrap_content"
                 android:layout_width="fill_parent"
                 android:paddingBottom="5dp"
-                android:text="@string/Search" />
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:text="@string/Search">
+                <requestFocus />
+            </Button>
 
             <TextView
                 android:text="in word or phrase"

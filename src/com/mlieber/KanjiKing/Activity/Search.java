@@ -188,8 +188,6 @@ public class Search extends Activity
 
         _search_result_area.setVisibility(View.GONE);
         _search_form.setVisibility(View.VISIBLE);
-
-        _start_draw_button.requestFocus();
     }
 
     public Context getContext() {
