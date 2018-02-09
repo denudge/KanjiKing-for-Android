@@ -3,10 +3,11 @@ Roadmap
 
 Planned Features
 ----------------
+* Inline display of word translations from wadoku
 * Display total number of active kanji in all kanjiboxes
-* "Help" activity with usage explanation
+* Help activity with usage explanation
 
 Packaging
 ---------
-* Add stable version to Android market
+* Add stable version to Google Play Store
 
