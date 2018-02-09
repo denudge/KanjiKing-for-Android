@@ -13,7 +13,8 @@ public class Db extends FileDb
 {
     private static final String TAG = "KanjiKing/DB";
 
-    protected static String DB_QUERY_FIELDS = "card._id, card.pack, type, japanese, reading_on, reading_kun"
+    protected static String DB_QUERY_FIELDS =
+            "card._id, card.pack, type, japanese, reading_on, reading_kun"
             + ", frequency, frequency2, grade, strokes, radical"
             + ", hadamitzky, halpern, words";
 

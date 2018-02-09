@@ -403,7 +403,7 @@ public class KanjiKing extends Activity
             _box = storage.load(this, _mode);
         } catch (Exception e) {
             Log.v(TAG, "Error loading cardbox from disk!");
-            Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
+            // Toast.makeText(KanjiKing.this, e.toString(), Toast.LENGTH_LONG).show();
         }
     }
 
