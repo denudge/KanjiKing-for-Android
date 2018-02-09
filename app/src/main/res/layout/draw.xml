@@ -11,7 +11,7 @@
             android:layout_weight="0.2"
             android:layout_width="fill_parent" />
 
-    <com.mlieber.KanjiKing.Element.DrawPanel android:id="@+id/draw_area"
+    <de.bitnetic.KanjiKing.Element.DrawPanel android:id="@+id/draw_area"
         android:layout_width="fill_parent"
         android:layout_weight="40"
         android:layout_marginTop="5dip"

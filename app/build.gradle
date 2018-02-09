@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.1"
 
     defaultConfig {
-        applicationId "com.mlieber.KanjiKing"
+        applicationId "de.bitnetic.KanjiKing"
         minSdkVersion 8
         targetSdkVersion 8
     }
