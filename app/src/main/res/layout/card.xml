@@ -92,7 +92,7 @@
                 <Button android:id="@+id/no_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="no"
+                    android:text="NO"
                     android:layout_weight="50.0"
                     />
                 <Button android:id="@+id/hint_button"
@@ -104,7 +104,7 @@
                 <Button android:id="@+id/yes_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="yes"
+                    android:text="YES"
                     android:layout_weight="50.0"
                     />
             </TableRow>
