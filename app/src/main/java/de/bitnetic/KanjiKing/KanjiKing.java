@@ -349,9 +349,12 @@ public class KanjiKing extends Activity
         }
 
         if (View.INVISIBLE == _hint_field.getVisibility()) {
-            if (null != card.getHint(_language)) {
+            if ((null != card.getHint(_language)) && (! "".equals(card.getHint(_language)))) {
                 _hint_field.setText(card.getHint(_language));
                 _hint_button.setVisibility(View.VISIBLE);
+            } else {
+                _hint_field.setText("");
+                _hint_button.setVisibility(View.INVISIBLE);
             }
         }
 
